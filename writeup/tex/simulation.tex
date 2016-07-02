@@ -1,0 +1,51 @@
+\section{Dynamics Equations}
+$\dot{R}$ and $\dot{r}$ can be obtained as differences in radial speeds, while $\dot{\theta}$ can be obtained in terms of the difference in circumferential speeds. The end points of the distance $R$ are moving at a speed $V_T$ at an angle $\phi$ and a speed $V_A$ at an angle $(\theta - \chi)$. Hence;
+
+\begin{equation}
+\begin{split}
+\dot{R} &= V_t \cos \phi - V_A \cos(\theta - \chi)\\
+&= V_A (\alpha \cos \phi - \cos(\theta - \chi))
+\end{split}
+\end{equation}
+
+Similarly, we obtain 
+
+\begin{equation}
+\begin{split}
+\dot{r} &= -V_A \cos \chi - V_D \cos\psi\\
+&= V_A (- \cos \chi - \gamma\cos\psi)
+\end{split}
+\end{equation}
+
+
+We will not use \underline{reduced} equations in which $V_A = V_D = 1$.
+Our equations will look dimensionally homogeneous to any reader, and we will allow $\gamma = \dfrac{V_D}{V_A}$ to differ from 1.
+
+The circumferential speeds are
+
+\begin{equation*}
+\begin{split}
+R \dot{\lambda}& = V_T \sin \phi - V_A \sin (\theta - \chi)\\
+\dot{\lambda} &= V_A [\dfrac{\alpha}{R} \sin \phi - \dfrac{1}{R} \sin (\theta - \chi)]\\
+r (\theta + \lambda)^. &= - V_D \sin \psi + V_A \sin \chi
+\end{split}
+\end{equation*}  
+
+Hence, one obtains 
+\begin{equation}
+\dot{\lambda} = V_A [\dfrac{\alpha}{R} \sin \phi - \dfrac{1}{R} \sin (\theta - \chi)]
+\label{lambda dot}
+\end{equation}
+
+\begin{equation}
+\dot{\theta} + \dot{\lambda} = V_A [-\dfrac{\gamma}{r}\sin \psi + \dfrac{1}{r} \sin \chi]
+\label{theta+lambda dot}
+\end{equation}
+
+Now, subtract (\ref{theta+lambda dot}) minus (\ref{lambda dot}) to obtain
+
+\begin{equation}
+\dot{\theta} = V_A [- \dfrac{\alpha}{R} \sin \phi + \dfrac{1}{R} \sin(\theta - \chi) - \dfrac{\gamma}{r} \sin \psi + \dfrac{1}{r}\sin \chi]
+\end{equation} 
+
+

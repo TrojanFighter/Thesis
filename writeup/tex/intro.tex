@@ -1,0 +1,46 @@
+% !TeX spellcheck = en_US
+This thesis deals with a scenario of active target defence involving three-agent pursuit-evasion where each agent has a specific role.
+A two-agent team consists of a Target(aircraft) and a Defender(missile) cooperating in opposition to an Attacker(missile).
+The Target tries to evade the Attacker and avoid being captured by him.
+The Defender cooperates with and assists the Target by trying to intercept(capture and destroy) the Attacker before the latter captures the Target \cite{pachter2014active,garcia2015active,garcia2015escape,garcia2014cooperative,garcia2015cooperative,garcia2015cooperative2}.
+This problem will be referred to herein as the $TAD$ problem as it concerns a triad consisting of the Target($T$), Attacker($A$), and Defender($D$).
+\\
+\\
+The $TAD$ problem constitutes a dynamic differential game \cite{ho1965differential,isaacs1954differential,meier1969new,hsueh2007differential,yi2010improved,bressan2010noncooperative,perelman2011cooperative,battistini2014differential,yavin2014pursuit} and is of interest in aerospace, control, and robotics engineering. We will consider herein recent formulation and treatments of this problem \cite{pachter2014active,garcia2015active,garcia2015escape,garcia2014cooperative,garcia2015cooperative,garcia2015cooperative2}, though there exist other formulations and treatments of it that span almost half a century \cite{boyell1976defending,shneydor1977comments,rusnak2005lady,rusnak2008guidance,de2010analysis,rusnak2011guidance,fuch2011encouraging,scott2013pursuit,rubinsky2013three,oyler2014pursuit}.
+Table \ref{tableTAD} shows several variants of this generic problem in a variety of settings, contexts or disciplines. The $TAD$ problem is a generalization of the classical problem of a single pursuer and a single evader \cite{anderson1978model,miller1994co,cliff1995co,pekalski2004short,zarchan2002tactical}. In fact, the $TAD$ is essentially a duplication of this classical problem, since in the $TAD$ problem, the Attacker plays the double role of being a pursuer for the Target, and at the same time an evader for the Defender \cite{rusnak2008guidance}.
+The $TAD$ problem is also a special case of a more general pursuit-evasion problem in which there are multiple Attackers and multiple Defenders  \cite{hagedorn1976differential,kim2001multiagent,fuchs2010cooperative,pan2012pursuit,ragesh2014analysis}. Many common threads are shared by all these problems, such as the solution of differential games \cite{ho1965differential,isaacs1954differential,meier1969new,hsueh2007differential,yi2010improved,bressan2010noncooperative,perelman2011cooperative,battistini2014differential,yavin2014pursuit} and the construction of Apollonius circles \cite{ayoub2003proving,ayoub2006circle,partensky2008circle,fulton2015conflict} and Voroni diagrams \cite{gowda1983dynamic,aurenhammer1991voronoi,cheung2007pursuit,gavrilova2008generalized,majdandzic2008computation,bakolas2010optimal,bakolas2010zermelo,bakolas2010optimal}.
+
+
+\begin{center}
+\begin{tabular}{ |c||c|c|c|c| } 
+\hline
+Area & Agent 1 & Agent 2 & Agent 3 & References \\
+ \hline
+ \hline
+ Aerospace & Target & Attacker(missile) & Defender(missiles) & \cite{pachter2014active,garcia2015active,garcia2015escape,garcia2014cooperative,garcia2015cooperative}\\
+ \hline 
+ Biology & Prey & Predator & Protector & \cite{de2010analysis,oyler2014pursuit}\\
+ \hline 
+ Society & Lady & Bandits & Bodyguards & \cite{rusnak2005lady}\\ 
+ \hline
+ Criminology & Robber & Policemen/Cops & Gangsters & \cite{cheung2007pursuit}\\ 
+  \hline
+\end{tabular}
+%\caption{A variety of settings or contexts for the same generic problem}
+\label{tableTAD}
+\end{center}  
+
+This thesis offers a unified analytic treatment of the aforementioned $TAD$ problem based on the construction of two Apollonius circles.
+The treatment includes all possibilities of the ratio between the speeds of the Attacker and Defender.Note that the case of a slow Defender appears here for the first time, while the treatment of the cases of fast Defender or similar Defender is extended and augmented with novel results and new insights. A criticality condition is derived from which the two following important entities are obtained
+\begin{itemize}
+\item the critical Target speed normalized w.r.t. the Attacker's speed so as to be a dimensionless quantity,
+\item the Voronoi diagram bordering the safe or escape region for the Target.
+\end{itemize}
+
+Optimal strategies are also studied, and are shown to obey a complex sixth-degree polynomial when the Defender differs in speed from the Attacker. This polynomial reduces to a real fourth-degree polynomial when the Defender and Attacker are similar in speed.
+Beside unifying previously published results in a common setting, this thesis simplifies all computations by using intuitionistic plane-geometric arguments rather than the more tedious analytic-geometric manipulations. 
+Moreover, the thesis extends existing results by adding some novel results, thereby giving a complete picture of all cases of interest.
+The analysis in this thesis is supplemented by extensive computations using MATLAB to solve the complex high-order polynomial equations and to plot the Voronoi diagrams under a variety of pertinent parameters. The numerical results and plots obtained allow useful and insightful interpretations and are in exact agreement with numerical solution of the corresponding two-point boundary value problem.
+\\
+\\
+The organization of the remainder of this thesis is as follows. Chapter 2 lists the assumptions, notation and nomenclature used herein. Chapter 3 discusses the general concepts and properties of an Apollonius circle \cite{ayoub2003proving,ayoub2006circle,partensky2008circle,fulton2015conflict}, and then specializes these to the cases of the $AD$ Apollonius circle and the $TA$ Apollonius circle. Chapter 4 derives a criticality condition which constitutes a quadratic equation that is later solved for the critical dimensionless ratio between the Target speed and Attacker speed. The same criticality condition is then rephrased in Chapter 5 as a relation between the initial coordinates $x_T$ and $y_T$ of the Target. This relation leads to the Voronoi diagram bordering the \textit{safe} or \textit{escape} region $R_e$ of the Target. This Voronoi diagram is published for the first time when the Defender is fast or slow. It includes as a special case the much simpler diagram for a similar Defender that has already appeared in \cite{garcia2015escape}. Chapter 6 develops optimal strategies for the three constituents of the differential game. Chapter 7 concludes the thesis and points out possible directions for further work.  

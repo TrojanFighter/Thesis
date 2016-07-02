@@ -1,0 +1,2226 @@
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2013.4.30)  30 JUN 2016 17:28
+entering extended mode
+**MSc_thesis_Mostafa.tex
+
+("C:\Users\Mostafa\Desktop\Masters\Part 2\thesis_writeup2\MSc_thesis_Mostafa.te
+x"
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2009-06-19, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, lao, latin, lat
+vian, lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerm
+an, ngerman-x-2009-06-19, nynorsk, oriya, panjabi, pinyin, polish, portuguese, 
+romanian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swis
+sgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, u
+senglishmax, welsh, loaded.
+("C:\Users\Mostafa\Desktop\Masters\Part 2\thesis_writeup2\cufethesis.cls"
+Document Class: cufethesis 2014/06/17 v1.2 A LaTeX Document Class for Typesetti
+ng Graduate Theses 
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\report.cls"
+Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size12.clo"
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count88
+\Gm@cntv=\count89
+\c@Gm@tempcnt=\count90
+\Gm@bindingoffset=\dimen103
+\Gm@wd@mp=\dimen104
+\Gm@odd@mp=\dimen105
+\Gm@even@mp=\dimen106
+\Gm@layoutwidth=\dimen107
+\Gm@layoutheight=\dimen108
+\Gm@layouthoffset=\dimen109
+\Gm@layoutvoffset=\dimen110
+\Gm@dimlist=\toks15
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\alltt.sty"
+Package: alltt 1997/06/16 v2.0g defines alltt environment
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\algorithm2e\algorithm2e.sty"
+Package: algorithm2e 2013/01/06 v5.00 algorithms environments
+\c@AlgoLine=\count91
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\xspace.sty"
+Package: xspace 2009/10/20 v1.13 Space after command names (DPC,MH)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ltxmisc\relsize.sty"
+Package: relsize 2003/07/04 ver 3.1
+)
+********************************************************
+Package `algorithm2e' Release 5.0 -- january 06 2013 --
+- algorithm2e-announce@lirmm.fr mailing list for announcement about releases
+- algorithm2e-discussion@lirmm.fr mailing list for discussion about package
+subscribe by emailing sympa@lirmm.fr with 'subscribe <list> <firstname name>'
+- Author: Christophe Fiorio (cfiorio@um2.fr)
+********************************************************
+\skiptotal=\skip43
+\skiplinenumber=\skip44
+\skiprule=\skip45
+\skiphlne=\skip46
+\skiptext=\skip47
+\skiplength=\skip48
+\algomargin=\skip49
+\skipalgocfslide=\skip50
+\algowidth=\dimen111
+\inoutsize=\dimen112
+\inoutindent=\dimen113
+\interspacetitleruled=\dimen114
+\interspacealgoruled=\dimen115
+\interspacetitleboxruled=\dimen116
+\algocf@inoutbox=\box26
+\algocf@inputbox=\box27
+\AlCapSkip=\skip51
+\AlCapHSkip=\skip52
+\algoskipindent=\skip53
+\algocf@nlbox=\box28
+\algocf@hangingbox=\box29
+\algocf@untilbox=\box30
+\algocf@skipuntil=\skip54
+\algocf@capbox=\box31
+\algoheightruledefault=\skip55
+\algoheightrule=\skip56
+\algotitleheightruledefault=\skip57
+\algotitleheightrule=\skip58
+\c@algocfline=\count92
+\c@algocfproc=\count93
+\c@algocf=\count94
+\algocf@algoframe=\box32
+\algocf@algobox=\box33
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\math\amsmath.sty"
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip59
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\math\amstext.sty"
+Package: amstext 2000/06/29 v2.01
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\math\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks16
+\ex@=\dimen117
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\math\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen118
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\math\amsopn.sty"
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count95
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count96
+\leftroot@=\count97
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count98
+\DOTSCASE@=\count99
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box34
+\strutbox@=\box35
+\big@size=\dimen119
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count100
+\c@MaxMatrixCols=\count101
+\dotsspace@=\muskip10
+\c@parentequation=\count102
+\dspbrk@lvl=\count103
+\tag@help=\toks17
+\row@=\count104
+\column@=\count105
+\maxfields@=\count106
+\andhelp@=\toks18
+\eqnshift@=\dimen120
+\alignsep@=\dimen121
+\tagshift@=\dimen122
+\tagwidth@=\dimen123
+\totwidth@=\dimen124
+\lineht@=\dimen125
+\@envbody=\toks19
+\multlinegap=\skip60
+\multlinetaggap=\skip61
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+Package: amssymb 2009/06/22 v3.00
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\classes\amsthm.sty"
+Package: amsthm 2004/08/06 v2.20
+\thm@style=\toks21
+\thm@bodyfont=\toks22
+\thm@headfont=\toks23
+\thm@notefont=\toks24
+\thm@headpunct=\toks25
+\thm@preskip=\skip62
+\thm@postskip=\skip63
+\thm@headsep=\skip64
+\dth@everypar=\toks26
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\appendix\appendix.sty"
+Package: appendix 2009/09/02 v1.2b extra appendix facilities
+\c@@pps=\count107
+\c@@ppsavesec=\count108
+\c@@ppsaveapp=\count109
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.sty"
+Package: babel 2008/07/08 v3.8m The Babel package
+
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
+File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\english.ldf"
+Language: english 2005/03/30 v3.3o English support from the babel system
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.def"
+File: babel.def 2008/07/08 v3.8m Babel common definitions
+\babel@savecnt=\count110
+\U@D=\dimen126
+)
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\calc.sty"
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count111
+\calc@Bcount=\count112
+\calc@Adimen=\dimen127
+\calc@Bdimen=\dimen128
+\calc@Askip=\skip65
+\calc@Bskip=\skip66
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count113
+\calc@Cskip=\skip67
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\epsfig.sty"
+Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count114
+))
+\Gin@req@height=\dimen129
+\Gin@req@width=\dimen130
+)
+\epsfxsize=\dimen131
+\epsfysize=\dimen132
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psfrag\psfrag.sty"
+Package: psfrag 1998/04/11 v3.04 PSfrag (MCG)
+\pfg@pcount=\count115
+\pfg@scount=\count116
+\pfg@temp=\write3
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
+Package: hyperref 2012/05/13 v6.82q Hypertext links for LaTeX
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
+Package: hobsub-hyperref 2012/04/25 v1.12 Bundle oberdiek, subset hyperref (HO)
+
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
+Package: hobsub-generic 2012/04/25 v1.12 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/04/25 v1.12 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
+)
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2011/06/24 v1.1 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+)
+\@linkdim=\dimen133
+\Hy@linkcounter=\count117
+\Hy@pagecounter=\count118
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
+File: pd1enc.def 2012/05/13 v6.82q Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count119
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `breaklinks' set `true' on input line 3941.
+Package hyperref Info: Hyper figures OFF on input line 4062.
+Package hyperref Info: Link nesting OFF on input line 4067.
+Package hyperref Info: Hyper index ON on input line 4070.
+Package hyperref Info: Plain pages OFF on input line 4077.
+Package hyperref Info: Backreferencing OFF on input line 4082.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4300.
+\c@Hy@tempcnt=\count120
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ltxmisc\url.sty"
+\Urlmuskip=\muskip11
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4653.
+\Fld@menulength=\count121
+\Field@Width=\dimen134
+\Fld@charsize=\dimen135
+Package hyperref Info: Hyper figures OFF on input line 5773.
+Package hyperref Info: Link nesting OFF on input line 5778.
+Package hyperref Info: Hyper index ON on input line 5781.
+Package hyperref Info: backreferencing OFF on input line 5788.
+Package hyperref Info: Link coloring OFF on input line 5793.
+Package hyperref Info: Link coloring with OCG OFF on input line 5798.
+Package hyperref Info: PDF/A mode OFF on input line 5803.
+LaTeX Info: Redefining \ref on input line 5843.
+LaTeX Info: Redefining \pageref on input line 5847.
+\Hy@abspage=\count122
+\c@Item=\count123
+\c@Hfootnote=\count124
+)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
+File: hpdftex.def 2012/05/13 v6.82q Hyperref driver for pdfTeX
+\Fld@listcount=\count125
+\c@bookmark@seq@number=\count126
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip68
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\hypcap.sty"
+Package: hypcap 2011/02/16 v1.11 Adjusting the anchors of captions (HO)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\pdflscape.sty"
+Package: pdflscape 2008/08/11 v0.10 Display of landscape pages in PDF (HO)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\lscape.sty"
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 80.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\mathptmx.sty"
+Package: mathptmx 2005/04/12 PSNFSS-v9.2a Times w/ Math, improved (SPQR, WaS) 
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+\symbold=\mathgroup6
+\symitalic=\mathgroup7
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/ptm/m/it on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
+LaTeX Info: Redefining \hbar on input line 50.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\microtype\microtype.sty"
+Package: microtype 2013/05/23 v2.5a Micro-typographical refinements (RS)
+\MT@toks=\toks27
+\MT@count=\count127
+LaTeX Info: Redefining \textls on input line 766.
+\MT@outer@kern=\dimen136
+LaTeX Info: Redefining \textmicrotypecontext on input line 1285.
+\MT@listname@count=\count128
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\microtype\microtype-pdftex.def"
+File: microtype-pdftex.def 2013/05/23 v2.5a Definitions specific to pdftex (RS)
+
+LaTeX Info: Redefining \lsstyle on input line 915.
+LaTeX Info: Redefining \lslig on input line 915.
+\MT@outer@space=\skip69
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\microtype\microtype.cfg"
+File: microtype.cfg 2013/05/23 v2.5a microtype main configuration file (RS)
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\multicol.sty"
+Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
+\c@tracingmulticols=\count129
+\mult@box=\box36
+\multicol@leftmargin=\dimen137
+\c@unbalance=\count130
+\c@collectmore=\count131
+\doublecol@number=\count132
+\multicoltolerance=\count133
+\multicolpretolerance=\count134
+\full@width=\dimen138
+\page@free=\dimen139
+\premulticols=\dimen140
+\postmulticols=\dimen141
+\multicolsep=\skip70
+\multicolbaselineskip=\skip71
+\partial@page=\box37
+\last@line=\box38
+\mult@rightbox=\box39
+\mult@grightbox=\box40
+\mult@gfirstbox=\box41
+\mult@firstbox=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\@tempa=\box50
+\@tempa=\box51
+\@tempa=\box52
+\@tempa=\box53
+\@tempa=\box54
+\@tempa=\box55
+\@tempa=\box56
+\@tempa=\box57
+\@tempa=\box58
+\@tempa=\box59
+\c@columnbadness=\count135
+\c@finalcolumnbadness=\count136
+\last@try=\dimen142
+\multicolovershoot=\dimen143
+\multicolundershoot=\dimen144
+\mult@nat@firstbox=\box60
+\colbreak@box=\box61
+\multicol@sort@counter=\count137
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
+\bigstrutjot=\dimen145
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\newlfont.sty"
+Package: newlfont 1998/08/17 v2.2m Standard LaTeX package
+LaTeX Info: Redefining \em on input line 67.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\latexsym.sty"
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup8
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 47.
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\nomencl\nomencl.sty"
+Package: nomencl 2005/09/22 v4.2 Nomenclature package (LN)
+\nomlabelwidth=\dimen146
+\nom@tempdim=\dimen147
+\nomitemsep=\skip72
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\textcase\textcase.sty"
+Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tocloft\tocloft.sty"
+Package: tocloft 2013/05/02 v2.3f parameterised ToC, etc., typesetting
+Package tocloft Info: The document has chapter divisions on input line 44.
+\cftparskip=\skip73
+\cftbeforetoctitleskip=\skip74
+\cftaftertoctitleskip=\skip75
+\cftbeforepartskip=\skip76
+\cftpartnumwidth=\skip77
+\cftpartindent=\skip78
+\cftbeforechapskip=\skip79
+\cftchapindent=\skip80
+\cftchapnumwidth=\skip81
+\cftbeforesecskip=\skip82
+\cftsecindent=\skip83
+\cftsecnumwidth=\skip84
+\cftbeforesubsecskip=\skip85
+\cftsubsecindent=\skip86
+\cftsubsecnumwidth=\skip87
+\cftbeforesubsubsecskip=\skip88
+\cftsubsubsecindent=\skip89
+\cftsubsubsecnumwidth=\skip90
+\cftbeforeparaskip=\skip91
+\cftparaindent=\skip92
+\cftparanumwidth=\skip93
+\cftbeforesubparaskip=\skip94
+\cftsubparaindent=\skip95
+\cftsubparanumwidth=\skip96
+\cftbeforeloftitleskip=\skip97
+\cftafterloftitleskip=\skip98
+\cftbeforefigskip=\skip99
+\cftfigindent=\skip100
+\cftfignumwidth=\skip101
+\cftbeforelottitleskip=\skip102
+\cftafterlottitleskip=\skip103
+\cftbeforetabskip=\skip104
+\cfttabindent=\skip105
+\cfttabnumwidth=\skip106
+\cftbeforesubfigskip=\skip107
+\cftsubfigindent=\skip108
+\cftsubfignumwidth=\skip109
+\cftbeforesubtabskip=\skip110
+\cftsubtabindent=\skip111
+\cftsubtabnumwidth=\skip112
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\txfonts\txfonts.sty"
+Package: txfonts 2008/01/22 v3.2.1
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 21.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/ztmcm/m/n --> OT1/txr/m/n on input line 21.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/ztmcm/m/n --> OT1/txr/m/n on input line 21.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/txr/m/n --> OT1/txr/bx/n on input line 22.
+LaTeX Font Info:    Redeclaring symbol font `italic' on input line 25.
+LaTeX Font Info:    Overwriting symbol font `italic' in version `normal'
+(Font)                  OT1/ptm/m/it --> OT1/txr/m/it on input line 25.
+LaTeX Font Info:    Overwriting symbol font `italic' in version `bold'
+(Font)                  OT1/ptm/m/it --> OT1/txr/m/it on input line 25.
+LaTeX Font Info:    Overwriting symbol font `italic' in version `bold'
+(Font)                  OT1/txr/m/it --> OT1/txr/bx/it on input line 26.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/ptm/bx/n --> OT1/txr/bx/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/ptm/bx/n --> OT1/txr/bx/n on input line 29.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/ptm/m/it --> OT1/txr/m/it on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/ptm/m/it --> OT1/txr/m/it on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/txr/m/it --> OT1/txr/bx/it on input line 31.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/txss/m/n on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/txss/m/n on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/txss/m/n --> OT1/txss/b/n on input line 41.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 50.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/txtt/m/n on input line 50.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/txtt/m/n on input line 50.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/txtt/m/n --> OT1/txtt/b/n on input line 51.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 58.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/ztmcm/m/it --> OML/txmi/m/it on input line 58.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/ztmcm/m/it --> OML/txmi/m/it on input line 58.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/txmi/m/it --> OML/txmi/bx/it on input line 59.
+\symlettersA=\mathgroup9
+LaTeX Font Info:    Overwriting symbol font `lettersA' in version `bold'
+(Font)                  U/txmia/m/it --> U/txmia/bx/it on input line 67.
+LaTeX Font Info:    Redeclaring math alphabet \mathfrak on input line 70.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 77.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/ztmcm/m/n --> OMS/txsy/m/n on input line 77.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/ztmcm/m/n --> OMS/txsy/m/n on input line 77.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/txsy/m/n --> OMS/txsy/bx/n on input line 78.
+LaTeX Font Info:    Redeclaring symbol font `AMSa' on input line 93.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `normal'
+(Font)                  U/msa/m/n --> U/txsya/m/n on input line 93.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `bold'
+(Font)                  U/msa/m/n --> U/txsya/m/n on input line 93.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `bold'
+(Font)                  U/txsya/m/n --> U/txsya/bx/n on input line 94.
+LaTeX Font Info:    Redeclaring symbol font `AMSb' on input line 102.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `normal'
+(Font)                  U/msb/m/n --> U/txsyb/m/n on input line 102.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `bold'
+(Font)                  U/msb/m/n --> U/txsyb/m/n on input line 102.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `bold'
+(Font)                  U/txsyb/m/n --> U/txsyb/bx/n on input line 103.
+\symsymbolsC=\mathgroup10
+LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `bold'
+(Font)                  U/txsyc/m/n --> U/txsyc/bx/n on input line 113.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 120.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/ztmcm/m/n --> OMX/txex/m/n on input line 120.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/ztmcm/m/n --> OMX/txex/m/n on input line 120.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/txex/m/n --> OMX/txex/bx/n on input line 121.
+\symlargesymbolsA=\mathgroup11
+LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `bold'
+(Font)                  U/txexa/m/n --> U/txexa/bx/n on input line 129.
+LaTeX Info: Redefining \not on input line 1043.
+LaTeX Info: Redefining \textsquare on input line 1063.
+LaTeX Info: Redefining \openbox on input line 1064.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tocbibind\tocbibind.sty"
+Package: tocbibind 2010/10/13 v1.5k extra ToC listings
+Package tocbibind Info: The document has chapter divisions on input line 50.
+
+
+Package tocbibind Note: Using chapter style headings, unless overridden.
+
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\xstring\xstring.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\xstring\xstring.tex"
+\@xs@message=\write4
+\integerpart=\count138
+\decimalpart=\count139
+)
+Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\stringstrings\stringstrings.sty"
+Package: stringstrings 2015/02/02 v1.23 Extensive array of string manipulation 
+routines for cosmetic and programming application
+\c@@letterindex=\count140
+\c@@@letterindex=\count141
+\c@@@@letterindex=\count142
+\c@@wordindex=\count143
+\c@@iargc=\count144
+\c@@gobblesize=\count145
+\c@@maxrotation=\count146
+\c@@stringsize=\count147
+\c@@@stringsize=\count148
+\c@@@@stringsize=\count149
+\c@@revisedstringsize=\count150
+\c@@gobbleindex=\count151
+\c@@charsfound=\count152
+\c@@alph=\count153
+\c@@alphaindex=\count154
+\c@@capstrigger=\count155
+\c@@fromindex=\count156
+\c@@toindex=\count157
+\c@@previousindex=\count158
+\c@@flag=\count159
+\c@@matchloc=\count160
+\c@@matchend=\count161
+\c@@matchsize=\count162
+\c@@matchmax=\count163
+\c@@skipped=\count164
+\c@@lcwords=\count165
+\c@@@matchloc=\count166
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\epstopdf.sty"
+Package: epstopdf 2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+)
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\wrapfig\wrapfig.sty"
+\wrapoverhang=\dimen148
+\WF@size=\dimen149
+\c@WF@wrappedlines=\count167
+\WF@box=\box62
+\WF@everypar=\toks28
+Package: wrapfig 2003/01/31  v 3.6
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\subfigure\subfigure.sty"
+Package: subfigure 2002/07/30 v2.1.4 subfigure package
+\subfigtopskip=\skip113
+\subfigcapskip=\skip114
+\subfigcaptopadj=\dimen150
+\subfigbottomskip=\skip115
+\subfigcapmargin=\dimen151
+\subfiglabelskip=\skip116
+\c@subfigure=\count168
+\c@lofdepth=\count169
+\c@subtable=\count170
+\c@lotdepth=\count171
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\subfigure\subfigure.cfg")
+\subfig@top=\skip117
+\subfig@bottom=\skip118
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\subfigmat\subfigmat.sty"
+Package: subfigmat 1999/02/27 v1.0 Subfigure Matrix Package
+\sfm@width=\skip119
+\sfmcolsep=\skip120
+\c@sfm@count=\count172
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\varioref.sty"
+Package: varioref 2011/10/02 v1.4z package for extended references (FMi)
+\c@vrcnt=\count173
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count174
+\float@exts=\toks29
+\float@box=\box63
+\@float@everytoks=\toks30
+\@floatcapt=\box64
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\pifont.sty"
+Package: pifont 2005/04/12 PSNFSS-v9.2a Pi font support (SPQR) 
+LaTeX Font Info:    Try loading font information for U+pzd on input line 63.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\upzd.fd"
+File: upzd.fd 2001/06/04 font definitions for U/pzd.
+)
+LaTeX Font Info:    Try loading font information for U+psy on input line 64.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\upsy.fd"
+File: upsy.fd 2001/06/04 font definitions for U/psy.
+))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\color.sty"
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption.sty"
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption3.sty"
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen152
+\captionmargin@=\dimen153
+\captionwidth=\dimen154
+\caption@tempdima=\dimen155
+\caption@indent=\dimen156
+\caption@parindent=\dimen157
+\caption@hangindent=\dimen158
+)
+\c@ContinuedFloat=\count175
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: hypcap package is loaded.
+Package caption Info: subfigure package is loaded.
+Package caption Info: wrapfig package is loaded.
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\arabtex\arabtex.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\arabtex\aconfig.sty"
+LaTeX2e detected 
+BABEL detected
+\a@moduledate=\count176
+\a@maindate=\count177
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\arabtex\arabaux.sty")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\arabtex\acmd.sty")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\arabtex\afonts.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\arabtex\afonts2.sty"))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\arabtex\ascan.sty"
+(ArabTeX) scanner for code `arabtex' installed.
+(ArabTeX) input encoding set to ArabTeX standard conventions.)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\arabtex\aparse.sty")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\arabtex\awrite.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\arabtex\xarbsymb.sty")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\arabtex\arabskel.sty")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\arabtex\xarbskel.sty")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\arabtex\aboxes.sty")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\arabtex\arabtoks.sty")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\arabtex\arabchrs.sty"))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\arabtex\aligs.sty")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\arabtex\aoutput.sty")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\arabtex\abidir.sty")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\arabtex\atrans.sty"
+(ArabTeX) ZDMG transliteration.)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\arabtex\alatex.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\arabtex\afoot.sty"))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\arabtex\abjad.sty")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\arabtex\apatch.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\arabtex\alists.sty")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\arabtex\asect.sty")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\arabtex\atabg.sty")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\arabtex\alocal.sty"
+(ArabTeX) 3.11 local stub, 26.02.2006))
+Arabic processor `ArabTeX' [20060702 patch level 3.11s (02.07.2006)]
+(ArabTeX) ... now be patient ... )
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\setspace\setspace.sty"
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+\c@@NumberOfCoSupervisors=\count207
+\c@@NumberOfMemberExaminers=\count208
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+LaTeX Info: Redefining \color on input line 702.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\xcolor\svgnam.def"
+File: svgnam.def 2007/01/21 v2.11 Predefined colors according to SVG 1.1 (UK)
+))
+\@chapterheadwidth=\skip123
+\nomenclaturelabelwidth=\skip124
+\@nomenclaturefile=\write7
+
+Writing nomenclature file MSc_thesis_Mostafa.nlo
+\@indexfile=\write8
+Writing index file MSc_thesis_Mostafa.idx
+)
+("C:\Users\Mostafa\Desktop\Masters\Part 2\thesis_writeup2\MSc_thesis_Mostafa.au
+x")
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 48.
+LaTeX Font Info:    Try loading font information for OML+txmi on input line 48.
+
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\txfonts\omltxmi.fd"
+File: omltxmi.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 48.
+LaTeX Font Info:    Try loading font information for OMS+txsy on input line 48.
+
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\txfonts\omstxsy.fd"
+File: omstxsy.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 48.
+LaTeX Font Info:    Try loading font information for OMX+txex on input line 48.
+
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\txfonts\omxtxex.fd"
+File: omxtxex.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 48.
+LaTeX Font Info:    Try loading font information for U+txexa on input line 48.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\txfonts\utxexa.fd"
+File: utxexa.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Try loading font information for OT1+txr on input line 48.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\txfonts\ot1txr.fd"
+File: ot1txr.fd 2000/12/15 v3.1
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(93.95122pt, 438.5141pt, 65.04256pt)
+* v-part:(T,H,B)=(72.26999pt, 682.43936pt, 90.3375pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=438.5141pt
+* \textheight=682.43936pt
+* \oddsidemargin=21.68123pt
+* \evensidemargin=-7.22743pt
+* \topmargin=-25.0pt
+* \headheight=0.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=85.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count209
+\scratchdimen=\dimen181
+\scratchbox=\box80
+\nofMPsegments=\count210
+\nofMParguments=\count211
+\everyMPshowfont=\toks51
+\MPscratchCnt=\count212
+\MPscratchDim=\dimen182
+\MPnumerator=\count213
+\makeMPintoPDFobject=\count214
+\everyMPtoPDFconversion=\toks52
+)
+\AtBeginShipoutBox=\box81
+Package hyperref Info: Link coloring OFF on input line 48.
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
+Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count215
+LaTeX Info: Redefining \Ref on input line 498.
+)
+LaTeX Info: Redefining \ref on input line 48.
+LaTeX Info: Redefining \pageref on input line 48.
+LaTeX Info: Redefining \nameref on input line 48.
+
+("C:\Users\Mostafa\Desktop\Masters\Part 2\thesis_writeup2\MSc_thesis_Mostafa.ou
+t")
+("C:\Users\Mostafa\Desktop\Masters\Part 2\thesis_writeup2\MSc_thesis_Mostafa.ou
+t")
+\@outlinefile=\write9
+LaTeX Info: Redefining \Ref on input line 48.
+LaTeX Info: Redefining \microtypecontext on input line 48.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `basictext'.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\microtype\mt-ptm.cfg"
+File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+
+<fig/logo/FE-Logo.jpg, id=163, 92.59593pt x 85.06781pt>
+File: fig/logo/FE-Logo.jpg Graphic file (type jpg)
+
+<use fig/logo/FE-Logo.jpg>
+Package pdftex.def Info: fig/logo/FE-Logo.jpg used on input line 48.
+(pdftex.def)             Requested size: 92.59569pt x 85.0676pt.
+
+<fig/logo/CU-Phero.jpg, id=164, 75.1608pt x 87.80804pt>
+File: fig/logo/CU-Phero.jpg Graphic file (type jpg)
+
+<use fig/logo/CU-Phero.jpg>
+Package pdftex.def Info: fig/logo/CU-Phero.jpg used on input line 48.
+(pdftex.def)             Requested size: 75.1606pt x 87.80783pt.
+ [1
+Non-PDF special ignored!
+
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/Mostafa/Desktop/
+Masters/Part 2/thesis_writeup2/fig/logo/FE-Logo.jpg> <C:/Users/Mostafa/Desktop/
+Masters/Part 2/thesis_writeup2/fig/logo/CU-Phero.jpg>]
+LaTeX Font Info:    Try loading font information for U+txsya on input line 48.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\txfonts\utxsya.fd"
+File: utxsya.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Try loading font information for U+txsyb on input line 48.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\txfonts\utxsyb.fd"
+File: utxsyb.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 48.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 48.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 48.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 48.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 48.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ulasy.fd"
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
+LaTeX Font Info:    Try loading font information for U+txmia on input line 48.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\txfonts\utxmia.fd"
+File: utxmia.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Try loading font information for U+txsyc on input line 48.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\txfonts\utxsyc.fd"
+File: utxsyc.fd 2000/12/15 v3.1
+) [2] [3]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 48.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 48.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 48.
+
+<fig/logo/mostafa.jpg, id=180, 261.97874pt x 355.3275pt>
+File: fig/logo/mostafa.jpg Graphic file (type jpg)
+
+<use fig/logo/mostafa.jpg>
+Package pdftex.def Info: fig/logo/mostafa.jpg used on input line 48.
+(pdftex.def)             Requested size: 96.73918pt x 131.20886pt.
+
+Overfull \vbox (5.05904pt too high) detected at line 48
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 48--48
+
+ []
+
+[4 <C:/Users/Mostafa/Desktop/Masters/Part 2/thesis_writeup2/fig/logo/mostafa.jp
+g>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\caseupper' on input line 48.
+
+
+("C:\Users\Mostafa\Desktop\Masters\Part 2\thesis_writeup2\MSc_thesis_Mostafa.to
+c" [1])
+\tf@toc=\write10
+ [2]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\caseupper' on input line 48.
+
+
+("C:\Users\Mostafa\Desktop\Masters\Part 2\thesis_writeup2\MSc_thesis_Mostafa.lo
+t")
+\tf@lot=\write11
+ [3]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\caseupper' on input line 48.
+
+
+("C:\Users\Mostafa\Desktop\Masters\Part 2\thesis_writeup2\MSc_thesis_Mostafa.lo
+f"
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <9> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 4.
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <7> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 4.
+ [4])
+\tf@lof=\write12
+ [5]
+No file MSc_thesis_Mostafa.nls.
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\caseupper' on input line 48.
+
+("C:\Users\Mostafa\Desktop\Masters\Part 2\thesis_writeup2\Abstract.tex")
+[6
+
+
+] ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\arabtex\apatch.sty"
+\a@lines=\count216
+\a@Lwidth=\dimen183
+\a@displaywidth=\dimen184
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\arabtex\alocal.sty"
+(ArabTeX) 3.11 local stub, 26.02.2006)
+(ArabTeX) version 3.11s (02.07.2006): second phase of patching)
+Chapter 1.
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\caseupper' on input line 52.
+
+("C:\Users\Mostafa\Desktop\Masters\Part 2\thesis_writeup2\tex/intro.tex"
+Underfull \hbox (badness 10000) in paragraph at lines 2--12
+
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+txr on input line 36.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\txfonts\omstxr.fd"
+File: omstxr.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <12> not available
+(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 36.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 40--52
+
+ []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.52 \Chapter{INTRODUCTION}{tex/intro}
+                                       [1
+
+]pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.52 \Chapter{INTRODUCTION}{tex/intro}
+                                       [2]
+Chapter 2.
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\caseupper' on input line 53.
+
+("C:\Users\Mostafa\Desktop\Masters\Part 2\thesis_writeup2\tex/notation.tex"
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 29.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 29.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.32 
+      [3
+
+]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 33.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 33.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 36.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 36.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 36.
+
+<fig/drawing4_1a.pdf, id=517, 844.65562pt x 596.98032pt>
+File: fig/drawing4_1a.pdf Graphic file (type pdf)
+
+<use fig/drawing4_1a.pdf>
+Package pdftex.def Info: fig/drawing4_1a.pdf used on input line 45.
+(pdftex.def)             Requested size: 219.25705pt x 154.96527pt.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 45.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 45.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 45.
+
+<fig/drawing4_1b.pdf, id=518, 844.65562pt x 596.98032pt>
+File: fig/drawing4_1b.pdf Graphic file (type pdf)
+
+<use fig/drawing4_1b.pdf>
+Package pdftex.def Info: fig/drawing4_1b.pdf used on input line 47.
+(pdftex.def)             Requested size: 219.25705pt x 154.96527pt.
+
+<fig/drawing4_1c.pdf, id=519, 844.65562pt x 596.98032pt>
+File: fig/drawing4_1c.pdf Graphic file (type pdf)
+
+<use fig/drawing4_1c.pdf>
+Package pdftex.def Info: fig/drawing4_1c.pdf used on input line 49.
+(pdftex.def)             Requested size: 328.88557pt x 232.4479pt.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 54.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 54.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 54.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 57.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@@overline' on input line 57.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\alpha' on input line 57.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 57.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.62 \begin{equation}
+                      [4] [5 <C:/Users/Mostafa/Desktop/Masters/Part 2/thesis_wr
+iteup2/fig/drawing4_1a.pdf> <C:/Users/Mostafa/Desktop/Masters/Part 2/thesis_wri
+teup2/fig/drawing4_1b.pdf> <C:/Users/Mostafa/Desktop/Masters/Part 2/thesis_writ
+eup2/fig/drawing4_1c.pdf>]) [6]
+Chapter 3.
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\caseupper' on input line 54.
+
+("C:\Users\Mostafa\Desktop\Masters\Part 2\thesis_writeup2\tex/circles.tex"
+Missing character: There is no â in font txr!
+Missing character: There is no ˆ in font txr!
+Missing character: There is no ž in font txr!
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--4
+
+ []
+
+<fig/drawing1.pdf, id=588, 874.01532pt x 525.46312pt>
+File: fig/drawing1.pdf Graphic file (type pdf)
+ <use fig/drawing1.pdf>
+Package pdftex.def Info: fig/drawing1.pdf used on input line 17.
+(pdftex.def)             Requested size: 437.00659pt x 262.73091pt.
+
+<fig/drawing2.pdf, id=589, 842.39719pt x 535.2497pt>
+File: fig/drawing2.pdf Graphic file (type pdf)
+ <use fig/drawing2.pdf>
+Package pdftex.def Info: fig/drawing2.pdf used on input line 24.
+(pdftex.def)             Requested size: 421.19756pt x 267.62419pt.
+
+[7
+
+ <C:/Users/Mostafa/Desktop/Masters/Part 2/thesis_writeup2/fig/drawing1.pdf>]
+[8 <C:/Users/Mostafa/Desktop/Masters/Part 2/thesis_writeup2/fig/drawing2.pdf>]
+<fig/drawing3.pdf, id=675, 632.3625pt x 322.95656pt>
+File: fig/drawing3.pdf Graphic file (type pdf)
+ <use fig/drawing3.pdf>
+Package pdftex.def Info: fig/drawing3.pdf used on input line 76.
+(pdftex.def)             Requested size: 316.18048pt x 161.47787pt.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 82.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 82.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 82.
+
+[9 <C:/Users/Mostafa/Desktop/Masters/Part 2/thesis_writeup2/fig/drawing3.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [10]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 138.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 138.
+
+) [11]
+Chapter 4.
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\caseupper' on input line 55.
+
+("C:\Users\Mostafa\Desktop\Masters\Part 2\thesis_writeup2\tex/speed_ratio.tex"
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 5.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\gamma' on input line 5.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 5.
+
+
+Package caption Warning: \label without proper \caption on input line 152.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `4_g<1' on page 12 undefined on input line 6.
+
+[12
+
+]
+Underfull \vbox (badness 3375) has occurred while \output is active []
+
+ [13]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 111.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\gamma' on input line 111.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 111.
+
+
+Package caption Warning: \label without proper \caption on input line 154.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `4_g=1' on page 14 undefined on input line 112.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 134.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\gamma' on input line 134.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 134.
+
+
+Package caption Warning: \label without proper \caption on input line 156.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `4_g>1' on page 14 undefined on input line 135.
+
+[14] <fig/drawing4_2a.pdf, id=810, 844.65562pt x 596.98032pt>
+File: fig/drawing4_2a.pdf Graphic file (type pdf)
+
+<use fig/drawing4_2a.pdf>
+Package pdftex.def Info: fig/drawing4_2a.pdf used on input line 152.
+(pdftex.def)             Requested size: 263.11113pt x 185.96379pt.
+
+<fig/drawing4_2c.pdf, id=811, 844.65562pt x 596.98032pt>
+File: fig/drawing4_2c.pdf Graphic file (type pdf)
+
+<use fig/drawing4_2c.pdf>
+Package pdftex.def Info: fig/drawing4_2c.pdf used on input line 154.
+(pdftex.def)             Requested size: 263.11113pt x 185.96379pt.
+
+<fig/drawing4_2b.pdf, id=812, 844.65562pt x 596.98032pt>
+File: fig/drawing4_2b.pdf Graphic file (type pdf)
+
+<use fig/drawing4_2b.pdf>
+Package pdftex.def Info: fig/drawing4_2b.pdf used on input line 156.
+(pdftex.def)             Requested size: 263.11113pt x 185.96379pt.
+
+<fig/alphaCRg_0p8.pdf, id=825, 565.11125pt x 376.40625pt>
+File: fig/alphaCRg_0p8.pdf Graphic file (type pdf)
+
+<use fig/alphaCRg_0p8.pdf>
+Package pdftex.def Info: fig/alphaCRg_0p8.pdf used on input line 202.
+(pdftex.def)             Requested size: 339.06937pt x 225.84547pt.
+
+<fig/alphaCRg_1.pdf, id=826, 565.11125pt x 376.40625pt>
+File: fig/alphaCRg_1.pdf Graphic file (type pdf)
+
+<use fig/alphaCRg_1.pdf>
+Package pdftex.def Info: fig/alphaCRg_1.pdf used on input line 210.
+(pdftex.def)             Requested size: 339.06937pt x 225.84547pt.
+
+<fig/alphaCRg_1p25.pdf, id=827, 565.11125pt x 376.40625pt>
+File: fig/alphaCRg_1p25.pdf Graphic file (type pdf)
+
+<use fig/alphaCRg_1p25.pdf>
+Package pdftex.def Info: fig/alphaCRg_1p25.pdf used on input line 218.
+(pdftex.def)             Requested size: 339.06937pt x 225.84547pt.
+
+Underfull \vbox (badness 3623) has occurred while \output is active []
+
+ [15]
+[16 <C:/Users/Mostafa/Desktop/Masters/Part 2/thesis_writeup2/fig/drawing4_2a.pd
+f> <C:/Users/Mostafa/Desktop/Masters/Part 2/thesis_writeup2/fig/drawing4_2c.pdf
+> <C:/Users/Mostafa/Desktop/Masters/Part 2/thesis_writeup2/fig/drawing4_2b.pdf>
+]
+Underfull \hbox (badness 10000) in paragraph at lines 249--250
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 255--257
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 268--269
+
+ []
+
+[17 <C:/Users/Mostafa/Desktop/Masters/Part 2/thesis_writeup2/fig/alphaCRg_0p8.p
+df>] [18 <C:/Users/Mostafa/Desktop/Masters/Part 2/thesis_writeup2/fig/alphaCRg_
+1.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 307--308
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 317--318
+
+ []
+
+[19 <C:/Users/Mostafa/Desktop/Masters/Part 2/thesis_writeup2/fig/alphaCRg_1p25.
+pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 338--339
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 375--376
+
+ []
+
+) [20]
+Chapter 5.
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\caseupper' on input line 56.
+
+("C:\Users\Mostafa\Desktop\Masters\Part 2\thesis_writeup2\tex/voronoi.tex"
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
+
+Overfull \hbox (0.78027pt too wide) in paragraph at lines 28--28
+[] 
+ []
+
+[21
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 55--57
+
+ []
+
+[22] <fig/Drawing5_1.pdf, id=1069, 844.65562pt x 596.98032pt>
+File: fig/Drawing5_1.pdf Graphic file (type pdf)
+
+<use fig/Drawing5_1.pdf>
+Package pdftex.def Info: fig/Drawing5_1.pdf used on input line 110.
+(pdftex.def)             Requested size: 416.58705pt x 294.43584pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--117
+
+ []
+
+[23]
+
+Package caption Warning: \label without proper \caption on input line 45.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `2_g<1' on page 24 undefined on input line 119.
+
+
+Package caption Warning: \label without proper \caption on input line 49.
+See the caption package documentation for explanation.
+
+
+LaTeX Warning: Reference `2_g>1' on page 24 undefined on input line 119.
+
+[24 <C:/Users/Mostafa/Desktop/Masters/Part 2/thesis_writeup2/fig/Drawing5_1.pdf
+>]
+Underfull \hbox (badness 10000) in paragraph at lines 126--127
+
+ []
+
+<fig/g_1.pdf, id=1119, 412.54124pt x 412.54124pt>
+File: fig/g_1.pdf Graphic file (type pdf)
+ <use fig/g_1.pdf>
+Package pdftex.def Info: fig/g_1.pdf used on input line 151.
+(pdftex.def)             Requested size: 328.88557pt x 328.88777pt.
+
+<fig/VAR_alpha_g_1.pdf, id=1120, 376.40625pt x 376.40625pt>
+File: fig/VAR_alpha_g_1.pdf Graphic file (type pdf)
+
+<use fig/VAR_alpha_g_1.pdf>
+Package pdftex.def Info: fig/VAR_alpha_g_1.pdf used on input line 158.
+(pdftex.def)             Requested size: 328.88557pt x 328.90666pt.
+
+<fig/marked_circle_curve_g_0p8.pdf, id=1125, 615.80063pt x 607.51968pt>
+File: fig/marked_circle_curve_g_0p8.pdf Graphic file (type pdf)
+
+<use fig/marked_circle_curve_g_0p8.pdf>
+Package pdftex.def Info: fig/marked_circle_curve_g_0p8.pdf used on input line 1
+66.
+(pdftex.def)             Requested size: 328.88557pt x 324.46825pt.
+
+<fig/VAR_alpha_g_0p8.pdf, id=1130, 376.40625pt x 376.40625pt>
+File: fig/VAR_alpha_g_0p8.pdf Graphic file (type pdf)
+
+<use fig/VAR_alpha_g_0p8.pdf>
+Package pdftex.def Info: fig/VAR_alpha_g_0p8.pdf used on input line 174.
+(pdftex.def)             Requested size: 328.88557pt x 328.90666pt.
+
+<fig/g_1p25.pdf, id=1135, 571.38469pt x 571.38469pt>
+File: fig/g_1p25.pdf Graphic file (type pdf)
+ <use fig/g_1p25.pdf>
+Package pdftex.def Info: fig/g_1p25.pdf used on input line 182.
+(pdftex.def)             Requested size: 328.88557pt x 328.88367pt.
+
+<fig/VAR_alpha_g_1p25.pdf, id=1140, 376.40625pt x 376.40625pt>
+File: fig/VAR_alpha_g_1p25.pdf Graphic file (type pdf)
+
+<use fig/VAR_alpha_g_1p25.pdf>
+Package pdftex.def Info: fig/VAR_alpha_g_1p25.pdf used on input line 189.
+(pdftex.def)             Requested size: 328.88557pt x 328.90666pt.
+) [25]
+Chapter 6.
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\caseupper' on input line 57.
+
+[26 <C:/Users/Mostafa/Desktop/Masters/Part 2/thesis_writeup2/fig/g_1.pdf>]
+[27 <C:/Users/Mostafa/Desktop/Masters/Part 2/thesis_writeup2/fig/VAR_alpha_g_1.
+pdf>] [28 <C:/Users/Mostafa/Desktop/Masters/Part 2/thesis_writeup2/fig/marked_c
+ircle_curve_g_0p8.pdf>] [29 <C:/Users/Mostafa/Desktop/Masters/Part 2/thesis_wri
+teup2/fig/VAR_alpha_g_0p8.pdf>] [30 <C:/Users/Mostafa/Desktop/Masters/Part 2/th
+esis_writeup2/fig/g_1p25.pdf>] [31 <C:/Users/Mostafa/Desktop/Masters/Part 2/the
+sis_writeup2/fig/VAR_alpha_g_1p25.pdf>]
+("C:\Users\Mostafa\Desktop\Masters\Part 2\thesis_writeup2\tex/strategies.tex"
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\gamma' on input line 4.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 4.
+
+[32
+
+] <fig/drawing6_1.pdf, id=1283, 844.65562pt x 596.98032pt>
+File: fig/drawing6_1.pdf Graphic file (type pdf)
+
+<use fig/drawing6_1.pdf>
+Package pdftex.def Info: fig/drawing6_1.pdf used on input line 81.
+(pdftex.def)             Requested size: 422.32678pt x 298.48943pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [33]
+Underfull \hbox (badness 10000) in paragraph at lines 116--117
+
+ []
+
+[34 <C:/Users/Mostafa/Desktop/Masters/Part 2/thesis_writeup2/fig/drawing6_1.pdf
+>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 168.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 168.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 168.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\gamma' on input line 168.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 168.
+
+
+Underfull \vbox (badness 4518) has occurred while \output is active []
+
+ [35]
+<fig/Drawing6_2.pdf, id=1351, 844.65562pt x 596.98032pt>
+File: fig/Drawing6_2.pdf Graphic file (type pdf)
+
+<use fig/Drawing6_2.pdf>
+Package pdftex.def Info: fig/Drawing6_2.pdf used on input line 210.
+(pdftex.def)             Requested size: 438.5141pt x 309.93965pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [36]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 216.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 216.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 216.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\gamma' on input line 216.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 216.
+
+[37 <C:/Users/Mostafa/Desktop/Masters/Part 2/thesis_writeup2/fig/Drawing6_2.pdf
+>] <fig/Drawing6_4.pdf, id=1395, 844.65562pt x 596.98032pt>
+File: fig/Drawing6_4.pdf Graphic file (type pdf)
+
+<use fig/Drawing6_4.pdf>
+Package pdftex.def Info: fig/Drawing6_4.pdf used on input line 269.
+(pdftex.def)             Requested size: 438.5141pt x 309.93965pt.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 274.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 274.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 274.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\gamma' on input line 274.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 274.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [38 <C:/Users/Mostafa/Desktop/Masters/Part 2/thesis_writeup2/fig/Drawing6_4.pd
+f>]
+<fig/Drawing6_3.pdf, id=1428, 844.65562pt x 596.98032pt>
+File: fig/Drawing6_3.pdf Graphic file (type pdf)
+
+<use fig/Drawing6_3.pdf>
+Package pdftex.def Info: fig/Drawing6_3.pdf used on input line 302.
+(pdftex.def)             Requested size: 438.5141pt x 309.93965pt.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 306.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 306.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 306.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\gamma' on input line 306.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 306.
+
+[39] <fig/Drawing6_5.pdf, id=1443, 844.65562pt x 596.98032pt>
+File: fig/Drawing6_5.pdf Graphic file (type pdf)
+
+<use fig/Drawing6_5.pdf>
+Package pdftex.def Info: fig/Drawing6_5.pdf used on input line 327.
+(pdftex.def)             Requested size: 438.5141pt x 309.93965pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [40 <C:/Users/Mostafa/Desktop/Masters/Part 2/thesis_writeup2/fig/Drawing6_3.pd
+f>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 332.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 332.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 332.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\gamma' on input line 332.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 332.
+
+<fig/Drawing6_6.pdf, id=1475, 844.65562pt x 596.98032pt>
+File: fig/Drawing6_6.pdf Graphic file (type pdf)
+
+<use fig/Drawing6_6.pdf>
+Package pdftex.def Info: fig/Drawing6_6.pdf used on input line 337.
+(pdftex.def)             Requested size: 438.5141pt x 309.93965pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [41 <C:/Users/Mostafa/Desktop/Masters/Part 2/thesis_writeup2/fig/Drawing6_5.pd
+f>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 344.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\gamma' on input line 344.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 344.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 344.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 344.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 372.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\gamma' on input line 372.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 372.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 372.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 372.
+
+[42 <C:/Users/Mostafa/Desktop/Masters/Part 2/thesis_writeup2/fig/Drawing6_6.pdf
+>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 400.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\gamma' on input line 400.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 400.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 400.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 400.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 422.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\gamma' on input line 422.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 422.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 422.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 422.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 446.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\gamma' on input line 446.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 446.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 446.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 446.
+
+[43]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 476.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\gamma' on input line 476.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 476.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `subscript' on input line 476.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 476.
+
+) [44]
+Chapter 7.
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\caseupper' on input line 58.
+
+("C:\Users\Mostafa\Desktop\Masters\Part 2\thesis_writeup2\tex/simulation.tex")
+[45
+
+]
+Chapter 8.
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\caseupper' on input line 59.
+
+("C:\Users\Mostafa\Desktop\Masters\Part 2\thesis_writeup2\tex/conclusions.tex"
+[46
+
+]) [47]
+("C:\Users\Mostafa\Desktop\Masters\Part 2\thesis_writeup2\MSc_thesis_Mostafa.bb
+l" [48
+
+] [49]
+Missing character: There is no â in font txr!
+Missing character: There is no € in font txr!
+Missing character: There is no ” in font txr!
+ [50])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 77.
+ [51]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 77.
+
+("C:\Users\Mostafa\Desktop\Masters\Part 2\thesis_writeup2\MSc_thesis_Mostafa.au
+x")
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 77.
+
+
+ *File List*
+cufethesis.cls    2014/06/17 v1.2 A LaTeX Document Class for Typesetting Gradua
+te Theses 
+  report.cls    2007/10/19 v1.4h Standard LaTeX document class
+  size12.clo    2007/10/19 v1.4h Standard LaTeX file (size option)
+geometry.sty    2010/09/12 v5.6 Page Geometry
+  keyval.sty    1999/03/16 v1.13 key=value parser (DPC)
+   ifpdf.sty    2011/01/30 v2.3 Provides the ifpdf switch (HO)
+  ifvtex.sty    2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+ ifxetex.sty    2010/09/12 v0.6 Provides ifxetex conditional
+geometry.cfg
+   alltt.sty    1997/06/16 v2.0g defines alltt environment
+algorithm2e.sty    2013/01/06 v5.00 algorithms environments
+  ifthen.sty    2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+  xspace.sty    2009/10/20 v1.13 Space after command names (DPC,MH)
+ relsize.sty    2003/07/04 ver 3.1
+ amsmath.sty    2000/07/18 v2.13 AMS math features
+ amstext.sty    2000/06/29 v2.01
+  amsgen.sty    1999/11/30 v2.0
+  amsbsy.sty    1999/11/29 v1.2d
+  amsopn.sty    1999/12/14 v2.01 operator names
+amsfonts.sty    2009/06/22 v3.00 Basic AMSFonts support
+ amssymb.sty    2009/06/22 v3.00
+  amsthm.sty    2004/08/06 v2.20
+appendix.sty    2009/09/02 v1.2b extra appendix facilities
+   babel.sty    2008/07/08 v3.8m The Babel package
+ bblopts.cfg    2006/07/31 v1.0 MiKTeX 'babel' configuration
+ english.ldf    2005/03/30 v3.3o English support from the babel system
+    calc.sty    2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+  epsfig.sty    1999/02/16 v1.7a (e)psfig emulation (SPQR)
+graphicx.sty    1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+graphics.sty    2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+    trig.sty    1999/03/16 v1.09 sin cos tan (DPC)
+graphics.cfg    2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+  pdftex.def    2011/05/27 v0.06d Graphics/color for pdfTeX
+infwarerr.sty    2010/04/08 v1.3 Providing info/warning/error messages (HO)
+ ltxcmds.sty    2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+  psfrag.sty    1998/04/11 v3.04 PSfrag (MCG)
+hyperref.sty    2012/05/13 v6.82q Hypertext links for LaTeX
+hobsub-hyperref.sty    2012/04/25 v1.12 Bundle oberdiek, subset hyperref (HO)
+hobsub-generic.sty    2012/04/25 v1.12 Bundle oberdiek, subset generic (HO)
+  hobsub.sty    2012/04/25 v1.12 Construct package bundles (HO)
+ifluatex.sty    2010/03/01 v1.3 Provides the ifluatex switch (HO)
+ intcalc.sty    2007/09/27 v1.1 Expandable calculations with integers (HO)
+etexcmds.sty    2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+kvsetkeys.sty    2012/04/25 v1.16 Key value parser (HO)
+kvdefinekeys.sty    2011/04/07 v1.3 Define keys (HO)
+pdftexcmds.sty    2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO)
+pdfescape.sty    2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+bigintcalc.sty    2012/04/08 v1.3 Expandable calculations on big integers (HO)
+  bitset.sty    2011/01/30 v1.1 Handle bit-vector datatype (HO)
+uniquecounter.sty    2011/01/30 v1.2 Provide unlimited unique counter (HO)
+letltxmacro.sty    2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+ hopatch.sty    2011/06/24 v1.1 Wrapper for package hooks (HO)
+xcolor-patch.sty    2011/01/30 xcolor patch
+atveryend.sty    2011/06/30 v1.8 Hooks at the very end of document (HO)
+atbegshi.sty    2011/10/05 v1.16 At begin shipout hook (HO)
+refcount.sty    2011/10/16 v3.4 Data extraction from label references (HO)
+ hycolor.sty    2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
+kvoptions.sty    2011/06/30 v3.11 Key value format for package options (HO)
+  pd1enc.def    2012/05/13 v6.82q Hyperref: PDFDocEncoding definition (HO)
+hyperref.cfg    2002/06/06 v1.2 hyperref configuration of TeXLive
+     url.sty    2006/04/12  ver 3.3  Verb mode for urls, etc.
+ hpdftex.def    2012/05/13 v6.82q Hyperref driver for pdfTeX
+rerunfilecheck.sty    2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+  hypcap.sty    2011/02/16 v1.11 Adjusting the anchors of captions (HO)
+pdflscape.sty    2008/08/11 v0.10 Display of landscape pages in PDF (HO)
+  lscape.sty    2000/10/22 v3.01 Landscape Pages (DPC)
+mathptmx.sty    2005/04/12 PSNFSS-v9.2a Times w/ Math, improved (SPQR, WaS) 
+microtype.sty    2013/05/23 v2.5a Micro-typographical refinements (RS)
+microtype-pdftex.def    2013/05/23 v2.5a Definitions specific to pdftex (RS)
+microtype.cfg    2013/05/23 v2.5a microtype main configuration file (RS)
+multicol.sty    2011/06/27 v1.7a multicolumn formatting (FMi)
+multirow.sty    
+newlfont.sty    1998/08/17 v2.2m Standard LaTeX package
+latexsym.sty    1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+ nomencl.sty    2005/09/22 v4.2 Nomenclature package (LN)
+textcase.sty    2004/10/07 v0.07 Text only upper/lower case changing (DPC)
+ tocloft.sty    2013/05/02 v2.3f parameterised ToC, etc., typesetting
+ txfonts.sty    2008/01/22 v3.2.1
+tocbibind.sty    2010/10/13 v1.5k extra ToC listings
+ xstring.sty    2013/10/13  v1.7c  String manipulations (C Tellechea)
+stringstrings.sty    2015/02/02 v1.23 Extensive array of string manipulation ro
+utines for cosmetic and programming application
+epstopdf.sty    2010/02/09 v2.5 Conversion with epstopdf on the fly (HO)
+epstopdf-base.sty    2010/02/09 v2.5 Base part for package epstopdf
+  grfext.sty    2010/08/19 v1.1 Manage graphics extensions (HO)
+ wrapfig.sty    2003/01/31  v 3.6
+subfigure.sty    2002/07/30 v2.1.4 subfigure package
+subfigure.cfg
+subfigmat.sty    1999/02/27 v1.0 Subfigure Matrix Package
+varioref.sty    2011/10/02 v1.4z package for extended references (FMi)
+   float.sty    2001/11/08 v1.3d Float enhancements (AL)
+  pifont.sty    2005/04/12 PSNFSS-v9.2a Pi font support (SPQR) 
+    upzd.fd    2001/06/04 font definitions for U/pzd.
+    upsy.fd    2001/06/04 font definitions for U/psy.
+   color.sty    1999/02/16
+   color.cfg    2007/01/18 v1.5 color configuration of teTeX/TeXLive
+ caption.sty    2013/05/02 v3.3-89 Customizing captions (AR)
+caption3.sty    2013/05/02 v1.6-88 caption3 kernel (AR)
+ arabtex.sty    2003/08/22  3.11 ArabTeX main module
+ arabaux.sty    2003/05/21  3.11 auxiliary macros for ArabTeX
+    acmd.sty    2003/08/20  3.11 Arabic command processing 
+  afonts.sty    1995/11/16  3.04 define Naskh font 
+ afonts2.sty    1998/10/19  3.10 define Naskh fonts for LaTeX2e
+   ascan.sty    2003/08/22  3.11 standard ZDMG input encoding 
+  aparse.sty    2003/05/26  3.11 get syllables 
+  awrite.sty    2003/06/05  3.11 build output word 
+xarbsymb.sty    1998/07/15  3.07 symbolic output encoding 
+arabskel.sty    2000/06/04  3.10 character skeleton definitions 
+xarbskel.sty    1999/07/17  3.09 character skeleton definitions 
+  aboxes.sty    2003/05/28  3.11 build output boxes
+arabtoks.sty    1999/07/17  3.09 ArabTeX CS token definitions 
+arabchrs.sty    1998/07/11  3.07 letter token definitions 
+   aligs.sty    2003/05/26  3.11 compute ligatures
+ aoutput.sty    2000/06/04  3.10 build output lines
+  abidir.sty    2003/08/22  3.11 bidirectional linebreaking
+  atrans.sty    2003/06/14  3.11 generate the transliteration 
+  alatex.sty    2003/05/04  3.11 ArabTeX extensions for LaTeX 
+   afoot.sty    2003/05/12  3.11 ArabTeX footnotes
+   abjad.sty    2003/04/26  3.11 abjad numerals 
+  apatch.sty    2006/07/02  3.11s last minute patches 
+  alists.sty    2003/04/26  3.11 inverted list macros
+   asect.sty    2003/04/26  3.11 section macros for Arabic
+   atabg.sty    1997/01/21  3.05 LaTeX tabbing macros for Arabic
+setspace.sty    2011/12/19 v6.7a set line spacing
+  xcolor.sty    2007/01/21 v2.11 LaTeX color extensions (UK)
+   color.cfg    2007/01/18 v1.5 color configuration of teTeX/TeXLive
+  svgnam.def    2007/01/21 v2.11 Predefined colors according to SVG 1.1 (UK)
+ omltxmi.fd    2000/12/15 v3.1
+ omstxsy.fd    2000/12/15 v3.1
+ omxtxex.fd    2000/12/15 v3.1
+  utxexa.fd    2000/12/15 v3.1
+  ot1txr.fd    2000/12/15 v3.1
+supp-pdf.mkii
+ nameref.sty    2010/04/30 v2.40 Cross-referencing by name of section
+gettitlestring.sty    2010/12/03 v1.4 Cleanup title references (HO)
+MSc_thesis_Mostafa.out
+MSc_thesis_Mostafa.out
+  mt-ptm.cfg    2006/04/20 v1.7 microtype config. file: Times (RS)
+fig/logo/FE-Logo.jpg
+fig/logo/CU-Phero.jpg
+  utxsya.fd    2000/12/15 v3.1
+  utxsyb.fd    2000/12/15 v3.1
+  ot1ptm.fd    2001/06/04 font definitions for OT1/ptm.
+   ulasy.fd    1998/08/17 v2.2e LaTeX symbol font definitions
+  utxmia.fd    2000/12/15 v3.1
+  utxsyc.fd    2000/12/15 v3.1
+fig/logo/mostafa.jpg
+Abstract.tex
+  apatch.sty    2006/07/02  3.11s last minute patches 
+tex/intro.tex
+  omstxr.fd    2000/12/15 v3.1
+tex/notation.tex
+fig/drawing4_1a.pdf
+fig/drawing4_1b.pdf
+fig/drawing4_1c.pdf
+tex/circles.tex
+fig/drawing1.pdf
+fig/drawing2.pdf
+fig/drawing3.pdf
+tex/speed_ratio.tex
+fig/drawing4_2a.pdf
+fig/drawing4_2c.pdf
+fig/drawing4_2b.pdf
+fig/alphaCRg_0p8.pdf
+fig/alphaCRg_1.pdf
+fig/alphaCRg_1p25.pdf
+tex/voronoi.tex
+fig/Drawing5_1.pdf
+ fig/g_1.pdf
+fig/VAR_alpha_g_1.pdf
+fig/marked_circle_curve_g_0p8.pdf
+fig/VAR_alpha_g_0p8.pdf
+fig/g_1p25.pdf
+fig/VAR_alpha_g_1p25.pdf
+tex/strategies.tex
+fig/drawing6_1.pdf
+fig/Drawing6_2.pdf
+fig/Drawing6_4.pdf
+fig/Drawing6_3.pdf
+fig/Drawing6_5.pdf
+fig/Drawing6_6.pdf
+tex/simulation.tex
+tex/conclusions.tex
+MSc_thesis_Mostafa.bbl
+ ***********
+
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 77.
+Package rerunfilecheck Info: File `MSc_thesis_Mostafa.out' has not changed.
+(rerunfilecheck)             Checksum: 90C6C7ACF5903983DF3CF420B0B81BF3;3185.
+
+LaTeX Warning: There were undefined references.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 77.
+ ) 
+Here is how much of TeX's memory you used:
+ 17425 strings out of 494045
+ 247369 string characters out of 3145963
+ 444542 words of memory out of 3000000
+ 19618 multiletter control sequences out of 15000+200000
+ 96054 words of font info for 419 fonts, out of 3000000 for 9000
+ 715 hyphenation exceptions out of 8191
+ 43i,19n,40p,1441b,466s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{SECTION.7.1} has been referenced but does not exi
+st, replaced by a fixed one
+
+pdfTeX warning (dest): name{SECTION.6.7} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{SECTION.6.6} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{SECTION.6.5} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{SECTION.6.4} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{SECTION.6.3} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{SECTION.6.2} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{SECTION.6.1} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{SECTION.4.3} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{SECTION.4.2} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{SECTION.4.1} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{SECTION.3.2} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{SECTION.3.1} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{SECTION.2.3} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{SECTION.2.2} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{SECTION.2.1} has been referenced but does not exist
+, replaced by a fixed one
+
+{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program 
+Files (x86)/MiKTeX 2.9/fonts/type1/public/txfonts/rtxi.pfb><C:/Program Files (x
+86)/MiKTeX 2.9/fonts/type1/public/txfonts/rtxmi.pfb><C:/Program Files (x86)/MiK
+TeX 2.9/fonts/type1/public/txfonts/rtxr.pfb><C:/Program Files (x86)/MiKTeX 2.9/
+fonts/type1/public/txfonts/txex.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
+pe1/public/txfonts/txsy.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publ
+ic/txfonts/txsya.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/txfo
+nts/txsyc.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.p
+fb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Pro
+gram Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files 
+(x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on MSc_thesis_Mostafa.pdf (61 pages, 2672195 bytes).
+PDF statistics:
+ 1744 PDF objects out of 2073 (max. 8388607)
+ 321 named destinations out of 1000 (max. 500000)
+ 49613 words of extra memory for PDF output out of 51595 (max. 10000000)
+

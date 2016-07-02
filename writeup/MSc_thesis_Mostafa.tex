@@ -1,0 +1,78 @@
+% !TeX spellcheck = en_US
+%------------------<Beginning of Master LaTeX Thesis File>---------------
+% mthesis.tex
+%------------------------------------------------------------------------
+\documentclass[hidelinks,nopraise,phero]{cufethesis}
+
+% Personal Information
+\EngineerName{Mostafa Ali Rushdi}
+\BirthDate{26}{10}{1991}
+
+\Nationality{Egyptian}
+\EMail{morushdi@gmail.com}
+\Phone{0111-4000-606}
+\Address{Postal Address}
+\Photo{fig/logo/mostafa.jpg}   % students Photo
+
+% Program of Study Information
+
+\RegistrationDate{10}{10}{2014}
+\AwardingDate{14}{7}{2015}
+
+% Thesis Information
+
+\MainSupervisor{Prof. Ayman H. Kassem}{Professor}
+
+\CoSupervisor{Prof. Gamal El-Bayoumi}{Professor}{\department}{\faculty, Cairo University}
+
+\ExternalExaminer{Prof. First S. Name}
+\InternalExaminer{Prof. Second S. Name}
+\MemberExaminer{Prof. Third E. Name}
+
+\ThesisTitle{Unified Analytical Overview with Numerical Simulation of the Target-Attacker-Defender Problem}
+
+\ThesisKeywords{Pursuit-Evasion, Target, Attacker, Defender, Apollonius circle, critical speed ratio, Escape region, Voronoi diagram, Optimal strategy.}
+
+\ThesisSummary{This thesis studies the the target-attacker-defender problem, and introduces a unified analytical overview with numerical simulations.}
+
+\SubmissionDate{6}{2015}
+
+
+% ---------------------------
+\graphicspath{{fig/}}
+\graphicspath{{../fig/}}
+% ---------------------------
+
+%------------------------------------------------------------------------
+
+\begin{document}
+
+% If you want to remove the acknowledgements or the dedication pages, you just add "noacknow" or "nodedic" to the document class options at the first line of this file: \documentclass[noacknow,nodedic,......,....,etc options]{style}
+
+\Chapter{INTRODUCTION}{tex/intro}
+\Chapter{ASSUMPTIONS, NOTATION, AND NOMENCLATURE}{tex/notation}
+\Chapter{APOLLONIUS CIRCLES PERTAINING TO THE PROBLEM}{tex/circles}
+\Chapter{CRITICAL SPEED RATIO}{tex/speed_ratio}
+\Chapter{ESCAPE REGION AND VORONOI DIAGRAM}{tex/voronoi}
+\Chapter{OPTIMAL STRATEGIES}{tex/strategies}
+\Chapter{OPTIMAL HEADING ANGLE SIMULATION}{tex/simulation}
+\Chapter{CONCLUSION AND FUTURE WORK}{tex/conclusions}
+
+%------------------- modified by mhawwary ----------------------
+%\appendix
+%\Appendix{One Appendix}{AppendixA}
+%\Appendix{Another Appendix}{AppendixB}
+
+\bibliographystyle{myieeetr}
+\bibliography{references} 
+
+%\renewcommand{\bibname}{References}
+%\addcontentsline{toc}{chapter}{REFERENCES}
+%\bibliographystyle{acm}
+%\bibliography{References}    % bibliography line 
+
+% Add the above bibliography line inside each chapter's '.tex' file when you are editing it to enable autocomplete option for references. When you are done with editing, remove it from chapter's file only and recompile again.
+%-----------------------------------------------------------------
+
+\end{document}
+%--------------------------<End of File>---------------------------------
