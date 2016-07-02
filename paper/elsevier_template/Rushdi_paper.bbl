@@ -1,0 +1,215 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{pachter2014active}
+P.~Meir, E.~Garcia, D.~W. Casbeer, Active target defense differential game, in:
+  Proceedings of the 2014 IEEE 52nd Annual Allerton Conference on
+  Communication, Control, and Computing, (2014), pp. 46--53.
+
+\bibitem{garcia2015active}
+E.~Garcia, D.~W. Casbeer, M.~Pachter, Active target defense differential game
+  with a fast defender, arXiv preprint arXiv:1502.02747.
+
+\bibitem{garcia2015escape}
+E.~Garcia, D.~W. Casbeer, M.~Pachter, Escape regions of the active target
+  defense differential game, arXiv preprint arXiv:1504.07900.
+
+\bibitem{garcia2014cooperative}
+E.~Garcia, D.~W. Casbeer, K.~Pham, M.~Pachter, Cooperative aircraft defense
+  from an attacking missile, in: Decision and Control (CDC), 2014 IEEE 53rd
+  Annual Conference on, (2014), pp. 2926--2931.
+
+\bibitem{garcia2015cooperative}
+E.~Garcia, D.~W. Casbeer, K.~Pham, M.~Pachter, Cooperative aircraft defense
+  from an attacking missile using proportional navigation, in: 2015 AIAA
+  Guidence, Navigation, and Control Conference, (2015), pp. 2015--0337.
+
+\bibitem{garcia2015cooperative2}
+E.~Garcia, D.~W. Casbeer, M.~Pachter, Cooperative strategies for optimal
+  aircraft defense from an attacking missile, Journal of Guidance, Control, and
+  Dynamics ((2015)) 1--11.
+
+\bibitem{ho1965differential}
+Y.-C. Ho, A.~E. Bryson, S.~Baron, Differential games and optimal
+  pursuit-evasion strategies, in: Joint Automatic Control Conference, no.~3,
+  (1965), pp. 37--40.
+
+\bibitem{isaacs1954differential}
+R.~Isaacs, Differential games {III}, Wiley, (1954).
+
+\bibitem{meier1969new}
+L.~Meier, A new technique for solving pursuit-evasion differential games, in:
+  Joint Automatic Control Conference, no.~7, 1969, pp. 514--521.
+
+\bibitem{hsueh2007differential}
+M.-H. Hsueh, C.-I. Huang, L.-C. Fu, A differential game based guidance law for
+  the interceptor missiles, in: Industrial Electronics Society, 2007. IECON
+  2007. 33rd Annual Conference of the IEEE, (2007), pp. 665--670.
+
+\bibitem{yi2010improved}
+L.~Yi, Y.~Yan, G.~Tian, J.~Zhanrong, An improved terminal guidance algorithm
+  based on differential game theory, in: Intelligent System Design and
+  Engineering Application (ISDEA), 2010 International Conference on, Vol.~1,
+  (2010), pp. 250--254.
+
+\bibitem{bressan2010noncooperative}
+A.~Bressan, Noncooperative differential games. a tutorial, Department of
+  Mathematics, Penn State University.
+
+\bibitem{perelman2011cooperative}
+A.~Perelman, T.~Shima, I.~Rusnak, Cooperative differential games strategies for
+  active aircraft protection from a homing missile, Journal of Guidance,
+  Control, and Dynamics 34~(3) ((2011)) 761--773.
+
+\bibitem{battistini2014differential}
+S.~Battistini, T.~Shima, Differential games missile guidance with bearings-only
+  measurements, Aerospace and Electronic Systems, IEEE Transactions on 50~(4)
+  ((2014)) 2906--2915.
+
+\bibitem{yavin2014pursuit}
+Y.~Yavin, M.~Pachter, Pursuit-evasion differential games, Elsevier, (2014).
+
+\bibitem{boyell1976defending}
+R.~Boyell, Defending a moving target against missile or torpedo attack,
+  Aerospace and Electronic Systems, IEEE Transactions on~(4) (1976) 522--526.
+
+\bibitem{shneydor1977comments}
+N.~Shneydor, Comments on" defending a moving target against missile or topedo
+  attack", IEEE Transactions on Aerospace and Electronic Systems 3~(AES-13)
+  (1977) 321.
+
+\bibitem{rusnak2005lady}
+I.~Rusnak, The lady, the bandits, and the bodyguards--a two team dynamic game,
+  in: Proceedings of the 16th World IFAC Congress, (2005).
+
+\bibitem{rusnak2008guidance}
+I.~Rusnak, Guidance laws in defense against missile attack, in: Electrical and
+  Electronics Engineers in Israel, 2008. IEEEI 2008. IEEE 25th Convention of,
+  (2008), pp. 090--094.
+
+\bibitem{de2010analysis}
+J.~de~Lope, D.~Maravall, et~al., Analysis and solution of a
+  predator--protector--prey multi-robot system by a high-level reinforcement
+  learning architecture and the adaptive systems theory, Robotics and
+  Autonomous Systems 58~(12) ((2010)) 1266--1272.
+
+\bibitem{rusnak2011guidance}
+I.~Rusnak, H.~Weiss, G.~Hexner, Guidance laws in target-missile-defender
+  scenario with an aggressive defender, in: Proceedings of the 18th IFAC World
+  Congress, Vol.~18, International Federation of Automatic Control Laxenburg,
+  Austria, (2011), pp. 9349--9354.
+
+\bibitem{fuch2011encouraging}
+Z.~E. Fuch, P.~P. Khargonekar, Encouraging attacker retreat through defender
+  cooperation, in: Decision and Control and European Control Conference
+  (CDC-ECC), 2011 50th IEEE Conference on, (2011), pp. 235--242.
+
+\bibitem{scott2013pursuit}
+W.~Scott, N.~E. Leonard, Pursuit, herding and evasion: A three-agent model of
+  caribou predation, in: American Control Conference (ACC), 2013, (2013), pp.
+  2978--2983.
+
+\bibitem{rubinsky2013three}
+S.~Rubinsky, S.~Gutman, Three-player pursuit and evasion conflict, Journal of
+  Guidance, Control, and Dynamics 37~(1) ((2013)) 98--110.
+
+\bibitem{oyler2014pursuit}
+D.~W. Oyler, P.~T. Kabamba, A.~R. Girard, Pursuit-evasion games in the presence
+  of a line segment obstacle, in: Decision and Control (CDC), 2014 IEEE 53rd
+  Annual Conference on, (2014), pp. 1149--1154.
+
+\bibitem{anderson1978model}
+G.~Anderson, A model for the bat versus moth pursuit-evasion problem, The
+  Journal of the Acoustical Society of America 64~(S1) (1978) S88--S88.
+
+\bibitem{miller1994co}
+G.~F. Miller, D.~Cliff, Co-evolution of pursuit and evasion I: Biological and
+  game-theoretic foundations, University of Sussex, School of Cognitive and
+  Computing Sciences, (1994).
+
+\bibitem{cliff1995co}
+D.~Cliff, G.~F. Miller, Co-evolution of pursuit and evasion ii: Simulation
+  methods and results.
+
+\bibitem{pekalski2004short}
+A.~Pekalski, A short guide to predator-prey lattice models, Computing in
+  Science and Engineering 6~(1) ((2004)) 62--66.
+
+\bibitem{zarchan2002tactical}
+P.~Zarchan, Tactical and strategic missile guidance, Progress in astronautics
+  and aeronautics.
+
+\bibitem{hagedorn1976differential}
+P.~Hagedorn, J.~Breakwell, A differential game with two pursuers and one
+  evader, Journal of Optimization Theory and Applications 18~(1) (1976) 15--29.
+
+\bibitem{kim2001multiagent}
+H.~Kim, Multiagent pursuit-evasion games: algorithms and experiments, (2001).
+
+\bibitem{fuchs2010cooperative}
+Z.~E. Fuchs, P.~P. Khargonekar, J.~Evers, Cooperative defense within a
+  single-pursuer, two-evader pursuit evasion differential game, in: Decision
+  and Control (CDC), 2010 49th IEEE Conference on, (2010), pp. 3091--3097.
+
+\bibitem{pan2012pursuit}
+S.~Pan, H.~Huang, J.~Ding, W.~Zhang, D.~M. Stipanovic, C.~J. Tomlin, Pursuit,
+  evasion and defense in the plane, in: American Control Conference (ACC),
+  2012, (2012), pp. 4167--4173.
+
+\bibitem{ragesh2014analysis}
+R.~Ragesh, A.~Ratnoo, D.~Ghose, Analysis of evader survivability enhancement by
+  decoy deployment, in: American Control Conference (ACC), 2014, (2014), pp.
+  4735--4740.
+
+\bibitem{ayoub2003proving}
+A.~B. Ayoub, Proving the circle of apollonius theorem, The Mathematics Teacher
+  ((2003)) 400--401.
+
+\bibitem{ayoub2006circle}
+A.~B. Ayoub, On the circle of apollonius., Mathematics and Computer Education
+  40~(3) ((2006)) 198--204.
+
+\bibitem{partensky2008circle}
+M.~B. Partensky, The circle of apollonius and its applications in introductory
+  physics, The Physics Teacher 46~(2) ((2008)) 104--108.
+
+\bibitem{fulton2015conflict}
+N.~L. Fulton, U.~H.-N. Huynh, Conflict management: Apollonius in airspace
+  design, Safety science 72 ((2015)) 9--22.
+
+\bibitem{gowda1983dynamic}
+I.~G. Gowda, D.~G. Kirkpatrick, L.~DER~TSAI, A.~Naamad, Dynamic voronoi
+  diagrams, IEEE Transactions on Information Theory 29~(5) (1983) 724--731.
+
+\bibitem{aurenhammer1991voronoi}
+F.~Aurenhammer, Voronoi diagrams—a survey of a fundamental geometric data
+  structure, ACM Computing Surveys (CSUR) 23~(3) ((1991)) 345--405.
+
+\bibitem{cheung2007pursuit}
+W.~Cheung, W.~Evans, Pursuit-evasion voronoi diagrams in ell\_1, in: Voronoi
+  Diagrams in Science and Engineering, 2007. ISVD'07. 4th International
+  Symposium on, (2007), pp. 58--65.
+
+\bibitem{gavrilova2008generalized}
+M.~L. Gavrilova, Generalized voronoi diagram: a geometry-based approach to
+  computational intelligence, Vol. 158, Springer, (2008).
+
+\bibitem{majdandzic2008computation}
+I.~Majdandzic, C.~Trefftz, G.~Wolffe, Computation of voronoi diagrams using a
+  graphics processing unit, in: Electro/Information Technology, 2008. EIT 2008.
+  IEEE International Conference on, (2008), pp. 437--441.
+
+\bibitem{bakolas2010optimal}
+E.~Bakolas, P.~Tsiotras, Optimal pursuit of moving targets using dynamic
+  voronoi diagrams, in: Decision and Control (CDC), 2010 49th IEEE Conference
+  on, (2010), pp. 7431--7436.
+
+\bibitem{bakolas2010zermelo}
+E.~Bakolas, P.~Tsiotras, The zermelo--voronoi diagram: a dynamic partition
+  problem, Automatica 46~(12) ((2010)) 2059--2067.
+
+\end{thebibliography}
