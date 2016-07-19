@@ -1,0 +1,43 @@
+\select@language {english}
+\contentsline {chapter}{\caseupper {Table of Contents}}{i}{section*.1}
+\contentsline {chapter}{\caseupper {List of Tables}}{iii}{section*.2}
+\contentsline {chapter}{\caseupper {List of Figures}}{iv}{section*.3}
+\contentsline {chapter}{\caseupper {Abstract}}{vi}{section*.5}
+\contentsline {chapter}{CHAPTER {1}: \caseupper {INTRODUCTION}}{1}{chapter.1}
+\contentsline {chapter}{CHAPTER {2}: \caseupper {TARGET-ATTACKER PROBLEM}}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}Problem Statement}{3}{section.2.1}
+\contentsline {section}{\numberline {2.2}Assumptions, Notation, and Nomenclature}{3}{section.2.2}
+\contentsline {section}{\numberline {2.3}Proportional Navigation Equations}{4}{section.2.3}
+\contentsline {section}{\numberline {2.4}Models \& Simulations}{4}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}MATLAB}{4}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Simulink Models}{4}{subsection.2.4.2}
+\contentsline {section}{\numberline {2.5}Genetic Algorithms Solution}{5}{section.2.5}
+\contentsline {section}{\numberline {2.6}Neural Networks Solution}{5}{section.2.6}
+\contentsline {chapter}{CHAPTER {3}: \caseupper {TARGET-ATTACKER-DEFENDER PROBLEM}}{6}{chapter.3}
+\contentsline {section}{\numberline {3.1}Problem Statement}{6}{section.3.1}
+\contentsline {section}{\numberline {3.2}Assumptions, Notation, and Nomenclature}{6}{section.3.2}
+\contentsline {section}{\numberline {3.3}APOLLONIUS CIRCLES PERTAINING TO THE PROBLEM}{9}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}The $AD$ Apollonius circle}{11}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}The $TA$ Apollonius circle}{13}{subsection.3.3.2}
+\contentsline {chapter}{CHAPTER {4}: \caseupper {CRITICAL SPEED RATIO}}{15}{chapter.4}
+\contentsline {section}{\numberline {4.1}The case $\gamma <1$ (fast defender)}{15}{section.4.1}
+\contentsline {section}{\numberline {4.2}The case $\gamma =1$ (similar Defender)}{17}{section.4.2}
+\contentsline {section}{\numberline {4.3}The case $\gamma >1$ (Slow Defender)}{17}{section.4.3}
+\contentsline {chapter}{CHAPTER {5}: \caseupper {ESCAPE REGION AND VORONOI DIAGRAM}}{24}{chapter.5}
+\contentsline {chapter}{CHAPTER {6}: \caseupper {OPTIMAL STRATEGIES}}{35}{chapter.6}
+\contentsline {section}{\numberline {6.1}Target initial position is outside the $AD$ Apollonius circle, and $\gamma <1$}{35}{section.6.1}
+\contentsline {section}{\numberline {6.2}Target initial position is inside the $AD$-Apollonius circle, and $\gamma <1$}{39}{section.6.2}
+\contentsline {section}{\numberline {6.3}Target initial position is in the R.H.S. of the $XY$-plane, and $\gamma =1$}{40}{section.6.3}
+\contentsline {section}{\numberline {6.4}Target initial position is in the L.H.S. of the $XY$-plane, and $\gamma =1$}{42}{section.6.4}
+\contentsline {section}{\numberline {6.5}Target initial position is inside the $AD$ Apollonius circle, and $\gamma >1$}{42}{section.6.5}
+\contentsline {section}{\numberline {6.6}Target initial position is outside the $AD$ Apollonius circle, and $\gamma >1$}{44}{section.6.6}
+\contentsline {section}{\numberline {6.7}Numerical Results}{45}{section.6.7}
+\contentsline {subsection}{\numberline {6.7.1}$\gamma =0.8,\ x_T=1.0,\ y_T=20.0$}{45}{subsection.6.7.1}
+\contentsline {subsection}{\numberline {6.7.2}$\gamma =0.8,\ x_T=20.0,\ y_T=1.0$}{46}{subsection.6.7.2}
+\contentsline {subsection}{\numberline {6.7.3}$\gamma =1.0,\ x_T=-1.0,\ y_T=1.0$}{46}{subsection.6.7.3}
+\contentsline {subsection}{\numberline {6.7.4}$\gamma =1.0,\ x_T=1.0,\ y_T=1.0$}{46}{subsection.6.7.4}
+\contentsline {subsection}{\numberline {6.7.5}$\gamma =1.25,\ x_T=-20.0,\ y_T=1.0$}{46}{subsection.6.7.5}
+\contentsline {subsection}{\numberline {6.7.6}$\gamma =1.25,\ x_T=-1.0,\ y_T=20.0$}{47}{subsection.6.7.6}
+\contentsline {chapter}{CHAPTER {7}: \caseupper {OPTIMAL HEADING ANGLE SIMULATION}}{48}{chapter.7}
+\contentsline {section}{\numberline {7.1}Dynamics Equations}{48}{section.7.1}
+\contentsline {chapter}{CHAPTER {8}: \caseupper {CONCLUSION AND FUTURE WORK}}{49}{chapter.8}

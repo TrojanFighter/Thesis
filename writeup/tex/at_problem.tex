@@ -9,21 +9,71 @@ Why use polynomials?
 \section{Assumptions, Notation, and Nomenclature}
 % ===================================================
 \subsection*{Assumptions}
+
+\begin{enumerate}
+	\item Both the missile and target travel at constant velocity.
+	\item Gravitational and drag effects have been neglected for simplicity.
+\end{enumerate}
 % ===================================================
 
 % ===================================================
 \subsection*{Notation}
 % ===================================================
-
+\begin{itemize}
+	\item $n_c$ : Acceleration command (for the missile).
+	\item $N'$ : Effective navigation ratio, a unit-less designer-chosen gain (usually in the range of $3\to5$).
+	\item $V_c$ : missile-target closing velocity.
+	\item $\lambda$ : line-of-sight angle.
+	\item $\dot{\lambda}$ : line of sight rate.
+	\item $R_{TM}$ : length of the line of sight.
+	\item $L$ : missile lead angle.
+	\item $HE$ : Heading error.
+	\item $\dot{\beta}$ : angular velocity of the target.
+	\item $V_{T1},V_{T2}$ : Target velocity components in the Earth fixed coordinate system.
+	\item $V_{M1},V_{M2}$ : Missile velocity components in the Earth fixed coordinate system.
+\end{itemize}
 % ===================================================
 \subsection*{Nomenclature}
+
+\textbf{Inertial coordinate system:} fixed to the surface of a flat-Earth model ( the 1 axis is downrange and the 2 axis can either be altitude or cross-range).
+
+\textbf{Missile lead angle:} theoretically correct angle
+for the missile to be on a collision triangle with the target.
+
+\textbf{Heading error ($HE$) :} angle represents the initial deviation of the missile from the collision triangle.
+
+\textbf{line of sight:} The imaginary line connecting the missile and target.
+
+\textbf{length of the line of sight ($R_{TM}$):} Instantaneous separation between missile and target.
+
+\textbf{Miss distance :} The point of closest approach of the missile and target.
+
+\textbf{Closing velocity ($V_c$):} the negative rate of change of the distance
+from the missile to the target $Vc= -R_{TM} $.
+
+
 % ===================================================
 
 
 % ===================================================
 \section{Proportional Navigation Equations}
 % ===================================================
-Chapter 2 of Zacuran's book.
+In this section we will illustrate some fundamentals of missile guidance, focusing on the proportional navigation technique, which is one of the simplest guidance laws.
+
+\subsection*{What is proportional navigation?}
+the proportional navigation guidance law issues acceleration commands,
+perpendicular to the instantaneous missile-target line-of-sight, which are
+proportional to the line-of-sight rate and closing velocity. Mathematically, the
+guidance law can be stated as
+
+\begin{equation}
+	n_c= N' V_c \dot{\lambda}
+\end{equation}
+
+where $n_c$ is the acceleration command (for the missile), $N'$ is the the effective navigation ratio, a unit-less designer-chosen gain (usually in the range of $3 \to 5$), $V_c$ is the missile-target closing velocity and $\lambda$ is the rate of the line-of-sight angle.
+
+
+\subsection*{Simulation of proportional navigation in 2-D}
 
 % ===================================================
 \section{Models \& Simulations}
