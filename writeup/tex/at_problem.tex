@@ -56,7 +56,7 @@ from the missile to the target $Vc= -R_{TM} $.
 
 
 % ===================================================
-\section{Proportional Navigation Equations}
+\section{Proportional Navigation}
 % ===================================================
 In this section we will illustrate some fundamentals of missile guidance, focusing on the proportional navigation technique, which is one of the simplest guidance laws.
 
@@ -73,8 +73,130 @@ guidance law can be stated as
 where $n_c$ is the acceleration command (for the missile), $N'$ is the the effective navigation ratio, a unit-less designer-chosen gain (usually in the range of $3 \to 5$), $V_c$ is the missile-target closing velocity and $\lambda$ is the rate of the line-of-sight angle.
 
 
-\subsection*{Simulation of proportional navigation in 2-D}
+\subsection{Simulation of proportional navigation equations in 2-D}
+In this topic we will introduce the equations of proportional navigation and the sequence to get a simulation for the path of the target and the attacker and how the missile acceleration will affect during this simulation.
 
+\textbf{The simulation inputs} are the initial location of the missile ($R_{M1}, R_{M2}$) and the initial location of the target ($R_{T1}, R_{T2}$), target speed $V_T$, missile speed $V_M$, and effective navigation ratio $N'$.
+
+There are two types of \textbf{error source} that cause the attacker miss the target; they are heading error ($HE$) and target maneuver ($n_T$), the acceleration of the target.
+
+\subsubsection*{proportional navigation differential equations}
+
+\textbf{component of target velocity} 
+\begin{equation}
+	V_{T1} = - V_T \cos(\beta)
+\end{equation}
+
+\begin{equation}
+V_{T2} = - V_T \sin(\beta)
+\end{equation}
+
+\textbf{Relative missile-target separation}
+\begin{equation}
+	R_{TM1} = R{T1} - R_{M1}
+\end{equation}
+\begin{equation}
+R_{TM2} = R{T2} - R_{M2}
+\end{equation}
+
+from the previous 2 equations we get
+\begin{equation}
+	R_{TM} = \sqrt{R_{TM1}^2 + R_{TM2}^2}
+	\label{RTM}
+\end{equation}
+
+\textbf{line of sight angle}
+\begin{equation}
+	\lambda = \tan^{-1} (\dfrac{R_{TM2}}{R_{TM1}})
+	\label{lambda}
+\end{equation}
+
+\textbf{missile lead angle} 
+\begin{equation}
+	L= \sin^{-1}(\dfrac{V_T \sin(\beta + \lambda)}{V_M})
+\end{equation}
+
+the angle between the downrange axis and $V_M$ vector is $\theta = \lambda + L$
+
+\textbf{Missile velocity components} 
+
+\begin{equation}
+	V_{M1} = V_M \cos (\theta + HE)
+\end{equation}
+
+\begin{equation}
+V_{M2} = V_M \sin (\theta + HE)
+\end{equation}
+
+\textbf{Relative velocity components}
+\begin{equation}
+	V_{TM1} = V_{T1} - V_{M1}
+\end{equation}
+
+\begin{equation}
+V_{TM2} = V_{T2} - V_{M12}
+\end{equation}
+
+
+\textbf{closing velocity} it is the negative rate of change of the distance
+from the missile to the target $Vc= -R_{TM} $, so we have to differentiate eq(\ref{RTM})
+
+\begin{center}
+	$\dot{R_{TM}}= \frac{1}{2} (R_{TM1}^2 + R_{TM2}^2)^{\frac{-1}{2}} [2 R_{TM1} \dot{R_{TM1}} + 2 R_{TM2} \dot{R_{TM2}}]$
+\end{center}
+
+we see that
+%\begin{equation*}
+% \dot{R_{TM1}=V_{TM1} , \dot{R_{TM2}=V_{TM2}
+%\end{equation*}
+%and 
+%\begin{equation*}
+%(R_{TM1}^2 + R_{TM2}^2)^{\frac{-1}{2}} = \dfrac{1}{R_{TM}}
+%\end{equation*}
+so we get 
+\begin{equation}
+	V_c = - \dot{R_{TM}} = - \dfrac{R_{TM1} V_{TM1}+R_{TM2} V_{TM2}}{R_{TM}}
+\end{equation}
+
+\textbf{line of sight rate} we have to differentiate eq(\ref{lambda}) using the rule $\tan^{-1}x = \frac{dx}{1+x^2}$ 
+
+\begin{equation}
+	\begin{split}
+	\dot{\lambda} &= [\dfrac{1}{1+(\frac{R_{TM2}}{R_{TM1}})^2}] \dot{(\frac{R_{TM2}}{R_{TM1}})}\\
+	&= \dfrac{R_{TM1}^2}{R_{TM1}^2 + R_{TM2}^2}[\dfrac{R_{TM1}\dot{R_{TM2}}- R_{TM2} \dot{R_{TM1}}}{R_{TM1}^2}]\\
+	&=\dfrac{R_{TM1} V_{TM2} - R_{TM2} V_{TM1}}{R_{TM1}^2}
+	\end{split}
+\end{equation}
+
+\textbf{magnitude of the missile guidance command}
+\begin{equation}
+		n_c= N' V_c \dot{\lambda}
+\end{equation}
+
+\textbf{missile acceleration components}
+\begin{equation}
+	a_{M1} = - n_c \sin \lambda
+\end{equation}
+
+\begin{equation}
+a_{M2} = - n_c \cos \lambda
+\end{equation}
+
+\textbf{angular velocity of the target}
+\begin{equation}
+	\dot{\beta} = \dfrac{n_T}{V_T}
+\end{equation}
+
+we will solve all the equations in this section using second-order Runge–Kutta numerical integration procedure. If we have a first order differential equation of the form 
+\begin{equation*}
+	\dot{x} = f(x,t) 
+\end{equation*} 
+ where t is time, we seek to find a recursive relationship for x as a function of time.
+ With the second-order Runge–Kutta numerical technique, the value of x at the
+ next integration interval h is given by
+ \begin{equation*}
+ 	x_{k+1} = x_k + \dfrac{hf(x,t)}{2} + \dfrac{h f(x, t+h)}{2}
+ \end{equation*}
 % ===================================================
 \section{Models \& Simulations}
 % ===================================================
