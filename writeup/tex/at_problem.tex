@@ -281,10 +281,138 @@ we will solve all the equations in this section using second-order Runge–Kutta
 \section{Models \& Simulations}
 % ===================================================
 
-\subsection{MATLAB}
-MATLAB Code: trapezoidal versus polynomials.
+In this section we will simulate equations in sec. 2.3 for proportional navigation using MATLAB and Simulink.
+The following figure is a flowchart illustrating the steps of calculations using the equations in sec. 2.3  till we plot the trajectories.
 
-plots.
+\begin{figure}[htb]
+	\centering
+	\includegraphics[scale = 0.85]{fig/FlowchartPN.pdf}
+	\caption{Flowchart illustrating the steps of calculations using the equations in sec. 2.3  till we plot the trajectories.}
+	\label{flowchart PN}
+\end{figure}
+
+
+\subsection{MATLAB}
+In this subsection we will use MATLAB to simulate equations in sec. 2.3 for proportional navigation. We will solve these differential equations using second-order Runge Kutta numerical integration technique, then we will draw the trajectories of the pursuit and evader for 4 cases for the target maneuver error source, and we will deduce the effect of the effective navigation ratio $N'$ and the other type of error source; Heading error. 
+\subsubsection{Zero Target maneuver}
+In this case the evader (Target - plane) don't do any effort to scape, it is just move in straight line, as we see in Fig. \ref{trajectory0N4}. So the pursuit (Attacker - Missile) don't have to bleed much energy to reach the target.
+
+In the case of \textbf{zero Heading error} the effective navigation ratio has no effect on the simulation engagement at all. The missile's acceleration will be zero as in Fig. \ref{missile acceleration0N4}.
+
+\begin{figure}[htb]
+	\centering
+	\includegraphics[scale = 0.75]{fig/trajectory0N4.pdf}
+	\caption{Trajectory of the target and attacker in case of zero heading error and $N'=4$.}
+	\label{trajectory0N4}
+\end{figure}
+
+
+\begin{figure}[htb]
+	\centering
+	\includegraphics[scale = 0.75]{fig/MissileAcceleration0N4.pdf}
+	\caption{Missile acceleration in case of zero heading error and $N'=4$ .}
+	\label{missile acceleration0N4}
+\end{figure}
+
+
+In the case of \textbf{Heading error = -20} increasing the effective navigation ratio causing heading error to be removed rabidly as we see from  Fig. \ref{trajectory20N3}, Fig. \ref{trajectory20N4} and Fig. \ref{trajectory20N5}. The effective navigation ratio has effect on the acceleration of the missile; the way that the missile will bleed energy as we see from Fig. \ref{missile acceleration20N3} , Fig. \ref{missile acceleration20N4} and Fig. \ref{missile acceleration20N5} the total acceleration (area under the curve) is increasing inversely proportional with the effective navigation ratio $N'$ .
+
+
+\begin{figure}[htb]
+	\centering
+	\includegraphics[scale = 0.75]{fig/trajectory20N3.pdf}
+	\caption{Trajectory of the target and attacker in case of heading error=-20 and $N'=3$.}
+	\label{trajectory20N3}
+\end{figure}
+
+\begin{figure}[htb]
+	\centering
+	\includegraphics[scale = 0.75]{fig/MissileAcceleration20N3.pdf}
+	\caption{Missile acceleration in case of heading error=-20 and $N'=3$ .}
+	\label{missile acceleration20N3}
+\end{figure}
+
+
+\begin{figure}[htb]
+	\centering
+	\includegraphics[scale = 0.75]{fig/trajectory20N4.pdf}
+	\caption{Trajectory of the target and attacker in case of heading error=-20 and $N'=4$.}
+	\label{trajectory20N4}
+\end{figure}
+
+
+\begin{figure}[htb]
+	\centering
+	\includegraphics[scale = 0.75]{fig/MissileAcceleration20N4.pdf}
+	\caption{Missile acceleration in case of heading error=-20 and $N'=4$ .}
+	\label{missile acceleration20N4}
+\end{figure}
+
+
+\begin{figure}[htb]
+	\centering
+	\includegraphics[scale = 0.75]{fig/trajectory20N5.pdf}
+	\caption{Trajectory of the target and attacker in case of heading error=-20 and $N'=5$.}
+	\label{trajectory20N5}
+\end{figure}
+
+
+\begin{figure}[htb]
+	\centering
+	\includegraphics[scale = 0.75]{fig/MissileAcceleration20N5.pdf}
+	\caption{Missile acceleration in case of heading error=-20 and $N'=5$ .}
+	\label{missile acceleration20N5}
+\end{figure}
+
+%-----------------------------------------------------------
+
+\subsubsection{Constant Target maneuver}
+In this case the target do some effort to escape from the attacker, in form of constant acceleration (in our example target acceleration = $3g=96.6$).
+We see from Fig. \ref{missile acceleration0NN3} and Fig. \ref{missile acceleration0NN5} that higher effective navigation ratio yields less acceleration to hit maneuvering target, and causes the missile to lead the target slightly more than lower effective navigation, as we see from Fig. \ref{trajectory0NN3} and Fig. \ref{trajectory0NN3}.
+
+
+
+\begin{figure}[htb]
+	\centering
+	\includegraphics[scale = 0.75]{fig/trajectory0NN3.pdf}
+	\caption{Trajectory of the target and attacker in case of heading error=0 and $N'=3$.}
+	\label{trajectory0NN3}
+\end{figure}
+
+
+\begin{figure}[htb]
+	\centering
+	\includegraphics[scale = 0.75]{fig/MissileAcceleration0NN3.pdf}
+	\caption{Missile acceleration in case of heading error=0 and $N'=3$ .}
+	\label{missile acceleration0NN3}
+\end{figure}
+
+
+
+\begin{figure}[htb]
+	\centering
+	\includegraphics[scale = 0.75]{fig/trajectory0NN5.pdf}
+	\caption{Trajectory of the target and attacker in case of heading error=0 and $N'=5$.}
+	\label{trajectory0NN5}
+\end{figure}
+
+
+\begin{figure}[htb]
+	\centering
+	\includegraphics[scale = 0.75]{fig/MissileAcceleration0NN5.pdf}
+	\caption{Missile acceleration in case of heading error=0 and $N'=5$ .}
+	\label{missile acceleration0NN5}
+\end{figure}
+%-----------------------------------------------------------
+
+\subsubsection{Polynomial Target maneuver}
+
+%------------------------------------------------------------
+
+\subsubsection{Trapezoidal Target maneuver}
+
+%-----------------------------------------------------
+
 \subsection{Simulink Models}
 
 Add figures.
