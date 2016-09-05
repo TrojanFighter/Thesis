@@ -128,35 +128,91 @@ The Hamiltonian is
 	\centering
 	\newcommand{\pythagwidth}{4cm}
 	\newcommand{\pythagheight}{3cm}
-\begin{tikzpicture}
-
-% Define the 3 nodes A, B, C
-\coordinate [label={below right:$A$}] (A) at (0, 0);
-\coordinate [label={above right:$B$}] (B) at (0, \pythagheight);
-\coordinate [label={below left:$C$}] (C) at (-\pythagwidth, 0);
-
-% Draw the triangle
-\draw [very thick] (A) -- (C) -- (B) -- cycle;
-
-% Draw the square angle 
-\newcommand{\ranglesize}{0.3cm}
-\draw (A) rectangle (-\ranglesize,\ranglesize);
-
-\draw [dashed] (A) -- node [below] {$\lambda_r$} ++ (C);
-
-\draw [dashed] (A) -- node [right] {$\dfrac{\lambda_\theta}{r}$} ++ (B);
-
-\draw [dashed] (C) -- node [above,sloped]  {$[(\frac{\lambda_\theta}{r})^2 + \lambda_r^2]^\frac{1}{2}$} (B);
-
-\filldraw[fill=green!20!white, draw=green!50!black] (C) -- (-3.7,0) arc (0:36.8: 0.3) -- cycle;
-
-\coordinate [label={below left:$\psi^*$}] (angle) at (-2.7, 0.6);
-
-
-\end{tikzpicture}
-\caption{Right-angled triangles that define the optimal headings $\psi^*$, $\phi^*$ and $\chi^*$ for the Defender, Target, and Attacker, respectively}
-\label{optimal heading angles}
+	
+	\begin{minipage}{.5\textwidth}
+		\centering
+		\begin{tikzpicture}
+			% Define the 3 nodes A, B, C
+			\coordinate [label={below right:$A$}] (A) at (0, 0);
+			\coordinate [label={above right:$B$}] (B) at (0, \pythagheight);
+			\coordinate [label={below left:$C$}] (C) at (-\pythagwidth, 0);	
+			% Draw the triangle
+			\draw [very thick] (A) -- (C) -- (B) -- cycle;
+			% Draw the square angle 
+			\newcommand{\ranglesize}{0.3cm}
+			\draw (A) rectangle (-\ranglesize,\ranglesize);
+			\draw [dashed] (A) -- node [below] {$\lambda_r$} ++ (C);
+			\draw [dashed] (A) -- node [right] {$\dfrac{\lambda_\theta}{r}$} ++ (B);
+			\draw [dashed] (C) -- node [above,sloped]  {$[(\frac{\lambda_\theta}{r})^2 + \lambda_r^2]^\frac{1}{2}$} (B);
+			% fill in the angle
+			\filldraw[fill=green!20!white, draw=green!50!black] (C) -- (-3.7,0) arc (0:36.8: 0.3) -- cycle;
+			% label of the angle
+			\coordinate [label={below left:$\psi^*$}] (angle) at (-2.7, 0.6);
+		\end{tikzpicture}
+		
+		\caption{Defender}
+		
+	%	\label{optimal heading angles}
+	\end{minipage}
+	
+		\begin{minipage}{.5\textwidth}
+			\centering
+			\begin{tikzpicture}
+			% Define the 3 nodes A, B, C
+			\coordinate [label={below right:$A$}] (A) at (0, 0);
+			\coordinate [label={above right:$B$}] (B) at (0, \pythagheight);
+			\coordinate [label={below left:$C$}] (C) at (-\pythagwidth, 0);	
+			% Draw the triangle
+			\draw [very thick] (A) -- (C) -- (B) -- cycle;
+			% Draw the square angle 
+			\newcommand{\ranglesize}{0.3cm}
+			\draw (A) rectangle (-\ranglesize,\ranglesize);
+			\draw [dashed] (A) -- node [below] {$1-\lambda_r$} ++ (C);
+			\draw [dashed] (A) -- node [right] {$\dfrac{\lambda_\theta}{R}$} ++ (B);
+			\draw [dashed] (C) -- node [above,sloped]  {$[(\frac{\lambda_\theta}{R})^2 + (1-\lambda_r)^2]^\frac{1}{2}$} (B);
+			% fill in the angle
+			\filldraw[fill=green!20!white, draw=green!50!black] (C) -- (-3.7,0) arc (0:36.8: 0.3) -- cycle;
+			% label of the angle
+			\coordinate [label={below left:$\phi^*$}] (angle) at (-2.7, 0.6);
+			\end{tikzpicture}
+			
+			\caption{Target}
+			
+			%\label{optimal heading angles}
+		\end{minipage}
+		
+			\begin{minipage}{.5\textwidth}
+				\centering
+				\begin{tikzpicture}
+				% Define the 3 nodes A, B, C
+				\coordinate [label={below right:$A$}] (A) at (0, 0);
+				\coordinate [label={above right:$B$}] (B) at (0, \pythagheight);
+				\coordinate [label={below left:$C$}] (C) at (-\pythagwidth, 0);	
+				% Draw the triangle
+				\draw [very thick] (A) -- (C) -- (B) -- cycle;
+				% Draw the square angle 
+				\newcommand{\ranglesize}{0.3cm}
+				\draw (A) rectangle (-\ranglesize,\ranglesize);
+				\draw [dashed] (A) -- node [below] {$\chi_c$} ++ (C);
+				\draw [dashed] (A) -- node [right] {$\chi_s$} ++ (B);
+				\draw [dashed] (C) -- node [above,sloped]  {$(\chi_s^2 +\chi_c^2)^\frac{1}{2} $} (B);
+				% fill in the angle
+				\filldraw[fill=green!20!white, draw=green!50!black] (C) -- (-3.7,0) arc (0:36.8: 0.3) -- cycle;
+				% label of the angle
+				\coordinate [label={below left:$\chi^*$}] (angle) at (-2.7, 0.6);
+				\end{tikzpicture}
+				
+				\caption{Attacker}
+				
+			%	\label{optimal heading angles}
+			\end{minipage}
+			
+	\caption{Right-angled triangles that define the optimal headings $\psi^*$, $\phi^*$ and $\chi^*$ for the Defender, Target, and Attacker, respectively}
+	
+	\label{optimal heading angles}
+	
 \end{figure}
+
 
 
 

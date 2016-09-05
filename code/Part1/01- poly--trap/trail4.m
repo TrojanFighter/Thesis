@@ -5,20 +5,20 @@ clc; clear all; close all; tic;
 
 %% Configuration Parameters
 
-polyORtrap = 'poly'; % choose which type of target acceleration
+polyORtrap = 'trap'; % choose which type of target acceleration
 N=50; %number of runs
 G = 32.2; %gravity
 
 
-%Parameters of the polynomial function
-degree = 4; %Polynomial degree
+%=====Parameters of the polynomial function=====
+degree = 2; %Polynomial degree
 
-%Parameters of the trapezoid function
+%=====Parameters of the trapezoid function=====
 amax=12*G; %max accelartion
 t0=0;  %beginning of the ramp
 %t1 will be randumly generated %end of the ramp & beginning of the const. acc.
 %t2 will be randumly generated %end of the const. acc. & beginning of the decent
-t3=8;  %end of the decent
+t3=4;  %end of the decent
 
 
 %---cost function weighting---

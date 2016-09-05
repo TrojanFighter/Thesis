@@ -130,16 +130,23 @@ while VC >= 0 %terminate the programme when the velocity chnges its sign
     
     %%----outputs----
     if draw==1 %to viwe all figurs (runs)
-        figure
-        plot(ArrayRT1,ArrayRT2,'*r',ArrayRM1,ArrayRM2,':'),grid
+        h = figure('position',[100, 100, 1000, 750]); set(gcf,'color','w'); set(gca,'FontSize',24);
+        plot(ArrayRT1,ArrayRT2,':',ArrayRM1,ArrayRM2,'*r','LineWidth',3),grid on
+        h_legend = legend('Target trajectory','Missile trajectory','Location','NorthWest');
+        set(h_legend,'FontSize',14); set(gca,'FontSize',14);
         title('Two-dimensional tactical missile-target engagement simulation')
-        xlabel('Downrange (Ft) ')
-        ylabel('Altitude or crossrange (Ft)')
-        hold on
-        figure
-        plot(ArrayT,ArrayXNCG),grid
-        title('Two-dimensional tactical missile-target engagement simulation')
-        xlabel('Time (sec)')
-        ylabel('Acceleration of missle (G)')
+        xlabel('Downrange (Ft) ','FontSize', 16)
+        ylabel('Altitude or crossrange (Ft)','FontSize', 16)
+        saveTightFigure(h,'trajectoryT3.pdf')
+        
+        hold on   %-------------------------------
+        
+        h = figure('position',[100, 100, 1000, 750]); set(gcf,'color','w'); set(gca,'FontSize',24);
+        plot(ArrayT,ArrayXNCG,'LineWidth',3),grid on
+        %title('Two-dimensional tactical missile-target engagement simulation')
+        xlabel('Time (sec)','FontSize', 16)
+        ylabel('Acceleration of missle (G)','FontSize', 16)
+        saveTightFigure(h,'MissileAccelerationT3.pdf')
+        
         hold on
     end

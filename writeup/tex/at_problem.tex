@@ -160,6 +160,14 @@ In this topic we will introduce the equations of proportional navigation and the
 
 There are two types of \textbf{error source} that cause the attacker miss the target; they are heading error ($HE$) and target maneuver ($n_T$), the acceleration of the target.
 
+\begin{figure}[htb]
+	\centering
+	\includegraphics[scale = 0.65]{fig/PN.pdf}
+	\caption{Two dimensional missile-target engagement geometry.}
+	\label{PN}
+\end{figure}
+
+
 \subsubsection*{proportional navigation differential equations}
 
 \textbf{component of target velocity} 
@@ -406,16 +414,143 @@ We see from Fig. \ref{missile acceleration0NN3} and Fig. \ref{missile accelerati
 %-----------------------------------------------------------
 
 \subsubsection{Polynomial Target maneuver}
+Now we will make the target maneuver as a polynomial in the form
+
+\begin{equation}
+	f(t) = c_0 + c_1 T + c_2 T^2 + c_3 T^3 + ... + c_N T^N
+\end{equation} 
+
+where T is time , c are unknown coefficients of the polynomial and N is the polynomial degree.
+In our simulation we choose N (reasonably $3\to5$) and the coefficients are randomly generated then we solve the proportional navigation equations to get values for miss distance and the command acceleration for the missile, then we calculate the cost function depends on these two parameters, as our target is to maximize miss distance to make the target safe, and maximize command acceleration for the missile, so it bleeds energy before it catches the target. We will do this process many time till the number of runs we need. The next figures shows the trajectories of the Target and Missile for N=3,4,5 and corresponding missile acceleration for each case.
+
+\begin{figure}[htb]
+	\centering
+	\includegraphics[scale = 0.75]{fig/trajectoryP3.pdf}
+	\caption{Trajectory of the target and attacker in case of polynomial degree N=3.}
+	\label{trajectoryP3}
+\end{figure}
+
+
+\begin{figure}[htb]
+	\centering
+	\includegraphics[scale = 0.75]{fig/MissileAccelerationP3.pdf}
+	\caption{Missile acceleration in case of polynomial degree N=3.}
+	\label{missile accelerationP3}
+\end{figure}
+
+
+\begin{figure}[htb]
+	\centering
+	\includegraphics[scale = 0.75]{fig/trajectoryP4.pdf}
+	\caption{Trajectory of the target and attacker in case of polynomial degree N=4.}
+	\label{trajectoryP4}
+\end{figure}
+
+
+\begin{figure}[htb]
+	\centering
+	\includegraphics[scale = 0.75]{fig/MissileAccelerationP4.pdf}
+	\caption{Missile acceleration in case of polynomial degree N=4.}
+	\label{missile accelerationP4}
+\end{figure}
+
+
+\begin{figure}[htb]
+	\centering
+	\includegraphics[scale = 0.75]{fig/trajectoryP5.pdf}
+	\caption{Trajectory of the target and attacker in case of polynomial degree N=5.}
+	\label{trajectoryP5}
+\end{figure}
+
+
+\begin{figure}[htb]
+	\centering
+	\includegraphics[scale = 0.75]{fig/MissileAccelerationP5.pdf}
+	\caption{Missile acceleration in case of polynomial degree N=5.}
+	\label{missile accelerationP5}
+\end{figure}
 
 %------------------------------------------------------------
 
 \subsubsection{Trapezoidal Target maneuver}
+Now we will make the target maneuver as a trapezoidal function illustrated in Fig. 
 
+
+\begin{figure}[htb]
+	\centering
+	\includegraphics[scale = 0.75]{fig/trapezoidalacc.pdf}
+	\caption{Trapezoidal Target maneuver.}
+	\label{trapezoidalacc}
+\end{figure}
+In the simulation we choose value for maximum acceleration, and time of beginning the ramp (which is 0), and time at the end of the descent, $t_1$ and $t_2$ are randomly generated, then we calculate the cost function which depends on the values of miss distance and missile acceleration and we do this process several runs till we find $t_1$ and $t_2$ that maximize miss distance and missile acceleration.   
+The advantage of this form is that we can control the values of maximum acceleration to adapt with the acceleration the pilot can withstand
+
+\begin{figure}[htb]
+	\centering
+	\includegraphics[scale = 0.75]{fig/trajectoryT1.pdf}
+	\caption{Trajectory of the target and attacker in case of time at the end of the descent for the trapezoidal is equal to 8 }
+	\label{trajectoryT1}
+\end{figure}
+
+
+\begin{figure}[htb]
+	\centering
+	\includegraphics[scale = 0.75]{fig/MissileAccelerationT1.pdf}
+	\caption{Missile acceleration in case of time at the end of the descent for the trapezoidal is equal to 8 }
+	\label{missile accelerationT1}
+\end{figure}
+
+\begin{figure}[htb]
+	\centering
+	\includegraphics[scale = 0.75]{fig/trajectoryT2.pdf}
+	\caption{Trajectory of the target and attacker in case of time at the end of the descent for the trapezoidal is equal to 5 }
+	\label{trajectoryT2}
+\end{figure}
+
+
+\begin{figure}[htb]
+	\centering
+	\includegraphics[scale = 0.75]{fig/MissileAccelerationT2.pdf}
+	\caption{Missile acceleration in case of time at the end of the descent for the trapezoidal is equal to 5 }
+	\label{missile accelerationT2}
+\end{figure}
+
+
+\begin{figure}[htb]
+	\centering
+	\includegraphics[scale = 0.75]{fig/trajectoryT3.pdf}
+	\caption{Trajectory of the target and attacker in case of time at the end of the descent for the trapezoidal is equal to 4 }
+	\label{trajectoryT3}
+\end{figure}
+
+
+\begin{figure}[htb]
+	\centering
+	\includegraphics[scale = 0.75]{fig/MissileAccelerationT3.pdf}
+	\caption{Missile acceleration in case of time at the end of the descent for the trapezoidal is equal to 4 }
+	\label{missile accelerationT3}
+\end{figure}
 %-----------------------------------------------------
 
 \subsection{Simulink Models}
 
-Add figures.
+In this section we will use the power of blocks in Simulink to solve equations in section 2.3 in easily way (Fig. \ref{PN eq}). We will make these equations as a main block (Fig. \ref{PN main block}) and change the inputs, we get the same results. The advantage of using simulink is to use the main block with alternative optimization technique (like genetic algorithm). 
+
+
+\begin{figure}[htb]
+	\centering
+	\includegraphics[scale = 0.75]{fig/PNeq.PNG}
+	\caption{The Simulink model for proportional navigation equations in sec 2.3}
+	\label{PN eq}
+\end{figure}
+
+\begin{figure}[htb]
+	\centering
+	\includegraphics[scale = 0.75]{fig/PNmainBlock.PNG}
+	\caption{The Simulink main block for solving proportional navigation equations in sec 2.3}
+	\label{PN main block}
+\end{figure}
+
 
 % ===================================================
 \section{Genetic Algorithms Solution}
