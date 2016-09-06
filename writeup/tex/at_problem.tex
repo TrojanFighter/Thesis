@@ -536,13 +536,15 @@ The advantage of this form is that we can control the values of maximum accelera
 
 In this section we will use the power of blocks in Simulink to solve equations in section 2.3 in easily way (Fig. \ref{PN eq}). We will make these equations as a main block (Fig. \ref{PN main block}) and change the inputs, we get the same results. The advantage of using simulink is to use the main block with alternative optimization technique (like genetic algorithm). 
 
-
+\begin{landscape}
 \begin{figure}[htb]
 	\centering
-	\includegraphics[scale = 0.75]{fig/PNeq.PNG}
+	\includegraphics[scale = 0.70]{fig/PNeq.PNG}
 	\caption{The Simulink model for proportional navigation equations in sec 2.3}
 	\label{PN eq}
 \end{figure}
+\end{landscape}
+
 
 \begin{figure}[htb]
 	\centering
@@ -554,6 +556,12 @@ In this section we will use the power of blocks in Simulink to solve equations i
 
 % ===================================================
 \section{Genetic Algorithms Solution}
+We will use the main block we have created with the genetic algorithm toolbox in MATLAB in the same manner we have done, let the target maneuver ba a polynomial with unknown coefficients, then it is required to find the values of these coefficients using genetic algorithm to maximize miss distance and missile acceleration.
+
+
+>>> long time for calculations
+
+>>> if we changed some parameters in genetic ??!!
 % ===================================================
 
 % ===================================================

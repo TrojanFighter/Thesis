@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.7.2)  5 SEP 2016 22:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9) (preloaded format=pdflatex 2016.7.2)  6 SEP 2016 19:37
 entering extended mode
 **./MSc_thesis_Mostafa.tex
 (MSc_thesis_Mostafa.tex
@@ -1177,7 +1177,16 @@ File: tikzlibraryquotes.code.tex 2014/03/21 v3.0.1a (rcs-revision 1.4)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\librarie
 s\tikzlibraryangles.code.tex"
 File: tikzlibraryangles.code.tex 2013/08/28 v3.0.1a (rcs-revision 1.1)
-) (MSc_thesis_Mostafa.aux)
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\rotating.sty"
+Package: rotating 2016/05/22 v2.16c rotated objects in LaTeX
+\c@r@tfl@t=\count295
+\rotFPtop=\skip127
+\rotFPbot=\skip128
+\rot@float@box=\box91
+\rot@mess@toks=\toks63
+)
+(MSc_thesis_Mostafa.aux)
 \openout1 = `MSc_thesis_Mostafa.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 54.
@@ -1258,19 +1267,19 @@ File: ot1txr.fd 2000/12/15 v3.1
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count295
+\scratchcounter=\count296
 \scratchdimen=\dimen285
-\scratchbox=\box91
-\nofMPsegments=\count296
-\nofMParguments=\count297
-\everyMPshowfont=\toks63
-\MPscratchCnt=\count298
+\scratchbox=\box92
+\nofMPsegments=\count297
+\nofMParguments=\count298
+\everyMPshowfont=\toks64
+\MPscratchCnt=\count299
 \MPscratchDim=\dimen286
-\MPnumerator=\count299
-\makeMPintoPDFobject=\count300
-\everyMPtoPDFconversion=\toks64
+\MPnumerator=\count300
+\makeMPintoPDFobject=\count301
+\everyMPtoPDFconversion=\toks65
 )
-\AtBeginShipoutBox=\box92
+\AtBeginShipoutBox=\box93
 Package hyperref Info: Link coloring OFF on input line 54.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1278,7 +1287,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count301
+\c@section@level=\count302
 LaTeX Info: Redefining \Ref on input line 515.
 )
 LaTeX Info: Redefining \ref on input line 54.
@@ -1306,6 +1315,7 @@ File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
 Package caption3 Info: Fixing ArabTeX on input line 54.
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
 <fig/logo/FE-Logo.jpg, id=194, 92.59593pt x 85.06781pt>
@@ -1423,7 +1433,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 ] ABD: EveryShipout initializing macros
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\arabtex\apatch.sty"
-\a@lines=\count302
+\a@lines=\count303
 \a@Lwidth=\dimen287
 \a@displaywidth=\dimen288
 
@@ -1788,41 +1798,46 @@ Overfull \hbox (33.49818pt too wide) in paragraph at lines 529--530
  [][] 
  []
 
-<fig/PNeq.PNG, id=709, 1088.868pt x 434.8245pt>
+[8] [9 <./fig/FlowchartPN.pdf>] [10 <./fig/trajectory0N4.pdf>] [11 <./fig/Missi
+leAcceleration0N4.pdf>] [12 <./fig/trajectory20N3.pdf>] [13 <./fig/MissileAccel
+eration20N3.pdf>] [14 <./fig/trajectory20N4.pdf>] [15 <./fig/MissileAcceleratio
+n20N4.pdf>] [16 <./fig/trajectory20N5.pdf>] [17 <./fig/MissileAcceleration20N5.
+pdf>] [18 <./fig/trajectory0NN3.pdf>] [19 <./fig/MissileAcceleration0NN3.pdf>]
+[20 <./fig/trajectory0NN5.pdf>] [21 <./fig/MissileAcceleration0NN5.pdf>]
+[22 <./fig/trajectoryP3.pdf>] [23 <./fig/MissileAccelerationP3.pdf>] [24 <./fig
+/trajectoryP4.pdf>] [25 <./fig/MissileAccelerationP4.pdf>] [26 <./fig/trajector
+yP5.pdf>] [27 <./fig/MissileAccelerationP5.pdf>] [28 <./fig/trapezoidalacc.pdf>
+] [29 <./fig/trajectoryT1.pdf>] [30 <./fig/MissileAccelerationT1.pdf>] [31 <./f
+ig/trajectoryT2.pdf>] [32 <./fig/MissileAccelerationT2.pdf>] [33 <./fig/traject
+oryT3.pdf>] [34 <./fig/MissileAccelerationT3.pdf>]
+<fig/PNeq.PNG, id=1434, 1088.868pt x 434.8245pt>
 File: fig/PNeq.PNG Graphic file (type png)
  <use fig/PNeq.PNG>
 Package pdftex.def Info: fig/PNeq.PNG used on input line 542.
-(pdftex.def)             Requested size: 816.649pt x 326.11755pt.
+(pdftex.def)             Requested size: 762.20241pt x 304.37505pt.
 
-Overfull \hbox (378.1349pt too wide) in paragraph at lines 542--543
+Overfull \hbox (79.76305pt too wide) in paragraph at lines 542--543
  [][] 
  []
 
-<fig/PNmainBlock.PNG, id=711, 324.61275pt x 198.14024pt>
+[35
+
+ <./fig/PNeq.PNG>]
+<fig/PNmainBlock.PNG, id=1441, 324.61275pt x 198.14024pt>
 File: fig/PNmainBlock.PNG Graphic file (type png)
 
 <use fig/PNmainBlock.PNG>
-Package pdftex.def Info: fig/PNmainBlock.PNG used on input line 549.
+Package pdftex.def Info: fig/PNmainBlock.PNG used on input line 551.
 (pdftex.def)             Requested size: 243.45895pt x 148.6048pt.
-) [8] [9]
+) [36
+
+ <./fig/PNmainBlock.PNG>]
 Chapter 3.
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\caseupper' on input line 60.
 
-[10 <./fig/FlowchartPN.pdf>] [11 <./fig/trajectory0N4.pdf>] [12 <./fig/MissileA
-cceleration0N4.pdf>] [13 <./fig/trajectory20N3.pdf>] [14 <./fig/MissileAccelera
-tion20N3.pdf>] [15 <./fig/trajectory20N4.pdf>] [16 <./fig/MissileAcceleration20
-N4.pdf>] [17 <./fig/trajectory20N5.pdf>] [18 <./fig/MissileAcceleration20N5.pdf
->] [19 <./fig/trajectory0NN3.pdf>] [20 <./fig/MissileAcceleration0NN3.pdf>]
-[21 <./fig/trajectory0NN5.pdf>] [22 <./fig/MissileAcceleration0NN5.pdf>]
-[23 <./fig/trajectoryP3.pdf>] [24 <./fig/MissileAccelerationP3.pdf>] [25 <./fig
-/trajectoryP4.pdf>] [26 <./fig/MissileAccelerationP4.pdf>] [27 <./fig/trajector
-yP5.pdf>] [28 <./fig/MissileAccelerationP5.pdf>] [29 <./fig/trapezoidalacc.pdf>
-] [30 <./fig/trajectoryT1.pdf>] [31 <./fig/MissileAccelerationT1.pdf>] [32 <./f
-ig/trajectoryT2.pdf>] [33 <./fig/MissileAccelerationT2.pdf>] [34 <./fig/traject
-oryT3.pdf>] [35 <./fig/MissileAccelerationT3.pdf>] [36 <./fig/PNeq.PNG> <./fig/
-PNmainBlock.PNG>] (tex/ATD_problem.tex [37
+(tex/ATD_problem.tex [37
 
 ]
 <fig/drawing4_1a.pdf, id=1469, 844.65562pt x 596.98032pt>
@@ -2693,6 +2708,7 @@ pgfcomp-version-1-18.sty    2007/07/23 v3.0.1a (rcs-revision 1.1)
  pgfmath.code.tex
   pgffor.code.tex
     tikz.code.tex
+rotating.sty    2016/05/22 v2.16c rotated objects in LaTeX
  omltxmi.fd    2000/12/15 v3.1
  omstxsy.fd    2000/12/15 v3.1
  omxtxex.fd    2000/12/15 v3.1
@@ -2795,13 +2811,13 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 85.
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 27821 strings out of 493335
- 477872 string characters out of 3136648
- 649875 words of memory out of 3000000
- 29871 multiletter control sequences out of 15000+200000
+ 27883 strings out of 493335
+ 478740 string characters out of 3136648
+ 649841 words of memory out of 3000000
+ 29930 multiletter control sequences out of 15000+200000
  97391 words of font info for 421 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,19n,68p,1443b,22604s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 55i,19n,68p,1443b,22670s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.
 enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/txfonts/rtxb.pfb><C:/
 Program Files (x86)/MiKTeX 2.9/fonts/type1/public/txfonts/rtxi.pfb><C:/Program 
@@ -2814,7 +2830,7 @@ lic/txfonts/txsyc.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/
 utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb
 ><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Progra
 m Files (x86)/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on MSc_thesis_Mostafa.pdf (102 pages, 3592406 bytes).
+Output written on MSc_thesis_Mostafa.pdf (102 pages, 3593656 bytes).
 PDF statistics:
  2821 PDF objects out of 2984 (max. 8388607)
  443 named destinations out of 1000 (max. 500000)
