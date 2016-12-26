@@ -9,11 +9,11 @@ n=0; %counter on points
 VM = 3000.; %magnitude of the missile velocity
 VT = 1000.; %magintude of the target velocity
 XNT = 96.6; %target accelration (target manuver)[first error source]
-HEDEG = -20.; %heading error (in degrees)       [second error source]     
+HEDEG = 0.0; %heading error (in degrees)       [second error source]     
 XNP = 5.; %effictive navigation ratio
 RM1 = 0.; %initial location of the missile (in the dowenrange axis)
 RM2 = 9000.; %initial location of the missile (in the crossrange axis)
-RT1 = 40000.; %initial location of the target (in the dowenrange axis)
+RT1 = 12000.; %initial location of the target (in the dowenrange axis)
 RT2 = 10000.; %initial location of the target (in the crossrange axis)
 BETA=0.; %angle between the target velocity vector and the doewrange axis
 
@@ -74,7 +74,7 @@ while VC >= 0 %terminate the programme when the velocity chnges its sign
       XLAM=atan2(RTM2,RTM1);
       XLAMD=(RTM1*VTM2-RTM2*VTM1)/(RTM*RTM);
       XNC=XNP*VC*XLAMD;
-      XNC1=(XNP+20000000*XLAMD^2/VC)*VC*XLAMD;
+      %XNC1=(XNP+20000000*XLAMD^2/VC)*VC*XLAMD;
       AM1=-XNC*sin(XLAM);
       AM2=XNC*cos(XLAM);
       VT1=-VT*cos(BETA);
@@ -95,6 +95,7 @@ while VC >= 0 %terminate the programme when the velocity chnges its sign
       S=0.;
 		n=n+1;
 		ArrayT(n)=T;
+        ArrayXNTG(n)=XNT/32.2;
 		ArrayRT1(n)=RT1;
 		ArrayRT2(n)=RT2;
 		ArrayRM1(n)=RM1;
@@ -122,6 +123,13 @@ ylabel('Acceleration of missle (G)','FontSize', 16)
 saveTightFigure(h,'MissileAcceleration20NN5.pdf')
 output=[ArrayT',ArrayRT1',ArrayRT2',ArrayRM1',ArrayRM2',ArrayXNCG',ArrayRTM' ];
 %save datfil.txt output /ascii
-disp '*** Simulation Complete'
+%==========================================================
+h = figure('position',[100, 100, 1000, 750]); set(gcf,'color','w'); set(gca,'FontSize',24);
+plot(ArrayT,ArrayXNTG,'LineWidth',3),grid on
+%title('Two-dimensional tactical missile-target engagement simulation')
+xlabel('Time (sec)','FontSize', 16)
+ylabel('Acceleration of Target (G)','FontSize', 16)
+saveTightFigure(h,'TargetAcceleration20NN5.pdf')
 
+disp '*** Simulation Complete'
 toc;

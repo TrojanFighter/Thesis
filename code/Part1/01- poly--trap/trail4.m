@@ -5,13 +5,13 @@ clc; clear all; close all; tic;
 
 %% Configuration Parameters
 
-polyORtrap = 'trap'; % choose which type of target acceleration
+polyORtrap = 'poly'; % choose which type of target acceleration
 N=50; %number of runs
 G = 32.2; %gravity
 
 
 %=====Parameters of the polynomial function=====
-degree = 2; %Polynomial degree
+degree = 3; %Polynomial degree
 
 %=====Parameters of the trapezoid function=====
 amax=12*G; %max accelartion
