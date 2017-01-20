@@ -1,4 +1,4 @@
-function [RTM,XNCmax] = final (polyORtrap,polydegree, c , draw)
+function [RTM,XNCmax] = PNeq (polyORtrapORtrapSymm,polydegree, c , draw)
 
 %TWO-DIMENSIONAL TACTICAL MISSILE-TARGET ENGAGEMENT SIMULATION
 %solving using the second-order Runge–Kutta numerical integration technique
@@ -49,10 +49,12 @@ while VC >= 0 %terminate the programme when the velocity chnges its sign
         H=.01; %step of the most of the flight (except the end)
     end
     
-    if strcmp(polyORtrap,'poly')
+    if strcmp(polyORtrapORtrapSymm,'poly')
         T1 = polydegree-1 : -1 :0;
-        XNT=sum([c].*(T.^T1)); %target acceleration (target manuver)[first error source]
-    elseif strcmp(polyORtrap,'trap')
+        XNT=sum(c.*(T.^T1)); %target acceleration (target manuver)[first error source]
+    elseif strcmp(polyORtrapORtrapSymm,'trap')
+        XNT=trapacc(c(1),c(2),c(3),c(4),c(5),T);
+    elseif strcmp(polyORtrapORtrapSymm,'trapSymm')
         XNT=trapacc(c(1),c(2),c(3),c(4),c(5),T);
     end
     
@@ -138,7 +140,7 @@ if draw==1 %to viwe all figurs (runs)
     title('Two-dimensional tactical missile-target engagement simulation')
     xlabel('Downrange (Ft) ','FontSize', 16)
     ylabel('Altitude or crossrange (Ft)','FontSize', 16)
-    saveTightFigure(h,'trajectoryP5N3.pdf')
+    saveTightFigure(h,'trajectoryTRAPSymm.pdf')
     
     hold on   %-------------------------------
     
@@ -147,7 +149,7 @@ if draw==1 %to viwe all figurs (runs)
     %title('Two-dimensional tactical missile-target engagement simulation')
     xlabel('Time (sec)','FontSize', 16)
     ylabel('Acceleration of missle (G)','FontSize', 16)
-    saveTightFigure(h,'MissileAccelerationP5N3.pdf')
+    saveTightFigure(h,'MissileAccelerationTRAPSymm.pdf')
     
     hold on
     
@@ -156,5 +158,5 @@ if draw==1 %to viwe all figurs (runs)
     %title('Two-dimensional tactical missile-target engagement simulation')
     xlabel('Time (sec)','FontSize', 16)
     ylabel('Acceleration of Target (G)','FontSize', 16)
-    saveTightFigure(h,'TargetAccelerationP5N3.pdf')
+    saveTightFigure(h,'TargetAccelerationTRAPSymm.pdf')
 end
