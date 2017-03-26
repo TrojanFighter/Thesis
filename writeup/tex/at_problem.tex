@@ -585,7 +585,76 @@ What about if the optimum solution for the target maneuver did not have Identica
 
 \subsection{Genetic Algorithms Solution [using Simulink]}
 
-In this section we will use the power of blocks in Simulink to solve the differential equations in section 2.3 in an easy way (Fig. \ref{PN eq}). We will make these equations as a main block (Fig. \ref{PN main block}) and as we change the inputs, we get the same results. The advantage of using simulink is to use the main block with an alternative optimization technique (like genetic algorithms). We will simulate two cases :
+
+In this subsection we will use the power of blocks in Simulink to solve the differential equations in section 2.3 in an easy way (Fig. \ref{PN eq}). We will make these equations as a main block (Fig. \ref{PN main block}) and as we change the inputs, we get the same results. The advantage of using simulink is to use the main block with an alternative optimization technique (like genetic algorithms) and we will simulate two cases, polynomial and trapezoidal. Now let us have a brief introduction to the genetic algorithm technique.
+
+ \subsubsection{Introduction to Genetic Algorithm technique}
+ Genetic algorithm is a \textit{stochastic population-based} search method. Genetic Algorithms (GAs) are   search algorithms based on the mechanics of the natural selection process (biological evolution).  The most basic concept is that the strong tend to adapt and survive while the weak tend to die out. That is, optimization is based on evolution, and the "Survival of the fittest" concept.
+ GAs have the ability to create an initial population of feasible solutions, and then recombine them in a way to guide their search to only the most promising areas of the state space.   
+ Each feasible solution is encoded as a chromosome (string) also called a genotype, and each chromosome is given a measure of fitness via a fitness (evaluation or objective) function. 
+ 
+ \begin{itemize}
+ 	\item The fitness of a chromosome determines its ability to survive and produce offspring.
+ 	\item A finite population of chromosomes is maintained.
+ 	\item GAs  use  probabilistic  rules  to  evolve  a  population from  one  generation to the next.  The generations of the new solutions are developed by genetic recombination operators:
+ 	\begin{itemize}
+ 		\item Biased Reproduction: selecting the fittest to reproduce.
+ 		\item Crossover: combining parent chromosomes to produce children chromosomes.
+ 		\item Mutation: altering some genes in a chromosome.
+ 	\end{itemize}
+ \end{itemize}
+ 
+ \textbf{Most Important Parameters in GAs:}
+ \begin{itemize}
+ 	\item Population Size
+ 	\item Evaluation Function
+ 	\item Crossover Method
+ 	\item Mutation Rate
+ \end{itemize}
+
+\textbf{Use Genetic Algorithms:} 
+\begin{itemize}
+	\item When facing a problem of local minima.
+	\item When a good fitness function is available.
+	\item When a near-optimal, but not optimal solution is acceptable.
+	\item When the state-space is too large for other methods.
+\end{itemize}
+
+\textbf{\underline{COMPONENTS OF GENETIC ALGORITHMS}}\\
+\textbf{Representation (definition of individuals):}\\
+Objects forming possible solution within original problem context are called phenotypes, their encoding, the individuals within the GA, are called genotypes.
+The representation step specifies the mapping from the phenotypes onto a set of genotypes.
+Candidate solution, phenotype and individual are used to denote points of the space of possible solutions. This space is called phenotype space.
+Chromosome, and individual can be used for points in the genotye space.
+Elements of a chromosome are called genes. A value of a gene is called an allele.
+The GA works with a coding of the parameter rather than the actual parameter. Depending  on the particular  problem,  the  coding  may  be  Boolean-valued,  integer-valued,  real-valued,   complex-valued, vector-valued,  symbolic  valued,  or multiple-valued.
+\\
+\textbf{Evaluation function:}\\
+This is just the cost or the objective function which represent what we want to maximize. For minimization problem use the reciprocal (i.e. 1/f).
+\\
+\textbf{Population:}\\
+The role of the population is to hold possible solutions. A population is a multiset of genotypes. In GA, the population size is (almost always) constant. The bigger the size, the better the final solution, and the larger the execution time.
+\\
+\textbf{Parent Selection Mechanism:}\\
+The role of parent selection (mating selection) is to distinguish among individuals based on their quality to allow the better individuals to become parents of the next generation.
+Parent selection is probabilistic. Thus, high quality individuals get a higher chance to become parents than those with low quality. Nevertheless, low quality individuals are often given a small, but positive chance; otherwise the whole search could become too greedy and get stuck in a local optimum.
+\\
+\textbf{Variation Operators:}\\
+The role of variation operators is to create new individuals from old ones. Variation operators form the implementation of the elementary steps with the search space.
+\\
+\textbf{Mutation Operator:}\\
+A unary variation operator is called \textit{mutation}. It is applied to one genotype and delivers a modified mutant, the child or \textit{offspring} of it.
+In general, mutation is supposed to cause a random unbiased change. 
+\\
+\textbf{Crossover Operator:}\\
+A binary variation operator is called recombination or crossover. This operator merges information from two parent genotypes into one or two offspring genotypes.
+Similarly to mutation, crossover is a stochastic operator: the choice of what parts of each parent are combined, and the way these parts are combined, depend on random drawings.
+The principle behind crossover is simple: by mating two individuals with different but desirable features, we can produce an offspring which combines both of those features.
+\\
+\textbf{Survivor Selection Mechanism:}\\
+The role of survivor selection is to distinguish among individuals based on their quality. In GA, the population size is (almost always) constant, thus a choice has to be made on which individuals will be allowed in the next generation. This decision is based on their fitness values, favoring those with higher quality.
+As opposed to parent selection which is stochastic, survivor selection is often deterministic, for instance, ranking the unified multiset of parents and offspring and selecting the top segment (fitness biased), or selection only from the offspring (age-biased).
+\\
 
 
 \begin{landscape}

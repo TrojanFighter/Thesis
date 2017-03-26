@@ -1,0 +1,21 @@
+function ls = AimRadar(ls,x,y)
+
+% ls.atena = fill(ax,ay,'b');
+% ls.stand = fill(sx,sy,'y');
+% ls.radardish = fill(rx,ry,'r');
+
+
+pts = get(ls.radardish,'vertices');
+
+vx = x-ls.xoffset;
+vy = y-.65;
+theta = -acos(vx/sqrt(vx^2+vy^2));
+
+rx = [pts(:,1)-ls.xoffset]';
+ry = [pts(:,2)-.65]';
+
+pts = [cos(theta) sin(theta); -sin(theta) cos(theta)]*[rx;ry];
+pts(1,:) = pts(1,:)+position(1);
+pts(2,:) = pts(2,:)+position(2);
+
+end

@@ -1,0 +1,12 @@
+function ls = launchinterceptor(ls,tx,ty)
+global interceptors;
+
+
+if ls.launchcount <= ls.maxcount && ls.hitcount
+    interceptors{ls.launchcount} = launch(interceptors{ls.launchcount},tx,ty);
+end
+ls.launchcount = ls.launchcount+1;
+
+
+
+end

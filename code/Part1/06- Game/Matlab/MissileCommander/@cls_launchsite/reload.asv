@@ -1,0 +1,15 @@
+function ls = reload(ls)
+global interceptors
+
+
+amunition = cell(1,1);
+for i = 1:10
+    offset = ls.xoffset +.02 +.015*i; 
+    amunition{i} = cls_interceptor(offset,.6);
+    ls.interceptors(i) = i;
+end
+
+interceptors{ls.maxcount-9:ls.maxcount} = amunition;
+ls.launchcount = ls.maxcount-9;
+
+end
