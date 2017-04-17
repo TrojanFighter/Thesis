@@ -1,0 +1,257 @@
+% ===================================================
+\section{Problem Statement}
+% ===================================================
+
+
+% ===================================================
+\section{Assumptions, Notation, and Nomenclature}
+% ===================================================
+\subsection*{Assumptions}
+% ===================================================
+\begin{enumerate}
+\item The speeds $V_{T},V_{A},$ and $V_{D}$ of the Target, Attacker, and Defender are constant.
+\item The Attacker missile is faster than the Target aircraft, i.e., $\alpha\equiv \dfrac{V_{T}}{V_{A}}<1$ (In the case $\alpha\geq1$, the Target is guaranteed to survive by following an optimal strategy, even without assistance from the Defender).
+\item There are three distinct cases for the ratio of the speed of the Attacker to that of the Defender $\gamma=\dfrac{1}{\beta}=\dfrac{V_{A}}{V_{D}}$ 
+\begin{itemize}
+\item $\gamma<1$ (fast Defender) discussed earlier in Garcia et el. \cite{garcia2015active}, and extended, expounded, simplified and exposed herein.
+\item $\gamma =1$ (same speed Defender) discussed in Garcia et el. \cite{pachter2014active,garcia2015escape}, and extended, expounded, simplified and exposed herein.
+\item $\gamma>1$ (slow Defender), which is a novel case, discussed herein for the first time, and unified with the two previous cases.  
+\end{itemize}
+
+\item The Defender intercepts the Attacker if their separation becomes zero (point capture).
+\item The optimal trajectories of the three agents are straight lines.
+\item A Cartesian frame is attached to the initial positions $A$ and $D$ of the Attacker and Defender in such a way the $X$-axis is the infinite extension of the straight segment $\overline{AD}$ and the $Y$-axis is the perpendicular bisector of $\overline{AD}$.
+\end{enumerate}
+
+% ===================================================
+\subsection*{Notation}
+% ===================================================
+\begin{itemize}
+\item $A$: Initial position of the Attacker.
+\item $D$: Initial position of the Defender.
+\item $T$: Initial position of the Target.
+\item $T'$ Terminal position of the Target, i.e., its position at the time the Defender intercepts the Attacker.
+\item $\alpha=\dfrac{V_{T}}{V_{A}}$ (assumed $<1$, otherwise the target trivially survives).
+\item $\gamma=\dfrac{1}{\beta}=\dfrac{V_{A}}{V_{D}}$ (studied for a fast Defender ($\gamma<1$), a similar Defender ($\gamma=1$), and a slow Defender ($\gamma>1$)).
+\item $u, v, w$: Aim points on the $AD$ Apollonius circle by the Attacker, Target and Defender, respectively. 
+\end{itemize}
+
+% ===================================================
+\subsection*{Nomenclature}
+% ===================================================
+\textbf{The $AD$ Apollonius circle.} The locus of a point such that the ratio of its distance from the initial positions $\boldsymbol{A}=(x_{A},0)$ and $\boldsymbol{D}=(-x_{A},0)$ of the Attacker and Defender, respectively, is a fixed ratio $\gamma=\dfrac{V_{A}}{V_{D}}$. This circle degenerates into the perpendicular bisector of $\overline{AD}$ if $\gamma=1$.
+Points on the circumference of this circle are reached simultaneously by the Attacker and Defender. For $\gamma<1$, $\boldsymbol{A}$ belongs to the interior of this circle and points within the circle are reached by the Attacker before the Defender. For $\gamma>1$, $\boldsymbol{D}$ belongs to the interior of this circle and points within the circle are reached by the Defender before the Attacker. For $\gamma=1$, the $AD$ circle becomes of infinite radius and degenerates into a straight line, namely the perpendicular bisector of $\overline{AD}$. In this case, $\boldsymbol{A}$ belongs to the R.H.S. of the $XY-$plane where points are reached by the Attacker before the Defender, while $\boldsymbol{D}$ belongs to the L.H.S. of the $XY-$plane where points are reached by the Defender before the Attacker.   
+
+\textbf{The $TA$ Apollonius circle.} The locus of a point such that the ratio of its distances from the initial positions $\boldsymbol{T}=(x_{T},y_{T})$ and $\boldsymbol{A}=(x_{A},0)$, of the Target and Attacker, respectively, is a fixed ratio $\alpha= \dfrac{V_{T}}{V_{A}}$ strictly less than 1. Naming of the $AD$ and $TA$ Apollonius circles herein follows a common practice in mathematical circles \cite{ayoub2003proving,ayoub2006circle,partensky2008circle} and is opposite to the style used by Garcia et al. \cite{pachter2014active,garcia2015active,garcia2015escape}.
+
+\textbf{Region reachable by the Defender before the Attacker (Reachability region $R_r$):}  \\
+For $\gamma<1$, $R_r$ is the exterior of the $AD$ Apollonius circle.\\
+For $\gamma=1$, $R_r$ is the L.H.S. of the $XY-$plane.\\
+For $\gamma>1$, $R_r$ is the interior of the $AD$ Apollonius circle. 
+
+Figure \ref{Rr2} illustrates this region as a shaded region to which point $D$ belongs.
+
+\begin{figure}
+\centering
+\subfigure[$\gamma<1$.]{\includegraphics[width=0.5\textwidth]{fig/drawing4_1a.pdf}}\label{2_g<1}
+\quad
+\subfigure[$\gamma=1$.]{\includegraphics[width=0.5\textwidth]{fig/drawing4_1b.pdf}}\label{2_g=1}
+\\
+\subfigure[$\gamma>1$.]{\includegraphics[width=0.75\textwidth]{fig/drawing4_1c.pdf}}\label{2_g>1}
+\caption{The reachability region $R_r$ (one including $\boldsymbol{D}$ whose points are reached by the Defender before the Attacker) is shown shaded.}
+\label{Rr2}
+\end{figure}
+
+\textbf{Region of guaranteed Target's escape (Escape region $R_e$).} The escape region $R_e$ is the set of all coordinate pairs $(x,y)$ such that if the Target initial position $\boldsymbol{T}=(x_{T},y_{T})$ is inside this region, then it is guaranteed to escape the Attacker if both the Target and Defender implement their corresponding optimal strategies. This set is a strict superset of the set of points reachable by the Defender before the Attacker ($R_e\supseteq R_r$). The boundary of this set is called a Voronoi Diagram.
+
+\textbf{The critical speed ratio $\overline{\alpha}$.} A lower limit on the speed ratio $\gamma=\dfrac{V_{T}}{V_{A}}$, attained when the $TA$ Apollonius circle is tangent to the $AD$ Apollonius circle (or to the perpendicular bisector of $\overline{AD}$ in the degenerate case $\gamma=1$).   
+
+\textbf{Escape Condition.} For a given speed ratio $\alpha=\dfrac{V_{T}}{V_{A}}$ and a given Attacker's initial position $\boldsymbol{A}=(x_{A},0)$, the escape condition is that the $TA$ Apollonius circle (of center $O_2$ and radius $r_2$) intersects the $AD$ Apollonius circle (of center $O_1$ and radius $r_1$). This happens for $\gamma<1$ when
+\begin{equation}
+\lvert \boldsymbol{O_{1}}-\boldsymbol{O_{2}}\rvert+r_{2}>r_{1}
+\end{equation}
+It happens for $\gamma>1$ when
+\begin{equation}
+\lvert \boldsymbol{O_{1}}-\boldsymbol{O_{2}}\rvert-r_{2}<r_{1}
+\end{equation}
+In the degenerate case of $\gamma=1$, it is required that the $TA$ Apollonius circle intersects the $Y-$axis, i.e., 
+\begin{equation}
+r_{2}>the\ abscissa\ of\ \boldsymbol{O_{2}}
+\end{equation}
+
+% ===================================================
+\section{APOLLONIUS CIRCLES PERTAINING TO THE PROBLEM}
+% ===================================================
+
+A circle is the locus moving at a constant distance (called the circle's radius $r$) from a fixed point (called the circle's centre $O$).
+In the limit of an infinite radius $(r\longrightarrow\infty∞)$, the circle degenerates into a straight line.
+Another definition of the circle is that it is the locus of a point moving such that the ratio of its distances from two fixed points A and B is a constant $k$. With this definition, the circle is called a circle of Apollonius (in honour of Apollonius of Perga (ca. 262-190 BC), the Great Geometer of Antiquity). In the limit ($k\longrightarrow1$) this circle degenerates into the perpendicular bisector of $\overline{AD}$, while in the two limits ($k\longrightarrow0$) and ($k\longrightarrow\infty$), this circle collapses to the two points A and B, respectively. \\
+
+Two Apollonius circles are studied herein, namely the $AD$ Apollonius circle, and the $TA$ Apollonius circle. The study will be based on simple and intuitive plane-geometric arguments and will avoid the more involved treatment of analytic geometry. Figures \ref{1} and \ref{2} shows the Apollonius circles for a moving point $P$ such that $\dfrac{AP}{PB}=k\neq1$. The case $k>1$ is shown in Fig. \ref{1}, while the case $k<1$ is shwon in Fig. \ref{2}. The points $I$ and $E$ are the two special cases of $P$ that lie on the straight line extension of the straight segment $\overline{AB}$. These points divide the straight segment $\overline{AB}$ internally and externally in the ratio $k\ (k\neq1)$, i.e., 
+
+\begin{equation}
+%\tag{*}
+\boxed{
+	\dfrac{AI}{IB}=\dfrac{AE}{EB}=k,\ \{k\neq1\}.}
+\label{eqn:kratio}
+\end{equation} 
+
+
+\begin{figure}[htb]
+	\centering
+	\includegraphics[scale = 0.5]{fig/drawing1.pdf}
+	\caption{Apollonius circle for a moving point $P$ such that $\dfrac{AP}{PB}=k>1$. Here $m\angle API = m\angle BPI$ and $m\angle A'PE = m\angle BPE$.}
+	\label{1}
+\end{figure}
+
+\begin{figure}[htb]
+	\centering
+	\includegraphics[scale = 0.5]{fig/drawing2.pdf}
+	\caption{Apollonius circle for a moving point $P$ such that $\dfrac{AP}{PB}=k<1$. Here $m\angle API = m\angle BPI$ and $m\angle APE = m\angle B'PE$.}
+	\label{2}
+\end{figure}
+
+If we denote the position vector of a point by a bold version of its name, we can rewrite \eqref{eqn:kratio} in vectorial form as
+
+\begin{equation}
+(\boldsymbol{I}-\boldsymbol{A})=k(\boldsymbol{B}-\boldsymbol{I}),
+\end{equation}
+
+\begin{equation}
+(\boldsymbol {E}-\boldsymbol{A})=k(\boldsymbol{E}-\boldsymbol{B}),
+\end{equation}
+
+which can be used to express $\boldsymbol{I}$ and $\boldsymbol{E}$ in terms of $\boldsymbol{A}$ and $\boldsymbol{B}$ as 
+\begin{equation}
+\boldsymbol{I} = \dfrac{1}{k+1} (\boldsymbol{A}+k\boldsymbol{B}),
+\label{eqn:ipoint}
+\end{equation}
+
+\begin{equation}
+\boldsymbol{E} = \dfrac{1}{k-1} (-\boldsymbol{A}+k\boldsymbol{B}).
+\label{eqn:epoint}
+\end{equation}
+
+The Apollonius circle is easily characterized by the points $\boldsymbol{I}$ and $\boldsymbol{E}$, since they are the two end points of one of the its diameters. The center of the circle is the midpoint of points $\boldsymbol{I}$ and $\boldsymbol{E}$, namely:
+
+\begin{equation}
+\begin{split}
+\boldsymbol{O} & = \dfrac{1}{2} (\boldsymbol{I}+\boldsymbol{E})\\
+& = \dfrac{1}{2} [(\dfrac{1}{k+1}-\dfrac{1}{k-1})]\boldsymbol{A}+k(\dfrac{1}{k+1}+\dfrac{1}{k-1}) \boldsymbol{B}\\
+& =-\dfrac{1}{k^{2}-1}\boldsymbol{A} + \dfrac{{k^{2}}}{k^{2}-1} \boldsymbol{B},
+\end{split}
+\label{eqn:center}
+\end{equation}
+
+while the radius of the circle is half the length of the displacement from $\boldsymbol{I}$ to $\boldsymbol{E}$,
+\begin{equation}
+\begin{split}
+r & =\dfrac{1}{2} \lvert \boldsymbol{I} -\boldsymbol{E}\rvert \\
+& = \dfrac{1}{2} \lvert (\dfrac{1}{k+1}+\dfrac{1}{k-1})\boldsymbol{A}+k(\dfrac{1}{k+1}-\dfrac{1}{k-1}) \boldsymbol{B}\rvert \\
+& =  \lvert\dfrac{k}{k^{2}-1}\boldsymbol{A} - \dfrac{k}{k^{2}-1} \boldsymbol{B}\rvert\\
+& = \lvert\dfrac{k}{k^{2}-1}\rvert \lvert\boldsymbol{A} -\boldsymbol{B}\rvert = \dfrac{k}{k^{2}-1}(AB).
+\end{split}
+\label{eqn:radius}
+\end{equation}
+
+It is clear from \eqref{eqn:center} and \eqref{eqn:radius} that $\lim_{k\to1}\lvert\boldsymbol{O}\rvert\to\infty$ and $\lim_{k\to1}r\to\infty$, and hence for $k=1$, the Apollonius circle degenerates into a straight line, namely the perpendicular bisector of the straight segment $\overline{AB}$ (Fig. \ref{3}).
+
+\begin{figure}[htb]
+	\centering
+	\includegraphics[scale = 0.5]{fig/drawing3.pdf}
+	\caption{For $k=1$, the Apollonius circle in figures \ref{1} or \ref{2} degenerates into the perpendicular bisector of the straight segment $\overline{AB}$. The point $E$ disappears in this figure as it goes to $\infty$  }
+	\label{3}
+\end{figure}
+
+
+\subsection{The $AD$ Apollonius circle}
+For the $AD$ Apollonius circle, the two fixed points are the initial positions of the Attacker $\boldsymbol{A}=(x_{A},0)$ and the initial position of the defender $\boldsymbol{D}=(-x_{A},0)$. The fixed ratio of the circle $k$ is replaced by the following dimensionless ratio which is the Attacker's speed normalized w.r.t the Defender speed: 
+\begin{equation}
+\gamma = \dfrac{V_{A}}{V_{D}}.
+\end{equation}
+We will consider the three cases of 
+
+\begin{enumerate}
+	\item $\gamma<1$ (fast Defender) discussed in Garcia et al. \cite{garcia2015active}.
+	\item $\gamma =1$ (same-speed Defender) discussed in Garcia et al. \cite{pachter2014active, garcia2015escape}.
+	\item $\gamma>1$ (slow Defender), which is a novel case. 
+\end{enumerate}
+
+Substituting the values of $\boldsymbol{A}$ and $\boldsymbol{D}$ above for $\boldsymbol{A}$ and $\boldsymbol{B}$ in \eqref{eqn:ipoint},\eqref{eqn:epoint},\eqref{eqn:center} and \eqref{eqn:radius}, respectively, and replacing $k$ therein by $\gamma$ we obtain for $\gamma\neq1$,
+
+\begin{eqnarray}
+\boldsymbol{I_{1}} &=& (\dfrac{1-\gamma}{1+\gamma}x_{A},0),\\
+\boldsymbol{E_{1}} &=& (\dfrac{1+\gamma}{1-\gamma}x_{A},0),\\
+\boldsymbol{O_{1}} &=& (\dfrac{1+\gamma^{2}}{1-\gamma^{2}}x_{A},0),\\
+\label{O1}
+r_{1} &=& \dfrac{2\gamma}{\lvert1-\gamma^{2}\rvert}x_{A}.
+\label{r1}
+\end{eqnarray}
+
+Three interesting sets of limits are now considered. The first set of limits are those when ($\gamma\to1$), namely 
+
+\begin{eqnarray}
+\lim_{\gamma\to1} \boldsymbol{I}_1 &=& (0,0),\\
+\lim_{\gamma\to1} \boldsymbol{E}_1 &=& (\mp\infty,0),\\
+\lim_{\gamma\to1} \boldsymbol{O}_1 &=& (\mp\infty,0),\\
+\lim_{\gamma\to1} r_1 &=& \infty,
+\end{eqnarray}
+
+which means that the $AD$ Apollonius circle degenerates in the limit ($\gamma\to1$) to a circle of an infinite radius with center still on the $x-$axis but infinitely distant from the origin. More precisely, this limit is identified as a straight line, namely the perpendicular bisector of the straight-line segment $\overline{AD}$.
+
+The second set of limits are those when ($\gamma\to0$), namely 
+
+\begin{eqnarray}
+\lim_{\gamma\to0} \boldsymbol{I}_1 &=& (x_A,0),\\
+\lim_{\gamma\to0} \boldsymbol{E}_1 &=& (x_A,0),\\
+\lim_{\gamma\to0} \boldsymbol{O}_1 &=& (x_A,0),\\
+\lim_{\gamma\to0} r_1 &=& 0,
+\end{eqnarray}
+
+which means that the $AD$ Apollonius circle collapses in the limit ($\gamma\to0$) to a single point, namely the initial position of the Attacker $\boldsymbol{A}=(x_A,0)$.
+
+The third set of limits are those when ($\gamma\to\infty$), namely
+\begin{eqnarray}
+\lim_{\gamma\to\infty} \boldsymbol{I}_1 &=& (-x_A,0), \\
+\lim_{\gamma\to\infty} \boldsymbol{E}_1 &=& (-x_A,0),\\
+\lim_{\gamma\to\infty} \boldsymbol{O}_1 &=& (-x_A,0),\\
+\lim_{\gamma\to\infty} r_1 &=& 0,
+\end{eqnarray}
+
+which means that the $AD$ Apollonius circle collapses in the limit ($\gamma\to\infty$) to a single point, namely the initial position of the Defender $\boldsymbol{D}=(-x_A,0)$.
+
+\subsection{The $TA$ Apollonius circle}
+For the $TA$ Apollonius circle, the two fixed points are the initial position of the Target $\boldsymbol{T}=(x_{T},y_{T})$ and the initial position of the Attacker  $\boldsymbol{A}=(x_{A},0)$.
+Again, the fixed ratio of the circle $k$ is replaced by a dimensionless quantity, namely the Target's speed normalized w.r.t. the Attacker's speed: 
+\begin{equation}
+\alpha= \dfrac{V_{T}}{V_{A}}.
+\end{equation}
+
+Here, we will consider only the case $\alpha <1$, since for $\alpha\geqslant1$, the Target always survives, even without any assistance from the Defender.
+
+Now, we substitute the values of $\boldsymbol{T}$ and $\boldsymbol{A}$ above for $\boldsymbol{A}$ and $\boldsymbol{B}$ in \eqref{eqn:ipoint},\eqref{eqn:epoint},\eqref{eqn:center} and \eqref{eqn:radius}, respectively, and replace $k$ therein by $\alpha$ to obtain:
+
+\begin{equation}
+\boldsymbol{I_{2}} =\dfrac{1}{1+\alpha}(\boldsymbol{T}+\alpha \boldsymbol{A}) =\dfrac{1}{1+\alpha}(x_{T}+\alpha x_{A},y_{T}),
+\end{equation}
+
+\begin{equation}
+\boldsymbol{E_{2}} =\dfrac{1}{\alpha-1}(-\boldsymbol{T}+\alpha \boldsymbol{A}) =\dfrac{1}{1-\alpha}(x_{T}-\alpha x_{A},y_{T}),
+\end{equation}
+
+\begin{equation}
+\boldsymbol{O_{2}} =\dfrac{1}{1-\alpha^{2}}(\boldsymbol{T}-\alpha^{2} \boldsymbol{A}) =\dfrac{1}{1-\alpha^{2}}(x_{T}-\alpha^{2} x_{A},y_{T}),
+\label{O2}
+\end{equation}
+
+\begin{equation}
+r_{2} =\dfrac{\alpha}{1-\alpha^{2}}(TA)
+= \dfrac{\alpha d}{1-\alpha^{2}},
+\label{r2}
+\end{equation}
+
+where $d=TA=$ the initial distance between the target and Attacker, namely
+\begin{equation}
+d=\sqrt{(x_{T}-x_{A})^{2}+{y_{T}}^{2}}.
+\label{d}
+\end{equation}

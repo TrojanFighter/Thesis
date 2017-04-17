@@ -1,0 +1,72 @@
+\section{Assumptions}
+\begin{enumerate}
+\item The speeds $V_{T},V_{A},$ and $V_{D}$ of the Target, Attacker, and Defender are constant.
+\item The Attacker missile is faster than the Target aircraft, i.e., $\alpha\equiv \dfrac{V_{T}}{V_{A}}<1$ (In the case $\alpha\geq1$, the Target is guaranteed to survive by following an optimal strategy, even without assistance from the Defender).
+\item There are three distinct cases for the ratio of the speed of the Attacker to that of the Defender $\gamma=\dfrac{1}{\beta}=\dfrac{V_{A}}{V_{D}}$ 
+\begin{itemize}
+\item $\gamma<1$ (fast Defender) discussed earlier in Garcia et el. \cite{garcia2015active}, and extended, expounded, simplified and exposed herein.
+\item $\gamma =1$ (same speed Defender) discussed in Garcia et el. \cite{pachter2014active,garcia2015escape}, and extended, expounded, simplified and exposed herein.
+\item $\gamma>1$ (slow Defender), which is a novel case, discussed herein for the first time, and unified with the two previous cases.  
+\end{itemize}
+
+\item The Defender intercepts the Attacker if their separation becomes zero (point capture).
+\item The optimal trajectories of the three agents are straight lines.
+\item A Cartesian frame is attached to the initial positions $A$ and $D$ of the Attacker and Defender in such a way the $X$-axis is the infinite extension of the straight segment $\overline{AD}$ and the $Y$-axis is the perpendicular bisector of $\overline{AD}$.
+\end{enumerate}
+
+\section{Notation}
+\begin{itemize}
+\item $A$: Initial position of the Attacker.
+\item $D$: Initial position of the Defender.
+\item $T$: Initial position of the Target.
+\item $T'$ Terminal position of the Target, i.e., its position at the time the Defender intercepts the Attacker.
+\item $\alpha=\dfrac{V_{T}}{V_{A}}$ (assumed $<1$, otherwise the target trivially survives).
+\item $\gamma=\dfrac{1}{\beta}=\dfrac{V_{A}}{V_{D}}$ (studied for a fast Defender ($\gamma<1$), a similar Defender ($\gamma=1$), and a slow Defender ($\gamma>1$)).
+\item $u, v, w$: Aim points on the $AD$ Apollonius circle by the Attacker, Target and Defender, respectively. 
+\end{itemize}
+
+\section{Nomenclature}
+\subsection{The $AD$ Apollonius circle}
+The locus of a point such that the ratio of its distance from the initial positions $\boldsymbol{A}=(x_{A},0)$ and $\boldsymbol{D}=(-x_{A},0)$ of the Attacker and Defender, respectively, is a fixed ratio $\gamma=\dfrac{V_{A}}{V_{D}}$. This circle degenerates into the perpendicular bisector of $\overline{AD}$ if $\gamma=1$.
+Points on the circumference of this circle are reached simultaneously by the Attacker and Defender. For $\gamma<1$, $\boldsymbol{A}$ belongs to the interior of this circle and points within the circle are reached by the Attacker before the Defender. For $\gamma>1$, $\boldsymbol{D}$ belongs to the interior of this circle and points within the circle are reached by the Defender before the Attacker. For $\gamma=1$, the $AD$ circle becomes of infinite radius and degenerates into a straight line, namely the perpendicular bisector of $\overline{AD}$. In this case, $\boldsymbol{A}$ belongs to the R.H.S. of the $XY-$plane where points are reached by the Attacker before the Defender, while $\boldsymbol{D}$ belongs to the L.H.S. of the $XY-$plane where points are reached by the Defender before the Attacker.   
+
+\subsection{The $TA$ Apollonius circle} 
+The locus of a point such that the ratio of its distances from the initial positions $\boldsymbol{T}=(x_{T},y_{T})$ and $\boldsymbol{A}=(x_{A},0)$, of the Target and Attacker, respectively, is a fixed ratio $\alpha= \dfrac{V_{T}}{V_{A}}$ strictly less than 1. Naming of the $AD$ and $TA$ Apollonius circles herein follows a common practice in mathematical circles \cite{ayoub2003proving,ayoub2006circle,partensky2008circle} and is opposite to the style used by Garcia et al. \cite{pachter2014active,garcia2015active,garcia2015escape}.
+
+\subsection{Region reachable by the Defender before the Attacker (Reachability region $R_r$)}
+For $\gamma<1$, $R_r$ is the exterior of the $AD$ Apollonius circle.\\
+For $\gamma=1$, $R_r$ is the L.H.S. of the $XY-$plane.\\
+For $\gamma>1$, $R_r$ is the interior of the $AD$ Apollonius circle. 
+
+Figure \ref{Rr2} illustrates this region as a shaded region to which point $D$ belongs.
+
+\begin{figure}
+\centering
+\subfigure[$\gamma<1$.]{\includegraphics[width=0.5\textwidth]{fig/drawing4_1a.pdf}}\label{2_g<1}
+\quad
+\subfigure[$\gamma=1$.]{\includegraphics[width=0.5\textwidth]{fig/drawing4_1b.pdf}}\label{2_g=1}
+\\
+\subfigure[$\gamma>1$.]{\includegraphics[width=0.75\textwidth]{fig/drawing4_1c.pdf}}\label{2_g>1}
+\caption{The reachability region $R_r$ (one including $\boldsymbol{D}$ whose points are reached by the Defender before the Attacker) is shown shaded.}
+\label{Rr2}
+\end{figure}
+
+\subsection{Region of guaranteed Target's escape (Escape region $R_e$)}
+The escape region $R_e$ is the set of all coordinate pairs $(x,y)$ such that if the Target initial position $\boldsymbol{T}=(x_{T},y_{T})$ is inside this region, then it is guaranteed to escape the Attacker if both the Target and Defender implement their corresponding optimal strategies. This set is a strict superset of the set of points reachable by the Defender before the Attacker ($R_e\supseteq R_r$). The boundary of this set is called a Voronoi Diagram.
+
+\subsection{The critical speed ratio $\overline{\alpha}$}
+A lower limit on the speed ratio $\gamma=\dfrac{V_{T}}{V_{A}}$, attained when the $TA$ Apollonius circle is tangent to the $AD$ Apollonius circle (or to the perpendicular bisector of $\overline{AD}$ in the degenerate case $\gamma=1$).   
+
+\subsection{Escape Condition}
+For a given speed ratio $\alpha=\dfrac{V_{T}}{V_{A}}$ and a given Attacker's initial position $\boldsymbol{A}=(x_{A},0)$, the escape condition is that the $TA$ Apollonius circle (of center $O_2$ and radius $r_2$) intersects the $AD$ Apollonius circle (of center $O_1$ and radius $r_1$). This happens for $\gamma<1$ when
+\begin{equation}
+\lvert \boldsymbol{O_{1}}-\boldsymbol{O_{2}}\rvert+r_{2}>r_{1}
+\end{equation}
+It happens for $\gamma>1$ when
+\begin{equation}
+\lvert \boldsymbol{O_{1}}-\boldsymbol{O_{2}}\rvert-r_{2}<r_{1}
+\end{equation}
+In the degenerate case of $\gamma=1$, it is required that the $TA$ Apollonius circle intersects the $Y-$axis, i.e., 
+\begin{equation}
+r_{2}>the\ abscissa\ of\ \boldsymbol{O_{2}}
+\end{equation}
