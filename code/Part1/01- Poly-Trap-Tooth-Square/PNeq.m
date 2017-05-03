@@ -5,7 +5,7 @@ function [RTM,XNCmax] = PNeq (polyORtrapORtrapSymm,polydegree, c , draw)
 
 
 %% Simulation inputs
-
+G=32.2;
 n=0; %counter on points
 VM = 3000.; %magnitude of the missile velocity [ft/sec]
 VT = 1000.; %magnitude of the target velocity [ft/sec]
@@ -91,6 +91,9 @@ while VC >= 0 %terminate the programme when the velocity chnges its sign
         XLAM=atan2(RTM2,RTM1);
         XLAMD=(RTM1*VTM2-RTM2*VTM1)/(RTM*RTM);
         XNC=XNP*VC*XLAMD; %command acceleration of the rocket[proportional navigation guidance law]
+        if XNC>60*G
+            XNC=60*G;
+        end
         xnc_max(iter)=XNC;
         AM1=-XNC*sin(XLAM);
         AM2=XNC*cos(XLAM);

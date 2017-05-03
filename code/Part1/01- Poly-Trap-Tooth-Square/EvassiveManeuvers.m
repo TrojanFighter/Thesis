@@ -10,7 +10,7 @@ clc; clear all; close all; tic;
 %% Configuration Parameters
 
 polyORtrapORtrapSymm = 'trapSymm'; % choose which type of target acceleration
-N=40; %number of runs
+N=50; %number of runs
 G = 32.2; %gravity
 
 
@@ -22,7 +22,7 @@ amax=12*G; %max accelartion
 t0=0;  %beginning of the ramp
 %t1  %end of the ramp & beginning of the const. acc.
 %t2  %end of the const. acc. & beginning of the decent
-t3=5;  %end of the decent
+t3=10;  %end of the decent
 
 %---cost function weighting---
 % f=w1*XNC + w2*RTM;

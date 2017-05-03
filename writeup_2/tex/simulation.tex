@@ -1,3 +1,5 @@
+\label{simulation}
+
 In this chapter, we address the active target defense differential game where an Attacker missile pursues a Target aircraft. A Defender missile is fired by the Target’s wingman in order to intercept the Attacker before it reaches the aircraft. Thus, a team is formed by the Target and the Defender which
 cooperate to maximize the distance between the Target aircraft and the point where the Attacker missile is intercepted by the Defender missile, while the Attacker tries to minimize said distance. The results shown here extend previous work. We consider here the case where the Defender is faster than
 the Attacker. The solution to this differential game provides optimal heading angles for the Target and the Defender team to maximize the terminal separation between Target and Attacker and it also provides the optimal heading angle for the Attacker to minimize the said distance.
@@ -394,3 +396,28 @@ In passing, we note that (\ref{PD H wrt chi}) can be simplified via (\ref{cos ps
 \end{equation}
 
 The expressions for the optimal heading angles (\ref{tan psi}), (\ref{tan phi}), and (\ref{tan chi}) are to be used in the numerical solution of the Two-Point Boundary Value Problem (TPBVP). That solution is found by substituting the optimal headings into the state equations (), and the co-state rquations ()  with the terminal conditions (). 
+
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale = 0.5]{fig/fig7a_paper.pdf}
+	\caption{States}
+	%\label{}
+\end{figure}
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale = 0.5]{fig/fig7b_paper.pdf}
+	\caption{Optimal heading angles}
+	%\label{}
+\end{figure}
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale = 0.7]{fig/fig8_paper_numerical.pdf}
+	\caption{Optimal trajectories}
+	%\label{}
+\end{figure}

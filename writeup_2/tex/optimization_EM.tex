@@ -1,11 +1,13 @@
-In this chapter, we will be in the Target side, trying  to find an escaping maneuver from the Attacker.
+\label{optimization_EM}
+
+In this chapter, we will be in the Target side, trying  to find an optimized escaping maneuver from the Attacker. We will use two optimization techniques, \textit{Monte Carlo} and \textit{Genetic algorithm}.
 
 
 \section{Models \& Simulations}
 % ===================================================
 
-In this section we will simulate equations in sec. 2.3 for proportional navigation using MATLAB and Simulink.
-The following figure is a flowchart illustrating the steps of calculations using the equations in sec. 2.3  till we plot the trajectories.
+In this section we will simulate equations in sec. \ref{PNeqations} for proportional navigation using MATLAB and Simulink.
+The following figure is a flowchart illustrating the steps of calculations using the equations in sec. \ref{PNeqations}  till we plot the trajectories.
 
 \begin{figure}[H]
 	\centering
@@ -16,7 +18,7 @@ The following figure is a flowchart illustrating the steps of calculations using
 
 
 \subsection{Simulation for some target maneuver cases [using MATLAB]}
-In this subsection we will use MATLAB to simulate equations in sec. 2.3 for proportional navigation. We will solve the differential equations using second-order Runge-Kutta numerical integration technique, then we will draw the trajectories of the pursuit and evader for 4 cases for the Target maneuver error source, and we will deduce the effect of the effective navigation ratio $N'$ and the other type of the error source; Heading error. 
+In this subsection we will use MATLAB to simulate equations in sec. \ref{PNeqations} for proportional navigation. We will solve the differential equations using second-order Runge-Kutta numerical integration technique, then we will draw the trajectories of the pursuit and evader for 4 cases for the Target maneuver error source, and we will deduce the effect of the effective navigation ratio $N'$ and the other type of the error source; Heading error. 
 \subsubsection{Zero Target maneuver}
 In this case the evader (Target - plane) does not do any effort to scape, it just moves in a straight line, as we see in Fig. \ref{trajectoryXNT0HE0N4}. So the pursuer (Attacker - Missile) does not have to bleed much energy to reach the Target.
 
@@ -211,22 +213,6 @@ The second case (N=4), is hypothetical case because the pilot will die in less t
 	\label{Target accelerationP4N3}
 \end{figure}
 
-%----------
-
-%\begin{figure}[htb]
-%	\centering
-%	\includegraphics[scale = 0.75]{fig/trajectoryP5.pdf}
-%	\caption{Trajectory of the target and attacker in case of polynomial of degree N=5 target maneuver with zero heading error and $N'=3$.}
-%	\label{trajectoryP5}
-%\end{figure}
-%
-%
-%\begin{figure}[htb]
-%	\centering
-%	\includegraphics[scale = 0.75]{fig/MissileAccelerationP5.pdf}
-%	\caption{Missile acceleration in case of  polynomial of degree N=5 target maneuver with zero heading error and $N'=3$.}
-%	\label{missile accelerationP5}
-%\end{figure}
 
 %------------------------------------------------------------
 
@@ -236,7 +222,7 @@ Now we will make the Target maneuver as a trapezoidal function (as a general cas
 
 \begin{figure}[htb]
 	\centering
-	\includegraphics[scale = 0.65]{fig/toothSquareTrapezoidal.pdf}
+	\includegraphics[scale = 0.60]{fig/toothSquareTrapezoidal.pdf}
 	\caption{Trapezoidal Target maneuver.}
 	\label{trapezoidalacc}
 \end{figure}
@@ -249,17 +235,104 @@ We have two cases: \textbf{First case:} the maneuver is \textit{symmetric} so we
 \end{itemize}
 Varying $t_1$ and $t_2$, starting from the square case till the tooth case, until we find the optimum solution based on or cost function which depends on the values of the miss distance and Missile acceleration. 
 
+%------------
+\begin{figure}[htb]
+	\centering
+	\includegraphics[scale = 0.35]{fig/trajectoryTrapSymm.pdf}
+	\caption{Trajectory of the target and attacker in case of symmetric trapezoidal target maneuver with zero heading error and $N'=5$.}
+	\label{trajectory trapSymm}
+\end{figure}
+
+
+\begin{figure}[htb]
+	\centering
+	\includegraphics[scale = 0.35]{fig/MissileAccelerationTrapSymm.pdf}
+	\caption{Missile acceleration in case of symmetric trapezoidal target maneuver with zero heading error and $N'=5$.}
+	\label{missile acceleration trapSymm}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale = 0.35]{fig/TargetAccelerationTrapSym.pdf}
+	\caption{Target acceleration in case of symmetric trapezoidal N=4 target maneuver with zero heading error and $N'=5$.}
+	\label{Target acceleration trapSymm}
+\end{figure}
+
+%----------
 
 \textbf{Second case:} the maneuver is \textit{not symmetric} so we put a first value for $t_1$ (starting with zero) and varying $t_2$ till we scan all the domain, then change $t_1$ slightly and scan all the domain again with $t_2$ till we find the optimum solution.
 
 What about if the optimum solution for the target maneuver did not have Identical halves? and all the slops are not related to each other. We will try to figure that using genetic algorithm in the next section. 
 
-%=======================================================
+
+%------------
+\begin{figure}[htb]
+	\centering
+	\includegraphics[scale = 0.35]{fig/trajectoryTrap.pdf}
+	\caption{Trajectory of the target and attacker in case of trapezoidal target maneuver with zero heading error and $N'=5$.}
+	\label{trajectory trap}
+\end{figure}
+
+
+\begin{figure}[htb]
+	\centering
+	\includegraphics[scale = 0.35]{fig/MissileAccelerationTrap.pdf}
+	\caption{Missile acceleration in case of trapezoidal target maneuver with zero heading error and $N'=5$.}
+	\label{missile acceleration trap}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale = 0.35]{fig/TargetAccelerationTrap.pdf}
+	\caption{Target acceleration in case of trapezoidal N=4 target maneuver with zero heading error and $N'=5$.}
+	\label{Target acceleration trap}
+\end{figure}
+
+%----------
+%=================================================================================
+
+\section{Guidance Toolbox}
+
+All the previous results could be generated from a simple GUI (graphic user interface), (Fig.\ref{Guidance Toolbox}).  The inputs for this GUI is the locations and velocities for the Target (plane) and the Attacker (missile). Then the user have to choose the guidance law, which is the way that the Attacker tracking the Target, and there is 3 options :
+
+\begin{itemize}
+	\item Proportional Navigation (PN)
+	\item Augmented Proportional Navigation
+	\item Optimal Guidance
+\end{itemize} 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale = 0.45]{fig/GUI.PNG}
+	\caption{Guidance Toolbox}
+	\label{Guidance Toolbox}
+\end{figure}
+
+
+If the user chooses the PN guidance law (Fig.\ref{Guidance Toolbox PN}) , there will be more options be available, Now he could select the type of escape maneuver:
+\begin{itemize}
+	\item Polynomial
+	\item Trapezoidal
+	\item Symmetric Trapezoidal
+\end{itemize}
+
+and the result will be optimized escape maneuver. 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale = 0.4]{fig/guiPN.PNG}
+	\caption{Guidance Toolbox options when PN selected}
+	\label{Guidance Toolbox PN}
+\end{figure}
+  
+
+%=============================================================================================
+%=============================================================================================
 
 \section{Genetic Algorithm Solution [using simulink]}
 
 
-In this subsection we will use the power of blocks in Simulink to solve the differential equations in section 2.3 in an easy way (Fig. \ref{PN eq}). We will make these equations as a main block (Fig. \ref{PN main block}) and as we change the inputs, we get the same results. The advantage of using simulink is to use the main block with an alternative optimization technique (like genetic algorithms) and we will simulate two cases, polynomial and trapezoidal. Now let us have a brief introduction to the genetic algorithm technique.
+In this subsection we will use the power of blocks in Simulink to solve the differential equations in section \ref{PNeqations} in an easy way (Fig. \ref{PN eq}). We will make these equations as a main block (Fig. \ref{PN main block}) and as we change the inputs, we get the same results. The advantage of using simulink is to use the main block with an alternative optimization technique (like genetic algorithms) and we will simulate two cases, polynomial and trapezoidal. Now let us have a brief introduction to the genetic algorithm technique.
 
 \subsection{Introduction to Genetic Algorithm technique}
 Genetic algorithm is a \textit{stochastic population-based} search method. Genetic Algorithms (GAs) are   search algorithms based on the mechanics of the natural selection process (biological evolution).  The most basic concept is that the strong tend to adapt and survive while the weak tend to die out. That is, optimization is based on evolution, and the "Survival of the fittest" concept.
@@ -277,7 +350,7 @@ Each feasible solution is encoded as a chromosome (string) also called a genotyp
 	\end{itemize}
 \end{itemize}
 
-\textbf{Most Important Parameters in GAs:}
+\subsubsection*{Most Important Parameters in GAs:}
 \begin{itemize}
 	\item Population Size
 	\item Evaluation Function
@@ -285,7 +358,7 @@ Each feasible solution is encoded as a chromosome (string) also called a genotyp
 	\item Mutation Rate
 \end{itemize}
 
-\textbf{Use Genetic Algorithms:} 
+\subsubsection*{Use Genetic Algorithms:}
 \begin{itemize}
 	\item When facing a problem of local minima.
 	\item When a good fitness function is available.
@@ -293,48 +366,48 @@ Each feasible solution is encoded as a chromosome (string) also called a genotyp
 	\item When the state-space is too large for other methods.
 \end{itemize}
 
-\textbf{\underline{COMPONENTS OF GENETIC ALGORITHMS}}\\
-\textbf{Representation (definition of individuals):}\\
+\subsection{COMPONENTS OF GENETIC ALGORITHMS}
+\subsubsection*{Representation (definition of individuals):}
 Objects forming possible solution within original problem context are called phenotypes, their encoding, the individuals within the GA, are called genotypes.
 The representation step specifies the mapping from the phenotypes onto a set of genotypes.
 Candidate solution, phenotype and individual are used to denote points of the space of possible solutions. This space is called phenotype space.
 Chromosome, and individual can be used for points in the genotye space.
 Elements of a chromosome are called genes. A value of a gene is called an allele.
 The GA works with a coding of the parameter rather than the actual parameter. Depending  on the particular  problem,  the  coding  may  be  Boolean-valued,  integer-valued,  real-valued,   complex-valued, vector-valued,  symbolic  valued,  or multiple-valued.
-\\
-\textbf{Evaluation function:}\\
+
+\subsubsection*{Evaluation function:}
 This is just the cost or the objective function which represent what we want to maximize. For minimization problem use the reciprocal (i.e. 1/f).
-\\
-\textbf{Population:}\\
+
+\subsubsection*{Population:}
 The role of the population is to hold possible solutions. A population is a multiset of genotypes. In GA, the population size is (almost always) constant. The bigger the size, the better the final solution, and the larger the execution time.
-\\
-\textbf{Parent Selection Mechanism:}\\
+
+\subsubsection*{Parent Selection Mechanism:}
 The role of parent selection (mating selection) is to distinguish among individuals based on their quality to allow the better individuals to become parents of the next generation.
 Parent selection is probabilistic. Thus, high quality individuals get a higher chance to become parents than those with low quality. Nevertheless, low quality individuals are often given a small, but positive chance; otherwise the whole search could become too greedy and get stuck in a local optimum.
-\\
-\textbf{Variation Operators:}\\
+
+\subsubsection*{Variation Operators:}
 The role of variation operators is to create new individuals from old ones. Variation operators form the implementation of the elementary steps with the search space.
-\\
-\textbf{Mutation Operator:}\\
+
+\subsubsection*{Mutation Operator:}
 A unary variation operator is called \textit{mutation}. It is applied to one genotype and delivers a modified mutant, the child or \textit{offspring} of it.
 In general, mutation is supposed to cause a random unbiased change. 
-\\
-\textbf{Crossover Operator:}\\
+
+\subsubsection*{Crossover Operator:}
 A binary variation operator is called recombination or crossover. This operator merges information from two parent genotypes into one or two offspring genotypes.
 Similarly to mutation, crossover is a stochastic operator: the choice of what parts of each parent are combined, and the way these parts are combined, depend on random drawings.
 The principle behind crossover is simple: by mating two individuals with different but desirable features, we can produce an offspring which combines both of those features.
-\\
-\textbf{Survivor Selection Mechanism:}\\
+
+\subsubsection*{Survivor Selection Mechanism:}
 The role of survivor selection is to distinguish among individuals based on their quality. In GA, the population size is (almost always) constant, thus a choice has to be made on which individuals will be allowed in the next generation. This decision is based on their fitness values, favoring those with higher quality.
 As opposed to parent selection which is stochastic, survivor selection is often deterministic, for instance, ranking the unified multiset of parents and offspring and selecting the top segment (fitness biased), or selection only from the offspring (age-biased).
-\\
+
 
 
 \begin{landscape}
 	\begin{figure}[H]
 		\centering
 		\includegraphics[scale = 0.70]{fig/PNeq.PNG}
-		\caption{The Simulink model for proportional navigation equations in sec 2.3}
+		\caption{The Simulink model for proportional navigation equations in sec \ref{PNeqations}}
 		\label{PN eq}
 	\end{figure}
 \end{landscape}
@@ -343,13 +416,52 @@ As opposed to parent selection which is stochastic, survivor selection is often 
 \begin{figure}[H]
 	\centering
 	\includegraphics[scale = 0.75]{fig/PNmainBlock.PNG}
-	\caption{The Simulink main block for solving proportional navigation equations in sec 2.3}
+	\caption{The Simulink main block for solving proportional navigation equations in sec \ref{PNeqations}}
 	\label{PN main block}
 \end{figure}
 
 
-
 %We will use the main block we have created with the genetic algorithm toolbox in MATLAB in the same manner we have done, let the target maneuver ba a polynomial with unknown coefficients, then it is required to find the values of these coefficients using genetic algorithm to maximize miss distance and missile acceleration.
+%=======================================================
+
+\subsection{Results}
+We will use the main block we have created with the genetic algorithm toolbox in MATLAB in the same manner we have done, let the target maneuver unknown, then it is required to find it using genetic algorithm to maximize miss distance and missile acceleration. We have two cases of the target maneuver:
+
+\subsubsection{Polynomial Target Maneuver}
+let the target maneuver ba a polynomial with unknown coefficients, then it is required to find the values of these coefficients using genetic algorithm toolbox in Matlab (Fig. \ref{GA toolbox poly}) to maximize miss distance and missile acceleration. The result for the best fitness values are in Fig.\ref{GA poly F}. The optimized target acceleration and trajectory simulation are in figures \ref{GA poly XNT} and \ref{GA poly trajectory}. 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale = 0.4]{fig/GApoly.PNG}
+	\caption{Genetic Algorithm Toolbox in Matlab.}
+	\label{GA toolbox poly}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale = 0.4]{fig/GApolyF.PNG}
+	\caption{Best fitness values}
+	\label{GA poly F}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale = 0.4]{fig/GApolyXNT.PNG}
+	\caption{Optimized target acceleration using GA.}
+	\label{GA poly XNT}
+\end{figure}
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale = 0.4]{fig/polyTrajectory.PNG}
+	\caption{Optimized trajectory using GA.}
+	\label{GA poly trajectory}
+\end{figure}
+
+
+
+\subsubsection{Trapezoidal Target Maneuver}
 
 
 % ===================================================
