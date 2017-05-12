@@ -35,33 +35,33 @@
 \contentsline {chapter}{CHAPTER {5}: \caseupper {Game}}{36}{chapter.5}
 \contentsline {section}{\numberline {5.1}Introduction to Unity}{36}{section.5.1}
 \contentsline {section}{\numberline {5.2}Methodology of the game}{36}{section.5.2}
-\contentsline {section}{\numberline {5.3}Results}{37}{section.5.3}
-\contentsline {part}{III\hspace {1em}TARGET-ATTACKER-DEFENDER PROBLEM}{38}{part.3}
-\contentsline {chapter}{CHAPTER {6}: \caseupper {TARGET-ATTACKER-DEFENDER PROBLEM}}{39}{chapter.6}
-\contentsline {section}{\numberline {6.1}Problem Statement}{39}{section.6.1}
-\contentsline {section}{\numberline {6.2}Assumptions, Notation, and Nomenclature}{39}{section.6.2}
-\contentsline {section}{\numberline {6.3}APOLLONIUS CIRCLES PERTAINING TO THE PROBLEM}{42}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}The $AD$ Apollonius circle}{44}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}The $TA$ Apollonius circle}{46}{subsection.6.3.2}
-\contentsline {chapter}{CHAPTER {7}: \caseupper {CRITICAL SPEED RATIO}}{48}{chapter.7}
-\contentsline {section}{\numberline {7.1}The case $\gamma <1$ (fast defender)}{48}{section.7.1}
-\contentsline {section}{\numberline {7.2}The case $\gamma =1$ (similar Defender)}{50}{section.7.2}
-\contentsline {section}{\numberline {7.3}The case $\gamma >1$ (Slow Defender)}{50}{section.7.3}
-\contentsline {chapter}{CHAPTER {8}: \caseupper {ESCAPE REGION AND VORONOI DIAGRAM}}{57}{chapter.8}
-\contentsline {chapter}{CHAPTER {9}: \caseupper {OPTIMAL STRATEGIES}}{68}{chapter.9}
-\contentsline {section}{\numberline {9.1}Target initial position is outside the $AD$ Apollonius circle, and $\gamma <1$}{68}{section.9.1}
-\contentsline {section}{\numberline {9.2}Target initial position is inside the $AD$-Apollonius circle, and $\gamma <1$}{72}{section.9.2}
-\contentsline {section}{\numberline {9.3}Target initial position is in the R.H.S. of the $XY$-plane, and $\gamma =1$}{73}{section.9.3}
-\contentsline {section}{\numberline {9.4}Target initial position is in the L.H.S. of the $XY$-plane, and $\gamma =1$}{75}{section.9.4}
-\contentsline {section}{\numberline {9.5}Target initial position is inside the $AD$ Apollonius circle, and $\gamma >1$}{75}{section.9.5}
-\contentsline {section}{\numberline {9.6}Target initial position is outside the $AD$ Apollonius circle, and $\gamma >1$}{77}{section.9.6}
-\contentsline {section}{\numberline {9.7}Numerical Results}{78}{section.9.7}
-\contentsline {subsection}{\numberline {9.7.1}$\gamma =0.8,\ x_T=1.0,\ y_T=20.0$}{78}{subsection.9.7.1}
-\contentsline {subsection}{\numberline {9.7.2}$\gamma =0.8,\ x_T=20.0,\ y_T=1.0$}{79}{subsection.9.7.2}
-\contentsline {subsection}{\numberline {9.7.3}$\gamma =1.0,\ x_T=-1.0,\ y_T=1.0$}{79}{subsection.9.7.3}
-\contentsline {subsection}{\numberline {9.7.4}$\gamma =1.0,\ x_T=1.0,\ y_T=1.0$}{79}{subsection.9.7.4}
-\contentsline {subsection}{\numberline {9.7.5}$\gamma =1.25,\ x_T=-20.0,\ y_T=1.0$}{79}{subsection.9.7.5}
-\contentsline {subsection}{\numberline {9.7.6}$\gamma =1.25,\ x_T=-1.0,\ y_T=20.0$}{80}{subsection.9.7.6}
-\contentsline {chapter}{CHAPTER {10}: \caseupper {OPTIMAL HEADING ANGLE SIMULATION}}{81}{chapter.10}
-\contentsline {part}{IV\hspace {1em}CONCLUSION AND FUTURE WORK}{89}{part.4}
-\contentsline {chapter}{CHAPTER {11}: \caseupper {CONCLUSION AND FUTURE WORK}}{90}{chapter.11}
+\contentsline {section}{\numberline {5.3}Results}{38}{section.5.3}
+\contentsline {part}{III\hspace {1em}TARGET-ATTACKER-DEFENDER PROBLEM}{39}{part.3}
+\contentsline {chapter}{CHAPTER {6}: \caseupper {TARGET-ATTACKER-DEFENDER PROBLEM}}{40}{chapter.6}
+\contentsline {section}{\numberline {6.1}Problem Statement}{40}{section.6.1}
+\contentsline {section}{\numberline {6.2}Assumptions, Notation, and Nomenclature}{40}{section.6.2}
+\contentsline {section}{\numberline {6.3}APOLLONIUS CIRCLES PERTAINING TO THE PROBLEM}{43}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}The $AD$ Apollonius circle}{45}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}The $TA$ Apollonius circle}{47}{subsection.6.3.2}
+\contentsline {chapter}{CHAPTER {7}: \caseupper {CRITICAL SPEED RATIO}}{49}{chapter.7}
+\contentsline {section}{\numberline {7.1}The case $\gamma <1$ (fast defender)}{49}{section.7.1}
+\contentsline {section}{\numberline {7.2}The case $\gamma =1$ (similar Defender)}{51}{section.7.2}
+\contentsline {section}{\numberline {7.3}The case $\gamma >1$ (Slow Defender)}{51}{section.7.3}
+\contentsline {chapter}{CHAPTER {8}: \caseupper {ESCAPE REGION AND VORONOI DIAGRAM}}{58}{chapter.8}
+\contentsline {chapter}{CHAPTER {9}: \caseupper {OPTIMAL STRATEGIES}}{69}{chapter.9}
+\contentsline {section}{\numberline {9.1}Target initial position is outside the $AD$ Apollonius circle, and $\gamma <1$}{69}{section.9.1}
+\contentsline {section}{\numberline {9.2}Target initial position is inside the $AD$-Apollonius circle, and $\gamma <1$}{73}{section.9.2}
+\contentsline {section}{\numberline {9.3}Target initial position is in the R.H.S. of the $XY$-plane, and $\gamma =1$}{74}{section.9.3}
+\contentsline {section}{\numberline {9.4}Target initial position is in the L.H.S. of the $XY$-plane, and $\gamma =1$}{76}{section.9.4}
+\contentsline {section}{\numberline {9.5}Target initial position is inside the $AD$ Apollonius circle, and $\gamma >1$}{76}{section.9.5}
+\contentsline {section}{\numberline {9.6}Target initial position is outside the $AD$ Apollonius circle, and $\gamma >1$}{78}{section.9.6}
+\contentsline {section}{\numberline {9.7}Numerical Results}{79}{section.9.7}
+\contentsline {subsection}{\numberline {9.7.1}$\gamma =0.8,\ x_T=1.0,\ y_T=20.0$}{79}{subsection.9.7.1}
+\contentsline {subsection}{\numberline {9.7.2}$\gamma =0.8,\ x_T=20.0,\ y_T=1.0$}{80}{subsection.9.7.2}
+\contentsline {subsection}{\numberline {9.7.3}$\gamma =1.0,\ x_T=-1.0,\ y_T=1.0$}{80}{subsection.9.7.3}
+\contentsline {subsection}{\numberline {9.7.4}$\gamma =1.0,\ x_T=1.0,\ y_T=1.0$}{80}{subsection.9.7.4}
+\contentsline {subsection}{\numberline {9.7.5}$\gamma =1.25,\ x_T=-20.0,\ y_T=1.0$}{80}{subsection.9.7.5}
+\contentsline {subsection}{\numberline {9.7.6}$\gamma =1.25,\ x_T=-1.0,\ y_T=20.0$}{81}{subsection.9.7.6}
+\contentsline {chapter}{CHAPTER {10}: \caseupper {OPTIMAL HEADING ANGLE SIMULATION}}{82}{chapter.10}
+\contentsline {part}{IV\hspace {1em}CONCLUSION AND FUTURE WORK}{90}{part.4}
+\contentsline {chapter}{CHAPTER {11}: \caseupper {CONCLUSION AND FUTURE WORK}}{91}{chapter.11}
