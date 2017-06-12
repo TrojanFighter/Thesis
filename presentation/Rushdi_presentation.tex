@@ -1,24 +1,32 @@
-% !TeX spellcheck = en_US
 \documentclass{beamer}
-\mode<presentation> {
-%\usetheme{default}
-\usetheme{Antibes}
-}
-
+%\documentclass[aspectratio=169]{beamer}
+\usetheme{singapore}
+\usecolortheme{crane}
+%\usetheme{Copenhagen}
+\usepackage{graphicx}
+\usepackage{multimedia}
+\usepackage{media9}
+\usepackage{amssymb}
 \usepackage{graphicx} % Allows including images
 \usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
-
 %-------------------------------------------------------
 %	TITLE PAGE
 %-------------------------------------------------------
-\title[MSc Presentation]{Unified Analytical Overview \\ with Numerical Simulation \\ of the Target-Attacker-Defender Problem} % The short title appears at the bottom of every slide, the full title is only on the title page
+\title[MSc Presentation]{Analysis and Simulation of the Target-Attacker and the Target-Attacker-Defender Problems}
+	%Unified Analytical Overview \\ with Numerical Simulation \\ of the Target-Attacker-Defender Problem
+% The short title appears at the bottom of every slide, the full title is only on the title page
 
-\author{Mostafa Ali Rushdi} % Your name
+\author{\textbf{Mostafa Ali Rushdi}} % Your name
 \institute[Cairo University] % Your institution as it will appear on the bottom of every slide, may be shorthand to save space
 {
-Aerospace Engineering \\ Cairo University \\ % Your institution for the title page
+Aerospace Engineering, Cairo University \\ % Your institution for the title page
 \medskip
-\textit{morushdi@gmail.com} % Your email address
+%\textit{morushdi@gmail.com} \\ % Your email address
+\medskip
+\color{blue}\textbf{Prof. Ayman Hamdy Kasem} and \textbf{Prof. Gamal AlBayoumy}
+}
+\titlegraphic{
+	\includegraphics[height=0.15\textheight]{fig/logo/cairo_logo}
 }
 \date{\today} % Date, can be changed to a custom date
 
@@ -38,41 +46,77 @@ Aerospace Engineering \\ Cairo University \\ % Your institution for the title pa
 %----------------------------------------------------------------------------------------
 
 %------------------------------------------------
-\section{INTRODUCTION} % Sections can be created in order to organize your presentation into discrete blocks, all sections and subsections are automatically printed in the table of contents as an overview of the talk
+%------------------------------------------------
 %------------------------------------------------
 
-\subsection{Problem Statement} % A subsection can be created just before a set of slides with a common theme to further break down your presentation into chunks
+\section{Introduction} 
 
 %------------------------------------------------
+%------------------------------------------------
+%------------------------------------------------
+
+\subsection{Problem Statement} 
+%---------------------
 \begin{frame}
-\frametitle{Problem}
+\frametitle{Problem Statement}
+We address the problem of a target aircraft that tries to evade an attacker and avoid being captured by him.\bigskip
 
-\begin{itemize}
-\item This thesis deals with an important pursuit-evasion problem that involves three agents, the Target the Attacker and the Defender. The Attacker missile pursues a Target aircraft that is being helped by a Defender missile which tries to intercept the Attacker before it reaches the Target. 
-\item A differential game arises in which a team is formed by the Target and the Defender which cooperate to maximize the separation between the Target and the point where the Defender intercepts the Attacker, while the Attacker tries to minimize this separation. 
-\item This thesis offers a unified analytic treatment of the aforementioned problem based on the construction of two Apollonius circles.
-
-\end{itemize}
+\centering\includegraphics[height=0.35\textheight]{fig/t} \quad
+\centering\includegraphics[height=0.35\textheight]{fig/a}
 \end{frame}
-%------------------------------------------------
+%---------------------
 \begin{frame}
-\frametitle{Solution}
-The treatment includes all possibilities of the ratio between the speeds of the Attacker and Defender. A criticality condition is derived from which two important entities are obtained, namely: 
-\begin{itemize}
-\item the critical Target speed normalized w.r.t. the Attacker's speed 
-\item the Voronoi diagram bordering the safe or escape region for the Target
-\end{itemize}
-
-Optimal strategies are also studied, and are shown to obey a complex sixth-degree polynomial when the Defender differs in speed from the Attacker. This polynomial reduces to a real fourth-degree polynomial when the Defender and Attacker are similar.
-Beside unifying previously published results in a common setting, this thesis simplifies all computations by using intuitionistic plane-geometric arguments rather than the more tedious analytic-geometric manipulations. 
+\frametitle{Problem Statement}
+This thesis deals with the following problems:   
+\begin{block}{\textbf{TA}: Target-Attacker}
+	A two-agent pursuit-evasion problem: a Target (aircraft) in opposition to an Attacker (missile).
+\end{block}
+\begin{alertblock}{Unity Game}
+	An experimental game to find the best escape maneuver of a TA problem by collecting and analyzing data from human players. 
+\end{alertblock}
+\begin{exampleblock}{\textbf{TAD}: Target-Attacker-Defender}
+	A three-agent pursuit-evasion: a team of a Target (aircraft) and a Defender (missile) in opposition to an Attacker (missile).
+\end{exampleblock}
 \end{frame}
-%------------------------------------------------
+%---------------------
+\subsection{Summary of Solution} 
+%---------------------
 \begin{frame}
-\frametitle{Solution}
-Moreover, the thesis extends existing results by adding some novel results, thereby giving a complete picture of all cases of interest.
-The analysis in this thesis is supplemented by extensive computations using MATLAB to solve the complex high-order polynomial equations and to plot the Voronoi diagrams under a variety of pertinent parameters.
-The numerical results and plots obtained allow useful and insightful interpretation and are in exact agreement with numerical solution of the corresponding two-point boundary value problem.
+\frametitle{Summary of Solution}
+\textbf{Scenario 1:}
+\begin{block}{\textbf{TA}: Target-Attacker}
+	\begin{itemize}
+		\item We present several methodologies to find the \textbf{optimal escape maneuver} for a target against an attacking missile. 
+		\item We simulate 2D proportional-navigation using MATLAB and Simulink.
+		\item Optimization is achieved via the techniques of Monte-Carlo simulation and genetic algorithms.
+	\end{itemize}
+\end{block}
 \end{frame}
+%---------------------
+\begin{frame}
+\frametitle{Summary of Solution}
+\textbf{Experimental Testing:}
+\begin{alertblock}{Unity Game}
+	\begin{itemize}
+		\item We also construct a \textbf{mathematically-correct game} of target-attacker and let many people play it taking the target side. 
+		\item We find the best escape maneuver by collecting and analyzing data of the human escape maneuver. 
+		\item The game is developed using Unity, a free readily-available cross-platform game engine.
+	\end{itemize}
+\end{alertblock}
+\end{frame}
+%---------------------
+\begin{frame}
+\frametitle{Summary of Solution}
+\textbf{Scenario 2:}
+\begin{exampleblock}{\textbf{TAD}: Target-Attacker-Defender}
+	\begin{itemize}
+		\item A unified analysis is presented via the construction of two Apollonius circles, considering all possibilities of the ratio between the speeds of the attacker and defender. 
+		\item A criticality condition is derived, from which we obtain the critical target speed and the Voronoi diagram bordering the safe or escape region for the target optimal strategies. Numerical results and plots allow useful and insightful qualitative interpretations. 
+		\item Optimal heading angles to be followed by the target to stay in the safe region. We use Hamiltonian equations to formulate an exact two-point boundary value problem that is solved numerically, verifying our earlier results.
+	\end{itemize}
+\end{exampleblock}
+\end{frame}
+
 %------------------------------------------------
 
 \begin{frame}
@@ -107,7 +151,6 @@ Area & Agent 1 & Agent 2 & Agent 3 \\
 \newblock Active target defense differential game
 \newblock \emph{IEEE 52nd Annual Allerton Conference on Communication, Control, and Computing}, 46 -- 53.
 
-
 \bibitem[garcia2015active]{p1}Garcia, Eloy and Casbeer, David W and Pachter, Meir (2015)
 \newblock Active target defense differential game with a fast defender
 \newblock \emph{arXiv preprint arXiv:1502.02747}.
@@ -119,25 +162,31 @@ Area & Agent 1 & Agent 2 & Agent 3 \\
 \end{thebibliography}
 }
 \end{frame}
+
 %------------------------------------------------
 %------------------------------------------------
-\section{ASSUMPTIONS, NOTATION, AND NOMENCLATURE}
-\subsection{Notation}
+%------------------------------------------------
+
+\section{Terminology}
+
+%------------------------------------------------
+%------------------------------------------------
+%------------------------------------------------
+\subsection{}
+% -----------------------
 \begin{frame}
 \frametitle{Notation}
 \begin{itemize}
-\item $A$: Initial position of the Attacker.
-\item $D$: Initial position of the Defender.
-\item $T$: Initial position of the Target.
-\item $T'$ Terminal position of the Target, i.e., its position at the time the Defender intercepts the Attacker.
-\item $\alpha=\dfrac{V_{T}}{V_{A}}$ (assumed $<1$, otherwise the target trivially survives).
-\item $\gamma=\dfrac{1}{\beta}=\dfrac{V_{A}}{V_{D}}$ (studied for a fast Defender ($\gamma<1$), a similar Defender ($\gamma=1$), and a slow Defender ($\gamma>1$)).
-\item $u, v, w$: Aim points on the $AD$ Apollonius circle by the Attacker, Target and Defender, respectively. 
+	\item $A$: Initial position of the Attacker.
+	\item $D$: Initial position of the Defender.
+	\item $T$: Initial position of the Target.
+	\item $T'$ Terminal position of the Target, i.e., its position at the time the Defender intercepts the Attacker.
+	\item $\alpha=\dfrac{V_{T}}{V_{A}}$ (assumed $<1$, otherwise the target trivially survives).
+	\item $\gamma=\dfrac{1}{\beta}=\dfrac{V_{A}}{V_{D}}$ (studied for a fast Defender ($\gamma<1$), a similar Defender ($\gamma=1$), and a slow Defender ($\gamma>1$)).
+	\item $u, v, w$: Aim points on the $AD$ Apollonius circle by the Attacker, Target and Defender, respectively. 
 \end{itemize}
 \end{frame}
-
 %-----------------------------------------------
-\subsection{Assumption}
 \begin{frame}
 \frametitle{Assumption}
 \begin{enumerate}
@@ -145,17 +194,25 @@ Area & Agent 1 & Agent 2 & Agent 3 \\
 \item The Attacker missile is faster than the Target aircraft, i.e., $\alpha\equiv \dfrac{V_{T}}{V_{A}}<1$ (In the case $\alpha\geq1$, the Target is guaranteed to survive by following an optimal strategy, even without assistance from the Defender).
 \item There are three distinct cases for the ratio of the speed of the Attacker to that of the Defender $\gamma=\dfrac{1}{\beta}=\dfrac{V_{A}}{V_{D}}$ 
 \begin{itemize}
-\item $\gamma<1$ (fast Defender) [2]
-\item $\gamma =1$ (same speed Defender) [1,3]
-\item $\gamma>1$ (slow Defender), which is a novel case, discussed herein for the first time, and unified with the two previous cases.  
+	\item $\gamma<1$ (fast Defender) [2]
+	\item $\gamma =1$ (same speed Defender) [1,3]
+	\item $\gamma>1$ (slow Defender), which is a novel case, discussed herein for the first time, and unified with the two previous cases.  
 \end{itemize}
-\item The Defender intercepts the Attacker if their separation becomes zero (point capture).
-\item The optimal trajectories of the three agents are straight lines.
-\item A Cartesian frame is attached to the initial positions $A$ and $D$ of the Attacker and Defender in such a way the $X$-axis is the infinite extension of the straight segment $\overline{AD}$ and the $Y$-axis is the perpendicular bisector of $\overline{AD}$.
+\end{enumerate}
+\end{frame}
+%-----------------------------------------------
+\begin{frame}
+\frametitle{Assumption}
+\begin{enumerate}
+	\item The Defender intercepts the Attacker if their separation becomes zero (point capture).
+	\item The optimal trajectories of the three agents are straight lines.
+	\item A Cartesian frame is attached to the initial positions $A$ and $D$ of the Attacker and Defender in such a way the $X$-axis is the infinite extension of the straight segment $\overline{AD}$ and the $Y$-axis is the perpendicular bisector of $\overline{AD}$.
 \end{enumerate}
 \end{frame}
 %------------------------------------------------
-\subsection{Nomenclature}
+\subsection{}
+% -----------------------
+
 \begin{frame}
 \frametitle{Reachability region $R_r$}
 Region reachable by the Defender before the Attacker\\
@@ -195,10 +252,87 @@ For $\gamma>1$, $R_r$ is the interior of the $AD$ Apollonius circle.
 \frametitle{Escape region $R_e$}
 The escape region $R_e$ is the set of all coordinate pairs $(x,y)$ such that if the Target initial position $\boldsymbol{T}=(x_{T},y_{T})$ is inside this region, then it is guaranteed to escape the Attacker if both the Target and Defender implement their corresponding optimal strategies. This set is a strict superset of the set of points reachable by the Defender before the Attacker ($R_e\supseteq R_r$). The boundary of this set is called a Voronoi Diagram.
 \end{frame}
+
 %------------------------------------------------
-\section{APOLLONIUS CIRCLES PERTAINING TO THE PROBLEM}
+%------------------------------------------------
+%------------------------------------------------
+
+\section{Target-Attacker}
+
+%------------------------------------------------
+%------------------------------------------------
+%------------------------------------------------
+\subsection{} 
+%---------------------
 \begin{frame}
-\frametitle{A Circle}
+\frametitle{Target-Attacker}
+Target-Attacker
+\end{frame}
+%---------------------
+\begin{frame}
+\frametitle{Target-Attacker}
+Target-Attacker
+\end{frame}
+
+%------------------------------------------------
+\subsection{} 
+%---------------------
+\begin{frame}
+\frametitle{Target-Attacker}
+Target-Attacker
+\end{frame}
+%---------------------
+\begin{frame}
+\frametitle{Target-Attacker}
+Target-Attacker
+\end{frame}
+%------------------------------------------------
+%------------------------------------------------
+%------------------------------------------------
+
+\section{Unity Game}
+
+%------------------------------------------------
+%------------------------------------------------
+%------------------------------------------------
+\subsection{}
+%---------------------
+\begin{frame}
+\frametitle{Unity Game}
+Unity Game
+\end{frame}
+%---------------------
+\begin{frame}
+\frametitle{Unity Game}
+Unity Game
+\end{frame}
+
+%------------------------------------------------
+\subsection{}
+%---------------------
+\begin{frame}
+\frametitle{Unity Game}
+Unity Game
+\end{frame}
+%---------------------
+\begin{frame}
+\frametitle{Unity Game}
+Unity Game
+\end{frame}
+
+%------------------------------------------------
+%------------------------------------------------
+%------------------------------------------------
+
+\section{Target-Attacker-Defender}
+
+%------------------------------------------------
+%------------------------------------------------
+%------------------------------------------------
+\subsection{}
+% -----------------------
+\begin{frame}
+\frametitle{Apollonius Circles}
 A circle is the locus moving at a constant distance (called the circle's radius $r$) from a fixed point (called the circle's centre $O$).
 In the limit of an infinite radius $(r\longrightarrow\infty)$, the circle degenerates into a straight line.
 \end{frame}
@@ -223,9 +357,7 @@ In the limit of an infinite radius $(r\longrightarrow\infty)$, the circle degene
    \begin{equation}
    \boldsymbol{E} = \dfrac{1}{k-1} (-\boldsymbol{A}+k\boldsymbol{B}).
    \label{eqn:epoint}
-   \end{equation}
-   
-   
+   \end{equation}   
 \end{frame}
 %------------------------------------------------
 \begin{frame}
@@ -285,8 +417,8 @@ It is clear from \eqref{eqn:center} and \eqref{eqn:radius} that $\lim_{k\to1}\lv
 \end{figure}
 \end{frame}
 %------------------------------------------------
-\subsection{The $AD$ Apollonius circle}
-\begin{frame}
+\begin{frame} 
+\frametitle{The $AD$ Apollonius circle}
 For the $AD$ Apollonius circle, the two fixed points are the initial positions of the Attacker $\boldsymbol{A}=(x_{A},0)$ and the initial position of the defender $\boldsymbol{D}=(-x_{A},0)$. The fixed ratio of the circle $k$ is replaced by the following dimensionless ratio: 
 \begin{equation}
 \gamma = \dfrac{V_{A}}{V_{D}}.
@@ -302,8 +434,8 @@ r_{1} &=& \dfrac{2\gamma}{\lvert1-\gamma^{2}\rvert}x_{A}.
 \end{eqnarray}
 \end{frame}
 %------------------------------------------------
-\subsection{The $TA$ Apollonius circle}
 \begin{frame}
+\frametitle{The $TA$ Apollonius circle}
 For the $TA$ Apollonius circle, the two fixed points are the initial position of the Target $\boldsymbol{T}=(x_{T},y_{T})$ and the initial position of the Attacker  $\boldsymbol{A}=(x_{A},0)$.
 Again, $k$ is replaced by:
 \begin{equation}
@@ -336,18 +468,19 @@ r_{2} =\dfrac{\alpha}{1-\alpha^{2}}(TA)
 %\label{d}
 %\end{equation}
 \end{frame}
+
 %------------------------------------------------
-\section{CRITICAL SPEED RATIO}
+\subsection{}
+% -----------------------
+
 \begin{frame}
-\frametitle{Target survival}
+\frametitle{Target survival and Critical Speed Ratio}
 Target survival is guaranteed if there is an overlapping of the region reachable by the Target before the Attacker (the interior of the $TA$ Apollonius circle) and the region $R_r$ reachable by the Defender before the Attacker, since within this overlapping, the Defender can perform its intended role of intercepting the Attacker before the Attacker captures the Target. Target survival is critical when the aforementioned overlapping diminishes into a single point at which the aforementioned two regions barely touch, or are tangent to one another.\\
 
  An implicit assumption throughout the forthcoming analysis is that $\boldsymbol{T}=(x_T , y_T)$ is outside $R_r$. 
 \end{frame}
 
 %------------------------------------------------
-\subsection{The case $\gamma<1$ (fast defender)}
-
 \begin{frame}
 $\overline{\alpha}$ is obtained when the $TA$ Apollonius circle is tangent to the boundary of the shaded region $R_r$
 
@@ -390,7 +523,6 @@ Equation (\ref{eq36in3}) is an improvement of equation (36) in [2].
 while (\ref{eq36in3}) is a quadratic equation in $\alpha$, equation (36) in [2] is a quartic in $\alpha$ that has the same  two roots of (\ref{eq36in3}) in addition to the two irrelevant roots $\alpha\mp1$. As a bonus, equation (\ref{eq36in3}) is written in a self-verifying dimensionless form.
 \end{frame}
 %------------------------------------------------
-\subsection{The case $\gamma=1$ (similar Defender)}
 
 \begin{frame}
 \begin{figure}
@@ -423,7 +555,6 @@ though (\ref{eq36in3}) was derived under the assumption $\gamma\neq1$.
 
 \end{frame}
 %------------------------------------------------
-\subsection{The case $\gamma>1$ (Slow Defender)}
 
 \begin{frame}
 \begin{figure}
@@ -448,7 +579,6 @@ r_{1}+r_{2}=\dfrac{2\gamma}{\lvert1-\gamma^{2}\rvert}+\dfrac{\alpha}{1-\alpha^{2
 The above expression for $(r_1+r_2)$ is exactly the negative of $(r_1-r_2)$ in (\ref{generaleq}).
 \end{frame}
 %------------------------------------------------
-\subsection{}
 \begin{frame}
 Equation (\ref{eq36in3}) is thereby shown to hold for a slow Defender besides being true for a fast one.
 Therefore, we will use the quadratic formula (\ref{eq36in3}) for all values of $\gamma$, and will solve it to obtain $\overline{\alpha}$ for any $\gamma$ as 
@@ -466,7 +596,6 @@ Therefore, we will use the quadratic formula (\ref{eq36in3}) for all values of $
 Equation (\ref{cr_alpha_3}) was derived in [3] for $\gamma<1$ and in [1] for $\gamma=1$, provided $x_{T}>0$. It is shown herein to hold for all values in $\gamma$, including $\gamma>1$. Note that $\overline{\alpha}$ is definitely nonnegative and hence the minus sign in the solution for $\overline{\alpha}$ is rejected.
 \end{frame}
 %------------------------------------------------
-\section{ESCAPE REGION AND VORONOI DIAGRAM}
 \begin{frame}
 \frametitle{Pursuit-Evasion Voronoi Diagram}
 We develop a novel analytic expression for the pursuit-evasion Voronoi diagram that marks or borders the "safe" or "escape" region $R_{e}$ for the Target, i.e., the region defined by the set of all coordinate points $(x,y)$ such that if the target's initial position $(x_{T},y_{T})$ is inside this region, then the target is guaranteed to survive (to escape the Attacker) provided both the Target and Defender implement their optimal strategies, and regardless of the policy adopted by the Attacker, whether optimal or not.\\
@@ -577,9 +706,25 @@ Note that (\ref{poly2}) is the general equation for the Voronoi diagram in our c
 %------------------------------------------------
 %------------------------------------------------
 %------------------------------------------------
-\section*{}
+%------------------------------------------------
+\section{Conclusions}
+%---------------------
+\subsection{} 
 \begin{frame}
-\Huge{\centerline{Thank you for your attention!}}
+\frametitle{Concluding Remarks and Future Work}
+In this work, we presented:
+\begin{itemize}
+	\item 
+	\item
+	\item
+	\item
+	\item
+\end{itemize}
+\end{frame}
+%--------------------
+\subsection{} 
+\begin{frame}
+\Huge{\centerline{Thank you!}}
 \end{frame}
 
 %----------------------------------------------------------------------------------------
