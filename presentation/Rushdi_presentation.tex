@@ -59,28 +59,86 @@ Aerospace Engineering, Cairo University \\ % Your institution for the title page
 %---------------------
 \begin{frame}
 \frametitle{Problem Statement}
-We address the problem of a target aircraft that tries to evade an attacker and avoid being captured by him.\bigskip
+We address the problem of a target \textbf{aircraft} that tries to evade an \textbf{attacker} missile and avoid being hit by it.\bigskip
 
-\centering\includegraphics[height=0.35\textheight]{fig/t} \quad
-\centering\includegraphics[height=0.35\textheight]{fig/a}
+\centering\includegraphics[height=0.25\textheight]{fig/m}  \quad
+\centering\includegraphics[height=0.45\textheight]{fig/t} 
+
 \end{frame}
-%---------------------
+%------------------------------------------------
 \begin{frame}
-\frametitle{Problem Statement}
-This thesis deals with the following problems:   
-\begin{block}{\textbf{TA}: Target-Attacker}
-	A two-agent pursuit-evasion problem: a Target (aircraft) in opposition to an Attacker (missile).
-\end{block}
+\frametitle{Thesis Overview}
+This thesis deals with the following problems: 
+\begin{columns}[c]
+	\begin{column}{.45\linewidth}
+		\begin{block}{\textbf{TA}: Target-Attacker}
+			\begin{itemize}
+				\item 2-agent pursuit-evasion
+				\item Target (aircraft) and attacker (missile)
+				\item Seeking optimal escpae maneuver
+			\end{itemize}
+		\end{block}
+	\end{column}
+	\begin{column}{.55\linewidth}
+		\begin{exampleblock}{\textbf{TAD}: Target-Attacker-Defender}
+			\begin{itemize}
+				\item 3-agent pursuit-evasion
+				\item Target (aircraft), defender (missile), and attacker (missile)				
+				\item Seeking safe region, and optimal heading angles
+			\end{itemize}
+		\end{exampleblock}
+	\end{column}
+\end{columns}
 \begin{alertblock}{Unity Game}
 	An experimental game to find the best escape maneuver of a TA problem by collecting and analyzing data from human players. 
 \end{alertblock}
-\begin{exampleblock}{\textbf{TAD}: Target-Attacker-Defender}
-	A three-agent pursuit-evasion: a team of a Target (aircraft) and a Defender (missile) in opposition to an Attacker (missile).
-\end{exampleblock}
 \end{frame}
+%%---------------------
+%\begin{frame}
+%\frametitle{Problem Statement}
+%This thesis deals with the following problems:   
+%\begin{block}{\textbf{TA}: Target-Attacker}
+%	A two-agent pursuit-evasion problem: a Target (aircraft) in opposition to an Attacker (missile).
+%\end{block}
+%\begin{alertblock}{Unity Game}
+%	An experimental game to find the best escape maneuver of a TA problem by collecting and analyzing data from human players. 
+%\end{alertblock}
+%\begin{exampleblock}{\textbf{TAD}: Target-Attacker-Defender}
+%	A three-agent pursuit-evasion: a team of a Target (aircraft) and a Defender (missile) in opposition to an Attacker (missile).
+%\end{exampleblock}
+%\end{frame}
+
 %---------------------
 \subsection{Summary of Solution} 
 %---------------------
+
+%------------------------------------------------
+\begin{frame}
+\frametitle{Summary of Solution}
+This thesis deals with the following problems: 
+\begin{columns}[c]
+	\begin{column}{.45\linewidth}
+		\begin{block}{\textbf{TA}: Target-Attacker}
+			\begin{itemize}
+				\item We present several methodologies to find the \textbf{optimal escape maneuver} for a target against an attacking missile. 
+				\item We simulate 2D proportional-navigation using MATLAB and Simulink.
+				\item Optimization is achieved via the techniques of Monte-Carlo simulation and genetic algorithms.
+			\end{itemize}
+		\end{block}
+	\end{column}
+	\begin{column}{.55\linewidth}
+		\begin{exampleblock}{\textbf{TAD}: Target-Attacker-Defender}
+			\begin{itemize}
+				\item 3-agent pursuit-evasion
+				\item Target (aircraft), defender (missile), and attacker (missile)				
+				\item Seeking safe region, and optimal heading angles
+			\end{itemize}
+		\end{exampleblock}
+	\end{column}
+\end{columns}
+\end{frame}
+%------------------------------------------------
+
 \begin{frame}
 \frametitle{Summary of Solution}
 \textbf{Scenario 1:}
@@ -95,18 +153,6 @@ This thesis deals with the following problems:
 %---------------------
 \begin{frame}
 \frametitle{Summary of Solution}
-\textbf{Experimental Testing:}
-\begin{alertblock}{Unity Game}
-	\begin{itemize}
-		\item We also construct a \textbf{mathematically-correct game} of target-attacker and let many people play it taking the target side. 
-		\item We find the best escape maneuver by collecting and analyzing data of the human escape maneuver. 
-		\item The game is developed using Unity, a free readily-available cross-platform game engine.
-	\end{itemize}
-\end{alertblock}
-\end{frame}
-%---------------------
-\begin{frame}
-\frametitle{Summary of Solution}
 \textbf{Scenario 2:}
 \begin{exampleblock}{\textbf{TAD}: Target-Attacker-Defender}
 	\begin{itemize}
@@ -116,11 +162,21 @@ This thesis deals with the following problems:
 	\end{itemize}
 \end{exampleblock}
 \end{frame}
-
-%------------------------------------------------
-
+%---------------------
 \begin{frame}
-\frametitle{Various types of this problem}
+\frametitle{Summary of Solution}
+\textbf{Experimental Testing:}
+\begin{alertblock}{Unity Game}
+	\begin{itemize}
+		\item We also construct a \textbf{mathematically-correct game} of target-attacker and let many people play it taking the target side. 
+		\item We find the best escape maneuver by collecting and analyzing data of the human escape maneuver. 
+		\item The game is developed using Unity, a free readily-available cross-platform game engine.
+	\end{itemize}
+\end{alertblock}
+\end{frame}
+%------------------------------------------------
+\begin{frame}
+\frametitle{Applications}
 \begin{center}
 \begin{tabular}{ |c||c|c|c| } 
 \hline
