@@ -9,6 +9,17 @@
 \usepackage{amssymb}
 \usepackage{graphicx} % Allows including images
 \usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
+
+\AtBeginSection[]{
+	\begin{frame}
+	\vfill
+	\centering
+	\begin{beamercolorbox}[sep=8pt,center,shadow=true,rounded=true]{title}
+		\usebeamerfont{title}\insertsectionhead\par%
+	\end{beamercolorbox}
+	\vfill
+\end{frame}
+}
 %-------------------------------------------------------
 %	TITLE PAGE
 %-------------------------------------------------------
@@ -112,7 +123,6 @@ This thesis deals with the following problems:
 \subsection{Summary of Solution} 
 %---------------------
 %------------------------------------------------
-
 \begin{frame}
 \frametitle{Summary of Solution}
 \textbf{Scenario 1:}
@@ -169,28 +179,6 @@ Area & Agent 1 & Agent 2 & Agent 3 \\
 %\caption{A variety of settings or contexts for the same generic problem}
 \label{tableTAD}
 \end{center}  
-\end{frame}
-
-
-%-----------------------------------------------
-\begin{frame}
-\frametitle{Main References}
-\footnotesize{
-\begin{thebibliography}{99} % Beamer does not support BibTeX so references must be inserted manually as below
-\bibitem[pachter2014active]{p1} Pachter Meir, and Garcia, Eloy and Casbeer, David W (2014)
-\newblock Active target defense differential game
-\newblock \emph{IEEE 52nd Annual Allerton Conference on Communication, Control, and Computing}, 46 -- 53.
-
-\bibitem[garcia2015active]{p1}Garcia, Eloy and Casbeer, David W and Pachter, Meir (2015)
-\newblock Active target defense differential game with a fast defender
-\newblock \emph{arXiv preprint arXiv:1502.02747}.
-
-\bibitem[garcia2015escape]{p1}Garcia, Eloy and Casbeer, David W and Pachter, Meir (2015)
-\newblock Escape Regions of the Active Target Defense Differential Game
-\newblock \emph{arXiv preprint arXiv:1504.07900}.
-
-\end{thebibliography}
-}
 \end{frame}
 
 %%------------------------------------------------
@@ -293,6 +281,30 @@ Area & Agent 1 & Agent 2 & Agent 3 \\
 %------------------------------------------------
 %------------------------------------------------
 \subsection{} 
+%------------------------------------------------
+\begin{frame}
+\frametitle{Summary of Solution}
+\textbf{Scenario 1:}
+\begin{block}{\textbf{TA}: Target-Attacker}
+	\begin{itemize}
+		\item We present several methodologies to find the \textbf{optimal escape maneuver} for a target against an attacking missile. 
+		\item We simulate 2D proportional-navigation using MATLAB and Simulink.
+		\item Optimization is achieved via the techniques of Monte-Carlo simulation and genetic algorithms.
+	\end{itemize}
+\end{block}
+\end{frame}
+%-----------------------------------------------
+\begin{frame}
+\frametitle{Main References}
+\footnotesize{
+	\begin{thebibliography}{99} 		
+		\bibitem[] ? (?)
+		\newblock Book
+		\newblock \emph{}.
+		
+	\end{thebibliography}
+}
+\end{frame}
 %---------------------
 \begin{frame}
 \frametitle{Target-Attacker Assumptions}
@@ -433,6 +445,18 @@ f(t) = c_0 + c_1 T + c_2 T^2 + c_3 T^3 + ... + c_N T^N
 \end{figure}
 \end{frame}
 %---------------------
+
+%------------------------------------------------
+%------------------------------------------------
+%------------------------------------------------
+
+\section{ToolBox and Game}
+
+%------------------------------------------------
+%------------------------------------------------
+%------------------------------------------------
+\subsection{Guidance Toolbox}
+%---------------------
 \begin{frame}
 \frametitle{Guidance Toolbox}
 A simple GUI (graphic user interface): the inputs are the locations and velocities for the Target (plane) and the Attacker (missile). Then the user have to choose the guidance law, which is the way that the Attacker tracking the Target, and there is 3 options:
@@ -446,10 +470,10 @@ A simple GUI (graphic user interface): the inputs are the locations and velociti
 \begin{frame}
 \frametitle{Guidance Toolbox}
 \begin{figure}[H]
-	\centering
-	\includegraphics[scale = 0.35]{fig/GUI.PNG}
-	\caption{Guidance Toolbox}
-	\label{Guidance Toolbox}
+\centering
+\includegraphics[scale = 0.35]{fig/GUI.PNG}
+\caption{Guidance Toolbox}
+\label{Guidance Toolbox}
 \end{figure}
 \end{frame}
 %---------------------
@@ -457,19 +481,19 @@ A simple GUI (graphic user interface): the inputs are the locations and velociti
 \frametitle{Guidance Toolbox}
 If the user chooses the PN guidance law, there will be more options be available, Now he could select the type of escape maneuver:
 \begin{itemize}
-	\item Polynomial
-	\item Trapezoidal
-	\item Symmetric Trapezoidal
+\item Polynomial
+\item Trapezoidal
+\item Symmetric Trapezoidal
 \end{itemize}
 \end{frame}
 %---------------------
 \begin{frame}
 \frametitle{Guidance Toolbox}
 \begin{figure}[H]
-	\centering
-	\includegraphics[scale = 0.3]{fig/guiPN.PNG}
-	\caption{Guidance Toolbox options when PN selected}
-	\label{Guidance Toolbox PN}
+\centering
+\includegraphics[scale = 0.3]{fig/guiPN.PNG}
+\caption{Guidance Toolbox options when PN selected}
+\label{Guidance Toolbox PN}
 \end{figure}
 \end{frame}
 %---------------------
@@ -498,33 +522,25 @@ Use Genetic Algorithms:
 \begin{frame}
 \frametitle{Genetic Algorithms}
 \begin{figure}[H]
-	\centering
-	\includegraphics[scale = 0.3]{fig/PNeq.PNG}
-	\caption{The Simulink model for proportional navigation equations.}
-	\label{PN eq}
+\centering
+\includegraphics[scale = 0.3]{fig/PNeq.PNG}
+\caption{The Simulink model for proportional navigation equations.}
+\label{PN eq}
 \end{figure}
 \end{frame}
 %---------------------
 \begin{frame}
 \frametitle{Genetic Algorithms}
 \begin{figure}[H]
-	\centering
-	\includegraphics[scale = 0.25]{fig/GApoly.PNG}
-	\caption{Genetic Algorithm Toolbox in Matlab.}
-	\label{GA toolbox poly}
+\centering
+\includegraphics[scale = 0.25]{fig/GApoly.PNG}
+\caption{Genetic Algorithm Toolbox in Matlab.}
+\label{GA toolbox poly}
 \end{figure}
 \end{frame}
 %------------------------------------------------
-%------------------------------------------------
-%------------------------------------------------
-
-\section{Unity Game}
-
-%------------------------------------------------
-%------------------------------------------------
-%------------------------------------------------
-\subsection{}
-%---------------------
+\subsection{Unity Game}
+%---------------
 \begin{frame}
 \frametitle{Unity Game}
 Unity is a cross-platform game engine developed by Unity Technologies and used to develop video games for PC, consoles, mobile devices and websites. It is a free software (https://unity3d.com/),working with C\# programming language. 
@@ -559,9 +575,7 @@ The game scene consists of some objects, each object has his own script, this sc
 	\item Updated : every frame.
 \end{itemize} 
 \end{frame}
-%------------------------------------------------
-\subsection{}
-%---------------------
+
 \begin{frame}
 \frametitle{Unity Game}
 The game consists of two objects: plane (Target) and missile (Attacker). A human player controls the increasing and decreasing of the target acceleration (XNT) by two arrows on the keyboard. The missile object is moving on according to the proportional navigation guidance law.
@@ -616,6 +630,26 @@ In our game we have 3 objects:
 %------------------------------------------------
 %------------------------------------------------
 \subsection{}
+%-----------------------------------------------
+\begin{frame}
+\frametitle{Main References}
+\footnotesize{
+	\begin{thebibliography}{99} % Beamer does not support BibTeX so references must be inserted manually as below
+		\bibitem[pachter2014active]{p1} Pachter Meir, and Garcia, Eloy and Casbeer, David W (2014)
+		\newblock Active target defense differential game
+		\newblock \emph{IEEE 52nd Annual Allerton Conference on Communication, Control, and Computing}, 46 -- 53.
+		
+		\bibitem[garcia2015active]{p1}Garcia, Eloy and Casbeer, David W and Pachter, Meir (2015)
+		\newblock Active target defense differential game with a fast defender
+		\newblock \emph{arXiv preprint arXiv:1502.02747}.
+		
+		\bibitem[garcia2015escape]{p1}Garcia, Eloy and Casbeer, David W and Pachter, Meir (2015)
+		\newblock Escape Regions of the Active Target Defense Differential Game
+		\newblock \emph{arXiv preprint arXiv:1504.07900}.
+		
+	\end{thebibliography}
+}
+\end{frame}
 % -----------------------
 \begin{frame}
 \frametitle{Apollonius Circles}
