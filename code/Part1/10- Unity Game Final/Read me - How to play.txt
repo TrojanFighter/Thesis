@@ -1,0 +1,6 @@
+The player controls the target (plane) using 2 arrows (up and down) 
+You should improve your maneuver to get higher score 
+Please: 
+•	Don’t change the values in the first screen 
+•	Press save after the game finished (the missile hits the plane)
+•	After 10 trails, and you lose hope to improve your score, send the excel file to me at morushdi@gmail.com
