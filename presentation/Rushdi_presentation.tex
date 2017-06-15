@@ -111,32 +111,6 @@ This thesis deals with the following problems:
 %---------------------
 \subsection{Summary of Solution} 
 %---------------------
-
-%------------------------------------------------
-\begin{frame}
-\frametitle{Summary of Solution}
-This thesis deals with the following problems: 
-\begin{columns}[c]
-	\begin{column}{.45\linewidth}
-		\begin{block}{\textbf{TA}: Target-Attacker}
-			\begin{itemize}
-				\item We present several methodologies to find the \textbf{optimal escape maneuver} for a target against an attacking missile. 
-				\item We simulate 2D proportional-navigation using MATLAB and Simulink.
-				\item Optimization is achieved via the techniques of Monte-Carlo simulation and genetic algorithms.
-			\end{itemize}
-		\end{block}
-	\end{column}
-	\begin{column}{.55\linewidth}
-		\begin{exampleblock}{\textbf{TAD}: Target-Attacker-Defender}
-			\begin{itemize}
-				\item 3-agent pursuit-evasion
-				\item Target (aircraft), defender (missile), and attacker (missile)				
-				\item Seeking safe region, and optimal heading angles
-			\end{itemize}
-		\end{exampleblock}
-	\end{column}
-\end{columns}
-\end{frame}
 %------------------------------------------------
 
 \begin{frame}
@@ -157,7 +131,7 @@ This thesis deals with the following problems:
 \begin{exampleblock}{\textbf{TAD}: Target-Attacker-Defender}
 	\begin{itemize}
 		\item A unified analysis is presented via the construction of two Apollonius circles, considering all possibilities of the ratio between the speeds of the attacker and defender. 
-		\item A criticality condition is derived, from which we obtain the critical target speed and the Voronoi diagram bordering the safe or escape region for the target optimal strategies. Numerical results and plots allow useful and insightful qualitative interpretations. 
+		\item We obtain the critical target speed and the Voronoi diagram bordering the safe or escape region for the target optimal strategies. Numerical results and plots allow useful and insightful qualitative interpretations. 
 		\item Optimal heading angles to be followed by the target to stay in the safe region. We use Hamiltonian equations to formulate an exact two-point boundary value problem that is solved numerically, verifying our earlier results.
 	\end{itemize}
 \end{exampleblock}
@@ -219,95 +193,95 @@ Area & Agent 1 & Agent 2 & Agent 3 \\
 }
 \end{frame}
 
-%------------------------------------------------
-%------------------------------------------------
-%------------------------------------------------
-
-\section{Terminology}
-
-%------------------------------------------------
-%------------------------------------------------
-%------------------------------------------------
-\subsection{}
-% -----------------------
-\begin{frame}
-\frametitle{Notation}
-\begin{itemize}
-	\item $A$: Initial position of the Attacker.
-	\item $D$: Initial position of the Defender.
-	\item $T$: Initial position of the Target.
-	\item $T'$ Terminal position of the Target, i.e., its position at the time the Defender intercepts the Attacker.
-	\item $\alpha=\dfrac{V_{T}}{V_{A}}$ (assumed $<1$, otherwise the target trivially survives).
-	\item $\gamma=\dfrac{1}{\beta}=\dfrac{V_{A}}{V_{D}}$ (studied for a fast Defender ($\gamma<1$), a similar Defender ($\gamma=1$), and a slow Defender ($\gamma>1$)).
-	\item $u, v, w$: Aim points on the $AD$ Apollonius circle by the Attacker, Target and Defender, respectively. 
-\end{itemize}
-\end{frame}
-%-----------------------------------------------
-\begin{frame}
-\frametitle{Assumption}
-\begin{enumerate}
-\item The speeds $V_{T},V_{A},$ and $V_{D}$ of the Target, Attacker, and Defender are constant.
-\item The Attacker missile is faster than the Target aircraft, i.e., $\alpha\equiv \dfrac{V_{T}}{V_{A}}<1$ (In the case $\alpha\geq1$, the Target is guaranteed to survive by following an optimal strategy, even without assistance from the Defender).
-\item There are three distinct cases for the ratio of the speed of the Attacker to that of the Defender $\gamma=\dfrac{1}{\beta}=\dfrac{V_{A}}{V_{D}}$ 
-\begin{itemize}
-	\item $\gamma<1$ (fast Defender) [2]
-	\item $\gamma =1$ (same speed Defender) [1,3]
-	\item $\gamma>1$ (slow Defender), which is a novel case, discussed herein for the first time, and unified with the two previous cases.  
-\end{itemize}
-\end{enumerate}
-\end{frame}
-%-----------------------------------------------
-\begin{frame}
-\frametitle{Assumption}
-\begin{enumerate}
-	\item The Defender intercepts the Attacker if their separation becomes zero (point capture).
-	\item The optimal trajectories of the three agents are straight lines.
-	\item A Cartesian frame is attached to the initial positions $A$ and $D$ of the Attacker and Defender in such a way the $X$-axis is the infinite extension of the straight segment $\overline{AD}$ and the $Y$-axis is the perpendicular bisector of $\overline{AD}$.
-\end{enumerate}
-\end{frame}
-%------------------------------------------------
-\subsection{}
-% -----------------------
-
-\begin{frame}
-\frametitle{Reachability region $R_r$}
-Region reachable by the Defender before the Attacker\\
-For $\gamma<1$, $R_r$ is the exterior of the $AD$ Apollonius circle.\\
-For $\gamma=1$, $R_r$ is the L.H.S. of the $XY-$plane.\\
-For $\gamma>1$, $R_r$ is the interior of the $AD$ Apollonius circle.
-\end{frame}
-%------------------------------------------------
-\begin{frame}
-\centering
-\begin{figure}
-\includegraphics[width=0.7\textwidth]{fig/drawing4_1a.pdf}
-\caption {$\gamma<1$}
-%\label{2_g<1}
-\end{figure}
-\end{frame}
-\begin{frame}
-\begin{figure}
-%\includegraphics[width=\textwidth]{\string"E:/Aero/Masters/guidance/paper2/documentation/fig/drawing4_1b\string".pdf}
-\includegraphics[width=0.7\textwidth]{fig/drawing4_1b.pdf}
-\caption {$\gamma=1$}
-%\label{2_g=1}
-\end{figure}
-\end{frame}
-\begin{frame}
-\begin{figure}
-%\includegraphics[width=\textwidth]{\string"E:/Aero/Masters/guidance/paper2/documentation/fig/drawing4_1c\string".pdf}
-\includegraphics[width=0.7\textwidth]{fig/drawing4_1c.pdf}
-\caption {$\gamma>1$}
-%\label{2_g>1}
-\end{figure}
-%\caption{The reachability region $R_r$ (one including $\boldsymbol{D}$ whose points are reached by the Defender before the Attacker) is shown shaded.}
-%\label{Rr2}
-\end{frame}
-%------------------------------------------------
-\begin{frame}
-\frametitle{Escape region $R_e$}
-The escape region $R_e$ is the set of all coordinate pairs $(x,y)$ such that if the Target initial position $\boldsymbol{T}=(x_{T},y_{T})$ is inside this region, then it is guaranteed to escape the Attacker if both the Target and Defender implement their corresponding optimal strategies. This set is a strict superset of the set of points reachable by the Defender before the Attacker ($R_e\supseteq R_r$). The boundary of this set is called a Voronoi Diagram.
-\end{frame}
+%%------------------------------------------------
+%%------------------------------------------------
+%%------------------------------------------------
+%
+%\section{Terminology}
+%
+%%------------------------------------------------
+%%------------------------------------------------
+%%------------------------------------------------
+%\subsection{}
+%% -----------------------
+%\begin{frame}
+%\frametitle{Notation}
+%\begin{itemize}
+%	\item $A$: Initial position of the Attacker.
+%	\item $D$: Initial position of the Defender.
+%	\item $T$: Initial position of the Target.
+%	\item $T'$ Terminal position of the Target, i.e., its position at the time the Defender intercepts the Attacker.
+%	\item $\alpha=\dfrac{V_{T}}{V_{A}}$ (assumed $<1$, otherwise the target trivially survives).
+%	\item $\gamma=\dfrac{1}{\beta}=\dfrac{V_{A}}{V_{D}}$ (studied for a fast Defender ($\gamma<1$), a similar Defender ($\gamma=1$), and a slow Defender ($\gamma>1$)).
+%	\item $u, v, w$: Aim points on the $AD$ Apollonius circle by the Attacker, Target and Defender, respectively. 
+%\end{itemize}
+%\end{frame}
+%%-----------------------------------------------
+%\begin{frame}
+%\frametitle{Assumption}
+%\begin{enumerate}
+%\item The speeds $V_{T},V_{A},$ and $V_{D}$ of the Target, Attacker, and Defender are constant.
+%\item The Attacker missile is faster than the Target aircraft, i.e., $\alpha\equiv \dfrac{V_{T}}{V_{A}}<1$ (In the case $\alpha\geq1$, the Target is guaranteed to survive by following an optimal strategy, even without assistance from the Defender).
+%\item There are three distinct cases for the ratio of the speed of the Attacker to that of the Defender $\gamma=\dfrac{1}{\beta}=\dfrac{V_{A}}{V_{D}}$ 
+%\begin{itemize}
+%	\item $\gamma<1$ (fast Defender) [2]
+%	\item $\gamma =1$ (same speed Defender) [1,3]
+%	\item $\gamma>1$ (slow Defender), which is a novel case, discussed herein for the first time, and unified with the two previous cases.  
+%\end{itemize}
+%\end{enumerate}
+%\end{frame}
+%%-----------------------------------------------
+%\begin{frame}
+%\frametitle{Assumption}
+%\begin{enumerate}
+%	\item The Defender intercepts the Attacker if their separation becomes zero (point capture).
+%	\item The optimal trajectories of the three agents are straight lines.
+%	\item A Cartesian frame is attached to the initial positions $A$ and $D$ of the Attacker and Defender in such a way the $X$-axis is the infinite extension of the straight segment $\overline{AD}$ and the $Y$-axis is the perpendicular bisector of $\overline{AD}$.
+%\end{enumerate}
+%\end{frame}
+%%------------------------------------------------
+%\subsection{}
+%% -----------------------
+%
+%\begin{frame}
+%\frametitle{Reachability region $R_r$}
+%Region reachable by the Defender before the Attacker\\
+%For $\gamma<1$, $R_r$ is the exterior of the $AD$ Apollonius circle.\\
+%For $\gamma=1$, $R_r$ is the L.H.S. of the $XY-$plane.\\
+%For $\gamma>1$, $R_r$ is the interior of the $AD$ Apollonius circle.
+%\end{frame}
+%%------------------------------------------------
+%\begin{frame}
+%\centering
+%\begin{figure}
+%\includegraphics[width=0.7\textwidth]{fig/drawing4_1a.pdf}
+%\caption {$\gamma<1$}
+%%\label{2_g<1}
+%\end{figure}
+%\end{frame}
+%\begin{frame}
+%\begin{figure}
+%%\includegraphics[width=\textwidth]{\string"E:/Aero/Masters/guidance/paper2/documentation/fig/drawing4_1b\string".pdf}
+%\includegraphics[width=0.7\textwidth]{fig/drawing4_1b.pdf}
+%\caption {$\gamma=1$}
+%%\label{2_g=1}
+%\end{figure}
+%\end{frame}
+%\begin{frame}
+%\begin{figure}
+%%\includegraphics[width=\textwidth]{\string"E:/Aero/Masters/guidance/paper2/documentation/fig/drawing4_1c\string".pdf}
+%\includegraphics[width=0.7\textwidth]{fig/drawing4_1c.pdf}
+%\caption {$\gamma>1$}
+%%\label{2_g>1}
+%\end{figure}
+%%\caption{The reachability region $R_r$ (one including $\boldsymbol{D}$ whose points are reached by the Defender before the Attacker) is shown shaded.}
+%%\label{Rr2}
+%\end{frame}
+%%------------------------------------------------
+%\begin{frame}
+%\frametitle{Escape region $R_e$}
+%The escape region $R_e$ is the set of all coordinate pairs $(x,y)$ such that if the Target initial position $\boldsymbol{T}=(x_{T},y_{T})$ is inside this region, then it is guaranteed to escape the Attacker if both the Target and Defender implement their corresponding optimal strategies. This set is a strict superset of the set of points reachable by the Defender before the Attacker ($R_e\supseteq R_r$). The boundary of this set is called a Voronoi Diagram.
+%\end{frame}
 
 %------------------------------------------------
 %------------------------------------------------
@@ -321,26 +295,224 @@ The escape region $R_e$ is the set of all coordinate pairs $(x,y)$ such that if 
 \subsection{} 
 %---------------------
 \begin{frame}
-\frametitle{Target-Attacker}
-Target-Attacker
+\frametitle{Target-Attacker Assumptions}
+
+\begin{itemize}
+	\item The missile is on the ground at (0,0). The plane is in the air at (10000,40000).
+	\item The missile is faster than the aircraft, but cannot turn tighter than the aircraft, so it takes a longer path.
+	\item The control mechanism of the Missile is much simpler and is of less capability than that of the aircraft. In order to pull as tight turn as the aircraft, it must exercise an acceleration that is far beyond its capability.
+	\item Missile always attempts to trace the target. Thus if the target changes heading, it will necessary for the Missile to change heading similarly, but this is too difficult for him to achieve.
+	\item  The main problem with evading missiles is their speed, which makes timing somewhat difficult.
+\end{itemize}
 \end{frame}
 %---------------------
 \begin{frame}
-\frametitle{Target-Attacker}
-Target-Attacker
+\frametitle{Evasion Tactics}
+1. \textbf{If missile is fired head-on at BVR range:}
+	\begin{itemize}
+		\item Turn hard to either left or right so as to fly at roughly 90 degrees angle to attacking aircraft (This forces missile to bleed off the energy and to lead the target).
+		\item Once target aircraft makes a hard turn to reverse a direction, missile with its far larger turn circle – will be unable to compensate.
+	\end{itemize}
 \end{frame}
+%---------------------
+\begin{frame}
+\frametitle{Evasion Tactics}
+2. \textbf{ Jinking (useful at short ranges):}
+	\begin{itemize}
+		\item Aircraft must be positioned so that it is at angle (30-60 degrees is optimum) relative to missile’s flight path.
+		\item Once missile gets closer, aircraft will make a hard turn in opposite direction.
+		\item As there is a lag between aircraft changing the direction and missile following (for several reasons, most important of which is missile’s inertia), this will cause missile to head in wrong direction until it manages to correct, and also to bleed off the energy.
+		\item Missile will fly past the aircraft and miss.
+	\end{itemize}
+\end{frame}
+%---------------------
+\begin{frame}
+\frametitle{Evasion Tactics}
+	3.  \textbf{Climb (useful at longer ranges):}
+	\begin{itemize}
+		\item Since at long range missile will have burned out its engine, it will rely on inertia to keep it flying, and climbing will mean that it will bleed off energy rapidly.
+		\item Once missile reaches a close range (maybe around 1,500 meters), dive for the ground, then pull up (This will allow pilot to gain energy and using it to evade the missile).
+	\end{itemize}
+\end{frame}
+%---------------------
+\begin{frame}
+\frametitle{Evasion Tactics}
 
+	4. \textbf{Fourth tactic:}
+	\begin{itemize}
+		\item place the missile at 3 o’clock or 9 o’clock position
+		\item maintain sufficient turn to keep the missile 
+		\item This tactic forces the missile to execute a continuous turn, bleeding the energy entire time, making it easier to outturn the missile once it comes close.
+	\end{itemize}
+\end{frame}
 %------------------------------------------------
 \subsection{} 
 %---------------------
 \begin{frame}
-\frametitle{Target-Attacker}
-Target-Attacker
+\frametitle{Gudiance Laws}
+\begin{figure}[htb]
+	\centering
+	\includegraphics[scale = 0.3]{fig/PN.pdf}
+	\caption{Two dimensional Missile-Target engagement geometry.}
+	\label{PN}
+\end{figure}
 \end{frame}
 %---------------------
 \begin{frame}
-\frametitle{Target-Attacker}
-Target-Attacker
+\frametitle{Maneuver Optimization}
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale = 0.3]{fig/FlowchartPN.pdf}
+	\caption{Flowchart illustrating the steps of calculations using the equations in sec. 2.3  till we plot the trajectories.}
+	\label{flowchart PN}
+\end{figure}
+\end{frame}
+%---------------------
+\begin{frame}
+\frametitle{Target Maneuver Cases}
+\begin{itemize}
+	\item Zero Target maneuver
+	\item Constant Target maneuver
+	\item Polynomial Target maneuver
+	\item Trapezoidal Target maneuver
+\end{itemize}
+\end{frame}
+%---------------------
+\begin{frame}
+\frametitle{Target Maneuver Cases}
+\begin{itemize}
+	\item Zero Target maneuver
+\end{itemize}
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale = 0.3]{fig/trajectoryXNT0HE0N4.pdf}
+	\caption{Trajectory of the target and attacker in case of zero target maneuver with zero heading error and $N'=4$.}
+	\label{trajectoryXNT0HE0N4}
+\end{figure}
+\end{frame}
+%---------------------
+\begin{frame}
+\frametitle{Target Maneuver Cases}
+\begin{itemize}
+	\item Constant Target maneuver
+\end{itemize}
+\begin{figure}[htb]
+	\centering
+	\includegraphics[scale = 0.3]{fig/trajectoryXNT5HE0N3.pdf}
+	\caption{Trajectory of the target and attacker in case of constant target maneuver=5G with heading error=0 and $N'=3$.}
+	\label{trajectory0NN3}
+\end{figure}
+\end{frame}
+%---------------------
+\begin{frame}
+\frametitle{Target Maneuver Cases}
+\begin{itemize}
+	\item Polynomial Target maneuver
+\end{itemize}
+\begin{equation}
+f(t) = c_0 + c_1 T + c_2 T^2 + c_3 T^3 + ... + c_N T^N
+\end{equation} 
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale = 0.2]{fig/trajectoryP3N3.pdf}
+	\caption{Trajectory of the target and attacker in case of polynomial of degree N=3 target maneuver with zero heading error and $N'=3$.}
+	\label{trajectoryP3}
+\end{figure}
+\end{frame}
+%---------------------
+\begin{frame}
+\frametitle{Target Maneuver Cases}
+\begin{itemize}
+	\item Trapezoidal Target maneuver
+\end{itemize}
+\begin{figure}[htb]
+	\centering
+	\includegraphics[scale = 0.25]{fig/toothSquareTrapezoidal.pdf}
+	\caption{Trapezoidal Target maneuver.}
+	\label{trapezoidalacc}
+\end{figure}
+\end{frame}
+%---------------------
+\begin{frame}
+\frametitle{Guidance Toolbox}
+A simple GUI (graphic user interface): the inputs are the locations and velocities for the Target (plane) and the Attacker (missile). Then the user have to choose the guidance law, which is the way that the Attacker tracking the Target, and there is 3 options:
+\begin{itemize}
+	\item Proportional Navigation (PN)
+	\item Augmented Proportional Navigation
+	\item Optimal Guidance
+\end{itemize} 
+\end{frame}
+%---------------------
+\begin{frame}
+\frametitle{Guidance Toolbox}
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale = 0.35]{fig/GUI.PNG}
+	\caption{Guidance Toolbox}
+	\label{Guidance Toolbox}
+\end{figure}
+\end{frame}
+%---------------------
+\begin{frame}
+\frametitle{Guidance Toolbox}
+If the user chooses the PN guidance law, there will be more options be available, Now he could select the type of escape maneuver:
+\begin{itemize}
+	\item Polynomial
+	\item Trapezoidal
+	\item Symmetric Trapezoidal
+\end{itemize}
+\end{frame}
+%---------------------
+\begin{frame}
+\frametitle{Guidance Toolbox}
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale = 0.3]{fig/guiPN.PNG}
+	\caption{Guidance Toolbox options when PN selected}
+	\label{Guidance Toolbox PN}
+\end{figure}
+\end{frame}
+%---------------------
+\begin{frame}
+\frametitle{Genetic Algorithms}
+Most Important Parameters in GAs:
+\begin{itemize}
+\item Population Size
+\item Evaluation Function
+\item Crossover Method
+\item Mutation Rate
+\end{itemize}
+\end{frame}
+%---------------------
+\begin{frame}
+\frametitle{Genetic Algorithms}
+Use Genetic Algorithms:
+\begin{itemize}
+\item When facing a problem of local minima.
+\item When a good fitness function is available.
+\item When a near-optimal, but not optimal solution is acceptable.
+\item When the state-space is too large for other methods.
+\end{itemize}
+\end{frame}
+%---------------------
+\begin{frame}
+\frametitle{Genetic Algorithms}
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale = 0.3]{fig/PNeq.PNG}
+	\caption{The Simulink model for proportional navigation equations.}
+	\label{PN eq}
+\end{figure}
+\end{frame}
+%---------------------
+\begin{frame}
+\frametitle{Genetic Algorithms}
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale = 0.25]{fig/GApoly.PNG}
+	\caption{Genetic Algorithm Toolbox in Matlab.}
+	\label{GA toolbox poly}
+\end{figure}
 \end{frame}
 %------------------------------------------------
 %------------------------------------------------
@@ -355,27 +527,85 @@ Target-Attacker
 %---------------------
 \begin{frame}
 \frametitle{Unity Game}
-Unity Game
+Unity is a cross-platform game engine developed by Unity Technologies and used to develop video games for PC, consoles, mobile devices and websites. It is a free software (https://unity3d.com/),working with C\# programming language. 
 \end{frame}
 %---------------------
 \begin{frame}
 \frametitle{Unity Game}
-Unity Game
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale = 0.2]{fig/unityInterface.PNG}
+	\caption{Unity game engine interface }
+	\label{UnityInterface}
+\end{figure}
 \end{frame}
+%---------------------
+\begin{frame}
+\frametitle{Unity Game}
+Each game consists of two scenes:
+\begin{enumerate}
+	\item Starting scene.
+	\item Game scene, which updated each frame per second.
+\end{enumerate}
+\end{frame}
+%---------------------
+\begin{frame}
+\frametitle{Unity Game}
+In the starting scene there is data fields (position, velocity, ...). After this scene ends, all the data are destroyed, so we save the information we need in file called "player prefs".
 
+The game scene consists of some objects, each object has his own script, this script must contain 2 points:
+\begin{itemize}
+	\item Start: initialization.
+	\item Updated : every frame.
+\end{itemize} 
+\end{frame}
 %------------------------------------------------
 \subsection{}
 %---------------------
 \begin{frame}
 \frametitle{Unity Game}
-Unity Game
+The game consists of two objects: plane (Target) and missile (Attacker). A human player controls the increasing and decreasing of the target acceleration (XNT) by two arrows on the keyboard. The missile object is moving on according to the proportional navigation guidance law.
 \end{frame}
 %---------------------
 \begin{frame}
 \frametitle{Unity Game}
-Unity Game
+ \begin{figure}[H]
+	\centering
+	\includegraphics[scale = 0.2]{fig/unityGame.PNG}
+	\caption{Unity game for simulating Target-Attacker engagement}
+	\label{UnityGame}
+\end{figure}
 \end{frame}
-
+%---------------------
+\begin{frame}
+\frametitle{Unity Game}
+In our game we have 3 objects:
+\begin{enumerate}
+	\item \textbf{Plane:} its script contain some commands to control the plane with two arrows in the keyboard, which increase and decrease the target acceleration by upward arrow and downward arrow respectively. 
+	\item \textbf{Missile:} it does not contain a script, the equations controlling its behavior is in the script with the "Data collector" object.
+	\item \textbf{Object "Data collector"}
+\end{enumerate} 
+\end{frame}
+%---------------------
+\begin{frame}
+\frametitle{Unity Game}
+\textbf{Object "Data collector"}:
+\begin{itemize}
+\item Start
+\begin{enumerate}
+	\item initialization of the variables in the equations.
+	\item set the location of all objects (plane and missile).
+\end{enumerate}
+\item Update 
+\begin{enumerate}
+	\item get plane location.
+	\item execute your equations.
+	\item update rocket location (according to PN equations).
+	\item update informations to be printed to excel.
+	\item check the breaking condition, if true, load starting scene.
+\end{enumerate}
+\end{itemize}
+\end{frame}
 %------------------------------------------------
 %------------------------------------------------
 %------------------------------------------------
