@@ -2,7 +2,7 @@ function f=mtsim(x)
 global XNT
 XNT=[0:20:100;x(1:6)]';
 
-sim('MissileGuidanceMainBlock22')
+sim('MissileGuidanceMainBlockTrail4')
 Ammax=max(XNC);
 misD=Rtm(length(Rtm));
 w1=10^5;
