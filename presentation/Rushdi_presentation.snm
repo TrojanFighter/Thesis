@@ -1,43 +1,52 @@
-\beamer@slide {tableTAD}{9}
-\beamer@slide {PN}{18}
-\beamer@slide {flowchart PN}{19}
-\beamer@slide {trajectoryXNT0HE0N4}{21}
-\beamer@slide {trajectory0NN3}{22}
-\beamer@slide {trajectoryP3}{23}
-\beamer@slide {trapezoidalacc}{24}
-\beamer@slide {Guidance Toolbox}{27}
-\beamer@slide {Guidance Toolbox PN}{29}
-\beamer@slide {PN eq}{32}
-\beamer@slide {GA toolbox poly}{33}
-\beamer@slide {UnityInterface}{35}
-\beamer@slide {UnityGame}{39}
-\beamer@slide {eqn:kratio}{45}
-\beamer@slide {eqn:ipoint}{45}
-\beamer@slide {eqn:epoint}{45}
-\beamer@slide {1}{46}
-\beamer@slide {1}{47}
-\beamer@slide {eqn:center}{48}
-\beamer@slide {eqn:radius}{49}
-\beamer@slide {3}{50}
-\beamer@slide {O1}{51}
-\beamer@slide {r1}{51}
-\beamer@slide {O2}{52}
-\beamer@slide {r2}{52}
-\beamer@slide {4_g<1}{54}
-\beamer@slide {dr_fd}{55}
-\beamer@slide {generaleq}{55}
-\beamer@slide {eq36in3}{56}
-\beamer@slide {4_g=1}{57}
-\beamer@slide {case3}{58}
-\beamer@slide {case3_SD}{58}
-\beamer@slide {4_g>1}{59}
-\beamer@slide {case2}{60}
-\beamer@slide {cr_alpha_3}{61}
-\beamer@slide {cr-eq-Vd}{62}
-\beamer@slide {poly2}{63}
-\beamer@slide {gamma=1}{65}
-\beamer@slide {VAR_alpha_gamma=1}{66}
-\beamer@slide {gamma=0.8}{67}
-\beamer@slide {VAR_alpha_gamma=0.8}{68}
-\beamer@slide {gamma=1.25}{69}
-\beamer@slide {VAR_alpha_gamma=1.25}{70}
+\beamer@slide {PNeq}{16}
+\beamer@slide {PN}{17}
+\beamer@slide {flowchart PN}{18}
+\beamer@slide {trajectoryXNT0HE0N4}{20}
+\beamer@slide {missile accelerationXNT0HE0N4}{20}
+\beamer@slide {Target accelerationXNT0HE0N4}{20}
+\beamer@slide {trajectory20N3}{21}
+\beamer@slide {missile acceleration20N3}{21}
+\beamer@slide {trajectory20N4}{22}
+\beamer@slide {missile acceleration20N4}{22}
+\beamer@slide {trajectory20N5}{23}
+\beamer@slide {missile acceleration20N5}{23}
+\beamer@slide {trajectory0NN3}{24}
+\beamer@slide {trajectoryP3}{25}
+\beamer@slide {trapezoidalacc}{26}
+\beamer@slide {Guidance Toolbox}{29}
+\beamer@slide {Guidance Toolbox PN}{31}
+\beamer@slide {PN eq}{34}
+\beamer@slide {GA toolbox poly}{35}
+\beamer@slide {UnityInterface}{39}
+\beamer@slide {UnityGame}{43}
+\beamer@slide {tableTAD}{49}
+\beamer@slide {eqn:kratio}{51}
+\beamer@slide {eqn:ipoint}{51}
+\beamer@slide {eqn:epoint}{51}
+\beamer@slide {1}{52}
+\beamer@slide {1}{53}
+\beamer@slide {eqn:center}{54}
+\beamer@slide {eqn:radius}{55}
+\beamer@slide {3}{56}
+\beamer@slide {O1}{57}
+\beamer@slide {r1}{57}
+\beamer@slide {O2}{58}
+\beamer@slide {r2}{58}
+\beamer@slide {4_g<1}{60}
+\beamer@slide {dr_fd}{61}
+\beamer@slide {generaleq}{61}
+\beamer@slide {eq36in3}{62}
+\beamer@slide {4_g=1}{63}
+\beamer@slide {case3}{64}
+\beamer@slide {case3_SD}{64}
+\beamer@slide {4_g>1}{65}
+\beamer@slide {case2}{66}
+\beamer@slide {cr_alpha_3}{67}
+\beamer@slide {cr-eq-Vd}{68}
+\beamer@slide {poly2}{69}
+\beamer@slide {gamma=1}{71}
+\beamer@slide {VAR_alpha_gamma=1}{72}
+\beamer@slide {gamma=0.8}{73}
+\beamer@slide {VAR_alpha_gamma=0.8}{74}
+\beamer@slide {gamma=1.25}{75}
+\beamer@slide {VAR_alpha_gamma=1.25}{76}

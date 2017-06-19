@@ -146,41 +146,6 @@ This thesis deals with the following problems:
 	\end{itemize}
 \end{exampleblock}
 \end{frame}
-%---------------------
-\begin{frame}
-\frametitle{Summary of Solution}
-\textbf{Experimental Testing:}
-\begin{alertblock}{Unity Game}
-	\begin{itemize}
-		\item We also construct a \textbf{mathematically-correct game} of target-attacker and let many people play it taking the target side. 
-		\item We find the best escape maneuver by collecting and analyzing data of the human escape maneuver. 
-		\item The game is developed using Unity, a free readily-available cross-platform game engine.
-	\end{itemize}
-\end{alertblock}
-\end{frame}
-%------------------------------------------------
-\begin{frame}
-\frametitle{Applications}
-\begin{center}
-\begin{tabular}{ |c||c|c|c| } 
-\hline
-Area & Agent 1 & Agent 2 & Agent 3 \\
- \hline
- \hline
- Aerospace & Target & Attacker(missile) & Defender(missiles)\\
- \hline 
- Biology & Prey & Predator & Protector \\
- \hline 
- Society & Lady & Bandits & Bodyguards\\ 
- \hline
- Criminology & Robber & Policemen/Cops & Gangsters \\ 
-  \hline
-\end{tabular}
-%\caption{A variety of settings or contexts for the same generic problem}
-\label{tableTAD}
-\end{center}  
-\end{frame}
-
 %%------------------------------------------------
 %%------------------------------------------------
 %%------------------------------------------------
@@ -281,6 +246,18 @@ Area & Agent 1 & Agent 2 & Agent 3 \\
 %------------------------------------------------
 %------------------------------------------------
 \subsection{} 
+%-----------------------------------------------
+\begin{frame}
+\frametitle{Main References}
+\footnotesize{
+	\begin{thebibliography}{99} % Beamer does not support BibTeX so references must be inserted manually as below
+		\bibitem[zarchan2002tactical]{p1} Zarchan, Paul (2012)
+		\newblock Tactical and strategic missile guidance
+		\newblock \emph{American Institute of Aeronautics and Astronautics}.
+	\end{thebibliography}
+}
+\end{frame}
+% -----------------------
 %------------------------------------------------
 \begin{frame}
 \frametitle{Summary of Solution}
@@ -294,18 +271,6 @@ Area & Agent 1 & Agent 2 & Agent 3 \\
 \end{block}
 \end{frame}
 %-----------------------------------------------
-\begin{frame}
-\frametitle{Main References}
-\footnotesize{
-	\begin{thebibliography}{99} 		
-		\bibitem[] ? (?)
-		\newblock Book
-		\newblock \emph{}.
-		
-	\end{thebibliography}
-}
-\end{frame}
-%---------------------
 \begin{frame}
 \frametitle{Target-Attacker Assumptions}
 
@@ -361,13 +326,47 @@ Area & Agent 1 & Agent 2 & Agent 3 \\
 \subsection{} 
 %---------------------
 \begin{frame}
-\frametitle{Gudiance Laws}
-\begin{figure}[htb]
-	\centering
-	\includegraphics[scale = 0.3]{fig/PN.pdf}
-	\caption{Two dimensional Missile-Target engagement geometry.}
-	\label{PN}
-\end{figure}
+\frametitle{Proportional Navigation}
+The proportional navigation guidance law issues acceleration commands,
+perpendicular to the instantaneous missile-target line-of-sight, which are
+proportional to the line-of-sight rate and closing velocity. Mathematically, the
+guidance law can be stated as
+
+\begin{equation}
+n_c= N' V_c \dot{\lambda} \nonumber
+\label{PNeq}
+\end{equation}
+
+where $n_c$ is the acceleration command (for the missile) in $(m/s^2)$, $N'$ is the the effective navigation ratio, a unit-less designer-chosen gain (usually in the range of $3 \to 5$), $V_c$ is the missile-target closing velocity in $(m/s)$ and $\dot{\lambda} = \frac{d\lambda}{dt}$ is the rate of the line-of-sight angle and is in $(rad/s)$.
+\end{frame}
+%---------------------
+\begin{frame}
+\frametitle{Gudiance Laws - Geometry}
+\begin{columns}[c]
+	\begin{column}{.35\linewidth}
+{\footnotesize 		\begin{eqnarray}
+		V_{T1} &=& - V_T \cos(\beta) \nonumber\\
+		V_{T2} &=&  V_T \sin(\beta) \nonumber\\
+		R_{TM1} &=& R{T1} - R_{M1}\nonumber\\
+		R_{TM2} &=& R{T2} - R_{M2}\nonumber\\
+		R_{TM} &=& \sqrt{R_{TM1}^2 + R_{TM2}^2}\nonumber\\
+		\lambda &=& \tan^{-1} (\dfrac{R_{TM2}}{R_{TM1}})\nonumber\\
+		L &=& \sin^{-1}(\dfrac{V_T \sin(\beta + \lambda)}{V_M})\nonumber\\
+		V_{M1} &=& V_M \cos (\theta + HE)\nonumber\\
+		V_{M2} &=& V_M \sin (\theta + HE)\nonumber\\
+		V_{TM1} &=& V_{T1} - V_{M1}\nonumber\\
+		V_{TM2} &=& V_{T2} - V_{M12}\nonumber
+		\end{eqnarray}}
+	\end{column}
+	\begin{column}{.6\linewidth}
+		\begin{figure}[htb]
+			\centering
+			\includegraphics[scale = 0.25]{fig/PN.pdf}
+			\label{PN}
+		\end{figure}
+	2d geometry of TA engagement.
+	\end{column}
+\end{columns}
 \end{frame}
 %---------------------
 \begin{frame}
@@ -392,15 +391,106 @@ Area & Agent 1 & Agent 2 & Agent 3 \\
 %---------------------
 \begin{frame}
 \frametitle{Target Maneuver Cases}
-\begin{itemize}
-	\item Zero Target maneuver
-\end{itemize}
+
+\textbf{Zero Target maneuver}. Heading error $=0$ and $N'= 4$.
+\begin{columns}[c]
+	\begin{column}{.3\linewidth}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[scale = 0.165]{fig/trajectoryXNT0HE0N4.pdf}
+			\label{trajectoryXNT0HE0N4}
+		\end{figure}
+	Target and attacker trajectories.
+	\end{column}
+	\begin{column}{.3\linewidth}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[scale = 0.175]{fig/MissileAccelerationXNT0HE0N4.pdf}
+			\label{missile accelerationXNT0HE0N4}
+		\end{figure}
+	Attacker (missile) acceleration.
+	\end{column}
+	\begin{column}{.3\linewidth}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[scale = 0.175]{fig/TargetAccelerationXNT0HE0N4.pdf}
+			\label{Target accelerationXNT0HE0N4}
+		\end{figure}
+	Target acceleration.
+	\end{column}
+\end{columns}
+\end{frame}
+%---------------------
+\begin{frame}
+\frametitle{Target Maneuver Cases}
+
+\textbf{Zero Target maneuver}. Heading error $=-20$ and $N'= 3$.
+\begin{columns}[c]
+	\begin{column}{.45\linewidth}
 \begin{figure}[H]
 	\centering
-	\includegraphics[scale = 0.3]{fig/trajectoryXNT0HE0N4.pdf}
-	\caption{Trajectory of the target and attacker in case of zero target maneuver with zero heading error and $N'=4$.}
-	\label{trajectoryXNT0HE0N4}
+	\includegraphics[scale = 0.225]{fig/trajectoryXNT0HE20N3.pdf}
+	\label{trajectory20N3}
 \end{figure}
+		Target and attacker trajectories.
+	\end{column}
+	\begin{column}{.45\linewidth}
+		\begin{figure}[H]
+	\centering
+	\includegraphics[scale = 0.225]{fig/MissileAccelerationXNT0HE20N3.pdf}
+	\label{missile acceleration20N3}
+\end{figure}
+		Attacker (missile) acceleration.
+	\end{column}
+\end{columns}
+\end{frame}
+%---------------------
+\begin{frame}
+\frametitle{Target Maneuver Cases}
+
+\textbf{Zero Target maneuver}. Heading error $=-20$ and $N'= 4$.
+\begin{columns}[c]
+	\begin{column}{.45\linewidth}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[scale = 0.225]{fig/trajectoryXNT0HE20N4.pdf}
+			\label{trajectory20N4}
+		\end{figure}
+		Target and attacker trajectories.
+	\end{column}
+	\begin{column}{.45\linewidth}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[scale = 0.225]{fig/MissileAccelerationXNT0HE20N4.pdf}
+			\label{missile acceleration20N4}
+		\end{figure}
+		Attacker (missile) acceleration.
+	\end{column}
+\end{columns}
+\end{frame}
+%---------------------
+\begin{frame}
+\frametitle{Target Maneuver Cases}
+
+\textbf{Zero Target maneuver}. Heading error $=-20$ and $N'= 5$.
+\begin{columns}[c]
+	\begin{column}{.45\linewidth}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[scale = 0.225]{fig/trajectoryXNT0HE20N5.pdf}
+			\label{trajectory20N5}
+		\end{figure}
+		Target and attacker trajectories.
+	\end{column}
+	\begin{column}{.45\linewidth}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[scale = 0.225]{fig/MissileAccelerationXNT0HE20N5.pdf}
+			\label{missile acceleration20N5}
+		\end{figure}
+		Attacker (missile) acceleration.
+	\end{column}
+\end{columns}
 \end{frame}
 %---------------------
 \begin{frame}
@@ -418,9 +508,7 @@ Area & Agent 1 & Agent 2 & Agent 3 \\
 %---------------------
 \begin{frame}
 \frametitle{Target Maneuver Cases}
-\begin{itemize}
-	\item Polynomial Target maneuver
-\end{itemize}
+\textbf{Polynomial Target maneuver}\\
 \begin{equation}
 f(t) = c_0 + c_1 T + c_2 T^2 + c_3 T^3 + ... + c_N T^N
 \end{equation} 
@@ -450,7 +538,7 @@ f(t) = c_0 + c_1 T + c_2 T^2 + c_3 T^3 + ... + c_N T^N
 %------------------------------------------------
 %------------------------------------------------
 
-\section{ToolBox and Game}
+\section{ToolBox}
 
 %------------------------------------------------
 %------------------------------------------------
@@ -497,6 +585,8 @@ If the user chooses the PN guidance law, there will be more options be available
 \end{figure}
 \end{frame}
 %---------------------
+\subsection{Genetic Algorithms}
+%---------------------
 \begin{frame}
 \frametitle{Genetic Algorithms}
 Most Important Parameters in GAs:
@@ -539,7 +629,27 @@ Use Genetic Algorithms:
 \end{figure}
 \end{frame}
 %------------------------------------------------
-\subsection{Unity Game}
+%------------------------------------------------
+%------------------------------------------------
+
+\section{Unity Game}
+
+%------------------------------------------------
+%------------------------------------------------
+%------------------------------------------------
+\subsection{Game Design}
+%---------------------
+\begin{frame}
+\frametitle{Summary of Solution}
+\textbf{Experimental Testing:}
+\begin{alertblock}{Unity Game}
+	\begin{itemize}
+		\item We construct a \textbf{mathematically-correct game} of target-attacker and let many people play it taking the target side. 
+		\item We find the best escape maneuver by collecting and analyzing data of the human escape maneuver. 
+		\item The game is developed using Unity, a free readily-available cross-platform game engine.
+	\end{itemize}
+\end{alertblock}
+\end{frame}
 %---------------
 \begin{frame}
 \frametitle{Unity Game}
@@ -575,7 +685,9 @@ The game scene consists of some objects, each object has his own script, this sc
 	\item Updated : every frame.
 \end{itemize} 
 \end{frame}
-
+%---------------
+\subsection{Experimental Results}
+%---------------
 \begin{frame}
 \frametitle{Unity Game}
 The game consists of two objects: plane (Target) and missile (Attacker). A human player controls the increasing and decreasing of the target acceleration (XNT) by two arrows on the keyboard. The missile object is moving on according to the proportional navigation guidance law.
@@ -630,6 +742,18 @@ In our game we have 3 objects:
 %------------------------------------------------
 %------------------------------------------------
 \subsection{}
+%---------------------
+\begin{frame}
+\frametitle{Summary of Solution}
+\textbf{Scenario 2:}
+\begin{exampleblock}{\textbf{TAD}: Target-Attacker-Defender}
+	\begin{itemize}
+		\item A unified analysis is presented via the construction of two Apollonius circles, considering all possibilities of the ratio between the speeds of the attacker and defender. 
+		\item We obtain the critical target speed and the Voronoi diagram bordering the safe or escape region for the target optimal strategies. Numerical results and plots allow useful and insightful qualitative interpretations. 
+		\item Optimal heading angles to be followed by the target to stay in the safe region. We use Hamiltonian equations to formulate an exact two-point boundary value problem that is solved numerically, verifying our earlier results.
+	\end{itemize}
+\end{exampleblock}
+\end{frame}
 %-----------------------------------------------
 \begin{frame}
 \frametitle{Main References}
@@ -649,6 +773,28 @@ In our game we have 3 objects:
 		
 	\end{thebibliography}
 }
+\end{frame}
+%------------------------------------------------
+\begin{frame}
+\frametitle{Applications}
+\begin{center}
+	\begin{tabular}{ |c||c|c|c| } 
+		\hline
+		Area & Agent 1 & Agent 2 & Agent 3 \\
+		\hline
+		\hline
+		Aerospace & Target & Attacker(missile) & Defender(missiles)\\
+		\hline 
+		Biology & Prey & Predator & Protector \\
+		\hline 
+		Society & Lady & Bandits & Bodyguards\\ 
+		\hline
+		Criminology & Robber & Policemen/Cops & Gangsters \\ 
+		\hline
+	\end{tabular}
+	%\caption{A variety of settings or contexts for the same generic problem}
+	\label{tableTAD}
+\end{center}  
 \end{frame}
 % -----------------------
 \begin{frame}
