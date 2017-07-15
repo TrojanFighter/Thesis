@@ -2,12 +2,11 @@
 \beamer@sectionintoc {1}{Introduction}{3}{0}{1}
 \beamer@subsectionintoc {1}{1}{Problem Statement}{4}{0}{1}
 \beamer@subsectionintoc {1}{2}{Summary of Solution}{6}{0}{1}
-\beamer@sectionintoc {2}{Target-Attacker}{8}{0}{2}
-\beamer@sectionintoc {3}{ToolBox}{27}{0}{3}
-\beamer@subsectionintoc {3}{1}{Guidance Toolbox}{28}{0}{3}
-\beamer@subsectionintoc {3}{2}{Genetic Algorithms}{32}{0}{3}
-\beamer@sectionintoc {4}{Unity Game}{36}{0}{4}
-\beamer@subsectionintoc {4}{1}{Game Design}{37}{0}{4}
-\beamer@subsectionintoc {4}{2}{Experimental Results}{42}{0}{4}
-\beamer@sectionintoc {5}{Target-Attacker-Defender}{46}{0}{5}
-\beamer@sectionintoc {6}{Conclusions}{77}{0}{6}
+\beamer@sectionintoc {2}{Target-Attacker}{6}{0}{2}
+\beamer@sectionintoc {3}{ToolBox}{26}{0}{3}
+\beamer@sectionintoc {4}{Genetic Algorithm Solution}{31}{0}{4}
+\beamer@sectionintoc {5}{Unity Game}{36}{0}{5}
+\beamer@subsectionintoc {5}{1}{Game Design}{37}{0}{5}
+\beamer@subsectionintoc {5}{2}{Experimental Results}{42}{0}{5}
+\beamer@sectionintoc {6}{Target-Attacker-Defender}{46}{0}{6}
+\beamer@sectionintoc {7}{Conclusions}{77}{0}{7}

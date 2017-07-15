@@ -123,29 +123,9 @@ This thesis deals with the following problems:
 \subsection{Summary of Solution} 
 %---------------------
 %------------------------------------------------
-\begin{frame}
-\frametitle{Summary of Solution}
-\textbf{Scenario 1:}
-\begin{block}{\textbf{TA}: Target-Attacker}
-	\begin{itemize}
-		\item We present several methodologies to find the \textbf{optimal escape maneuver} for a target against an attacking missile. 
-		\item We simulate 2D proportional-navigation using MATLAB and Simulink.
-		\item Optimization is achieved via the techniques of Monte-Carlo simulation and genetic algorithms.
-	\end{itemize}
-\end{block}
-\end{frame}
+
 %---------------------
-\begin{frame}
-\frametitle{Summary of Solution}
-\textbf{Scenario 2:}
-\begin{exampleblock}{\textbf{TAD}: Target-Attacker-Defender}
-	\begin{itemize}
-		\item A unified analysis is presented via the construction of two Apollonius circles, considering all possibilities of the ratio between the speeds of the attacker and defender. 
-		\item We obtain the critical target speed and the Voronoi diagram bordering the safe or escape region for the target optimal strategies. Numerical results and plots allow useful and insightful qualitative interpretations. 
-		\item Optimal heading angles to be followed by the target to stay in the safe region. We use Hamiltonian equations to formulate an exact two-point boundary value problem that is solved numerically, verifying our earlier results.
-	\end{itemize}
-\end{exampleblock}
-\end{frame}
+
 %%------------------------------------------------
 %%------------------------------------------------
 %%------------------------------------------------
@@ -246,19 +226,8 @@ This thesis deals with the following problems:
 %------------------------------------------------
 %------------------------------------------------
 \subsection{} 
+
 %-----------------------------------------------
-\begin{frame}
-\frametitle{Main References}
-\footnotesize{
-	\begin{thebibliography}{99} % Beamer does not support BibTeX so references must be inserted manually as below
-		\bibitem[zarchan2002tactical]{p1} Zarchan, Paul (2012)
-		\newblock Tactical and strategic missile guidance
-		\newblock \emph{American Institute of Aeronautics and Astronautics}.
-	\end{thebibliography}
-}
-\end{frame}
-% -----------------------
-%------------------------------------------------
 \begin{frame}
 \frametitle{Summary of Solution}
 \textbf{Scenario 1:}
@@ -272,6 +241,19 @@ This thesis deals with the following problems:
 \end{frame}
 %-----------------------------------------------
 \begin{frame}
+\frametitle{Main References}
+\footnotesize{
+	\begin{thebibliography}{99} % Beamer does not support BibTeX so references must be inserted manually as below
+		\bibitem[zarchan2002tactical]{p1} Zarchan, Paul (2012)
+		\newblock Tactical and strategic missile guidance
+		\newblock \emph{American Institute of Aeronautics and Astronautics}.
+	\end{thebibliography}
+}
+\end{frame}
+% -----------------------
+
+%-----------------------------------------------
+\begin{frame}
 \frametitle{Target-Attacker Assumptions}
 
 \begin{itemize}
@@ -282,18 +264,50 @@ This thesis deals with the following problems:
 	\item  The main problem with evading missiles is their speed, which makes timing somewhat difficult.
 \end{itemize}
 \end{frame}
-%---------------------
+%------------------------------------------------
+
+\begin{frame}
+\frametitle{Evasion Tactics Taxonomy}
+
+	\begin{figure}[H]
+		\centering
+		\includegraphics[scale = 0.50]{fig/Evasion.pdf}
+		%\caption{Illustration of the perpendicularity evading maneuver technique}
+		%\label{1st evasion tech}
+	\end{figure}
+
+\end{frame}
+
+
+%------------------------------------------------
 \begin{frame}
 \frametitle{Evasion Tactics}
-1. \textbf{If missile is fired head-on at BVR range:}
+
+\begin{columns}[c]
+	\begin{column}{.6\linewidth}
+	1. \textbf{keeping perpendicular to the attacking missile:}
 	\begin{itemize}
 		\item Turn hard to either left or right so as to fly at roughly 90 degrees angle to attacking aircraft (This forces missile to bleed off the energy and to lead the target).
 		\item Once target aircraft makes a hard turn to reverse a direction, missile with its far larger turn circle – will be unable to compensate.
 	\end{itemize}
+	\end{column}
+
+
+
+	\begin{column}{.3\linewidth}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[scale = 0.25]{fig/evasiontech1.jpg}
+			%\caption{Illustration of the perpendicularity evading maneuver technique}
+			%\label{1st evasion tech}
+		\end{figure}
+	\end{column}
+\end{columns}
 \end{frame}
-%---------------------
+%--------------------------------------
 \begin{frame}
 \frametitle{Evasion Tactics}
+
 2. \textbf{ Jinking (useful at short ranges):}
 	\begin{itemize}
 		\item Aircraft must be positioned so that it is at angle (30-60 degrees is optimum) relative to missile’s flight path.
@@ -301,26 +315,54 @@ This thesis deals with the following problems:
 		\item As there is a lag between aircraft changing the direction and missile following (for several reasons, most important of which is missile’s inertia), this will cause missile to head in wrong direction until it manages to correct, and also to bleed off the energy.
 		\item Missile will fly past the aircraft and miss.
 	\end{itemize}
+	
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[scale = 0.45]{fig/evasiontech2.jpg}
+		%\caption{Illustration of the perpendicularity evading maneuver technique}
+		%\label{1st evasion tech}
+	\end{figure}
+	
 \end{frame}
 %---------------------
 \begin{frame}
 \frametitle{Evasion Tactics}
-	3.  \textbf{Climb (useful at longer ranges):}
+	3.  \textbf{Climbing (useful at longer ranges):}
 	\begin{itemize}
 		\item Since at long range missile will have burned out its engine, it will rely on inertia to keep it flying, and climbing will mean that it will bleed off energy rapidly.
 		\item Once missile reaches a close range (maybe around 1,500 meters), dive for the ground, then pull up (This will allow pilot to gain energy and using it to evade the missile).
 	\end{itemize}
+
+	\begin{figure}[H]
+		\centering
+		\includegraphics[scale = 0.45]{fig/evasiontech3.jpg}
+		%\caption{Illustration of the perpendicularity evading maneuver technique}
+		%\label{1st evasion tech}
+	\end{figure}
 \end{frame}
 %---------------------
 \begin{frame}
 \frametitle{Evasion Tactics}
-
-	4. \textbf{Fourth tactic:}
+\begin{columns}[c]
+	\begin{column}{.5\linewidth}
+	4. \textbf{Continuous turning:}
 	\begin{itemize}
 		\item place the missile at 3 o’clock or 9 o’clock position
 		\item maintain sufficient turn to keep the missile 
 		\item This tactic forces the missile to execute a continuous turn, bleeding the energy entire time, making it easier to outturn the missile once it comes close.
 	\end{itemize}
+	\end{column}
+
+	\begin{column}{.5\linewidth}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[scale = 0.4]{fig/evasiontech4.jpg}
+			%\caption{Illustration of the perpendicularity evading maneuver technique}
+			%\label{1st evasion tech}
+		\end{figure}
+	\end{column}
+\end{columns}
 \end{frame}
 %------------------------------------------------
 \subsection{} 
@@ -543,7 +585,7 @@ f(t) = c_0 + c_1 T + c_2 T^2 + c_3 T^3 + ... + c_N T^N
 %------------------------------------------------
 %------------------------------------------------
 %------------------------------------------------
-\subsection{Guidance Toolbox}
+\subsection{}
 %---------------------
 \begin{frame}
 \frametitle{Guidance Toolbox}
@@ -585,10 +627,18 @@ If the user chooses the PN guidance law, there will be more options be available
 \end{figure}
 \end{frame}
 %---------------------
-\subsection{Genetic Algorithms}
 %---------------------
+%---------------------
+
+\section{Genetic Algorithm Solution}
+%---------------------
+%---------------------
+%---------------------
+\subsection{}
+%------------------------
+
 \begin{frame}
-\frametitle{Genetic Algorithms}
+\frametitle{Genetic Algorithm Solution}
 Most Important Parameters in GAs:
 \begin{itemize}
 \item Population Size
@@ -599,7 +649,7 @@ Most Important Parameters in GAs:
 \end{frame}
 %---------------------
 \begin{frame}
-\frametitle{Genetic Algorithms}
+\frametitle{Genetic Algorithm Solution}
 Use Genetic Algorithms:
 \begin{itemize}
 \item When facing a problem of local minima.
@@ -610,7 +660,7 @@ Use Genetic Algorithms:
 \end{frame}
 %---------------------
 \begin{frame}
-\frametitle{Genetic Algorithms}
+\frametitle{Genetic Algorithm Solution}
 \begin{figure}[H]
 \centering
 \includegraphics[scale = 0.3]{fig/PNeq.PNG}
@@ -620,7 +670,7 @@ Use Genetic Algorithms:
 \end{frame}
 %---------------------
 \begin{frame}
-\frametitle{Genetic Algorithms}
+\frametitle{Genetic Algorithm Solution}
 \begin{figure}[H]
 \centering
 \includegraphics[scale = 0.25]{fig/GApoly.PNG}
