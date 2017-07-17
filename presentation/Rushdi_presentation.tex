@@ -267,6 +267,75 @@ This thesis deals with the following problems:
 %------------------------------------------------
 
 \begin{frame}
+\frametitle{Guidance Laws}
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale = 0.24]{fig/GuidanceLaws.pdf}
+	%\caption{Flowchart illustrating the steps of calculations using the equations in sec. 2.3  till we plot the trajectories.}
+	%\label{flowchart PN}
+\end{figure}
+\end{frame}
+
+
+%-----------------------------------------------
+
+\begin{frame}
+\frametitle{Proportional Navigation}
+The proportional navigation guidance law issues acceleration commands,
+perpendicular to the instantaneous missile-target line-of-sight, which are
+proportional to the line-of-sight rate and closing velocity. Mathematically, the
+guidance law can be stated as
+
+\begin{equation}
+n_c= N' V_c \dot{\lambda} \nonumber
+\label{PNeq}
+\end{equation}
+
+where $n_c$ is the acceleration command (for the missile) in $(m/s^2)$, $N'$ is the the effective navigation ratio, a unit-less designer-chosen gain (usually in the range of $3 \to 5$), $V_c$ is the missile-target closing velocity in $(m/s)$ and $\dot{\lambda} = \frac{d\lambda}{dt}$ is the rate of the line-of-sight angle and is in $(rad/s)$.
+\end{frame}
+%---------------------
+\begin{frame}
+\frametitle{Proportional Navigation Equations - Geometry}
+\begin{columns}[c]
+\begin{column}{.35\linewidth}
+	{\footnotesize 		\begin{eqnarray}
+		V_{T1} &=& - V_T \cos(\beta) \nonumber\\
+		V_{T2} &=&  V_T \sin(\beta) \nonumber\\
+		R_{TM1} &=& R{T1} - R_{M1}\nonumber\\
+		R_{TM2} &=& R{T2} - R_{M2}\nonumber\\
+		R_{TM} &=& \sqrt{R_{TM1}^2 + R_{TM2}^2}\nonumber\\
+		\lambda &=& \tan^{-1} (\dfrac{R_{TM2}}{R_{TM1}})\nonumber\\
+		L &=& \sin^{-1}(\dfrac{V_T \sin(\beta + \lambda)}{V_M})\nonumber\\
+		V_{M1} &=& V_M \cos (\theta + HE)\nonumber\\
+		V_{M2} &=& V_M \sin (\theta + HE)\nonumber\\
+		V_{TM1} &=& V_{T1} - V_{M1}\nonumber\\
+		V_{TM2} &=& V_{T2} - V_{M12}\nonumber
+		\end{eqnarray}}
+\end{column}
+\begin{column}{.6\linewidth}
+	\begin{figure}[htb]
+		\centering
+		\includegraphics[scale = 0.25]{fig/PN.pdf}
+		\label{PN}
+	\end{figure}
+	2d geometry of TA engagement.
+\end{column}
+\end{columns}
+\end{frame}
+%---------------------
+\begin{frame}
+\frametitle{Proportional Navigation Flowchart}
+\begin{figure}[H]
+\centering
+\includegraphics[scale = 0.3]{fig/FlowchartPN.pdf}
+\caption{Flowchart illustrating the steps of calculations using the equations in sec. 2.3  till we plot the trajectories.}
+\label{flowchart PN}
+\end{figure}
+\end{frame}
+
+
+%-----------------------------------------
+\begin{frame}
 \frametitle{Evasion Tactics Taxonomy}
 
 	\begin{figure}[H]
@@ -367,59 +436,7 @@ This thesis deals with the following problems:
 %------------------------------------------------
 \subsection{} 
 %---------------------
-\begin{frame}
-\frametitle{Proportional Navigation}
-The proportional navigation guidance law issues acceleration commands,
-perpendicular to the instantaneous missile-target line-of-sight, which are
-proportional to the line-of-sight rate and closing velocity. Mathematically, the
-guidance law can be stated as
 
-\begin{equation}
-n_c= N' V_c \dot{\lambda} \nonumber
-\label{PNeq}
-\end{equation}
-
-where $n_c$ is the acceleration command (for the missile) in $(m/s^2)$, $N'$ is the the effective navigation ratio, a unit-less designer-chosen gain (usually in the range of $3 \to 5$), $V_c$ is the missile-target closing velocity in $(m/s)$ and $\dot{\lambda} = \frac{d\lambda}{dt}$ is the rate of the line-of-sight angle and is in $(rad/s)$.
-\end{frame}
-%---------------------
-\begin{frame}
-\frametitle{Gudiance Laws - Geometry}
-\begin{columns}[c]
-	\begin{column}{.35\linewidth}
-{\footnotesize 		\begin{eqnarray}
-		V_{T1} &=& - V_T \cos(\beta) \nonumber\\
-		V_{T2} &=&  V_T \sin(\beta) \nonumber\\
-		R_{TM1} &=& R{T1} - R_{M1}\nonumber\\
-		R_{TM2} &=& R{T2} - R_{M2}\nonumber\\
-		R_{TM} &=& \sqrt{R_{TM1}^2 + R_{TM2}^2}\nonumber\\
-		\lambda &=& \tan^{-1} (\dfrac{R_{TM2}}{R_{TM1}})\nonumber\\
-		L &=& \sin^{-1}(\dfrac{V_T \sin(\beta + \lambda)}{V_M})\nonumber\\
-		V_{M1} &=& V_M \cos (\theta + HE)\nonumber\\
-		V_{M2} &=& V_M \sin (\theta + HE)\nonumber\\
-		V_{TM1} &=& V_{T1} - V_{M1}\nonumber\\
-		V_{TM2} &=& V_{T2} - V_{M12}\nonumber
-		\end{eqnarray}}
-	\end{column}
-	\begin{column}{.6\linewidth}
-		\begin{figure}[htb]
-			\centering
-			\includegraphics[scale = 0.25]{fig/PN.pdf}
-			\label{PN}
-		\end{figure}
-	2d geometry of TA engagement.
-	\end{column}
-\end{columns}
-\end{frame}
-%---------------------
-\begin{frame}
-\frametitle{Maneuver Optimization}
-\begin{figure}[H]
-	\centering
-	\includegraphics[scale = 0.3]{fig/FlowchartPN.pdf}
-	\caption{Flowchart illustrating the steps of calculations using the equations in sec. 2.3  till we plot the trajectories.}
-	\label{flowchart PN}
-\end{figure}
-\end{frame}
 %---------------------
 \begin{frame}
 \frametitle{Target Maneuver Cases}
@@ -487,30 +504,30 @@ where $n_c$ is the acceleration command (for the missile) in $(m/s^2)$, $N'$ is 
 \end{columns}
 \end{frame}
 %---------------------
-\begin{frame}
-\frametitle{Target Maneuver Cases}
-
-\textbf{Zero Target maneuver}. Heading error $=-20$ and $N'= 4$.
-\begin{columns}[c]
-	\begin{column}{.45\linewidth}
-		\begin{figure}[H]
-			\centering
-			\includegraphics[scale = 0.225]{fig/trajectoryXNT0HE20N4.pdf}
-			\label{trajectory20N4}
-		\end{figure}
-		Target and attacker trajectories.
-	\end{column}
-	\begin{column}{.45\linewidth}
-		\begin{figure}[H]
-			\centering
-			\includegraphics[scale = 0.225]{fig/MissileAccelerationXNT0HE20N4.pdf}
-			\label{missile acceleration20N4}
-		\end{figure}
-		Attacker (missile) acceleration.
-	\end{column}
-\end{columns}
-\end{frame}
-%---------------------
+%\begin{frame}
+%\frametitle{Target Maneuver Cases}
+%
+%\textbf{Zero Target maneuver}. Heading error $=-20$ and $N'= 4$.
+%\begin{columns}[c]
+%	\begin{column}{.45\linewidth}
+%		\begin{figure}[H]
+%			\centering
+%			\includegraphics[scale = 0.225]{fig/trajectoryXNT0HE20N4.pdf}
+%			\label{trajectory20N4}
+%		\end{figure}
+%		Target and attacker trajectories.
+%	\end{column}
+%	\begin{column}{.45\linewidth}
+%		\begin{figure}[H]
+%			\centering
+%			\includegraphics[scale = 0.225]{fig/MissileAccelerationXNT0HE20N4.pdf}
+%			\label{missile acceleration20N4}
+%		\end{figure}
+%		Attacker (missile) acceleration.
+%	\end{column}
+%\end{columns}
+%\end{frame}
+%%---------------------
 \begin{frame}
 \frametitle{Target Maneuver Cases}
 
@@ -536,47 +553,263 @@ where $n_c$ is the acceleration command (for the missile) in $(m/s^2)$, $N'$ is 
 \end{frame}
 %---------------------
 \begin{frame}
-\frametitle{Target Maneuver Cases}
-\begin{itemize}
-	\item Constant Target maneuver
-\end{itemize}
-\begin{figure}[htb]
-	\centering
-	\includegraphics[scale = 0.3]{fig/trajectoryXNT5HE0N3.pdf}
-	\caption{Trajectory of the target and attacker in case of constant target maneuver=5G with heading error=0 and $N'=3$.}
-	\label{trajectory0NN3}
-\end{figure}
+	\begin{itemize}
+		\item Increasing the effective navigation ratio causes heading error to be removed rapidly.
+		\item The effective navigation ratio has an effect on the acceleration of the missile; the way that the missile will bleed energy.
+		\item The total acceleration (area under the curve) is increasing inversely proportional with the effective navigation ratio $N'$ .
+	\end{itemize}
 \end{frame}
 %---------------------
 \begin{frame}
 \frametitle{Target Maneuver Cases}
-\textbf{Polynomial Target maneuver}\\
+\textbf{ Constant Target maneuver} ($XNT=5G , HE=0 , N'=3$)
+
+\begin{columns}[c]
+	\begin{column} {.3\linewidth}
+		\begin{figure}[htb]
+			\centering
+			\includegraphics[scale = 0.18]{fig/trajectoryXNT5HE0N3.pdf}
+			%\caption{Trajectory of the target and attacker in case of constant target maneuver=5G with heading error=0 and $N'=3$.}
+			%\label{trajectory0NN3}
+		\end{figure}
+	\end{column}
+
+	\begin{column} {.3\linewidth}
+		\begin{figure}[htb]
+			\centering
+			\includegraphics[scale = 0.18]{fig/MissileAccelerationXNT5HE0N3.pdf}
+			%\caption{Trajectory of the target and attacker in case of constant target maneuver=5G with heading error=0 and $N'=3$.}
+			%\label{trajectory0NN3}
+		\end{figure}
+	\end{column}
+
+	\begin{column} {.3\linewidth}
+		\begin{figure}[htb]
+			\centering
+			\includegraphics[scale = 0.18]{fig/TargetAccelerationXNT5HE0N3.pdf}
+			%\caption{Trajectory of the target and attacker in case of constant target maneuver=5G with heading error=0 and $N'=3$.}
+			%\label{trajectory0NN3}
+		\end{figure}
+	\end{column}
+
+\end{columns}
+\end{frame}
+%---------------------
+
+\begin{frame}
+\frametitle{Target Maneuver Cases}
+\textbf{ Constant Target maneuver} ($XNT=5G , HE=0 , N'=5$)
+
+\begin{columns}[c]
+	\begin{column} {.3\linewidth}
+		\begin{figure}[htb]
+			\centering
+			\includegraphics[scale = 0.18]{fig/trajectoryXNT5HE0N5.pdf}
+			%\caption{Trajectory of the target and attacker in case of constant target maneuver=5G with heading error=0 and $N'=3$.}
+			%\label{trajectory0NN3}
+		\end{figure}
+	\end{column}
+	
+	\begin{column} {.3\linewidth}
+		\begin{figure}[htb]
+			\centering
+			\includegraphics[scale = 0.18]{fig/MissileAccelerationXNT5HE0N5.pdf}
+			%\caption{Trajectory of the target and attacker in case of constant target maneuver=5G with heading error=0 and $N'=3$.}
+			%\label{trajectory0NN3}
+		\end{figure}
+	\end{column}
+	
+	\begin{column} {.3\linewidth}
+		\begin{figure}[htb]
+			\centering
+			\includegraphics[scale = 0.18]{fig/TargetAccelerationXNT5HE0N5.pdf}
+			%\caption{Trajectory of the target and attacker in case of constant target maneuver=5G with heading error=0 and $N'=3$.}
+			%\label{trajectory0NN3}
+		\end{figure}
+	\end{column}
+	
+\end{columns}
+\end{frame}
+%--------------------
+
+\begin{frame}
+\begin{itemize}
+	\item Higher effective navigation ratio yields less acceleration to hit maneuvering target.
+	\item This causes the missile to lead the target slightly more than a lower effective navigation ratio does.
+\end{itemize}
+\end{frame}
+
+%--------------------
+
+\begin{frame}
+\frametitle{Target Maneuver Cases (Optimization)}
+\textbf{Cost Function}
+\begin{itemize}
+	\item Missile acceleration
+	\item Miss distance
+\end{itemize}
+\textbf{Polynomial Target maneuver}. (polynomial degree=3 , $HE=0 , N'=3$)
 \begin{equation}
 f(t) = c_0 + c_1 T + c_2 T^2 + c_3 T^3 + ... + c_N T^N
 \end{equation} 
-\begin{figure}[H]
-	\centering
-	\includegraphics[scale = 0.2]{fig/trajectoryP3N3.pdf}
-	\caption{Trajectory of the target and attacker in case of polynomial of degree N=3 target maneuver with zero heading error and $N'=3$.}
-	\label{trajectoryP3}
-\end{figure}
+
+\begin{columns}[c]
+	\begin{column} {.3\linewidth}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[scale = 0.18]{fig/trajectoryP3N3.pdf}
+			%\caption{Trajectory of the target and attacker in case of polynomial of degree N=3 target maneuver with zero heading error and $N'=3$.}
+			\label{trajectoryP3}
+		\end{figure}
+	\end{column}
+
+	\begin{column} {.3\linewidth}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[scale = 0.18]{fig/MissileAccelerationP3N3.pdf}
+			%\caption{Trajectory of the target and attacker in case of polynomial of degree N=3 target maneuver with zero heading error and $N'=3$.}
+			%\label{trajectoryP3}
+		\end{figure}
+	\end{column}
+
+	\begin{column} {.3\linewidth}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[scale = 0.18]{fig/TargetAccelerationP3N3.pdf}
+			%\caption{Trajectory of the target and attacker in case of polynomial of degree N=3 target maneuver with zero heading error and $N'=3$.}
+			%\label{trajectoryP3}
+		\end{figure}
+	\end{column}
+
+\end{columns}
+
 \end{frame}
 %---------------------
+
+\begin{frame}
+\frametitle{Target Maneuver Cases (Optimization)}
+	\textbf{Polynomial Target maneuver}. (polynomial degree=4 , $HE=0 , N'=3$)
+	\begin{columns}[c]
+		\begin{column} {.3\linewidth}
+			\begin{figure}[H]
+				\centering
+				\includegraphics[scale = 0.18]{fig/trajectoryP4N3.pdf}
+				%\caption{Trajectory of the target and attacker in case of polynomial of degree N=3 target maneuver with zero heading error and $N'=3$.}
+				\label{trajectoryP3}
+			\end{figure}
+		\end{column}
+		
+		\begin{column} {.3\linewidth}
+			\begin{figure}[H]
+				\centering
+				\includegraphics[scale = 0.18]{fig/MissileAccelerationP4N3.pdf}
+				%\caption{Trajectory of the target and attacker in case of polynomial of degree N=3 target maneuver with zero heading error and $N'=3$.}
+				%\label{trajectoryP3}
+			\end{figure}
+		\end{column}
+		
+		\begin{column} {.3\linewidth}
+			\begin{figure}[H]
+				\centering
+				\includegraphics[scale = 0.18]{fig/TargetAccelerationP4N3.pdf}
+				%\caption{Trajectory of the target and attacker in case of polynomial of degree N=3 target maneuver with zero heading error and $N'=3$.}
+				%\label{trajectoryP3}
+			\end{figure}
+		\end{column}
+		
+	\end{columns}
+	
+\end{frame}
+
+%--------------------
 \begin{frame}
 \frametitle{Target Maneuver Cases}
-\begin{itemize}
-	\item Trapezoidal Target maneuver
-\end{itemize}
+\textbf{Trapezoidal Target maneuver}
+
 \begin{figure}[htb]
 	\centering
-	\includegraphics[scale = 0.25]{fig/toothSquareTrapezoidal.pdf}
-	\caption{Trapezoidal Target maneuver.}
-	\label{trapezoidalacc}
+	\includegraphics[scale = 0.35]{fig/toothSquareTrapezoidal.pdf}
+	%\caption{Trapezoidal Target maneuver.}
+	%\label{trapezoidalacc}
 \end{figure}
 \end{frame}
 %---------------------
 
+\begin{frame}
+\frametitle{Target Maneuver Cases}
+\textbf{Trapezoidal Target maneuver} (Symmetric $=>$ Square, tooth, trapezoidal)
+\begin{columns}[c]
+	\begin{column}{.3\linewidth}
+		\begin{figure}
+			\centering
+			\includegraphics[scale = 0.18]{fig/trajectoryTrapSymm.pdf}
+			%\caption{Trajectory of the target and attacker in case of symmetric trapezoidal target maneuver with zero heading error and $N'=5$.}
+			%\label{trajectory trapSymm}
+		\end{figure}
+	\end{column}
+	
+	\begin{column}{.3\linewidth}
+		\begin{figure}
+			\centering
+			\includegraphics[scale = 0.18]{fig/MissileAccelerationTrapSymm.pdf}
+			%\caption{Missile acceleration in case of symmetric trapezoidal target maneuver with zero heading error and $N'=5$.}
+			%\label{missile acceleration trapSymm}
+		\end{figure}
+	\end{column}
+	
+	\begin{column}{.3\linewidth}
+		\begin{figure}
+			\centering
+			\includegraphics[scale = 0.18]{fig/TargetAccelerationTrapSym.pdf}
+			%\caption{Target acceleration in case of symmetric trapezoidal N=4 target maneuver with zero heading error and $N'=5$.}
+			%\label{Target acceleration trapSymm}
+		\end{figure}
+	\end{column}
+	
+	
+\end{columns}
+
+\end{frame}
+
 %------------------------------------------------
+
+\begin{frame}
+\frametitle{Target Maneuver Cases}
+\textbf{Trapezoidal Target maneuver} (not Symmetric)
+\begin{columns}[c]
+	\begin{column}{.3\linewidth}
+		\begin{figure}
+			\centering
+			\includegraphics[scale = 0.18]{fig/trajectoryTrap.pdf}
+			%\caption{Trajectory of the target and attacker in case of symmetric trapezoidal target maneuver with zero heading error and $N'=5$.}
+			%\label{trajectory trapSymm}
+		\end{figure}
+	\end{column}
+	
+	\begin{column}{.3\linewidth}
+		\begin{figure}
+			\centering
+			\includegraphics[scale = 0.18]{fig/MissileAccelerationTrap.pdf}
+			%\caption{Missile acceleration in case of symmetric trapezoidal target maneuver with zero heading error and $N'=5$.}
+			%\label{missile acceleration trapSymm}
+		\end{figure}
+	\end{column}
+	
+	\begin{column}{.3\linewidth}
+		\begin{figure}
+			\centering
+			\includegraphics[scale = 0.18]{fig/TargetAccelerationTrap.pdf}
+			%\caption{Target acceleration in case of symmetric trapezoidal N=4 target maneuver with zero heading error and $N'=5$.}
+			%\label{Target acceleration trapSymm}
+		\end{figure}
+	\end{column}
+	
+	
+\end{columns}
+
+\end{frame}
+
+
 %------------------------------------------------
 %------------------------------------------------
 
@@ -621,7 +854,7 @@ If the user chooses the PN guidance law, there will be more options be available
 \frametitle{Guidance Toolbox}
 \begin{figure}[H]
 \centering
-\includegraphics[scale = 0.3]{fig/guiPN.PNG}
+\includegraphics[scale = 0.28]{fig/guiPN.PNG}
 \caption{Guidance Toolbox options when PN selected}
 \label{Guidance Toolbox PN}
 \end{figure}
@@ -637,27 +870,27 @@ If the user chooses the PN guidance law, there will be more options be available
 \subsection{}
 %------------------------
 
-\begin{frame}
-\frametitle{Genetic Algorithm Solution}
-Most Important Parameters in GAs:
-\begin{itemize}
-\item Population Size
-\item Evaluation Function
-\item Crossover Method
-\item Mutation Rate
-\end{itemize}
-\end{frame}
-%---------------------
-\begin{frame}
-\frametitle{Genetic Algorithm Solution}
-Use Genetic Algorithms:
-\begin{itemize}
-\item When facing a problem of local minima.
-\item When a good fitness function is available.
-\item When a near-optimal, but not optimal solution is acceptable.
-\item When the state-space is too large for other methods.
-\end{itemize}
-\end{frame}
+%\begin{frame}
+%\frametitle{Genetic Algorithm Solution}
+%Most Important Parameters in GAs:
+%\begin{itemize}
+%\item Population Size
+%\item Evaluation Function
+%\item Crossover Method
+%\item Mutation Rate
+%\end{itemize}
+%\end{frame}
+%%---------------------
+%\begin{frame}
+%\frametitle{Genetic Algorithm Solution}
+%Use Genetic Algorithms:
+%\begin{itemize}
+%\item When facing a problem of local minima.
+%\item When a good fitness function is available.
+%\item When a near-optimal, but not optimal solution is acceptable.
+%\item When the state-space is too large for other methods.
+%\end{itemize}
+%\end{frame}
 %---------------------
 \begin{frame}
 \frametitle{Genetic Algorithm Solution}
@@ -668,18 +901,27 @@ Use Genetic Algorithms:
 \label{PN eq}
 \end{figure}
 \end{frame}
-%---------------------
+%------------------------------------------------
+\begin{frame}
+\frametitle{Genetic Algorithm Solution}
+	\begin{figure}
+		\centering
+		\includegraphics[scale = 0.75]{fig/PNmainBlock.PNG}
+		\caption{The Simulink main block for solving proportional navigation equations}
+		%\label{PN main block}
+	\end{figure}
+	
+\end{frame}
+%------------------------------------------------
 \begin{frame}
 \frametitle{Genetic Algorithm Solution}
 \begin{figure}[H]
-\centering
-\includegraphics[scale = 0.25]{fig/GApoly.PNG}
-\caption{Genetic Algorithm Toolbox in Matlab.}
-\label{GA toolbox poly}
+	\centering
+	\includegraphics[scale = 0.25]{fig/GApoly.PNG}
+	\caption{Genetic Algorithm Toolbox in Matlab.}
+	\label{GA toolbox poly}
 \end{figure}
 \end{frame}
-%------------------------------------------------
-%------------------------------------------------
 %------------------------------------------------
 
 \section{Unity Game}
