@@ -9,60 +9,45 @@
 \contentsline {section}{\numberline {1.2}The $ TAD $ problem}{2}{section.1.2}
 \contentsline {section}{\numberline {1.3}Thesis Contribution}{3}{section.1.3}
 \contentsline {section}{\numberline {1.4}Thesis Outline}{4}{section.1.4}
-\contentsline {part}{II\hspace {1em}TARGET-ATTACKER PROBLEM}{5}{part.2}
+\contentsline {part}{II\hspace {1em}2-D TARGET-ATTACKER PROBLEM}{5}{part.2}
 \contentsline {chapter}{CHAPTER {2}: \caseupper {Introduction for TA problem}}{6}{chapter.2}
 \contentsline {section}{\numberline {2.1}Problem Statement}{6}{section.2.1}
 \contentsline {section}{\numberline {2.2}Evasion techniques}{6}{section.2.2}
 \contentsline {section}{\numberline {2.3}Assumptions, Notation, and Nomenclature}{11}{section.2.3}
-\contentsline {chapter}{CHAPTER {3}: \caseupper {Guidance Laws}}{13}{chapter.3}
-\contentsline {section}{\numberline {3.1}Proportional Navigation}{13}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Simulation of proportional navigation equations in 2-D}{13}{subsection.3.1.1}
-\contentsline {section}{\numberline {3.2}Augmented Proportional Navigation}{16}{section.3.2}
-\contentsline {section}{\numberline {3.3}Optimal Guidance}{16}{section.3.3}
-\contentsline {chapter}{CHAPTER {4}: \caseupper {Optimization for escaping maneuver}}{17}{chapter.4}
-\contentsline {section}{\numberline {4.1}Models \& Simulations}{17}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Simulation for some target maneuver cases [using MATLAB]}{18}{subsection.4.1.1}
-\contentsline {subsubsection}{\numberline {4.1.1.1}Zero Target maneuver}{18}{subsubsection.4.1.1.1}
-\contentsline {subsubsection}{\numberline {4.1.1.2}Constant Target maneuver}{23}{subsubsection.4.1.1.2}
-\contentsline {subsubsection}{\numberline {4.1.1.3}Polynomial Target maneuver}{26}{subsubsection.4.1.1.3}
-\contentsline {subsubsection}{\numberline {4.1.1.4}Trapezoidal Target maneuver}{29}{subsubsection.4.1.1.4}
-\contentsline {section}{\numberline {4.2}Guidance Toolbox}{32}{section.4.2}
-\contentsline {section}{\numberline {4.3}Genetic Algorithm Solution [using simulink]}{33}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Introduction to Genetic Algorithm technique}{33}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}COMPONENTS OF GENETIC ALGORITHMS}{34}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {4.3.3}Results}{37}{subsection.4.3.3}
-\contentsline {subsubsection}{\numberline {4.3.3.1}Polynomial Target Maneuver}{37}{subsubsection.4.3.3.1}
-\contentsline {subsubsection}{\numberline {4.3.3.2}Trapezoidal Target Maneuver}{39}{subsubsection.4.3.3.2}
-\contentsline {chapter}{CHAPTER {5}: \caseupper {Game}}{40}{chapter.5}
-\contentsline {section}{\numberline {5.1}Introduction to Unity}{40}{section.5.1}
-\contentsline {section}{\numberline {5.2}Methodology of the game}{40}{section.5.2}
-\contentsline {section}{\numberline {5.3}Results}{42}{section.5.3}
-\contentsline {part}{III\hspace {1em}TARGET-ATTACKER-DEFENDER PROBLEM}{43}{part.3}
-\contentsline {chapter}{CHAPTER {6}: \caseupper {TARGET-ATTACKER-DEFENDER PROBLEM}}{44}{chapter.6}
-\contentsline {section}{\numberline {6.1}Problem Statement}{44}{section.6.1}
-\contentsline {section}{\numberline {6.2}Assumptions, Notation, and Nomenclature}{44}{section.6.2}
-\contentsline {section}{\numberline {6.3}APOLLONIUS CIRCLES PERTAINING TO THE PROBLEM}{47}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}The $AD$ Apollonius circle}{49}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}The $TA$ Apollonius circle}{51}{subsection.6.3.2}
-\contentsline {chapter}{CHAPTER {7}: \caseupper {CRITICAL SPEED RATIO}}{53}{chapter.7}
-\contentsline {section}{\numberline {7.1}The case $\gamma <1$ (fast defender)}{53}{section.7.1}
-\contentsline {section}{\numberline {7.2}The case $\gamma =1$ (similar Defender)}{55}{section.7.2}
-\contentsline {section}{\numberline {7.3}The case $\gamma >1$ (Slow Defender)}{55}{section.7.3}
-\contentsline {chapter}{CHAPTER {8}: \caseupper {ESCAPE REGION AND VORONOI DIAGRAM}}{62}{chapter.8}
-\contentsline {chapter}{CHAPTER {9}: \caseupper {OPTIMAL STRATEGIES}}{73}{chapter.9}
-\contentsline {section}{\numberline {9.1}Target initial position is outside the $AD$ Apollonius circle, and $\gamma <1$}{73}{section.9.1}
-\contentsline {section}{\numberline {9.2}Target initial position is inside the $AD$-Apollonius circle, and $\gamma <1$}{77}{section.9.2}
-\contentsline {section}{\numberline {9.3}Target initial position is in the R.H.S. of the $XY$-plane, and $\gamma =1$}{78}{section.9.3}
-\contentsline {section}{\numberline {9.4}Target initial position is in the L.H.S. of the $XY$-plane, and $\gamma =1$}{80}{section.9.4}
-\contentsline {section}{\numberline {9.5}Target initial position is inside the $AD$ Apollonius circle, and $\gamma >1$}{80}{section.9.5}
-\contentsline {section}{\numberline {9.6}Target initial position is outside the $AD$ Apollonius circle, and $\gamma >1$}{82}{section.9.6}
-\contentsline {section}{\numberline {9.7}Numerical Results}{83}{section.9.7}
-\contentsline {subsection}{\numberline {9.7.1}$\gamma =0.8,\ x_T=1.0,\ y_T=20.0$}{83}{subsection.9.7.1}
-\contentsline {subsection}{\numberline {9.7.2}$\gamma =0.8,\ x_T=20.0,\ y_T=1.0$}{84}{subsection.9.7.2}
-\contentsline {subsection}{\numberline {9.7.3}$\gamma =1.0,\ x_T=-1.0,\ y_T=1.0$}{84}{subsection.9.7.3}
-\contentsline {subsection}{\numberline {9.7.4}$\gamma =1.0,\ x_T=1.0,\ y_T=1.0$}{84}{subsection.9.7.4}
-\contentsline {subsection}{\numberline {9.7.5}$\gamma =1.25,\ x_T=-20.0,\ y_T=1.0$}{84}{subsection.9.7.5}
-\contentsline {subsection}{\numberline {9.7.6}$\gamma =1.25,\ x_T=-1.0,\ y_T=20.0$}{85}{subsection.9.7.6}
-\contentsline {chapter}{CHAPTER {10}: \caseupper {OPTIMAL HEADING ANGLE SIMULATION}}{86}{chapter.10}
-\contentsline {part}{IV\hspace {1em}CONCLUSION AND FUTURE WORK}{94}{part.4}
-\contentsline {chapter}{CHAPTER {11}: \caseupper {CONCLUSION AND FUTURE WORK}}{95}{chapter.11}
+\contentsline {section}{\numberline {2.4}Guidance Law}{12}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Proportional Navigation}{12}{subsection.2.4.1}
+\contentsline {subsubsection}{\numberline {2.4.1.1}Simulation of proportional navigation equations in 2-D}{13}{subsubsection.2.4.1.1}
+\contentsline {chapter}{CHAPTER {3}: \caseupper {Optimization for escaping maneuver}}{17}{chapter.3}
+\contentsline {section}{\numberline {3.1}Models \& Simulations}{17}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Simulation for some target maneuver cases [using MATLAB]}{17}{subsection.3.1.1}
+\contentsline {subsubsection}{\numberline {3.1.1.1}Zero Target maneuver}{17}{subsubsection.3.1.1.1}
+\contentsline {subsubsection}{\numberline {3.1.1.2}Constant Target maneuver}{22}{subsubsection.3.1.1.2}
+\contentsline {subsubsection}{\numberline {3.1.1.3}Polynomial Target maneuver}{25}{subsubsection.3.1.1.3}
+\contentsline {subsubsection}{\numberline {3.1.1.4}Trapezoidal Target maneuver}{28}{subsubsection.3.1.1.4}
+\contentsline {section}{\numberline {3.2}Guidance Toolbox}{31}{section.3.2}
+\contentsline {section}{\numberline {3.3}Genetic Algorithm Solution [using simulink]}{32}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Introduction to Genetic Algorithm technique}{32}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}COMPONENTS OF GENETIC ALGORITHMS}{33}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Results}{36}{subsection.3.3.3}
+\contentsline {subsubsection}{\numberline {3.3.3.1}Polynomial Target Maneuver}{36}{subsubsection.3.3.3.1}
+\contentsline {chapter}{CHAPTER {4}: \caseupper {A new game-based methodology for discovering optimal escape maneuver}}{38}{chapter.4}
+\contentsline {section}{\numberline {4.1}Introduction}{38}{section.4.1}
+\contentsline {section}{\numberline {4.2}Game description and design}{40}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Introduction to Unity}{40}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Methodology of the game}{41}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3}Preliminary results}{42}{section.4.3}
+\contentsline {part}{III\hspace {1em}TARGET-ATTACKER-DEFENDER PROBLEM}{44}{part.3}
+\contentsline {chapter}{CHAPTER {5}: \caseupper {TARGET-ATTACKER-DEFENDER PROBLEM}}{45}{chapter.5}
+\contentsline {section}{\numberline {5.1}Problem Statement}{45}{section.5.1}
+\contentsline {section}{\numberline {5.2}Assumptions, Notation, and Nomenclature}{45}{section.5.2}
+\contentsline {section}{\numberline {5.3}APOLLONIUS CIRCLES PERTAINING TO THE PROBLEM}{48}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}The $AD$ Apollonius circle}{50}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}The $TA$ Apollonius circle}{52}{subsection.5.3.2}
+\contentsline {chapter}{CHAPTER {6}: \caseupper {CRITICAL SPEED RATIO}}{54}{chapter.6}
+\contentsline {section}{\numberline {6.1}The case $\gamma <1$ (fast defender)}{54}{section.6.1}
+\contentsline {section}{\numberline {6.2}The case $\gamma =1$ (similar Defender)}{56}{section.6.2}
+\contentsline {section}{\numberline {6.3}The case $\gamma >1$ (Slow Defender)}{56}{section.6.3}
+\contentsline {chapter}{CHAPTER {7}: \caseupper {ESCAPE REGION AND VORONOI DIAGRAM}}{63}{chapter.7}
+\contentsline {chapter}{CHAPTER {8}: \caseupper {OPTIMAL HEADING ANGLE SIMULATION}}{74}{chapter.8}
+\contentsline {part}{IV\hspace {1em}CONCLUSION AND FUTURE WORK}{82}{part.4}
+\contentsline {chapter}{CHAPTER {9}: \caseupper {CONCLUSION AND FUTURE WORK}}{83}{chapter.9}

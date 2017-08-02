@@ -1,4 +1,4 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{100}
 
 \bibitem{adler1956missile}
 Adler, F.~P., 1956, ``Missile guidance by three-dimensional proportional
@@ -401,5 +401,111 @@ Bakolas, E. and Tsiotras, P., (2010), ``Optimal pursuit of moving targets using
 \bibitem{bakolas2010zermelo}
 Bakolas, E. and Tsiotras, P., (2010), ``The zermelo--voronoi diagram: a dynamic
   partition problem,'' {\em Automatica}, vol.~46, no.~12, pp.~2059--2067.
+
+\bibitem{hsu2002behind}
+Hsu, F.-H., {\em Behind Deep Blue: Building the computer that defeated the
+  world chess champion}.
+\newblock Princeton University Press, 2002.
+
+\bibitem{syed2003arimaa}
+Syed, O. and Syed, A., 2003, ``Arimaa-a new game designed to be difficult for
+  computers,'' {\em ICGA JOURNAL}, vol.~26, no.~2, pp.~138--139.
+
+\bibitem{ferrucci2013watson}
+Ferrucci, D., Levas, A., Bagchi, S., Gondek, D., and Mueller, E.~T., 2013,
+  ``Watson: beyond jeopardy!,'' {\em Artificial Intelligence}, vol.~199,
+  pp.~93--105.
+
+\bibitem{gelly2011monte}
+Gelly, S. and Silver, D., 2011, ``Monte-carlo tree search and rapid action
+  value estimation in computer go,'' {\em Artificial Intelligence}, vol.~175,
+  no.~11, pp.~1856--1875.
+
+\bibitem{seaborn2015gamification}
+Seaborn, K. and Fels, D.~I., 2015, ``Gamification in theory and action: A
+  survey,'' {\em International Journal of Human-Computer Studies}, vol.~74,
+  pp.~14--31.
+
+\bibitem{dubbels2013gamification}
+Dubbels, B., 2013, ``Gamification, serious games, ludic simulation, and other
+  contentious categories,'' {\em International Journal of Gaming and
+  Computer-Mediated Simulations (IJGCMS)}, vol.~5, no.~2, pp.~1--19.
+
+\bibitem{boughzala2016introduction}
+Boughzala, I. and Michel, H., 2016, ``Introduction to the serious games,
+  gamification and innovation minitrack,'' in {\em System Sciences (HICSS),
+  2016 49th Hawaii International Conference on}, pp.~817--817, IEEE.
+
+\bibitem{von2006games}
+Von~Ahn, L., 2006, ``Games with a purpose,'' {\em Computer}, vol.~39, no.~6,
+  pp.~92--94.
+
+\bibitem{von2008designing}
+Von~Ahn, L. and Dabbish, L., 2008, ``Designing games with a purpose,'' {\em
+  Communications of the ACM}, vol.~51, no.~8, pp.~58--67.
+
+\bibitem{siorpaes2008games}
+Siorpaes, K. and Hepp, M., 2008, ``Games with a purpose for the semantic web,''
+  {\em IEEE Intelligent Systems}, vol.~23, no.~3.
+
+\bibitem{good2011games}
+Good, B.~M. and Su, A.~I., 2011, ``Games with a scientific purpose,'' {\em
+  Genome biology}, vol.~12, no.~12, p.~135.
+
+\bibitem{jain2008game}
+Jain, S. and Parkes, D., 2008, ``A game-theoretic analysis of games with a
+  purpose,'' {\em Internet and Network Economics}, pp.~342--350.
+
+\bibitem{quinn2011human}
+Quinn, A.~J. and Bederson, B.~B., 2011, ``Human computation: a survey and
+  taxonomy of a growing field,'' in {\em Proceedings of the SIGCHI conference
+  on human factors in computing systems}, pp.~1403--1412, ACM.
+
+\bibitem{brabham2008crowdsourcing}
+Brabham, D.~C., 2008, ``Crowdsourcing as a model for problem solving: An
+  introduction and cases,'' {\em Convergence}, vol.~14, no.~1, pp.~75--90.
+
+\bibitem{stevens2015aircraft}
+Stevens, B.~L., Lewis, F.~L., and Johnson, E.~N., {\em Aircraft control and
+  simulation: dynamics, controls design, and autonomous systems}.
+\newblock John Wiley \& Sons, 2015.
+
+\bibitem{perh2011study}
+Perh, D., ``A study into advanced guidance laws using computational methods,''
+  tech. rep., NAVAL POSTGRADUATE SCHOOL MONTEREY CA, 2011.
+
+\bibitem{eklund2012switched}
+Eklund, J.~M., Sprinkle, J., and Sastry, S.~S., 2012, ``Switched and symmetric
+  pursuit/evasion games using online model predictive control with application
+  to autonomous aircraft,'' {\em IEEE Transactions on Control Systems
+  Technology}, vol.~20, no.~3, pp.~604--620.
+
+\bibitem{hsueh2014integrated}
+Hsueh, M.-H., Wang, T.-K., and Fu, L.-C., 2014, ``Integrated game based
+  guidance with nonlinear autopilot design for maneuvering target
+  interception,'' {\em Asian Journal of Control}, vol.~16, no.~2, pp.~431--440.
+
+\bibitem{sun2014guidance}
+Sun, C., He, F., Ma, L., Wang, Y., and Yao, Y., 2014, ``A guidance control law
+  design based on evolutionary game,'' in {\em Intelligent Control and
+  Automation (WCICA), 2014 11th World Congress on}, pp.~4939--4944, IEEE.
+
+\bibitem{crawford1984art}
+Crawford, C., 1984, ``The art of computer game design,''
+
+\bibitem{liu2009pursuit}
+Liu, J., Liu, S., Wu, H., and Zhang, Y., 2009, ``A pursuit-evasion algorithm
+  based on hierarchical reinforcement learning,'' in {\em Measuring Technology
+  and Mechatronics Automation, 2009. ICMTMA'09. International Conference on},
+  vol.~2, pp.~482--486, IEEE.
+
+\bibitem{sharma2010synergizing}
+Sharma, R. and Gopal, M., 2010, ``Synergizing reinforcement learning and game
+  theory—a new direction for control,'' {\em Applied Soft Computing},
+  vol.~10, no.~3, pp.~675--688.
+
+\bibitem{doya2000reinforcement}
+Doya, K., 2000, ``Reinforcement learning in continuous time and space,'' {\em
+  Neural computation}, vol.~12, no.~1, pp.~219--245.
 
 \end{thebibliography}

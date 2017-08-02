@@ -1,71 +1,71 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: MSc_thesis_Mostafa.aux
 The style file: myieeetr.bst
 Database file #1: references.bib
-You're missing a field name---line 383 of file references.bib
+You're missing a field name---line 639 of file references.bib
  :   
  :   %organization={IEEE}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 435 of file references.bib
+You're missing a field name---line 691 of file references.bib
  :   
  :   %organization={IEEE}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 445 of file references.bib
+You're missing a field name---line 701 of file references.bib
  :   
  :   %organization={IEEE}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 510 of file references.bib
+Repeated entry---line 766 of file references.bib
  : @inproceedings{rusnak2008guidance
  :                                  ,
 I'm skipping whatever remains of this entry
-You're missing a field name---line 547 of file references.bib
+You're missing a field name---line 803 of file references.bib
  :   
  :   %organization={IEEE}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 556 of file references.bib
+You're missing a field name---line 812 of file references.bib
  :   
  :   %organization={IEEE}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 576 of file references.bib
+You're missing a field name---line 832 of file references.bib
  :   
  :   %organization={IEEE}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 645 of file references.bib
+You're missing a field name---line 901 of file references.bib
  :   
  :   %organization={IEEE}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 655 of file references.bib
+You're missing a field name---line 911 of file references.bib
  :   
  :   %organization={IEEE}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 664 of file references.bib
+You're missing a field name---line 920 of file references.bib
  :   
  :   %organization={IEEE}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 736 of file references.bib
+You're missing a field name---line 992 of file references.bib
  :   
  :   %organization={IEEE}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 753 of file references.bib
+You're missing a field name---line 1009 of file references.bib
  :   
  :   %organization={IEEE}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 762 of file references.bib
+You're missing a field name---line 1018 of file references.bib
  :   
  :   %organization={IEEE}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 782 of file references.bib
+You're missing a field name---line 1038 of file references.bib
  :   
  :   %organization={IEEE}
 (Error may have been on previous line)
@@ -78,4 +78,5 @@ while executing---line 963 of file myieeetr.bst
 Warning--can't use both volume and number fields in rusnak2011guidance
 Warning--empty journal in cliff1995co
 Warning--empty publisher in kim2001multiagent
+Warning--empty journal in crawford1984art
 (There were 15 error messages)
