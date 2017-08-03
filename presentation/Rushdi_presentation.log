@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2017.3.26)  17 JUL 2017 10:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2017.3.26)  2 AUG 2017 22:25
 entering extended mode
 **Rushdi_presentation.tex
 (Rushdi_presentation.tex
@@ -1227,7 +1227,7 @@ Dictionary: translator-theorem-dictionary, Language: English
 LaTeX Info: Redefining \includegraphics on input line 44.
 
 (Rushdi_presentation.nav)
-<fig/logo/cairo_logo.png, id=143, 112.92188pt x 129.48375pt>
+<fig/logo/cairo_logo.png, id=149, 112.92188pt x 129.48375pt>
 File: fig/logo/cairo_logo.png Graphic file (type png)
 
 <use fig/logo/cairo_logo.png>
@@ -1244,13 +1244,13 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
 
 ] [3
 
-] <fig/m.png, id=579, 642.4pt x 642.4pt>
+] <fig/m.png, id=609, 642.4pt x 642.4pt>
 File: fig/m.png Graphic file (type png)
 
 <use fig/m.png>
 Package pdftex.def Info: fig/m.png used on input line 78.
 (pdftex.def)             Requested size: 62.2539pt x 62.26253pt.
- <fig/t.png, id=580, 3294.3075pt x 1932.21875pt>
+ <fig/t.png, id=610, 3294.3075pt x 1932.21875pt>
 File: fig/t.png Graphic file (type png)
 
 <use fig/t.png>
@@ -1295,7 +1295,7 @@ thkerncmss.
  <C:/Program Files/MiKTeX 2.9/tex/latex/beamer/base/art/beamericonarticle.pdf>]
  [9
 
-] <fig/GuidanceLaws.pdf, id=1245, 1415.2875pt x 516.73048pt>
+] <fig/GuidanceLaws.pdf, id=1311, 1415.2875pt x 516.73048pt>
 File: fig/GuidanceLaws.pdf Graphic file (type pdf)
 
 <use fig/GuidanceLaws.pdf>
@@ -1315,7 +1315,7 @@ Overfull \hbox (22.98006pt too wide) in alignment at lines 324--324
  [][][] []
  []
 
-<fig/PN.pdf, id=1574, 794.97pt x 614.295pt>
+<fig/PN.pdf, id=1652, 794.97pt x 614.295pt>
 File: fig/PN.pdf Graphic file (type pdf)
  <use fig/PN.pdf>
 Package pdftex.def Info: fig/PN.pdf used on input line 324.
@@ -1327,7 +1327,7 @@ Overfull \hbox (14.36621pt too wide) in paragraph at lines 324--324
 
 [12
 
- <./fig/PN.pdf>] <fig/FlowchartPN.pdf, id=1707, 597.432pt x 844.95674pt>
+ <./fig/PN.pdf>] <fig/FlowchartPN.pdf, id=1791, 597.432pt x 844.95674pt>
 File: fig/FlowchartPN.pdf Graphic file (type pdf)
 
 <use fig/FlowchartPN.pdf>
@@ -1340,7 +1340,7 @@ Overfull \vbox (87.79271pt too high) detected at line 334
 [13
 
  <./fig/FlowchartPN.pdf>]
-<fig/Evasion.pdf, id=1871, 566.115pt x 436.02899pt>
+<fig/Evasion.pdf, id=1961, 566.115pt x 436.02899pt>
 File: fig/Evasion.pdf Graphic file (type pdf)
  <use fig/Evasion.pdf>
 Package pdftex.def Info: fig/Evasion.pdf used on input line 348.
@@ -1356,7 +1356,7 @@ Missing character: There is no â in font cmss10!
 Missing character: There is no € in font cmss10!
 Missing character: There is no “ in font cmss10!
 
-<fig/evasiontech1.jpg, id=1998, 380.17032pt x 527.72156pt>
+<fig/evasiontech1.jpg, id=2094, 380.17032pt x 527.72156pt>
 File: fig/evasiontech1.jpg Graphic file (type jpg)
 
 <use fig/evasiontech1.jpg>
@@ -1377,7 +1377,7 @@ Missing character: There is no â in font cmss10!
 Missing character: There is no € in font cmss10!
 Missing character: There is no ™ in font cmss10!
 
-<fig/evasiontech2.jpg, id=2107, 677.53125pt x 225.84375pt>
+<fig/evasiontech2.jpg, id=2209, 677.53125pt x 225.84375pt>
 File: fig/evasiontech2.jpg Graphic file (type jpg)
 
 <use fig/evasiontech2.jpg>
@@ -1390,7 +1390,7 @@ Overfull \vbox (48.71727pt too high) detected at line 396
 [16
 
  <./fig/evasiontech2.jpg>]
-<fig/evasiontech3.jpg, id=2216, 677.53125pt x 225.84375pt>
+<fig/evasiontech3.jpg, id=2324, 677.53125pt x 225.84375pt>
 File: fig/evasiontech3.jpg Graphic file (type jpg)
 
 <use fig/evasiontech3.jpg>
@@ -1406,7 +1406,7 @@ Missing character: There is no â in font cmss10!
 Missing character: There is no € in font cmss10!
 Missing character: There is no ™ in font cmss10!
 
-<fig/evasiontech4.jpg, id=2325, 376.40625pt x 376.40625pt>
+<fig/evasiontech4.jpg, id=2439, 376.40625pt x 376.40625pt>
 File: fig/evasiontech4.jpg Graphic file (type jpg)
 
 <use fig/evasiontech4.jpg>
@@ -1417,7 +1417,7 @@ Package pdftex.def Info: fig/evasiontech4.jpg used on input line 435.
  <./fig/evasiontech4.jpg>] [19
 
 ]
-<fig/trajectoryXNT0HE0N4.pdf, id=2544, 655.44875pt x 531.9875pt>
+<fig/trajectoryXNT0HE0N4.pdf, id=2670, 655.44875pt x 531.9875pt>
 File: fig/trajectoryXNT0HE0N4.pdf Graphic file (type pdf)
 
 <use fig/trajectoryXNT0HE0N4.pdf>
@@ -1428,7 +1428,7 @@ Overfull \hbox (15.95647pt too wide) in paragraph at lines 481--481
  [][][][] 
  []
 
-<fig/MissileAccelerationXNT0HE0N4.pdf, id=2545, 625.33624pt x 513.92pt>
+<fig/MissileAccelerationXNT0HE0N4.pdf, id=2671, 625.33624pt x 513.92pt>
 File: fig/MissileAccelerationXNT0HE0N4.pdf Graphic file (type pdf)
 
 <use fig/MissileAccelerationXNT0HE0N4.pdf>
@@ -1440,7 +1440,7 @@ Overfull \hbox (17.24757pt too wide) in paragraph at lines 481--481
  [][][][] 
  []
 
-<fig/TargetAccelerationXNT0HE0N4.pdf, id=2546, 633.36626pt x 504.88625pt>
+<fig/TargetAccelerationXNT0HE0N4.pdf, id=2672, 633.36626pt x 504.88625pt>
 File: fig/TargetAccelerationXNT0HE0N4.pdf Graphic file (type pdf)
 
 <use fig/TargetAccelerationXNT0HE0N4.pdf>
@@ -1456,7 +1456,7 @@ Overfull \hbox (18.65285pt too wide) in paragraph at lines 481--481
 
  <./fig/trajectoryXNT0HE0N4.pdf> <./fig/MissileAccelerationXNT0HE0N4.pdf> <./fi
 g/TargetAccelerationXNT0HE0N4.pdf>]
-<fig/trajectoryXNT0HE20N3.pdf, id=2737, 655.44875pt x 531.9875pt>
+<fig/trajectoryXNT0HE20N3.pdf, id=2869, 655.44875pt x 531.9875pt>
 File: fig/trajectoryXNT0HE20N3.pdf Graphic file (type pdf)
 
 <use fig/trajectoryXNT0HE20N3.pdf>
@@ -1467,7 +1467,7 @@ Overfull \hbox (9.2001pt too wide) in paragraph at lines 505--505
  [][][][] 
  []
 
-<fig/MissileAccelerationXNT0HE20N3.pdf, id=2738, 622.325pt x 504.88625pt>
+<fig/MissileAccelerationXNT0HE20N3.pdf, id=2870, 622.325pt x 504.88625pt>
 File: fig/MissileAccelerationXNT0HE20N3.pdf Graphic file (type pdf)
 
 <use fig/MissileAccelerationXNT0HE20N3.pdf>
@@ -1482,7 +1482,7 @@ Overfull \hbox (1.74707pt too wide) in paragraph at lines 505--505
 [21
 
  <./fig/trajectoryXNT0HE20N3.pdf> <./fig/MissileAccelerationXNT0HE20N3.pdf>] <f
-ig/trajectoryXNT0HE20N5.pdf, id=2896, 655.44875pt x 531.9875pt>
+ig/trajectoryXNT0HE20N5.pdf, id=3034, 655.44875pt x 531.9875pt>
 File: fig/trajectoryXNT0HE20N5.pdf Graphic file (type pdf)
 
 <use fig/trajectoryXNT0HE20N5.pdf>
@@ -1493,7 +1493,7 @@ Overfull \hbox (9.2001pt too wide) in paragraph at lines 553--553
  [][][][] 
  []
 
-<fig/MissileAccelerationXNT0HE20N5.pdf, id=2897, 627.34375pt x 504.88625pt>
+<fig/MissileAccelerationXNT0HE20N5.pdf, id=3035, 627.34375pt x 504.88625pt>
 File: fig/MissileAccelerationXNT0HE20N5.pdf Graphic file (type pdf)
 
 <use fig/MissileAccelerationXNT0HE20N5.pdf>
@@ -1510,7 +1510,7 @@ Overfull \hbox (2.87633pt too wide) in paragraph at lines 553--553
  <./fig/trajectoryXNT0HE20N5.pdf> <./fig/MissileAccelerationXNT0HE20N5.pdf>] [2
 3
 
-] <fig/trajectoryXNT5HE0N3.pdf, id=3157, 636.3775pt x 531.9875pt>
+] <fig/trajectoryXNT5HE0N3.pdf, id=3307, 636.3775pt x 531.9875pt>
 File: fig/trajectoryXNT5HE0N3.pdf Graphic file (type pdf)
 
 <use fig/trajectoryXNT5HE0N3.pdf>
@@ -1521,7 +1521,7 @@ Overfull \hbox (22.3551pt too wide) in paragraph at lines 596--596
  [] 
  []
 
-<fig/MissileAccelerationXNT5HE0N3.pdf, id=3158, 630.355pt x 504.88625pt>
+<fig/MissileAccelerationXNT5HE0N3.pdf, id=3308, 630.355pt x 504.88625pt>
 File: fig/MissileAccelerationXNT5HE0N3.pdf Graphic file (type pdf)
 
 <use fig/MissileAccelerationXNT5HE0N3.pdf>
@@ -1533,7 +1533,7 @@ Overfull \hbox (21.2711pt too wide) in paragraph at lines 596--596
  [] 
  []
 
-<fig/TargetAccelerationXNT5HE0N3.pdf, id=3159, 630.355pt x 504.88625pt>
+<fig/TargetAccelerationXNT5HE0N3.pdf, id=3309, 630.355pt x 504.88625pt>
 File: fig/TargetAccelerationXNT5HE0N3.pdf Graphic file (type pdf)
 
 <use fig/TargetAccelerationXNT5HE0N3.pdf>
@@ -1549,7 +1549,7 @@ Overfull \hbox (21.2711pt too wide) in paragraph at lines 596--596
 
  <./fig/trajectoryXNT5HE0N3.pdf> <./fig/MissileAccelerationXNT5HE0N3.pdf> <./fi
 g/TargetAccelerationXNT5HE0N3.pdf>]
-<fig/trajectoryXNT5HE0N5.pdf, id=3341, 636.3775pt x 531.9875pt>
+<fig/trajectoryXNT5HE0N5.pdf, id=3497, 636.3775pt x 531.9875pt>
 File: fig/trajectoryXNT5HE0N5.pdf Graphic file (type pdf)
 
 <use fig/trajectoryXNT5HE0N5.pdf>
@@ -1560,7 +1560,7 @@ Overfull \hbox (22.3551pt too wide) in paragraph at lines 632--632
  [] 
  []
 
-<fig/MissileAccelerationXNT5HE0N5.pdf, id=3342, 625.33624pt x 504.88625pt>
+<fig/MissileAccelerationXNT5HE0N5.pdf, id=3498, 625.33624pt x 504.88625pt>
 File: fig/MissileAccelerationXNT5HE0N5.pdf Graphic file (type pdf)
 
 <use fig/MissileAccelerationXNT5HE0N5.pdf>
@@ -1572,7 +1572,7 @@ Overfull \hbox (20.36777pt too wide) in paragraph at lines 632--632
  [] 
  []
 
-<fig/TargetAccelerationXNT5HE0N5.pdf, id=3343, 630.355pt x 504.88625pt>
+<fig/TargetAccelerationXNT5HE0N5.pdf, id=3499, 630.355pt x 504.88625pt>
 File: fig/TargetAccelerationXNT5HE0N5.pdf Graphic file (type pdf)
 
 <use fig/TargetAccelerationXNT5HE0N5.pdf>
@@ -1590,7 +1590,7 @@ Overfull \hbox (21.2711pt too wide) in paragraph at lines 632--632
 g/TargetAccelerationXNT5HE0N5.pdf>] [26
 
 ]
-<fig/trajectoryP3N3.pdf, id=3631, 671.50874pt x 528.97626pt>
+<fig/trajectoryP3N3.pdf, id=3799, 671.50874pt x 528.97626pt>
 File: fig/trajectoryP3N3.pdf Graphic file (type pdf)
 
 <use fig/trajectoryP3N3.pdf>
@@ -1601,7 +1601,7 @@ Overfull \hbox (28.67845pt too wide) in paragraph at lines 686--686
  [][][][] 
  []
 
-<fig/MissileAccelerationP3N3.pdf, id=3632, 634.37pt x 504.88625pt>
+<fig/MissileAccelerationP3N3.pdf, id=3800, 634.37pt x 504.88625pt>
 File: fig/MissileAccelerationP3N3.pdf Graphic file (type pdf)
 
 <use fig/MissileAccelerationP3N3.pdf>
@@ -1613,7 +1613,7 @@ Overfull \hbox (21.99377pt too wide) in paragraph at lines 686--686
  [] 
  []
 
-<fig/TargetAccelerationP3N3.pdf, id=3633, 625.33624pt x 504.88625pt>
+<fig/TargetAccelerationP3N3.pdf, id=3801, 625.33624pt x 504.88625pt>
 File: fig/TargetAccelerationP3N3.pdf Graphic file (type pdf)
 
 <use fig/TargetAccelerationP3N3.pdf>
@@ -1629,7 +1629,7 @@ Overfull \hbox (20.36777pt too wide) in paragraph at lines 686--686
 
  <./fig/trajectoryP3N3.pdf> <./fig/MissileAccelerationP3N3.pdf> <./fig/TargetAc
 celerationP3N3.pdf>]
-<fig/trajectoryP4N3.pdf, id=3799, 671.50874pt x 528.97626pt>
+<fig/trajectoryP4N3.pdf, id=3973, 671.50874pt x 528.97626pt>
 File: fig/trajectoryP4N3.pdf Graphic file (type pdf)
 
 <use fig/trajectoryP4N3.pdf>
@@ -1645,7 +1645,7 @@ Overfull \hbox (28.67845pt too wide) in paragraph at lines 722--722
  [][][][] 
  []
 
-<fig/MissileAccelerationP4N3.pdf, id=3800, 634.37pt x 504.88625pt>
+<fig/MissileAccelerationP4N3.pdf, id=3974, 634.37pt x 504.88625pt>
 File: fig/MissileAccelerationP4N3.pdf Graphic file (type pdf)
 
 <use fig/MissileAccelerationP4N3.pdf>
@@ -1657,7 +1657,7 @@ Overfull \hbox (21.99377pt too wide) in paragraph at lines 722--722
  [] 
  []
 
-<fig/TargetAccelerationP4N3.pdf, id=3801, 630.355pt x 504.88625pt>
+<fig/TargetAccelerationP4N3.pdf, id=3975, 630.355pt x 504.88625pt>
 File: fig/TargetAccelerationP4N3.pdf Graphic file (type pdf)
 
 <use fig/TargetAccelerationP4N3.pdf>
@@ -1673,7 +1673,7 @@ Overfull \hbox (21.2711pt too wide) in paragraph at lines 722--722
 
  <./fig/trajectoryP4N3.pdf> <./fig/MissileAccelerationP4N3.pdf> <./fig/TargetAc
 celerationP4N3.pdf>]
-<fig/toothSquareTrapezoidal.pdf, id=3958, 844.65562pt x 596.98032pt>
+<fig/toothSquareTrapezoidal.pdf, id=4138, 844.65562pt x 596.98032pt>
 File: fig/toothSquareTrapezoidal.pdf Graphic file (type pdf)
 
 <use fig/toothSquareTrapezoidal.pdf>
@@ -1687,7 +1687,7 @@ Overfull \vbox (19.0347pt too high) detected at line 735
 [29
 
  <./fig/toothSquareTrapezoidal.pdf>]
-<fig/trajectoryTrapSymm.pdf, id=4082, 642.4pt x 531.9875pt>
+<fig/trajectoryTrapSymm.pdf, id=4268, 642.4pt x 531.9875pt>
 File: fig/trajectoryTrapSymm.pdf Graphic file (type pdf)
 
 <use fig/trajectoryTrapSymm.pdf>
@@ -1698,7 +1698,7 @@ Overfull \hbox (23.4391pt too wide) in paragraph at lines 772--772
  [] 
  []
 
-<fig/MissileAccelerationTrapSymm.pdf, id=4083, 630.355pt x 504.88625pt>
+<fig/MissileAccelerationTrapSymm.pdf, id=4269, 630.355pt x 504.88625pt>
 File: fig/MissileAccelerationTrapSymm.pdf Graphic file (type pdf)
 
 <use fig/MissileAccelerationTrapSymm.pdf>
@@ -1710,7 +1710,7 @@ Overfull \hbox (21.2711pt too wide) in paragraph at lines 772--772
  [] 
  []
 
-<fig/TargetAccelerationTrapSym.pdf, id=4084, 630.355pt x 504.88625pt>
+<fig/TargetAccelerationTrapSym.pdf, id=4270, 630.355pt x 504.88625pt>
 File: fig/TargetAccelerationTrapSym.pdf Graphic file (type pdf)
 
 <use fig/TargetAccelerationTrapSym.pdf>
@@ -1726,7 +1726,7 @@ Overfull \hbox (21.2711pt too wide) in paragraph at lines 772--772
 
  <./fig/trajectoryTrapSymm.pdf> <./fig/MissileAccelerationTrapSymm.pdf> <./fig/
 TargetAccelerationTrapSym.pdf>]
-<fig/trajectoryTrap.pdf, id=4263, 655.44875pt x 531.9875pt>
+<fig/trajectoryTrap.pdf, id=4455, 655.44875pt x 531.9875pt>
 File: fig/trajectoryTrap.pdf Graphic file (type pdf)
 
 <use fig/trajectoryTrap.pdf>
@@ -1737,7 +1737,7 @@ Overfull \hbox (25.78778pt too wide) in paragraph at lines 810--810
  [] 
  []
 
-<fig/MissileAccelerationTrap.pdf, id=4264, 630.355pt x 504.88625pt>
+<fig/MissileAccelerationTrap.pdf, id=4456, 630.355pt x 504.88625pt>
 File: fig/MissileAccelerationTrap.pdf Graphic file (type pdf)
 
 <use fig/MissileAccelerationTrap.pdf>
@@ -1749,7 +1749,7 @@ Overfull \hbox (21.2711pt too wide) in paragraph at lines 810--810
  [] 
  []
 
-<fig/TargetAccelerationTrap.pdf, id=4265, 630.355pt x 504.88625pt>
+<fig/TargetAccelerationTrap.pdf, id=4457, 630.355pt x 504.88625pt>
 File: fig/TargetAccelerationTrap.pdf Graphic file (type pdf)
 
 <use fig/TargetAccelerationTrap.pdf>
@@ -1769,27 +1769,27 @@ celerationTrap.pdf>] [32
 ] [33
 
 ]
-<fig/GUI.PNG, id=4666, 865.43324pt x 531.78674pt>
+<fig/GUI.PNG, id=4876, 865.43324pt x 531.78674pt>
 File: fig/GUI.PNG Graphic file (type png)
  <use fig/GUI.PNG>
-Package pdftex.def Info: fig/GUI.PNG used on input line 841.
+Package pdftex.def Info: fig/GUI.PNG used on input line 837.
 (pdftex.def)             Requested size: 302.90617pt x 186.12814pt.
 
-Overfull \vbox (10.03189pt too high) detected at line 841
+Overfull \vbox (10.03189pt too high) detected at line 837
  []
 
 [34
 
  <./fig/GUI.PNG>] [35
 
-] <fig/guiPN.PNG, id=4885, 1151.502pt x 534.798pt>
+] <fig/guiPN.PNG, id=5107, 1151.502pt x 534.798pt>
 File: fig/guiPN.PNG Graphic file (type png)
 
 <use fig/guiPN.PNG>
-Package pdftex.def Info: fig/guiPN.PNG used on input line 861.
+Package pdftex.def Info: fig/guiPN.PNG used on input line 857.
 (pdftex.def)             Requested size: 322.41837pt x 149.74242pt.
 
-Overfull \hbox (15.1285pt too wide) in paragraph at lines 861--861
+Overfull \hbox (15.1285pt too wide) in paragraph at lines 857--857
  [] 
  []
 
@@ -1797,268 +1797,342 @@ Overfull \hbox (15.1285pt too wide) in paragraph at lines 861--861
 
  <./fig/guiPN.PNG>] [37
 
-] <fig/PNeq.PNG, id=5106, 1088.868pt x 434.8245pt>
+] <fig/PNeq.PNG, id=5340, 1088.868pt x 434.8245pt>
 File: fig/PNeq.PNG Graphic file (type png)
 
 <use fig/PNeq.PNG>
-Package pdftex.def Info: fig/PNeq.PNG used on input line 903.
+Package pdftex.def Info: fig/PNeq.PNG used on input line 899.
 (pdftex.def)             Requested size: 326.66292pt x 130.44835pt.
 
-Overfull \hbox (19.37305pt too wide) in paragraph at lines 903--903
+Overfull \hbox (19.37305pt too wide) in paragraph at lines 899--899
  [] 
  []
 
 [38
 
  <./fig/PNeq.PNG>]
-<fig/PNmainBlock.PNG, id=5218, 324.61275pt x 198.14024pt>
+<fig/PNmainBlock.PNG, id=5458, 324.61275pt x 198.14024pt>
 File: fig/PNmainBlock.PNG Graphic file (type png)
 
 <use fig/PNmainBlock.PNG>
-Package pdftex.def Info: fig/PNmainBlock.PNG used on input line 914.
+Package pdftex.def Info: fig/PNmainBlock.PNG used on input line 910.
 (pdftex.def)             Requested size: 243.45895pt x 148.6048pt.
  [39
 
  <./fig/PNmainBlock.PNG>]
-<fig/GApoly.PNG, id=5328, 1156.32pt x 619.71526pt>
+<fig/GApoly.PNG, id=5574, 1156.32pt x 619.71526pt>
 File: fig/GApoly.PNG Graphic file (type png)
  <use fig/GApoly.PNG>
-Package pdftex.def Info: fig/GApoly.PNG used on input line 924.
+Package pdftex.def Info: fig/GApoly.PNG used on input line 920.
 (pdftex.def)             Requested size: 289.07928pt x 154.92842pt.
 
 [40
 
- <./fig/GApoly.PNG>] [41
+ <./fig/GApoly.PNG>] <fig/GApolyF.PNG, id=5691, 605.8635pt x 472.164pt>
+File: fig/GApolyF.PNG Graphic file (type png)
 
-] [42
+<use fig/GApolyF.PNG>
+Package pdftex.def Info: fig/GApolyF.PNG used on input line 954.
+(pdftex.def)             Requested size: 109.05072pt x 84.98584pt.
+
+Overfull \hbox (16.86282pt too wide) in paragraph at lines 954--954
+ [] 
+ []
+
+<fig/GApolyXNT.PNG, id=5692, 577.55775pt x 465.53925pt>
+File: fig/GApolyXNT.PNG Graphic file (type png)
+
+<use fig/GApolyXNT.PNG>
+Package pdftex.def Info: fig/GApolyXNT.PNG used on input line 954.
+(pdftex.def)             Requested size: 103.9559pt x 83.79344pt.
+
+Overfull \hbox (11.768pt too wide) in paragraph at lines 954--954
+ [] 
+ []
+
+<fig/polyTrajectory.PNG, id=5693, 623.32875pt x 499.26524pt>
+File: fig/polyTrajectory.PNG Graphic file (type png)
+
+<use fig/polyTrajectory.PNG>
+Package pdftex.def Info: fig/polyTrajectory.PNG used on input line 954.
+(pdftex.def)             Requested size: 112.19432pt x 89.86386pt.
+
+Overfull \hbox (20.00642pt too wide) in paragraph at lines 954--954
+ [] 
+ []
+
+[41
+
+ <./fig/GApolyF.PNG> <./fig/GApolyXNT.PNG> <./fig/polyTrajectory.PNG>]
+[42
 
 ] [43
 
-]
-<fig/unityInterface.PNG, id=5766, 1371.1225pt x 730.73pt>
-File: fig/unityInterface.PNG Graphic file (type png)
+] [44
 
-<use fig/unityInterface.PNG>
-Package pdftex.def Info: fig/unityInterface.PNG used on input line 959.
-(pdftex.def)             Requested size: 274.21964pt x 146.1434pt.
- [44
-
- <./fig/unityInterface.PNG>] [45
+] [45
 
 ] [46
 
 ] [47
 
+] [48
+
+] [49
+
 ]
-<fig/unityGame.PNG, id=6202, 1284.8pt x 692.5875pt>
-File: fig/unityGame.PNG Graphic file (type png)
- <use fig/unityGame.PNG>
-Package pdftex.def Info: fig/unityGame.PNG used on input line 996.
-(pdftex.def)             Requested size: 256.95544pt x 138.51505pt.
+<fig/unityInterface.PNG, id=6729, 1371.1225pt x 730.73pt>
+File: fig/unityInterface.PNG Graphic file (type png)
 
-[48
+<use fig/unityInterface.PNG>
+Package pdftex.def Info: fig/unityInterface.PNG used on input line 1016.
+(pdftex.def)             Requested size: 274.21964pt x 146.1434pt.
+ [50
 
- <./fig/unityGame.PNG>] [49
-
-] [50
-
-] [51
+ <./fig/unityInterface.PNG>] [51
 
 ] [52
+
+] [53
+
+]
+<fig/unityGame.PNG, id=7188, 1284.8pt x 692.5875pt>
+File: fig/unityGame.PNG Graphic file (type png)
+ <use fig/unityGame.PNG>
+Package pdftex.def Info: fig/unityGame.PNG used on input line 1053.
+(pdftex.def)             Requested size: 256.95544pt x 138.51505pt.
+
+[54
+
+ <./fig/unityGame.PNG>] [55
+
+] [56
+
+]
+<fig/trajectory.PNG, id=7534, 464.937pt x 243.91125pt>
+File: fig/trajectory.PNG Graphic file (type png)
+
+<use fig/trajectory.PNG>
+Package pdftex.def Info: fig/trajectory.PNG used on input line 1115.
+(pdftex.def)             Requested size: 106.93326pt x 56.0984pt.
+
+Overfull \hbox (14.74536pt too wide) in paragraph at lines 1115--1115
+ [] 
+ []
+
+<fig/XNT.PNG, id=7535, 464.937pt x 288.47775pt>
+File: fig/XNT.PNG Graphic file (type png)
+ <use fig/XNT.PNG>
+Package pdftex.def Info: fig/XNT.PNG used on input line 1115.
+(pdftex.def)             Requested size: 106.93326pt x 66.34848pt.
+
+Overfull \hbox (14.74536pt too wide) in paragraph at lines 1115--1115
+ [] 
+ []
+
+<fig/XNC.PNG, id=7536, 463.13025pt x 232.4685pt>
+File: fig/XNC.PNG Graphic file (type png)
+ <use fig/XNC.PNG>
+Package pdftex.def Info: fig/XNC.PNG used on input line 1115.
+(pdftex.def)             Requested size: 106.51772pt x 53.46663pt.
+
+Overfull \hbox (14.32982pt too wide) in paragraph at lines 1115--1115
+ [] 
+ []
+
+[57
+
+ <./fig/trajectory.PNG> <./fig/XNT.PNG> <./fig/XNC.PNG>] [58
+
+] [59
+
+] [60
 
 ]pdfTeX warning (ext4): destination with the same identifier (name{beamerbibp1}
 ) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1068 \end{frame}
-                   [53
+l.1160 \end{frame}
+                   [61
 
-] [54
+] [62
 
-] [55
+] [63
 
-] [56
+] [64
 
 ]
-<fig/drawing1.pdf, id=7186, 874.01532pt x 525.46312pt>
+<fig/drawing1.pdf, id=8463, 874.01532pt x 525.46312pt>
 File: fig/drawing1.pdf Graphic file (type pdf)
  <use fig/drawing1.pdf>
-Package pdftex.def Info: fig/drawing1.pdf used on input line 1128.
+Package pdftex.def Info: fig/drawing1.pdf used on input line 1220.
 (pdftex.def)             Requested size: 262.20662pt x 157.64015pt.
 
-[57
+[65
 
  <./fig/drawing1.pdf>]
-<fig/drawing2.pdf, id=7331, 842.39719pt x 535.2497pt>
+<fig/drawing2.pdf, id=8614, 842.39719pt x 535.2497pt>
 File: fig/drawing2.pdf Graphic file (type pdf)
  <use fig/drawing2.pdf>
-Package pdftex.def Info: fig/drawing2.pdf used on input line 1137.
+Package pdftex.def Info: fig/drawing2.pdf used on input line 1229.
 (pdftex.def)             Requested size: 252.7211pt x 160.57614pt.
 pdfTeX warning (ext4): destination with the same identifier (name{1}) has been 
 already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.1137 \end{frame}
-                   [58
+l.1229 \end{frame}
+                   [66
 
- <./fig/drawing2.pdf>] [59
+ <./fig/drawing2.pdf>] [67
 
-] [60
+] [68
 
 ]
-<fig/drawing3.pdf, id=7693, 632.3625pt x 322.95656pt>
+<fig/drawing3.pdf, id=8995, 632.3625pt x 322.95656pt>
 File: fig/drawing3.pdf Graphic file (type pdf)
  <use fig/drawing3.pdf>
-Package pdftex.def Info: fig/drawing3.pdf used on input line 1176.
+Package pdftex.def Info: fig/drawing3.pdf used on input line 1268.
 (pdftex.def)             Requested size: 189.7102pt x 96.88771pt.
 
-[61
+[69
 
  <./fig/drawing3.pdf>]
-Overfull \vbox (20.69633pt too high) detected at line 1193
+Overfull \vbox (20.69633pt too high) detected at line 1285
  []
 
-[62
+[70
 
 ]
-Overfull \vbox (22.00174pt too high) detected at line 1228
+Overfull \vbox (22.00174pt too high) detected at line 1320
  []
 
-[63
-
-] [64
-
-] <fig/drawing4_2a.pdf, id=8162, 844.65562pt x 596.98032pt>
-File: fig/drawing4_2a.pdf Graphic file (type pdf)
-
-<use fig/drawing4_2a.pdf>
-Package pdftex.def Info: fig/drawing4_2a.pdf used on input line 1251.
-(pdftex.def)             Requested size: 245.83282pt x 173.74838pt.
- [65
-
- <./fig/drawing4_2a.pdf>]
-Overfull \hbox (54.34326pt too wide) in paragraph at lines 1270--1270
-[]  
- []
-
-[66
-
-] [67
-
-] <fig/drawing4_2c.pdf, id=8528, 844.65562pt x 596.98032pt>
-File: fig/drawing4_2c.pdf Graphic file (type pdf)
-
-<use fig/drawing4_2c.pdf>
-Package pdftex.def Info: fig/drawing4_2c.pdf used on input line 1291.
-(pdftex.def)             Requested size: 245.83282pt x 173.74838pt.
- [68
-
- <./fig/drawing4_2c.pdf>] [69
-
-]
-<fig/drawing4_2b.pdf, id=8780, 844.65562pt x 596.98032pt>
-File: fig/drawing4_2b.pdf Graphic file (type pdf)
-
-<use fig/drawing4_2b.pdf>
-Package pdftex.def Info: fig/drawing4_2b.pdf used on input line 1323.
-(pdftex.def)             Requested size: 245.83282pt x 173.74838pt.
- [70
-
- <./fig/drawing4_2b.pdf>] [71
+[71
 
 ] [72
 
-] [73
+] <fig/drawing4_2a.pdf, id=9487, 844.65562pt x 596.98032pt>
+File: fig/drawing4_2a.pdf Graphic file (type pdf)
 
-] [74
+<use fig/drawing4_2a.pdf>
+Package pdftex.def Info: fig/drawing4_2a.pdf used on input line 1343.
+(pdftex.def)             Requested size: 245.83282pt x 173.74838pt.
+ [73
+
+ <./fig/drawing4_2a.pdf>]
+Overfull \hbox (54.34326pt too wide) in paragraph at lines 1362--1362
+[]  
+ []
+
+[74
+
+] [75
+
+] <fig/drawing4_2c.pdf, id=9871, 844.65562pt x 596.98032pt>
+File: fig/drawing4_2c.pdf Graphic file (type pdf)
+
+<use fig/drawing4_2c.pdf>
+Package pdftex.def Info: fig/drawing4_2c.pdf used on input line 1383.
+(pdftex.def)             Requested size: 245.83282pt x 173.74838pt.
+ [76
+
+ <./fig/drawing4_2c.pdf>] [77
 
 ]
-[75
+<fig/drawing4_2b.pdf, id=10135, 844.65562pt x 596.98032pt>
+File: fig/drawing4_2b.pdf Graphic file (type pdf)
 
-] <fig/g_1.pdf, id=9470, 412.54124pt x 412.54124pt>
+<use fig/drawing4_2b.pdf>
+Package pdftex.def Info: fig/drawing4_2b.pdf used on input line 1415.
+(pdftex.def)             Requested size: 245.83282pt x 173.74838pt.
+ [78
+
+ <./fig/drawing4_2b.pdf>] [79
+
+] [80
+
+] [81
+
+] [82
+
+]
+[83
+
+] <fig/g_1.pdf, id=10861, 412.54124pt x 412.54124pt>
 File: fig/g_1.pdf Graphic file (type pdf)
  <use fig/g_1.pdf>
-Package pdftex.def Info: fig/g_1.pdf used on input line 1405.
+Package pdftex.def Info: fig/g_1.pdf used on input line 1497.
 (pdftex.def)             Requested size: 153.64493pt x 153.64505pt.
 
-[76
+[84
 
  <./fig/g_1.pdf>]
-<fig/VAR_alpha_g_1.pdf, id=9591, 376.40625pt x 376.40625pt>
+<fig/VAR_alpha_g_1.pdf, id=10988, 376.40625pt x 376.40625pt>
 File: fig/VAR_alpha_g_1.pdf Graphic file (type pdf)
 
 <use fig/VAR_alpha_g_1.pdf>
-Package pdftex.def Info: fig/VAR_alpha_g_1.pdf used on input line 1415.
+Package pdftex.def Info: fig/VAR_alpha_g_1.pdf used on input line 1507.
 (pdftex.def)             Requested size: 153.64493pt x 153.64983pt.
- [77
+ [85
 
  <./fig/VAR_alpha_g_1.pdf>]
-<fig/marked_circle_curve_g_0p8.pdf, id=9718, 615.80063pt x 607.51968pt>
+<fig/marked_circle_curve_g_0p8.pdf, id=11122, 615.80063pt x 607.51968pt>
 File: fig/marked_circle_curve_g_0p8.pdf Graphic file (type pdf)
 
 <use fig/marked_circle_curve_g_0p8.pdf>
 Package pdftex.def Info: fig/marked_circle_curve_g_0p8.pdf used on input line 1
-426.
+518.
 (pdftex.def)             Requested size: 153.64493pt x 151.57362pt.
- [78
+ [86
 
- <./fig/marked_circle_curve_g_0p8.pdf>] <fig/VAR_alpha_g_0p8.pdf, id=9838, 376.
-40625pt x 376.40625pt>
+ <./fig/marked_circle_curve_g_0p8.pdf>] <fig/VAR_alpha_g_0p8.pdf, id=11248, 376
+.40625pt x 376.40625pt>
 File: fig/VAR_alpha_g_0p8.pdf Graphic file (type pdf)
 
 <use fig/VAR_alpha_g_0p8.pdf>
-Package pdftex.def Info: fig/VAR_alpha_g_0p8.pdf used on input line 1435.
+Package pdftex.def Info: fig/VAR_alpha_g_0p8.pdf used on input line 1527.
 (pdftex.def)             Requested size: 153.64493pt x 153.64983pt.
- [79
+ [87
 
  <./fig/VAR_alpha_g_0p8.pdf>]
-<fig/g_1p25.pdf, id=9968, 571.38469pt x 571.38469pt>
+<fig/g_1p25.pdf, id=11383, 571.38469pt x 571.38469pt>
 File: fig/g_1p25.pdf Graphic file (type pdf)
  <use fig/g_1p25.pdf>
-Package pdftex.def Info: fig/g_1p25.pdf used on input line 1444.
+Package pdftex.def Info: fig/g_1p25.pdf used on input line 1536.
 (pdftex.def)             Requested size: 153.64493pt x 153.63947pt.
 
-[80
+[88
 
  <./fig/g_1p25.pdf>]
-<fig/VAR_alpha_g_1p25.pdf, id=10092, 376.40625pt x 376.40625pt>
+<fig/VAR_alpha_g_1p25.pdf, id=11513, 376.40625pt x 376.40625pt>
 File: fig/VAR_alpha_g_1p25.pdf Graphic file (type pdf)
 
 <use fig/VAR_alpha_g_1p25.pdf>
-Package pdftex.def Info: fig/VAR_alpha_g_1p25.pdf used on input line 1453.
+Package pdftex.def Info: fig/VAR_alpha_g_1p25.pdf used on input line 1545.
 (pdftex.def)             Requested size: 153.64493pt x 153.64983pt.
- [81
+ [89
 
- <./fig/VAR_alpha_g_1p25.pdf>] [82
+ <./fig/VAR_alpha_g_1p25.pdf>] [90
 
-] [83
+] [91
 
 ]
-[84
+Package atenddvi Info: Last page = 92.
+
+[92
 
 ]
 \tf@nav=\write6
 \tf@toc=\write7
 \tf@snm=\write8
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1490.
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 1490.
- (Rushdi_presentation.aux
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1582.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 1582.
+ (Rushdi_presentation.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1582.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1582.
 
-Package atenddvi Warning: Rerun LaTeX, last page not yet found.
+Package rerunfilecheck Info: File `Rushdi_presentation.out' has not changed.
+(rerunfilecheck)             Checksum: EE74B66A2CD59BA7D2537A0984D95383;604.
 
-)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1490.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1490.
-
-
-
-Package rerunfilecheck Warning: File `Rushdi_presentation.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Rushdi_presentation.out':
-(rerunfilecheck)             Before: B48456FDD35CE15D6D4B8D0D72231F11;628
-(rerunfilecheck)             After:  19B560110E88D6671FF0369B60A7BBFD;628.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
@@ -2069,52 +2143,40 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1490.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1582.
  ) 
 Here is how much of TeX's memory you used:
- 28560 strings out of 493698
- 578717 string characters out of 3144379
- 703133 words of memory out of 3000000
- 31058 multiletter control sequences out of 15000+200000
+ 28626 strings out of 493698
+ 579625 string characters out of 3144379
+ 711673 words of memory out of 3000000
+ 31100 multiletter control sequences out of 15000+200000
  24807 words of font info for 82 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  58i,20n,63p,10380b,833s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{Navigation85} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Navigation86} has been referenced but does not exis
-t, replaced by a fixed one
-
-pdfTeX warning (dest): name{Outline0.5.2.49} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Outline0.5.1.44} has been referenced but does not e
-xist, replaced by a fixed one
-
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-t1.enc}<C:/Progr
-am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files
-/MiKTeX 2.9/fonts/type1/public/amsfonts/cmextra/cmex9.pfb><C:/Program Files/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmmi9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmss10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cms
-s17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss8.pfb><
-C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss9.pfb><C:/Progra
-m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Program File
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi10.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmssi12.pfb><C:/Program Files/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmssi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmssi9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
-c/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
-ts/cm/cmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cms
-y7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C
-:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Program
- Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/cm-super/sfso1000.pfb>
-Output written on Rushdi_presentation.pdf (84 pages, 7195497 bytes).
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-t1.enc}<C:/Pro
+gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Fil
+es/MiKTeX 2.9/fonts/type1/public/amsfonts/cmextra/cmex9.pfb><C:/Program Files/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmmi9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmss10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmss12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+mss17.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss8.pfb
+><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss9.pfb><C:/Prog
+ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi10.pfb><C:/Program Files/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmssi12.pfb><C:/Program Files/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmssi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmssi9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
+lic/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsf
+onts/cm/cmsy6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+msy7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Progr
+am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Program 
+Files/MiKTeX 2.9/fonts/type1/public/cm-super/sfso1000.pfb>
+Output written on Rushdi_presentation.pdf (92 pages, 7598096 bytes).
 PDF statistics:
- 10675 PDF objects out of 10688 (max. 8388607)
- 240 named destinations out of 1000 (max. 500000)
- 439 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 12125 PDF objects out of 12825 (max. 8388607)
+ 258 named destinations out of 1000 (max. 500000)
+ 469 words of extra memory for PDF output out of 10000 (max. 10000000)
 

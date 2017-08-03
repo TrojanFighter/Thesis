@@ -7,12 +7,13 @@ the Attacker. The solution to this differential game provides optimal heading an
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=1.0\textwidth]{fig/fig7-1.pdf}
-	\caption{State space for the Attacker (A), Target (T), and Defender (D). The origin is arbitrary situated at the Attacker position (A). In polar coordinates with respect to arbitrary coordinates $(x,y)$, the various positions and speeds are}
-%		 $A=(0,-)$, $T=(R,\lambda\)$, $D=(r,\lambda+ \theta)$ }
+	\caption{Scenario for the Attacker (A), Target (T), and Defender (D). The origin is arbitrary situated at the Attacker position (A).}
+%		 In polar coordinates with respect to arbitrary coordinates $(x,y)$
+%		, the various positions and speeds are $A=(0,-)$, $T=(R,\lambda\)$, $D=(r,\lambda+ \theta)$ }
 	\label{7.1}
 \end{figure}
 
-Figure \ref{7.1} illustrates the state space for the ATD game. The variables $R$ and $r$ are the separations between the Target and Attacker, respectively, and hence denote the radial polar coordinates of the Target and Defender when the origin of coordinates is arbitrarily situated at the position of the Attacker, The speeds of the Attacker, Target and Defender are denoted by $\boldsymbol{V_A}$, $\boldsymbol{V_T}$, $\boldsymbol{V_D}$ with corresponding magnitudes $V_A$, $V_T$ and $V_D$, and polar angles 
+Figure \ref{7.1} illustrates the scenario for the TAD game. The variables $R$ and $r$ are the separations between the Target and Attacker, respectively, and hence denote the radial polar coordinates of the Target and Defender when the origin of coordinates is arbitrarily situated at the position of the Attacker, The speeds of the Attacker, Target and Defender are denoted by $\boldsymbol{V_A}$, $\boldsymbol{V_T}$, $\boldsymbol{V_D}$ with corresponding magnitudes $V_A$, $V_T$ and $V_D$, and polar angles 
 
 \begin{equation}
 	Ang\ \boldsymbol{V_A} = \hat{\chi} = \lambda+\theta-\chi
@@ -38,6 +39,7 @@ The derivatives $\dot{R}$ and $\dot{r}$ can be obtained as differences in radial
 \label{Rdot}
 \end{equation}
 
+where $\alpha=\frac{V_t}{V_A}$
 Similarly, we obtain 
 
 \begin{equation}
@@ -47,10 +49,10 @@ Similarly, we obtain
 \end{split}
 \label{rdot}
 \end{equation}
-
-In the following, we will deliberately differ from Garcia et.al. []
+where $\gamma=\frac{V_D}{V_A}$
+In the following, we will deliberately differ from Garcia et.al. \cite{pachter2014active}
 We will not use \underline{reduced} equations in which $V_A = V_D = 1$.
-Our equations will look dimensionally homogeneous to any reader, and we will allow $\gamma = \dfrac{V_D}{V_A}$ to differ from 1.
+Our equations will look dimensionally homogeneous, and we will allow $\gamma = \dfrac{V_D}{V_A}$ to differ from 1.
 
 The circumferential speeds are
 
@@ -80,9 +82,9 @@ Now, subtract (\ref{theta+lambda dot}) minus (\ref{lambda dot}) to obtain
 \label{theta dot}
 \end{equation} 
 
-Equations (\ref{Rdot}), (\ref{rdot}), (\ref{theta dot}) reduce to equations (\ref{lambda dot}) of Garcia et.al [] when we set both $V_A$ and $\gamma=\dfrac{V_D}{V_A}$ equal to 1. 
+Equations (\ref{Rdot}), (\ref{rdot}), (\ref{theta dot}) reduce to equations (\ref{lambda dot}) of Garcia et.al \cite{pachter2014active} when we set both $V_A$ and $\gamma=\dfrac{V_D}{V_A}$ equal to 1. 
 
-The system dynamics are given by (\ref{Rdot}), (\ref{rdot}), and (\ref{theta dot}) for $0\lessgtr t \lessgtr t_f$, together with the initial conditions 
+The system dynamics are given by (\ref{Rdot}), (\ref{rdot}), and (\ref{theta dot}) for $0< t < t_f$, together with the initial conditions 
 
 \begin{equation*}
 	\begin{split}
@@ -383,7 +385,7 @@ The second derivative of the Hamiltonian w.r.t. $\chi$ is obtained from (\ref{PD
 \label{2PD H wrt chi}
 \end{equation}
 
-Equation (\ref{2PD H wrt chi}) demonstrates definitely that $\frac{\partial^2 H}{\partial \chi^2}$ is negative. The corresponding claim via Eq.(28) of Garcia et. al. [] is not complete. The fact that $\frac{\partial^2 H}{\partial \chi^2}<0$ means that the extremum obtained via (\ref{PD H wrt chi 2}) is a maximum, i.e., the optimal heading $\chi^*$ maximizes the cost $(-J)$.
+Equation (\ref{2PD H wrt chi}) demonstrates definitely that $\frac{\partial^2 H}{\partial \chi^2}$ is negative. The corresponding claim via Eq.(28) of Garcia et. al. \cite{pachter2014active} is not complete. The fact that $\frac{\partial^2 H}{\partial \chi^2}<0$ means that the extremum obtained via (\ref{PD H wrt chi 2}) is a maximum, i.e., the optimal heading $\chi^*$ maximizes the cost $(-J)$.
 
 In passing, we note that (\ref{PD H wrt chi}) can be simplified via (\ref{cos psi}), (\ref{sin psi}), (\ref{cos phi}) and (\ref{sin phi}) to give:
 
@@ -395,7 +397,7 @@ In passing, we note that (\ref{PD H wrt chi}) can be simplified via (\ref{cos ps
 \end{split}
 \end{equation}
 
-The expressions for the optimal heading angles (\ref{tan psi}), (\ref{tan phi}), and (\ref{tan chi}) are to be used in the numerical solution of the Two-Point Boundary Value Problem (TPBVP). That solution is found by substituting the optimal headings into the state equations (), and the co-state rquations ()  with the terminal conditions (). 
+The expressions for the optimal heading angles (\ref{tan psi}), (\ref{tan phi}), and (\ref{tan chi}) are to be used in the numerical solution of the Two-Point Boundary Value Problem (TPBVP). That solution is found by substituting the optimal headings into the state equations (\ref{Rdot}, \ref{rdot}, \ref{theta dot}), and the co-state equations ()  with the terminal conditions (). We solve this TPBVP using the "bvp4c" which is a matlab function for solving Two-Point Boundary Value Problems. This method may not be the best way to solve optimal control problems. The results include some error and the final time isn't correct and exceed $t_f$, so the trajectories in Fig. \ref{Optimal trajectories} didn't stop at the correct time and the shape is incorrect.
 
 
 
@@ -419,5 +421,5 @@ The expressions for the optimal heading angles (\ref{tan psi}), (\ref{tan phi}),
 	\centering
 	\includegraphics[scale = 0.7]{fig/fig8_paper_numerical.pdf}
 	\caption{Optimal trajectories}
-	%\label{}
+	\label{Optimal trajectories}
 \end{figure}

@@ -14,36 +14,42 @@
 \beamer@slide {Guidance Toolbox PN}{36}
 \beamer@slide {PN eq}{38}
 \beamer@slide {GA toolbox poly}{40}
-\beamer@slide {UnityInterface}{44}
-\beamer@slide {UnityGame}{48}
-\beamer@slide {tableTAD}{54}
-\beamer@slide {eqn:kratio}{56}
-\beamer@slide {eqn:ipoint}{56}
-\beamer@slide {eqn:epoint}{56}
-\beamer@slide {1}{57}
-\beamer@slide {1}{58}
-\beamer@slide {eqn:center}{59}
-\beamer@slide {eqn:radius}{60}
-\beamer@slide {3}{61}
-\beamer@slide {O1}{62}
-\beamer@slide {r1}{62}
-\beamer@slide {O2}{63}
-\beamer@slide {r2}{63}
-\beamer@slide {4_g<1}{65}
-\beamer@slide {dr_fd}{66}
-\beamer@slide {generaleq}{66}
-\beamer@slide {eq36in3}{67}
-\beamer@slide {4_g=1}{68}
-\beamer@slide {case3}{69}
-\beamer@slide {case3_SD}{69}
-\beamer@slide {4_g>1}{70}
-\beamer@slide {case2}{71}
-\beamer@slide {cr_alpha_3}{72}
-\beamer@slide {cr-eq-Vd}{73}
-\beamer@slide {poly2}{74}
-\beamer@slide {gamma=1}{76}
-\beamer@slide {VAR_alpha_gamma=1}{77}
-\beamer@slide {gamma=0.8}{78}
-\beamer@slide {VAR_alpha_gamma=0.8}{79}
-\beamer@slide {gamma=1.25}{80}
-\beamer@slide {VAR_alpha_gamma=1.25}{81}
+\beamer@slide {GA poly F}{41}
+\beamer@slide {GA poly XNT}{41}
+\beamer@slide {GA poly trajectory}{41}
+\beamer@slide {UnityInterface}{50}
+\beamer@slide {UnityGame}{54}
+\beamer@slide {trajectory}{57}
+\beamer@slide {XNT}{57}
+\beamer@slide {XNC}{57}
+\beamer@slide {tableTAD}{62}
+\beamer@slide {eqn:kratio}{64}
+\beamer@slide {eqn:ipoint}{64}
+\beamer@slide {eqn:epoint}{64}
+\beamer@slide {1}{65}
+\beamer@slide {1}{66}
+\beamer@slide {eqn:center}{67}
+\beamer@slide {eqn:radius}{68}
+\beamer@slide {3}{69}
+\beamer@slide {O1}{70}
+\beamer@slide {r1}{70}
+\beamer@slide {O2}{71}
+\beamer@slide {r2}{71}
+\beamer@slide {4_g<1}{73}
+\beamer@slide {dr_fd}{74}
+\beamer@slide {generaleq}{74}
+\beamer@slide {eq36in3}{75}
+\beamer@slide {4_g=1}{76}
+\beamer@slide {case3}{77}
+\beamer@slide {case3_SD}{77}
+\beamer@slide {4_g>1}{78}
+\beamer@slide {case2}{79}
+\beamer@slide {cr_alpha_3}{80}
+\beamer@slide {cr-eq-Vd}{81}
+\beamer@slide {poly2}{82}
+\beamer@slide {gamma=1}{84}
+\beamer@slide {VAR_alpha_gamma=1}{85}
+\beamer@slide {gamma=0.8}{86}
+\beamer@slide {VAR_alpha_gamma=0.8}{87}
+\beamer@slide {gamma=1.25}{88}
+\beamer@slide {VAR_alpha_gamma=1.25}{89}

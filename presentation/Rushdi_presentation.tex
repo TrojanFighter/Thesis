@@ -822,12 +822,8 @@ f(t) = c_0 + c_1 T + c_2 T^2 + c_3 T^3 + ... + c_N T^N
 %---------------------
 \begin{frame}
 \frametitle{Guidance Toolbox}
-A simple GUI (graphic user interface): the inputs are the locations and velocities for the Target (plane) and the Attacker (missile). Then the user have to choose the guidance law, which is the way that the Attacker tracking the Target, and there is 3 options:
-\begin{itemize}
-	\item Proportional Navigation (PN)
-	\item Augmented Proportional Navigation
-	\item Optimal Guidance
-\end{itemize} 
+We establish a simple GUI (graphic user interface): the inputs are the locations and velocities for the Target (plane) and the Attacker (missile). The user could choose a guidance law (future work), which is the way that the Attacker tracking the Target, and the escape maneuver technique which is the way that Target evade the target.
+
 \end{frame}
 %---------------------
 \begin{frame}
@@ -842,7 +838,7 @@ A simple GUI (graphic user interface): the inputs are the locations and velociti
 %---------------------
 \begin{frame}
 \frametitle{Guidance Toolbox}
-If the user chooses the PN guidance law, there will be more options be available, Now he could select the type of escape maneuver:
+Till now, if the user chooses the PN guidance law, there will be more options available, Now he could select the type of escape maneuver:
 \begin{itemize}
 \item Polynomial
 \item Trapezoidal
@@ -863,7 +859,7 @@ If the user chooses the PN guidance law, there will be more options be available
 %---------------------
 %---------------------
 
-\section{Genetic Algorithm Solution}
+\section{GA}
 %---------------------
 %---------------------
 %---------------------
@@ -923,6 +919,40 @@ If the user chooses the PN guidance law, there will be more options be available
 \end{figure}
 \end{frame}
 %------------------------------------------------
+%------------------------------------------------
+\begin{frame}
+\frametitle{Genetic Algorithm Results}
+	\begin{columns}[c]
+		\begin{column}{.3\linewidth}
+			\begin{figure}[H]
+				\centering
+				\includegraphics[scale = 0.18]{fig/GApolyF.PNG}
+				\caption{Best fitness values}
+				\label{GA poly F}
+			\end{figure}
+		\end{column}
+	
+	\begin{column}{.3\linewidth}	
+		\begin{figure}[H]
+			\centering
+			\includegraphics[scale = 0.18]{fig/GApolyXNT.PNG}
+			\caption{Optimized target acceleration using GA.}
+			\label{GA poly XNT}
+		\end{figure}
+	\end{column}
+
+	\begin{column}{.3\linewidth}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[scale = 0.18
+			]{fig/polyTrajectory.PNG}
+			\caption{Optimized trajectory using GA.}
+			\label{GA poly trajectory}
+		\end{figure}
+	\end{column}
+\end{columns}
+\end{frame}
+%------------------------------------------------
 
 \section{Unity Game}
 
@@ -943,6 +973,33 @@ If the user chooses the PN guidance law, there will be more options be available
 \end{alertblock}
 \end{frame}
 %---------------
+\begin{frame}
+\frametitle{Unity Game}
+\textbf{Competitions} between humans and computers in games of increasing difficulty, including the games of Chess , Arimaa , Jeapordy! , and Go. Typically, the rivalry is between a single human champion (such as Kasparov) against a state-of-the-art computer (such as Deep Blue) limited to a specific domain (such as Chess). The sole purpose of the competition is to decide whether the human or the computer wins more games within the same match.
+\end{frame}
+%---------------------
+\begin{frame}
+\frametitle{Unity Game}
+The \textbf{gamification} phenomenon, which is the use of game design elements in non-game or learning contexts, a trend related to human-computer interactions in the form of serious games, pervasive games, alternate reality games, or playful design.
+\end{frame}
+%---------------------
+\begin{frame}
+\frametitle{Unity Game}
+The paradigm of \textbf{games with a purpose}, which aims to utilize the billions of hours spent (wasted!) by contemporary humans in playing computer games. This paradigm channels game playing into useful work by directing people playing computer games to simultaneously solve large-scale problems without consciously knowing about this and, hence, without losing the element of fun or entertainment. Many large-scale open problems can be solved using collective human brainpower in this unique way. Examples include language translation, monitoring of security cameras, improving Web search, and text summarization. With the paradigm of games with a purpose, hundreds of millions of people can collaborate on the same problem via the Internet
+\end{frame}
+%---------------------
+\begin{frame}
+\frametitle{Unity Game}
+\textbf{Human Computation}, which is the idea of using human processing power to perform tasks that computers cannot yet perform or solve problems still intractable for computers, usually in an enjoyable manner. Human Computation is also viewed as systems of computers and large numbers of humans that work together in order to solve problems that could not be solved by either computers or humans alone.
+\end{frame}
+%---------------------
+\begin{frame}
+\frametitle{Unity Game}
+\textbf{Crowdsourcing}, which is the act of taking a job traditionally performed by a designated agent (an employee) and outsourcing it to a generally large group of people in the form of an open call. Whereas human computation replaces computers with humans, crowdsourcing replaces traditional human workers with members of the human public.
+\end{frame}
+%---------------------
+
+
 \begin{frame}
 \frametitle{Unity Game}
 Unity is a cross-platform game engine developed by Unity Technologies and used to develop video games for PC, consoles, mobile devices and websites. It is a free software (https://unity3d.com/),working with C\# programming language. 
@@ -1025,7 +1082,42 @@ In our game we have 3 objects:
 \end{itemize}
 \end{frame}
 %------------------------------------------------
+\begin{frame}
+\frametitle{Results}
+\begin{columns}[c]
+	\begin{column}{.3\linewidth}
+		 \begin{figure}[H]
+			\centering
+			\includegraphics[scale = 0.23]{fig/trajectory.PNG}
+			\caption{Target-Attacker 2D trajectory.}
+			\label{trajectory}
+		\end{figure}
+	\end{column}
+
+	\begin{column}{.3\linewidth}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[scale = 0.23]{fig/XNT.PNG}
+			\caption{Optimized target acceleration versus time.}
+			\label{XNT}
+		\end{figure}
+	\end{column}
+
+	\begin{column}{.3\linewidth}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[scale = 0.23]{fig/XNC.PNG}
+			\caption{Missile acceleration versus time.}
+			\label{XNC}
+		\end{figure}
+	\end{column}
+\end{columns}
+\end{frame}
 %------------------------------------------------
+\begin{frame}
+\frametitle{Preliminary results}
+Our experience with Evasion-1 demonstrates that the game is working correctly. Figures \ref{trajectory}-\ref{XNC} illustrate some of our preliminary results, obtained by the player with the best score so far. The target acceleration curve in Fig. \ref{XNT} exhibits a Barrel-Roll behavior, an aerial maneuver in which an airplane makes a complete rotation on both its longitudinal and lateral axes, causing it to follow a helical path, approximately maintaining its original direction. This maneuver helps a target to force an attacker to fly out in front, i.e., to overshoot. 
+\end{frame}
 %------------------------------------------------
 
 \section{Target-Attacker-Defender}

@@ -4,9 +4,9 @@
 \beamer@subsectionintoc {1}{2}{Summary of Solution}{6}{0}{1}
 \beamer@sectionintoc {2}{Target-Attacker}{6}{0}{2}
 \beamer@sectionintoc {3}{ToolBox}{32}{0}{3}
-\beamer@sectionintoc {4}{Genetic Algorithm Solution}{37}{0}{4}
-\beamer@sectionintoc {5}{Unity Game}{41}{0}{5}
-\beamer@subsectionintoc {5}{1}{Game Design}{42}{0}{5}
-\beamer@subsectionintoc {5}{2}{Experimental Results}{47}{0}{5}
-\beamer@sectionintoc {6}{Target-Attacker-Defender}{51}{0}{6}
-\beamer@sectionintoc {7}{Conclusions}{82}{0}{7}
+\beamer@sectionintoc {4}{GA}{37}{0}{4}
+\beamer@sectionintoc {5}{Unity Game}{42}{0}{5}
+\beamer@subsectionintoc {5}{1}{Game Design}{43}{0}{5}
+\beamer@subsectionintoc {5}{2}{Experimental Results}{53}{0}{5}
+\beamer@sectionintoc {6}{Target-Attacker-Defender}{59}{0}{6}
+\beamer@sectionintoc {7}{Conclusions}{90}{0}{7}

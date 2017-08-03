@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2017.3.26)  2 AUG 2017 21:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2017.3.26)  3 AUG 2017 20:01
 entering extended mode
 **MSc_thesis_Mostafa.tex
 (MSc_thesis_Mostafa.tex
@@ -1288,14 +1288,14 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: rotating package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
-<fig/logo/FE-Logo.jpg, id=214, 92.59593pt x 85.06781pt>
+<fig/logo/FE-Logo.jpg, id=222, 92.59593pt x 85.06781pt>
 File: fig/logo/FE-Logo.jpg Graphic file (type jpg)
 
 <use fig/logo/FE-Logo.jpg>
 Package pdftex.def Info: fig/logo/FE-Logo.jpg used on input line 55.
 (pdftex.def)             Requested size: 92.59569pt x 85.0676pt.
 
-<fig/logo/CU-Phero.jpg, id=215, 75.1608pt x 87.80804pt>
+<fig/logo/CU-Phero.jpg, id=223, 75.1608pt x 87.80804pt>
 File: fig/logo/CU-Phero.jpg Graphic file (type jpg)
 
 <use fig/logo/CU-Phero.jpg>
@@ -1349,7 +1349,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 55.
 
-<fig/logo/mostafa2.jpg, id=231, 593.21625pt x 593.21625pt>
+<fig/logo/mostafa2.jpg, id=239, 593.21625pt x 593.21625pt>
 File: fig/logo/mostafa2.jpg Graphic file (type jpg)
 
 <use fig/logo/mostafa2.jpg>
@@ -1381,12 +1381,12 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 (MSc_thesis_Mostafa.lof [5]
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <9> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 55.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 56.
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <7> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 55.
- [6] [7])
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 56.
+ [6])
 \tf@lof=\write13
- [8]
+ [7]
 No file MSc_thesis_Mostafa.nls.
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -1399,7 +1399,7 @@ Missing character: There is no ú in font txr!
 Missing character: There is no ‚ in font txr!
 Missing character: There is no Ä in font txr!
 Missing character: There is no ù in font txr!
-) [9
+) [8
 
 
 ] ABD: EveryShipout initializing macros
@@ -1410,7 +1410,7 @@ Missing character: There is no ù in font txr!
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\arabtex\alocal.sty"
 (ArabTeX) 3.11 local stub, 26.02.2006)
-(ArabTeX) version 3.11s (02.07.2006): second phase of patching) [10
+(ArabTeX) version 3.11s (02.07.2006): second phase of patching) [9
 
 ]
 Chapter 1.
@@ -1502,7 +1502,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--11
 
  []
 
-<fig/Evasion.pdf, id=794, 566.115pt x 436.02899pt>
+<fig/Evasion.pdf, id=791, 566.115pt x 436.02899pt>
 File: fig/Evasion.pdf Graphic file (type pdf)
  <use fig/Evasion.pdf>
 Package pdftex.def Info: fig/Evasion.pdf used on input line 18.
@@ -1515,7 +1515,7 @@ Overfull \hbox (70.9847pt too wide) in paragraph at lines 18--19
 [6
 
 ] [7 <./fig/Evasion.pdf>]
-<fig/evasiontech1.jpg, id=823, 380.17032pt x 527.72156pt>
+<fig/evasiontech1.jpg, id=821, 380.17032pt x 527.72156pt>
 File: fig/evasiontech1.jpg Graphic file (type jpg)
 
 <use fig/evasiontech1.jpg>
@@ -1528,7 +1528,7 @@ Missing character: There is no ‚ in font txr!
 Missing character: There is no Ä in font txr!
 Missing character: There is no ô in font txr!
 
-<fig/evasiontech2.jpg, id=825, 677.53125pt x 225.84375pt>
+<fig/evasiontech2.jpg, id=823, 677.53125pt x 225.84375pt>
 File: fig/evasiontech2.jpg Graphic file (type jpg)
 
 <use fig/evasiontech2.jpg>
@@ -1542,7 +1542,7 @@ Overfull \hbox (35.75453pt too wide) in paragraph at lines 47--48
 
 Underfull \vbox (badness 1286) has occurred while \output is active []
 
- [8 <./fig/evasiontech1.jpg>] <fig/evasiontech3.jpg, id=833, 677.53125pt x 225.
+ [8 <./fig/evasiontech1.jpg>] <fig/evasiontech3.jpg, id=831, 677.53125pt x 225.
 84375pt>
 File: fig/evasiontech3.jpg Graphic file (type jpg)
 
@@ -1560,7 +1560,7 @@ Missing character: There is no ô in font txr!
 Missing character: There is no ‚ in font txr!
 Missing character: There is no Ä in font txr!
 Missing character: There is no ô in font txr!
-<fig/evasiontech4.jpg, id=835, 376.40625pt x 376.40625pt>
+<fig/evasiontech4.jpg, id=833, 376.40625pt x 376.40625pt>
 File: fig/evasiontech4.jpg Graphic file (type jpg)
 
 <use fig/evasiontech4.jpg>
@@ -1571,62 +1571,69 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [9 <./fig/evasiontech2.jpg> <./fig/evasiontech3.jpg>] [10 <./fig/evasiontech4.
 jpg>]
-[11] [12] <fig/PN.pdf, id=871, 794.97pt x 614.295pt>
-File: fig/PN.pdf Graphic file (type pdf)
- <use fig/PN.pdf>
-Package pdftex.def Info: fig/PN.pdf used on input line 191.
-(pdftex.def)             Requested size: 516.72438pt x 399.287pt.
+[11] [12] <fig/GuidanceLaws.pdf, id=868, 1415.2875pt x 516.73048pt>
+File: fig/GuidanceLaws.pdf Graphic file (type pdf)
 
-Overfull \hbox (78.21028pt too wide) in paragraph at lines 191--192
+<use fig/GuidanceLaws.pdf>
+Package pdftex.def Info: fig/GuidanceLaws.pdf used on input line 156.
+(pdftex.def)             Requested size: 707.64203pt x 258.36461pt.
+
+Overfull \hbox (25.20267pt too wide) in paragraph at lines 156--157
  [][] 
  []
 
-[13]
-Underfull \vbox (badness 1033) has occurred while \output is active []
+[13
 
- [14 <./fig/PN.pdf>]
+ <./fig/GuidanceLaws.pdf>] <fig/PN.pdf, id=980, 794.97pt x 614.295pt>
+File: fig/PN.pdf Graphic file (type pdf)
+
+<use fig/PN.pdf>
+Package pdftex.def Info: fig/PN.pdf used on input line 199.
+(pdftex.def)             Requested size: 476.98569pt x 368.57983pt.
+
+Overfull \hbox (38.47159pt too wide) in paragraph at lines 199--200
+ [][] 
+ []
+
+[14
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [15 <./fig/PN.pdf>]
 Missing character: There is no ‚ in font txr!
 Missing character: There is no Ä in font txr!
 Missing character: There is no ì in font txr!
- <fig/FlowchartPN.pdf, id=916, 597.432pt x 844.95674pt>
+ [16] <fig/FlowchartPN.pdf, id=1036, 597.432pt x 844.95674pt>
 File: fig/FlowchartPN.pdf Graphic file (type pdf)
 
 <use fig/FlowchartPN.pdf>
-Package pdftex.def Info: fig/FlowchartPN.pdf used on input line 320.
-(pdftex.def)             Requested size: 477.94624pt x 675.96631pt.
-
-Overfull \hbox (39.43214pt too wide) in paragraph at lines 320--321
- [][] 
- []
-
-[15]
-Overfull \vbox (24.52693pt too high) has occurred while \output is active []
-
-
-[16 <./fig/FlowchartPN.pdf>])
+Package pdftex.def Info: fig/FlowchartPN.pdf used on input line 328.
+(pdftex.def)             Requested size: 418.19955pt x 591.4657pt.
+) [17 <./fig/FlowchartPN.pdf>]
 Chapter 3.
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\caseupper' on input line 64.
 
 (tex/optimization_EM.tex
-<fig/trajectoryXNT0HE0N4.pdf, id=989, 655.44875pt x 531.9875pt>
+<fig/trajectoryXNT0HE0N4.pdf, id=1098, 655.44875pt x 531.9875pt>
 File: fig/trajectoryXNT0HE0N4.pdf Graphic file (type pdf)
 
 <use fig/trajectoryXNT0HE0N4.pdf>
 Package pdftex.def Info: fig/trajectoryXNT0HE0N4.pdf used on input line 22.
 (pdftex.def)             Requested size: 229.41049pt x 186.19841pt.
 
-<fig/MissileAccelerationXNT0HE0N4.pdf, id=990, 625.33624pt x 513.92pt>
+<fig/MissileAccelerationXNT0HE0N4.pdf, id=1099, 625.33624pt x 513.92pt>
 File: fig/MissileAccelerationXNT0HE0N4.pdf Graphic file (type pdf)
 
 <use fig/MissileAccelerationXNT0HE0N4.pdf>
 Package pdftex.def Info: fig/MissileAccelerationXNT0HE0N4.pdf used on input lin
 e 30.
 (pdftex.def)             Requested size: 362.69527pt x 298.07379pt.
- [17
+ [18
 
- <./fig/trajectoryXNT0HE0N4.pdf>] <fig/TargetAccelerationXNT0HE0N4.pdf, id=1028
+ <./fig/trajectoryXNT0HE0N4.pdf>] <fig/TargetAccelerationXNT0HE0N4.pdf, id=1137
 , 633.36626pt x 504.88625pt>
 File: fig/TargetAccelerationXNT0HE0N4.pdf Graphic file (type pdf)
 
@@ -1634,16 +1641,16 @@ File: fig/TargetAccelerationXNT0HE0N4.pdf Graphic file (type pdf)
 Package pdftex.def Info: fig/TargetAccelerationXNT0HE0N4.pdf used on input line
  38.
 (pdftex.def)             Requested size: 367.35269pt x 292.83421pt.
- [18 <./fig/MissileAccelerationXNT0HE0N4.pdf> <./fig/TargetAccelerationXNT0HE0N
+ [19 <./fig/MissileAccelerationXNT0HE0N4.pdf> <./fig/TargetAccelerationXNT0HE0N
 4.pdf>]
-<fig/trajectoryXNT0HE20N3.pdf, id=1086, 655.44875pt x 531.9875pt>
+<fig/trajectoryXNT0HE20N3.pdf, id=1195, 655.44875pt x 531.9875pt>
 File: fig/trajectoryXNT0HE20N3.pdf Graphic file (type pdf)
 
 <use fig/trajectoryXNT0HE20N3.pdf>
 Package pdftex.def Info: fig/trajectoryXNT0HE20N3.pdf used on input line 49.
 (pdftex.def)             Requested size: 314.61182pt x 255.3511pt.
 
-<fig/MissileAccelerationXNT0HE20N3.pdf, id=1087, 622.325pt x 504.88625pt>
+<fig/MissileAccelerationXNT0HE20N3.pdf, id=1196, 622.325pt x 504.88625pt>
 File: fig/MissileAccelerationXNT0HE20N3.pdf Graphic file (type pdf)
 
 <use fig/MissileAccelerationXNT0HE20N3.pdf>
@@ -1651,15 +1658,15 @@ Package pdftex.def Info: fig/MissileAccelerationXNT0HE20N3.pdf used on input li
 ne 56.
 (pdftex.def)             Requested size: 298.7126pt x 242.34264pt.
 
-<fig/trajectoryXNT0HE20N4.pdf, id=1088, 655.44875pt x 531.9875pt>
+<fig/trajectoryXNT0HE20N4.pdf, id=1197, 655.44875pt x 531.9875pt>
 File: fig/trajectoryXNT0HE20N4.pdf Graphic file (type pdf)
 
 <use fig/trajectoryXNT0HE20N4.pdf>
 Package pdftex.def Info: fig/trajectoryXNT0HE20N4.pdf used on input line 64.
 (pdftex.def)             Requested size: 373.60966pt x 303.23602pt.
- [19 <./fig/trajectoryXNT0HE20N3.pdf> <./fig/MissileAccelerationXNT0HE20N3.pdf>
+ [20 <./fig/trajectoryXNT0HE20N3.pdf> <./fig/MissileAccelerationXNT0HE20N3.pdf>
 ]
-<fig/MissileAccelerationXNT0HE20N4.pdf, id=1140, 627.34375pt x 504.88625pt>
+<fig/MissileAccelerationXNT0HE20N4.pdf, id=1249, 627.34375pt x 504.88625pt>
 File: fig/MissileAccelerationXNT0HE20N4.pdf Graphic file (type pdf)
 
 <use fig/MissileAccelerationXNT0HE20N4.pdf>
@@ -1667,24 +1674,24 @@ Package pdftex.def Info: fig/MissileAccelerationXNT0HE20N4.pdf used on input li
 ne 72.
 (pdftex.def)             Requested size: 357.58965pt x 287.78813pt.
 
-<fig/trajectoryXNT0HE20N5.pdf, id=1141, 655.44875pt x 531.9875pt>
+<fig/trajectoryXNT0HE20N5.pdf, id=1250, 655.44875pt x 531.9875pt>
 File: fig/trajectoryXNT0HE20N5.pdf Graphic file (type pdf)
 
 <use fig/trajectoryXNT0HE20N5.pdf>
 Package pdftex.def Info: fig/trajectoryXNT0HE20N5.pdf used on input line 80.
 (pdftex.def)             Requested size: 373.60966pt x 303.23602pt.
- [20 <./fig/trajectoryXNT0HE20N4.pdf> <./fig/MissileAccelerationXNT0HE20N4.pdf>
+ [21 <./fig/trajectoryXNT0HE20N4.pdf> <./fig/MissileAccelerationXNT0HE20N4.pdf>
 ]
-<fig/MissileAccelerationXNT0HE20N5.pdf, id=1190, 627.34375pt x 504.88625pt>
+<fig/MissileAccelerationXNT0HE20N5.pdf, id=1299, 627.34375pt x 504.88625pt>
 File: fig/MissileAccelerationXNT0HE20N5.pdf Graphic file (type pdf)
 
 <use fig/MissileAccelerationXNT0HE20N5.pdf>
 Package pdftex.def Info: fig/MissileAccelerationXNT0HE20N5.pdf used on input li
 ne 88.
 (pdftex.def)             Requested size: 357.58965pt x 287.78813pt.
- [21 <./fig/trajectoryXNT0HE20N5.pdf> <./fig/MissileAccelerationXNT0HE20N5.pdf>
+ [22 <./fig/trajectoryXNT0HE20N5.pdf> <./fig/MissileAccelerationXNT0HE20N5.pdf>
 ]
-<fig/trajectoryXNT5HE0N3.pdf, id=1240, 636.3775pt x 531.9875pt>
+<fig/trajectoryXNT5HE0N3.pdf, id=1349, 636.3775pt x 531.9875pt>
 File: fig/trajectoryXNT5HE0N3.pdf Graphic file (type pdf)
 
 <use fig/trajectoryXNT5HE0N3.pdf>
@@ -1695,7 +1702,7 @@ Overfull \hbox (38.76785pt too wide) in paragraph at lines 103--104
  [][] 
  []
 
-<fig/MissileAccelerationXNT5HE0N3.pdf, id=1241, 630.355pt x 504.88625pt>
+<fig/MissileAccelerationXNT5HE0N3.pdf, id=1350, 630.355pt x 504.88625pt>
 File: fig/MissileAccelerationXNT5HE0N3.pdf Graphic file (type pdf)
 
 <use fig/MissileAccelerationXNT5HE0N3.pdf>
@@ -1703,7 +1710,7 @@ Package pdftex.def Info: fig/MissileAccelerationXNT5HE0N3.pdf used on input lin
 e 111.
 (pdftex.def)             Requested size: 409.72589pt x 328.17215pt.
 
-<fig/TargetAccelerationXNT5HE0N3.pdf, id=1242, 630.355pt x 504.88625pt>
+<fig/TargetAccelerationXNT5HE0N3.pdf, id=1351, 630.355pt x 504.88625pt>
 File: fig/TargetAccelerationXNT5HE0N3.pdf Graphic file (type pdf)
 
 <use fig/TargetAccelerationXNT5HE0N3.pdf>
@@ -1713,19 +1720,19 @@ Package pdftex.def Info: fig/TargetAccelerationXNT5HE0N3.pdf used on input line
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [22 <./fig/trajectoryXNT5HE0N3.pdf>]
+ [23 <./fig/trajectoryXNT5HE0N3.pdf>]
 Overfull \vbox (51.9049pt too high) has occurred while \output is active []
 
 
-[23 <./fig/MissileAccelerationXNT5HE0N3.pdf> <./fig/TargetAccelerationXNT5HE0N3
-.pdf>] <fig/trajectoryXNT5HE0N5.pdf, id=1325, 636.3775pt x 531.9875pt>
+[24 <./fig/MissileAccelerationXNT5HE0N3.pdf> <./fig/TargetAccelerationXNT5HE0N3
+.pdf>] <fig/trajectoryXNT5HE0N5.pdf, id=1434, 636.3775pt x 531.9875pt>
 File: fig/trajectoryXNT5HE0N5.pdf Graphic file (type pdf)
 
 <use fig/trajectoryXNT5HE0N5.pdf>
 Package pdftex.def Info: fig/trajectoryXNT5HE0N5.pdf used on input line 128.
 (pdftex.def)             Requested size: 222.73546pt x 186.19841pt.
 
-<fig/MissileAccelerationXNT5HE0N5.pdf, id=1326, 625.33624pt x 504.88625pt>
+<fig/MissileAccelerationXNT5HE0N5.pdf, id=1435, 625.33624pt x 504.88625pt>
 File: fig/MissileAccelerationXNT5HE0N5.pdf Graphic file (type pdf)
 
 <use fig/MissileAccelerationXNT5HE0N5.pdf>
@@ -1733,15 +1740,15 @@ Package pdftex.def Info: fig/MissileAccelerationXNT5HE0N5.pdf used on input lin
 e 136.
 (pdftex.def)             Requested size: 218.87096pt x 176.71283pt.
 
-<fig/TargetAccelerationXNT5HE0N5.pdf, id=1327, 630.355pt x 504.88625pt>
+<fig/TargetAccelerationXNT5HE0N5.pdf, id=1436, 630.355pt x 504.88625pt>
 File: fig/TargetAccelerationXNT5HE0N5.pdf Graphic file (type pdf)
 
 <use fig/TargetAccelerationXNT5HE0N5.pdf>
 Package pdftex.def Info: fig/TargetAccelerationXNT5HE0N5.pdf used on input line
  144.
 (pdftex.def)             Requested size: 220.62755pt x 176.71283pt.
- [24 <./fig/trajectoryXNT5HE0N5.pdf> <./fig/MissileAccelerationXNT5HE0N5.pdf> <
-./fig/TargetAccelerationXNT5HE0N5.pdf>] <fig/trajectoryP3N3.pdf, id=1404, 671.5
+ [25 <./fig/trajectoryXNT5HE0N5.pdf> <./fig/MissileAccelerationXNT5HE0N5.pdf> <
+./fig/TargetAccelerationXNT5HE0N5.pdf>] <fig/trajectoryP3N3.pdf, id=1513, 671.5
 0874pt x 528.97626pt>
 File: fig/trajectoryP3N3.pdf Graphic file (type pdf)
 
@@ -1749,15 +1756,15 @@ File: fig/trajectoryP3N3.pdf Graphic file (type pdf)
 Package pdftex.def Info: fig/trajectoryP3N3.pdf used on input line 165.
 (pdftex.def)             Requested size: 369.33095pt x 290.93784pt.
 
-<fig/MissileAccelerationP3N3.pdf, id=1405, 634.37pt x 504.88625pt>
+<fig/MissileAccelerationP3N3.pdf, id=1514, 634.37pt x 504.88625pt>
 File: fig/MissileAccelerationP3N3.pdf Graphic file (type pdf)
 
 <use fig/MissileAccelerationP3N3.pdf>
 Package pdftex.def Info: fig/MissileAccelerationP3N3.pdf used on input line 173
 .
 (pdftex.def)             Requested size: 348.90457pt x 277.68828pt.
- [25 <./fig/trajectoryP3N3.pdf>]
-<fig/TargetAccelerationP3N3.pdf, id=1429, 625.33624pt x 504.88625pt>
+ [26 <./fig/trajectoryP3N3.pdf>]
+<fig/TargetAccelerationP3N3.pdf, id=1538, 625.33624pt x 504.88625pt>
 File: fig/TargetAccelerationP3N3.pdf Graphic file (type pdf)
 
 <use fig/TargetAccelerationP3N3.pdf>
@@ -1765,14 +1772,14 @@ Package pdftex.def Info: fig/TargetAccelerationP3N3.pdf used on input line 181.
 
 (pdftex.def)             Requested size: 343.93599pt x 277.68828pt.
 
-<fig/trajectoryP4N3.pdf, id=1430, 671.50874pt x 528.97626pt>
+<fig/trajectoryP4N3.pdf, id=1539, 671.50874pt x 528.97626pt>
 File: fig/trajectoryP4N3.pdf Graphic file (type pdf)
 
 <use fig/trajectoryP4N3.pdf>
 Package pdftex.def Info: fig/trajectoryP4N3.pdf used on input line 189.
 (pdftex.def)             Requested size: 235.03159pt x 185.14445pt.
 
-<fig/MissileAccelerationP4N3.pdf, id=1431, 634.37pt x 504.88625pt>
+<fig/MissileAccelerationP4N3.pdf, id=1540, 634.37pt x 504.88625pt>
 File: fig/MissileAccelerationP4N3.pdf Graphic file (type pdf)
 
 <use fig/MissileAccelerationP4N3.pdf>
@@ -1780,15 +1787,15 @@ Package pdftex.def Info: fig/MissileAccelerationP4N3.pdf used on input line 197
 .
 (pdftex.def)             Requested size: 222.03282pt x 176.71283pt.
 
-<fig/TargetAccelerationP4N3.pdf, id=1432, 630.355pt x 504.88625pt>
+<fig/TargetAccelerationP4N3.pdf, id=1541, 630.355pt x 504.88625pt>
 File: fig/TargetAccelerationP4N3.pdf Graphic file (type pdf)
 
 <use fig/TargetAccelerationP4N3.pdf>
 Package pdftex.def Info: fig/TargetAccelerationP4N3.pdf used on input line 204.
 
 (pdftex.def)             Requested size: 220.62755pt x 176.71283pt.
- [26 <./fig/MissileAccelerationP3N3.pdf> <./fig/TargetAccelerationP3N3.pdf>]
-<fig/toothSquareTrapezoidal.pdf, id=1476, 844.65562pt x 596.98032pt>
+ [27 <./fig/MissileAccelerationP3N3.pdf> <./fig/TargetAccelerationP3N3.pdf>]
+<fig/toothSquareTrapezoidal.pdf, id=1585, 844.65562pt x 596.98032pt>
 File: fig/toothSquareTrapezoidal.pdf Graphic file (type pdf)
 
 <use fig/toothSquareTrapezoidal.pdf>
@@ -1803,8 +1810,8 @@ Overfull \hbox (68.28319pt too wide) in paragraph at lines 218--219
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [27 <./fig/trajectoryP4N3.pdf> <./fig/MissileAccelerationP4N3.pdf> <./fig/Targ
-etAccelerationP4N3.pdf>] <fig/trajectoryTrapSymm.pdf, id=1529, 642.4pt x 531.98
+ [28 <./fig/trajectoryP4N3.pdf> <./fig/MissileAccelerationP4N3.pdf> <./fig/Targ
+etAccelerationP4N3.pdf>] <fig/trajectoryTrapSymm.pdf, id=1638, 642.4pt x 531.98
 75pt>
 File: fig/trajectoryTrapSymm.pdf Graphic file (type pdf)
 
@@ -1812,7 +1819,7 @@ File: fig/trajectoryTrapSymm.pdf Graphic file (type pdf)
 Package pdftex.def Info: fig/trajectoryTrapSymm.pdf used on input line 234.
 (pdftex.def)             Requested size: 224.84337pt x 186.19841pt.
 
-<fig/MissileAccelerationTrapSymm.pdf, id=1530, 630.355pt x 504.88625pt>
+<fig/MissileAccelerationTrapSymm.pdf, id=1639, 630.355pt x 504.88625pt>
 File: fig/MissileAccelerationTrapSymm.pdf Graphic file (type pdf)
 
 <use fig/MissileAccelerationTrapSymm.pdf>
@@ -1820,7 +1827,7 @@ Package pdftex.def Info: fig/MissileAccelerationTrapSymm.pdf used on input line
  242.
 (pdftex.def)             Requested size: 220.62755pt x 176.71283pt.
 
-<fig/TargetAccelerationTrapSym.pdf, id=1531, 630.355pt x 504.88625pt>
+<fig/TargetAccelerationTrapSym.pdf, id=1640, 630.355pt x 504.88625pt>
 File: fig/TargetAccelerationTrapSym.pdf Graphic file (type pdf)
 
 <use fig/TargetAccelerationTrapSym.pdf>
@@ -1830,19 +1837,19 @@ Package pdftex.def Info: fig/TargetAccelerationTrapSym.pdf used on input line 2
 
 Underfull \vbox (badness 1939) has occurred while \output is active []
 
- [28 <./fig/toothSquareTrapezoidal.pdf>]
+ [29 <./fig/toothSquareTrapezoidal.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [29 <./fig/trajectoryTrapSymm.pdf> <./fig/MissileAccelerationTrapSymm.pdf> <./
+ [30 <./fig/trajectoryTrapSymm.pdf> <./fig/MissileAccelerationTrapSymm.pdf> <./
 fig/TargetAccelerationTrapSym.pdf>]
-<fig/trajectoryTrap.pdf, id=1626, 655.44875pt x 531.9875pt>
+<fig/trajectoryTrap.pdf, id=1735, 655.44875pt x 531.9875pt>
 File: fig/trajectoryTrap.pdf Graphic file (type pdf)
 
 <use fig/trajectoryTrap.pdf>
 Package pdftex.def Info: fig/trajectoryTrap.pdf used on input line 264.
 (pdftex.def)             Requested size: 229.41049pt x 186.19841pt.
 
-<fig/MissileAccelerationTrap.pdf, id=1627, 630.355pt x 504.88625pt>
+<fig/MissileAccelerationTrap.pdf, id=1736, 630.355pt x 504.88625pt>
 File: fig/MissileAccelerationTrap.pdf Graphic file (type pdf)
 
 <use fig/MissileAccelerationTrap.pdf>
@@ -1850,7 +1857,7 @@ Package pdftex.def Info: fig/MissileAccelerationTrap.pdf used on input line 272
 .
 (pdftex.def)             Requested size: 220.62755pt x 176.71283pt.
 
-<fig/TargetAccelerationTrap.pdf, id=1628, 630.355pt x 504.88625pt>
+<fig/TargetAccelerationTrap.pdf, id=1737, 630.355pt x 504.88625pt>
 File: fig/TargetAccelerationTrap.pdf Graphic file (type pdf)
 
 <use fig/TargetAccelerationTrap.pdf>
@@ -1860,83 +1867,83 @@ Package pdftex.def Info: fig/TargetAccelerationTrap.pdf used on input line 279.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [30 <./fig/trajectoryTrap.pdf> <./fig/MissileAccelerationTrap.pdf>]
-<fig/GUI.PNG, id=1688, 865.43324pt x 531.78674pt>
+ [31 <./fig/trajectoryTrap.pdf> <./fig/MissileAccelerationTrap.pdf>]
+<fig/GUI.PNG, id=1797, 865.43324pt x 531.78674pt>
 File: fig/GUI.PNG Graphic file (type png)
  <use fig/GUI.PNG>
-Package pdftex.def Info: fig/GUI.PNG used on input line 299.
+Package pdftex.def Info: fig/GUI.PNG used on input line 293.
 (pdftex.def)             Requested size: 389.44136pt x 239.30182pt.
- [31 <./fig/TargetAccelerationTrap.pdf> <./fig/GUI.PNG>]
-<fig/guiPN.PNG, id=1715, 1151.502pt x 534.798pt>
+ [32 <./fig/TargetAccelerationTrap.pdf> <./fig/GUI.PNG>]
+<fig/guiPN.PNG, id=1824, 1151.502pt x 534.798pt>
 File: fig/guiPN.PNG Graphic file (type png)
  <use fig/guiPN.PNG>
-Package pdftex.def Info: fig/guiPN.PNG used on input line 316.
+Package pdftex.def Info: fig/guiPN.PNG used on input line 310.
 (pdftex.def)             Requested size: 460.59265pt x 213.9154pt.
 
-Overfull \hbox (22.07855pt too wide) in paragraph at lines 316--317
+Overfull \hbox (22.07855pt too wide) in paragraph at lines 310--311
  [][] 
  []
 
-[32 <./fig/guiPN.PNG>] [33] [34]
-<fig/PNeq.PNG, id=1743, 1088.868pt x 434.8245pt>
+[33 <./fig/guiPN.PNG>] [34] [35]
+<fig/PNeq.PNG, id=1852, 1088.868pt x 434.8245pt>
 File: fig/PNeq.PNG Graphic file (type png)
  <use fig/PNeq.PNG>
-Package pdftex.def Info: fig/PNeq.PNG used on input line 402.
+Package pdftex.def Info: fig/PNeq.PNG used on input line 396.
 (pdftex.def)             Requested size: 762.20241pt x 304.37505pt.
 
-Overfull \hbox (79.76305pt too wide) in paragraph at lines 402--403
+Overfull \hbox (79.76305pt too wide) in paragraph at lines 396--397
  [][] 
  []
-
-[35
-
- <./fig/PNeq.PNG>]
-<fig/PNmainBlock.PNG, id=1752, 324.61275pt x 198.14024pt>
-File: fig/PNmainBlock.PNG Graphic file (type png)
-
-<use fig/PNmainBlock.PNG>
-Package pdftex.def Info: fig/PNmainBlock.PNG used on input line 411.
-(pdftex.def)             Requested size: 243.45895pt x 148.6048pt.
- <fig/GApoly.PNG, id=1759, 1156.32pt x 619.71526pt>
-File: fig/GApoly.PNG Graphic file (type png)
-
-<use fig/GApoly.PNG>
-Package pdftex.def Info: fig/GApoly.PNG used on input line 428.
-(pdftex.def)             Requested size: 462.5198pt x 247.8817pt.
-
-Overfull \hbox (24.0057pt too wide) in paragraph at lines 428--429
- [][] 
- []
-
-<fig/GApolyF.PNG, id=1760, 605.8635pt x 472.164pt>
-File: fig/GApolyF.PNG Graphic file (type png)
- <use fig/GApolyF.PNG>
-Package pdftex.def Info: fig/GApolyF.PNG used on input line 435.
-(pdftex.def)             Requested size: 242.3411pt x 188.86224pt.
 
 [36
 
+ <./fig/PNeq.PNG>]
+<fig/PNmainBlock.PNG, id=1861, 324.61275pt x 198.14024pt>
+File: fig/PNmainBlock.PNG Graphic file (type png)
+
+<use fig/PNmainBlock.PNG>
+Package pdftex.def Info: fig/PNmainBlock.PNG used on input line 405.
+(pdftex.def)             Requested size: 243.45895pt x 148.6048pt.
+ <fig/GApoly.PNG, id=1868, 1156.32pt x 619.71526pt>
+File: fig/GApoly.PNG Graphic file (type png)
+
+<use fig/GApoly.PNG>
+Package pdftex.def Info: fig/GApoly.PNG used on input line 422.
+(pdftex.def)             Requested size: 462.5198pt x 247.8817pt.
+
+Overfull \hbox (24.0057pt too wide) in paragraph at lines 422--423
+ [][] 
+ []
+
+<fig/GApolyF.PNG, id=1869, 605.8635pt x 472.164pt>
+File: fig/GApolyF.PNG Graphic file (type png)
+ <use fig/GApolyF.PNG>
+Package pdftex.def Info: fig/GApolyF.PNG used on input line 429.
+(pdftex.def)             Requested size: 242.3411pt x 188.86224pt.
+
+[37
+
  <./fig/PNmainBlock.PNG> <./fig/GApoly.PNG>]
-<fig/GApolyXNT.PNG, id=1767, 577.55775pt x 465.53925pt>
+<fig/GApolyXNT.PNG, id=1876, 577.55775pt x 465.53925pt>
 File: fig/GApolyXNT.PNG Graphic file (type png)
 
 <use fig/GApolyXNT.PNG>
-Package pdftex.def Info: fig/GApolyXNT.PNG used on input line 442.
+Package pdftex.def Info: fig/GApolyXNT.PNG used on input line 436.
 (pdftex.def)             Requested size: 231.019pt x 186.21239pt.
 
-<fig/polyTrajectory.PNG, id=1768, 623.32875pt x 499.26524pt>
+<fig/polyTrajectory.PNG, id=1877, 623.32875pt x 499.26524pt>
 File: fig/polyTrajectory.PNG Graphic file (type png)
 
 <use fig/polyTrajectory.PNG>
-Package pdftex.def Info: fig/polyTrajectory.PNG used on input line 450.
+Package pdftex.def Info: fig/polyTrajectory.PNG used on input line 444.
 (pdftex.def)             Requested size: 249.32707pt x 199.70256pt.
-) [37 <./fig/GApolyF.PNG> <./fig/GApolyXNT.PNG> <./fig/polyTrajectory.PNG>]
+) [38 <./fig/GApolyF.PNG> <./fig/GApolyXNT.PNG> <./fig/polyTrajectory.PNG>]
 Chapter 4.
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\caseupper' on input line 65.
 
-(tex/game.tex [38
+(tex/game.tex [39
 
 ]
 Missing character: There is no ‚ in font txr!
@@ -1948,8 +1955,8 @@ Missing character: There is no ú in font txr!
 Missing character: There is no ‚ in font txr!
 Missing character: There is no Ä in font txr!
 Missing character: There is no ù in font txr!
- [39]
-<fig/unityInterface.PNG, id=1829, 1371.1225pt x 730.73pt>
+ [40]
+<fig/unityInterface.PNG, id=1938, 1371.1225pt x 730.73pt>
 File: fig/unityInterface.PNG Graphic file (type png)
 
 <use fig/unityInterface.PNG>
@@ -1958,34 +1965,34 @@ Package pdftex.def Info: fig/unityInterface.PNG used on input line 47.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [40]
-<fig/unityGame.PNG, id=1840, 1284.8pt x 692.5875pt>
+ [41]
+<fig/unityGame.PNG, id=1949, 1284.8pt x 692.5875pt>
 File: fig/unityGame.PNG Graphic file (type png)
  <use fig/unityGame.PNG>
 Package pdftex.def Info: fig/unityGame.PNG used on input line 60.
 (pdftex.def)             Requested size: 411.14441pt x 221.63252pt.
 
-[41 <./fig/unityInterface.PNG> <./fig/unityGame.PNG>]
-<fig/trajectory.PNG, id=1851, 464.937pt x 243.91125pt>
+[42 <./fig/unityInterface.PNG> <./fig/unityGame.PNG>]
+<fig/trajectory.PNG, id=1960, 464.937pt x 243.91125pt>
 File: fig/trajectory.PNG Graphic file (type png)
 
 <use fig/trajectory.PNG>
 Package pdftex.def Info: fig/trajectory.PNG used on input line 115.
 (pdftex.def)             Requested size: 325.45367pt x 170.7367pt.
- [42] <fig/XNT.PNG, id=1868, 464.937pt x 288.47775pt>
+ [43] <fig/XNT.PNG, id=1977, 464.937pt x 288.47775pt>
 File: fig/XNT.PNG Graphic file (type png)
 
 <use fig/XNT.PNG>
 Package pdftex.def Info: fig/XNT.PNG used on input line 122.
 (pdftex.def)             Requested size: 325.45367pt x 201.93304pt.
- <fig/XNC.PNG, id=1869, 463.13025pt x 232.4685pt>
+ <fig/XNC.PNG, id=1978, 463.13025pt x 232.4685pt>
 File: fig/XNC.PNG Graphic file (type png)
 
 <use fig/XNC.PNG>
 Package pdftex.def Info: fig/XNC.PNG used on input line 129.
 (pdftex.def)             Requested size: 324.18896pt x 162.72684pt.
-) [43 <./fig/trajectory.PNG> <./fig/XNT.PNG> <./fig/XNC.PNG>]
-[44
+) [44 <./fig/trajectory.PNG> <./fig/XNT.PNG> <./fig/XNC.PNG>]
+[45
 
 ]
 Chapter 5.
@@ -1993,10 +2000,10 @@ Chapter 5.
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\caseupper' on input line 67.
 
-(tex/ATD_problem.tex [45
+(tex/ATD_problem.tex [46
 
 ]
-<fig/drawing4_1a.pdf, id=1899, 844.65562pt x 596.98032pt>
+<fig/drawing4_1a.pdf, id=2008, 844.65562pt x 596.98032pt>
 File: fig/drawing4_1a.pdf Graphic file (type pdf)
 
 <use fig/drawing4_1a.pdf>
@@ -2007,20 +2014,20 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 59.
 
-<fig/drawing4_1b.pdf, id=1900, 844.65562pt x 596.98032pt>
+<fig/drawing4_1b.pdf, id=2009, 844.65562pt x 596.98032pt>
 File: fig/drawing4_1b.pdf Graphic file (type pdf)
 
 <use fig/drawing4_1b.pdf>
 Package pdftex.def Info: fig/drawing4_1b.pdf used on input line 61.
 (pdftex.def)             Requested size: 219.25705pt x 154.96527pt.
 
-<fig/drawing4_1c.pdf, id=1901, 844.65562pt x 596.98032pt>
+<fig/drawing4_1c.pdf, id=2010, 844.65562pt x 596.98032pt>
 File: fig/drawing4_1c.pdf Graphic file (type pdf)
 
 <use fig/drawing4_1c.pdf>
 Package pdftex.def Info: fig/drawing4_1c.pdf used on input line 63.
 (pdftex.def)             Requested size: 328.88557pt x 232.4479pt.
- [46] [47 <./fig/drawing4_1a.pdf> <./fig/drawing4_1b.pdf
+ [47] [48 <./fig/drawing4_1a.pdf> <./fig/drawing4_1b.pdf
 
 pdfTeX warning: pdflatex.exe (file ./fig/drawing4_1b.pdf): PDF inclusion: multi
 ple pdfs with page group included in a single page
@@ -2041,22 +2048,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 89--92
 
  []
 
-<fig/drawing1.pdf, id=1967, 874.01532pt x 525.46312pt>
+<fig/drawing1.pdf, id=2076, 874.01532pt x 525.46312pt>
 File: fig/drawing1.pdf Graphic file (type pdf)
  <use fig/drawing1.pdf>
 Package pdftex.def Info: fig/drawing1.pdf used on input line 105.
 (pdftex.def)             Requested size: 437.00659pt x 262.73091pt.
 
-<fig/drawing2.pdf, id=1968, 842.39719pt x 535.2497pt>
+<fig/drawing2.pdf, id=2077, 842.39719pt x 535.2497pt>
 File: fig/drawing2.pdf Graphic file (type pdf)
  <use fig/drawing2.pdf>
 Package pdftex.def Info: fig/drawing2.pdf used on input line 112.
 (pdftex.def)             Requested size: 421.19756pt x 267.62419pt.
 
-[48]
+[49]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [49 <./fig/drawing1.pdf>] <fig/drawing3.pdf, id=2024, 632.3625pt x 322.95656pt
+ [50 <./fig/drawing1.pdf>] <fig/drawing3.pdf, id=2133, 632.3625pt x 322.95656pt
 >
 File: fig/drawing3.pdf Graphic file (type pdf)
 
@@ -2072,7 +2079,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 170.
 
-[50 <./fig/drawing2.pdf>] [51 <./fig/drawing3.pdf>]
+[51 <./fig/drawing2.pdf>] [52 <./fig/drawing3.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 226.
@@ -2081,7 +2088,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 226.
 
-[52]) [53]
+[53]) [54]
 Chapter 6.
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -2105,14 +2112,14 @@ Package caption Warning: \label without proper \caption on input line 154.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `4_g<1' on page 54 undefined on input line 8.
+LaTeX Warning: Reference `4_g<1' on page 55 undefined on input line 8.
 
-[54
+[55
 
 ]
 Underfull \vbox (badness 3375) has occurred while \output is active []
 
- [55]
+ [56]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 113.
@@ -2130,7 +2137,7 @@ Package caption Warning: \label without proper \caption on input line 156.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `4_g=1' on page 56 undefined on input line 114.
+LaTeX Warning: Reference `4_g=1' on page 57 undefined on input line 114.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -2149,54 +2156,29 @@ Package caption Warning: \label without proper \caption on input line 158.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `4_g>1' on page 56 undefined on input line 137.
+LaTeX Warning: Reference `4_g>1' on page 57 undefined on input line 137.
 
-[56] <fig/drawing4_2a.pdf, id=2195, 844.65562pt x 596.98032pt>
+[57] <fig/drawing4_2a.pdf, id=2304, 844.95674pt x 597.432pt>
 File: fig/drawing4_2a.pdf Graphic file (type pdf)
 
 <use fig/drawing4_2a.pdf>
 Package pdftex.def Info: fig/drawing4_2a.pdf used on input line 154.
-(pdftex.def)             Requested size: 263.11113pt x 185.96379pt.
+(pdftex.def)             Requested size: 263.11113pt x 186.03157pt.
 
-<fig/drawing4_2c.pdf, id=2196, 844.65562pt x 596.98032pt>
+<fig/drawing4_2c.pdf, id=2305, 844.95674pt x 597.432pt>
 File: fig/drawing4_2c.pdf Graphic file (type pdf)
 
 <use fig/drawing4_2c.pdf>
 Package pdftex.def Info: fig/drawing4_2c.pdf used on input line 156.
-(pdftex.def)             Requested size: 263.11113pt x 185.96379pt.
+(pdftex.def)             Requested size: 263.11113pt x 186.03157pt.
 
-<fig/drawing4_2b.pdf, id=2197, 844.65562pt x 596.98032pt>
+<fig/drawing4_2b.pdf, id=2306, 844.95674pt x 597.432pt>
 File: fig/drawing4_2b.pdf Graphic file (type pdf)
 
 <use fig/drawing4_2b.pdf>
 Package pdftex.def Info: fig/drawing4_2b.pdf used on input line 158.
-(pdftex.def)             Requested size: 263.11113pt x 185.96379pt.
-
-<fig/alphaCRg_0p8.pdf, id=2210, 565.11125pt x 376.40625pt>
-File: fig/alphaCRg_0p8.pdf Graphic file (type pdf)
-
-<use fig/alphaCRg_0p8.pdf>
-Package pdftex.def Info: fig/alphaCRg_0p8.pdf used on input line 204.
-(pdftex.def)             Requested size: 339.06937pt x 225.84547pt.
-
-<fig/alphaCRg_1.pdf, id=2211, 565.11125pt x 376.40625pt>
-File: fig/alphaCRg_1.pdf Graphic file (type pdf)
-
-<use fig/alphaCRg_1.pdf>
-Package pdftex.def Info: fig/alphaCRg_1.pdf used on input line 212.
-(pdftex.def)             Requested size: 339.06937pt x 225.84547pt.
-
-<fig/alphaCRg_1p25.pdf, id=2212, 565.11125pt x 376.40625pt>
-File: fig/alphaCRg_1p25.pdf Graphic file (type pdf)
-
-<use fig/alphaCRg_1p25.pdf>
-Package pdftex.def Info: fig/alphaCRg_1p25.pdf used on input line 220.
-(pdftex.def)             Requested size: 339.06937pt x 225.84547pt.
-
-Underfull \vbox (badness 3623) has occurred while \output is active []
-
- [57]
-[58 <./fig/drawing4_2a.pdf> <./fig/drawing4_2c.pdf
+(pdftex.def)             Requested size: 263.11113pt x 186.03157pt.
+) [58] [59 <./fig/drawing4_2a.pdf> <./fig/drawing4_2c.pdf
 
 pdfTeX warning: pdflatex.exe (file ./fig/drawing4_2c.pdf): PDF inclusion: multi
 ple pdfs with page group included in a single page
@@ -2205,41 +2187,6 @@ ple pdfs with page group included in a single page
 pdfTeX warning: pdflatex.exe (file ./fig/drawing4_2b.pdf): PDF inclusion: multi
 ple pdfs with page group included in a single page
 >]
-Underfull \hbox (badness 10000) in paragraph at lines 251--252
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 257--259
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 270--271
-
- []
-
-[59 <./fig/alphaCRg_0p8.pdf>] [60 <./fig/alphaCRg_1.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 309--310
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 319--320
-
- []
-
-[61 <./fig/alphaCRg_1p25.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 340--341
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 377--378
-
- []
-
-) [62]
 Chapter 7.
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -2255,14 +2202,14 @@ Overfull \hbox (0.78027pt too wide) in paragraph at lines 30--30
 [] 
  []
 
-[63
+[60
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 57--59
 
  []
 
-[64] <fig/Drawing5_1.pdf, id=2450, 844.65562pt x 596.98032pt>
+[61] <fig/Drawing5_1.pdf, id=2440, 844.65562pt x 596.98032pt>
 File: fig/Drawing5_1.pdf Graphic file (type pdf)
 
 <use fig/Drawing5_1.pdf>
@@ -2273,120 +2220,116 @@ Underfull \hbox (badness 10000) in paragraph at lines 118--119
 
  []
 
-[65]
+[62]
 
 Package caption Warning: \label without proper \caption on input line 59.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `2_g<1' on page 66 undefined on input line 121.
+LaTeX Warning: Reference `2_g<1' on page 63 undefined on input line 121.
 
 
 Package caption Warning: \label without proper \caption on input line 63.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `2_g>1' on page 66 undefined on input line 121.
+LaTeX Warning: Reference `2_g>1' on page 63 undefined on input line 121.
 
-[66 <./fig/Drawing5_1.pdf>]
+[63 <./fig/Drawing5_1.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 128--129
 
  []
 
-<fig/g_1.pdf, id=2501, 412.54124pt x 412.54124pt>
+<fig/g_1.pdf, id=2490, 412.54124pt x 412.54124pt>
 File: fig/g_1.pdf Graphic file (type pdf)
  <use fig/g_1.pdf>
 Package pdftex.def Info: fig/g_1.pdf used on input line 153.
-(pdftex.def)             Requested size: 328.88557pt x 328.88777pt.
+(pdftex.def)             Requested size: 289.4209pt x 289.42528pt.
 
-<fig/VAR_alpha_g_1.pdf, id=2502, 376.40625pt x 376.40625pt>
+<fig/VAR_alpha_g_1.pdf, id=2491, 376.40625pt x 376.40625pt>
 File: fig/VAR_alpha_g_1.pdf Graphic file (type pdf)
 
 <use fig/VAR_alpha_g_1.pdf>
 Package pdftex.def Info: fig/VAR_alpha_g_1.pdf used on input line 160.
-(pdftex.def)             Requested size: 328.88557pt x 328.90666pt.
+(pdftex.def)             Requested size: 289.4209pt x 289.44315pt.
 
-<fig/marked_circle_curve_g_0p8.pdf, id=2507, 615.80063pt x 607.51968pt>
+<fig/marked_circle_curve_g_0p8.pdf, id=2496, 615.80063pt x 607.51968pt>
 File: fig/marked_circle_curve_g_0p8.pdf Graphic file (type pdf)
 
 <use fig/marked_circle_curve_g_0p8.pdf>
 Package pdftex.def Info: fig/marked_circle_curve_g_0p8.pdf used on input line 1
 68.
-(pdftex.def)             Requested size: 328.88557pt x 324.46825pt.
+(pdftex.def)             Requested size: 289.4209pt x 285.53429pt.
 
-<fig/VAR_alpha_g_0p8.pdf, id=2512, 376.40625pt x 376.40625pt>
+<fig/VAR_alpha_g_0p8.pdf, id=2501, 376.40625pt x 376.40625pt>
 File: fig/VAR_alpha_g_0p8.pdf Graphic file (type pdf)
 
 <use fig/VAR_alpha_g_0p8.pdf>
 Package pdftex.def Info: fig/VAR_alpha_g_0p8.pdf used on input line 176.
-(pdftex.def)             Requested size: 328.88557pt x 328.90666pt.
+(pdftex.def)             Requested size: 289.4209pt x 289.44315pt.
 
-<fig/g_1p25.pdf, id=2517, 571.38469pt x 571.38469pt>
+<fig/g_1p25.pdf, id=2506, 571.38469pt x 571.38469pt>
 File: fig/g_1p25.pdf Graphic file (type pdf)
  <use fig/g_1p25.pdf>
 Package pdftex.def Info: fig/g_1p25.pdf used on input line 184.
-(pdftex.def)             Requested size: 328.88557pt x 328.88367pt.
+(pdftex.def)             Requested size: 289.4209pt x 289.4232pt.
 
-<fig/VAR_alpha_g_1p25.pdf, id=2522, 376.40625pt x 376.40625pt>
+<fig/VAR_alpha_g_1p25.pdf, id=2511, 376.40625pt x 376.40625pt>
 File: fig/VAR_alpha_g_1p25.pdf Graphic file (type pdf)
 
 <use fig/VAR_alpha_g_1p25.pdf>
 Package pdftex.def Info: fig/VAR_alpha_g_1p25.pdf used on input line 191.
-(pdftex.def)             Requested size: 328.88557pt x 328.90666pt.
-) [67]
+(pdftex.def)             Requested size: 289.4209pt x 289.44315pt.
+) [64]
 Chapter 8.
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\caseupper' on input line 71.
 
-[68 <./fig/g_1.pdf>] [69 <./fig/VAR_alpha_g_1.pdf>] [70 <./fig/marked_circle_cu
-rve_g_0p8.pdf>] [71 <./fig/VAR_alpha_g_0p8.pdf>] [72 <./fig/g_1p25.pdf>]
-[73 <./fig/VAR_alpha_g_1p25.pdf>] (tex/simulation.tex
+[65 <./fig/g_1.pdf> <./fig/VAR_alpha_g_1.pdf>] [66 <./fig/marked_circle_curve_g
+_0p8.pdf> <./fig/VAR_alpha_g_0p8.pdf>] [67 <./fig/g_1p25.pdf> <./fig/VAR_alpha_
+g_1p25.pdf>] (tex/simulation.tex
 Missing character: There is no ‚ in font txr!
 Missing character: There is no Ä in font txr!
 Missing character: There is no ô in font txr!
 
-<fig/fig7-1.pdf, id=2641, 794.97pt x 614.295pt>
+<fig/fig7-1.pdf, id=2618, 794.97pt x 614.295pt>
 File: fig/fig7-1.pdf Graphic file (type pdf)
  <use fig/fig7-1.pdf>
 Package pdftex.def Info: fig/fig7-1.pdf used on input line 9.
 (pdftex.def)             Requested size: 438.5141pt x 338.85686pt.
- [74
+ [68
 
- <./fig/fig7-1.pdf>] [75] [76]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [77]
-[78]
-Overfull \hbox (35.19528pt too wide) in paragraph at lines 396--396
+ <./fig/fig7-1.pdf>] [69] [70] [71] [72]
+Overfull \hbox (35.19528pt too wide) in paragraph at lines 398--398
 [] 
  []
 
-[79] <fig/fig7a_paper.pdf, id=2749, 346.29375pt x 514.92375pt>
+[73] <fig/fig7a_paper.pdf, id=2733, 346.29375pt x 514.92375pt>
 File: fig/fig7a_paper.pdf Graphic file (type pdf)
 
 <use fig/fig7a_paper.pdf>
-Package pdftex.def Info: fig/fig7a_paper.pdf used on input line 404.
+Package pdftex.def Info: fig/fig7a_paper.pdf used on input line 406.
 (pdftex.def)             Requested size: 173.14644pt x 257.46124pt.
 
-<fig/fig7b_paper.pdf, id=2750, 350.30875pt x 514.92375pt>
+<fig/fig7b_paper.pdf, id=2734, 350.30875pt x 514.92375pt>
 File: fig/fig7b_paper.pdf Graphic file (type pdf)
 
 <use fig/fig7b_paper.pdf>
-Package pdftex.def Info: fig/fig7b_paper.pdf used on input line 412.
+Package pdftex.def Info: fig/fig7b_paper.pdf used on input line 414.
 (pdftex.def)             Requested size: 175.15395pt x 257.46124pt.
 
-<fig/fig8_paper_numerical.pdf, id=2751, 624.3325pt x 514.92375pt>
+<fig/fig8_paper_numerical.pdf, id=2735, 624.3325pt x 514.92375pt>
 File: fig/fig8_paper_numerical.pdf Graphic file (type pdf)
 
 <use fig/fig8_paper_numerical.pdf>
-Package pdftex.def Info: fig/fig8_paper_numerical.pdf used on input line 420.
+Package pdftex.def Info: fig/fig8_paper_numerical.pdf used on input line 422.
 (pdftex.def)             Requested size: 437.02977pt x 360.44417pt.
 )
-Underfull \vbox (badness 1968) has occurred while \output is active []
+Underfull \vbox (badness 5954) has occurred while \output is active []
 
- [80 <./fig/fig7a_paper.pdf> <./fig/fig7b_paper.pdf>] [81 <./fig/fig8_paper_num
-erical.pdf>] [82
+ [74 <./fig/fig7a_paper.pdf> <./fig/fig7b_paper.pdf>] [75 <./fig/fig8_paper_num
+erical.pdf>] [76
 
 ]
 Chapter 9.
@@ -2394,27 +2337,34 @@ Chapter 9.
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\caseupper' on input line 73.
 
-(tex/conclusions.tex [83
+(tex/conclusions.tex
+Missing character: There is no ‚ in font txr!
+Missing character: There is no Ä in font txr!
+Missing character: There is no ú in font txr!
+Missing character: There is no ‚ in font txr!
+Missing character: There is no Ä in font txr!
+Missing character: There is no ù in font txr!
+ [77
 
-]) [84] (MSc_thesis_Mostafa.bbl
+]) [78] (MSc_thesis_Mostafa.bbl
 Missing character: There is no ‚ in font txr!
 Missing character: There is no Ä in font txr!
 Missing character: There is no î in font txr!
 Missing character: There is no ‚ in font txr!
 Missing character: There is no Ä in font txr!
 Missing character: There is no î in font txr!
- [85
+ [79
 
-] [86] [87] [88]
-[89]
+] [80] [81] [82]
+[83]
 Missing character: There is no ‚ in font txr!
 Missing character: There is no Ä in font txr!
 Missing character: There is no î in font txr!
- [90] [91]
+ [84] [85]
 Missing character: There is no ‚ in font txr!
 Missing character: There is no Ä in font txr!
 Missing character: There is no î in font txr!
-) [92]
+) [86]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 91.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 91.
  (MSc_thesis_Mostafa.aux)
@@ -2603,6 +2553,7 @@ fig/evasiontech1.jpg
 fig/evasiontech2.jpg
 fig/evasiontech3.jpg
 fig/evasiontech4.jpg
+fig/GuidanceLaws.pdf
   fig/PN.pdf
 fig/FlowchartPN.pdf
 tex/optimization_EM.tex
@@ -2659,9 +2610,6 @@ tex/speed_ratio.tex
 fig/drawing4_2a.pdf
 fig/drawing4_2c.pdf
 fig/drawing4_2b.pdf
-fig/alphaCRg_0p8.pdf
-fig/alphaCRg_1.pdf
-fig/alphaCRg_1p25.pdf
 tex/voronoi.tex
 fig/Drawing5_1.pdf
  fig/g_1.pdf
@@ -2681,17 +2629,17 @@ MSc_thesis_Mostafa.bbl
 
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 91.
 Package rerunfilecheck Info: File `MSc_thesis_Mostafa.out' has not changed.
-(rerunfilecheck)             Checksum: 676AC71660CC589BC1CCA2071A1FCDDE;4029.
+(rerunfilecheck)             Checksum: 6CE7AFE711A4FFC6A04FE0CDB6846E95;4146.
 
 LaTeX Warning: There were undefined references.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 91.
  ) 
 Here is how much of TeX's memory you used:
- 28079 strings out of 493698
- 474234 string characters out of 3144379
- 642977 words of memory out of 3000000
- 29792 multiletter control sequences out of 15000+200000
+ 28036 strings out of 493698
+ 473594 string characters out of 3144379
+ 639972 words of memory out of 3000000
+ 29780 multiletter control sequences out of 15000+200000
  97521 words of font info for 437 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  55i,19n,54p,2163b,819s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2706,9 +2654,9 @@ s/type1/public/txfonts/txsyc.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/t
 imes/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb>
 <C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files
 /MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on MSc_thesis_Mostafa.pdf (106 pages, 3806073 bytes).
+Output written on MSc_thesis_Mostafa.pdf (99 pages, 4179521 bytes).
 PDF statistics:
- 3049 PDF objects out of 3580 (max. 8388607)
- 532 named destinations out of 1000 (max. 500000)
- 49951 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 3027 PDF objects out of 3580 (max. 8388607)
+ 503 named destinations out of 1000 (max. 500000)
+ 49957 words of extra memory for PDF output out of 51595 (max. 10000000)
 

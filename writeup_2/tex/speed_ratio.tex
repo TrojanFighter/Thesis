@@ -197,194 +197,194 @@ and whenever (\ref{ineq}) is not valid, we simply set
 
 
 %Tables 4.1 to 4.3 list values of $\overline{\alpha}$ versus values of $(\dfrac{x_T}{x_A})$ and $(\dfrac{y_T}{x_A})$ for the specific $\gamma$ values of 0.8, 1, and 1.25.
-Figures \ref{alphaCRgamma=0.8} to \ref{alphaCRgamma=1.25} plot $\alpha$ as a function of $(\dfrac{x_T}{x_A})$ with $(\dfrac{y_T}{x_A})$ as a parameter for the specific $\gamma$ values of 0.8, 1.0, and 1.25 respectively.
+%Figures \ref{alphaCRgamma=0.8} to \ref{alphaCRgamma=1.25} plot $\alpha$ as a function of $(\dfrac{x_T}{x_A})$ with $(\dfrac{y_T}{x_A})$ as a parameter for the specific $\gamma$ values of 0.8, 1.0, and 1.25 respectively.
+%
+%\begin{figure}[htb]
+%\centering
+%\includegraphics[scale = 0.6]{fig/alphaCRg_0p8.pdf}
+%\caption{The critical normalized speed $\overline{\alpha}$ or $\alpha_{cr}$ as a function of $(\dfrac{x_T}{x_A})$ with $(\dfrac{y_T}{x_A})$ as a parameter when $\gamma=0.8$ (fast defender).}
+%\label{alphaCRgamma=0.8}
+%\end{figure}
+%
+%
+%\begin{figure}[htb]
+%\centering
+%\includegraphics[scale = 0.6]{fig/alphaCRg_1.pdf}
+%\caption{The critical normalized speed $\overline{\alpha}$ or $\alpha_{cr}$ as a function of $(\dfrac{x_T}{x_A})$ with $(\dfrac{y_T}{x_A})$ as a parameter when $\gamma=1$ (similar defender).}
+%\label{alphaCRgamma=1}
+%\end{figure}
+%
+%
+%\begin{figure}[htb]
+%\centering
+%\includegraphics[scale = 0.6]{fig/alphaCRg_1p25.pdf}
+%\caption{The critical normalized speed $\overline{\alpha}$ or $\alpha_{cr}$ as a function of $(\dfrac{x_T}{x_A})$ with $(\dfrac{y_T}{x_A})$ as a parameter when $\gamma=1.25$ (slow defender).}
+%\label{alphaCRgamma=1.25}
+%\end{figure}
+%
+%
+%
+%We pay a special attention to the special case when the Target is initially on the $x$-axis (i.e., when the Target, Attacker. and Defender are initially collinear). In this case, equation (\ref{dimensionless-alphaCR}) reduces to
+%\begin{equation}
+%\overline{\alpha} = \dfrac{1}{2 \gamma} [-\sqrt{(1-\dfrac{x_T}{x_A})^2}+ \gamma \sqrt{(1+\dfrac{x_T}{x_A})^2}\ ],
+%\end{equation}
+%care must be taken that the $\sqrt{\ }$ sign indicates the principal branch of the inverse square function. i.e., 
+%\begin{equation}
+%\sqrt{y^2} = \lvert y \rvert
+%\end{equation}
+%
+%Therefore, we write
+%\begin{equation}
+%\sqrt{(1- \dfrac{x_T}{x_A})^2}=\begin{cases}
+%1-\dfrac{x_T}{x_A},\ \ \ \ \ \dfrac{x_T}{x_A}\leq1\\
+%\dfrac{x_T}{x_A}-1,\ \ \ \ \ \dfrac{x_T}{x_A}>1,
+%\end{cases}
+%\end{equation} 
+%
+%\begin{equation}
+%\sqrt{(1+\dfrac{x_T}{x_A})^2}=\begin{cases}
+%1+\dfrac{x_T}{x_A},\ \ \ \ \ \ \dfrac{x_T}{x_A}\geq-1\\
+%-1-\dfrac{x_T}{x_A},\ \ \ \ \ \dfrac{x_T}{x_A}<-1,
+%\end{cases}
+%\end{equation}
+%
+%We now consider the three specific values of $\gamma$ considered in Figs. \ref{alphaCRgamma=0.8} to \ref{alphaCRgamma=1.25} , namely $\gamma=0.8, \gamma=1,$ and $\gamma=1.25$.\\
+%
+%
+%\underline{\textbf{For $\gamma=0.8$}}
+%\begin{equation}
+%\overline{\alpha}= \dfrac{1}{1.6} [- \sqrt{(1-\dfrac{x_T}{x_A})^2}+ 0.8 \sqrt{(1+\dfrac{x_T}{x_A})^2}].
+%\end{equation}
+%For $(\dfrac{x_T}{x_A})<-1$\\
+%
+%\begin{center}
+%$\overline{\alpha}=\dfrac{1}{1.6}[-(1-\dfrac{x_T}{x_A})+ 0.8(-1-\dfrac{x_T}{x_A})]
+%=\dfrac{1}{1.6}[-1.8+0.2\dfrac{x_T}{x_A}]=\dfrac{1}{8}(-9+\dfrac{x_T}{x_A})$
+%\end{center}
+%
+%which is definitely negative, and hence
+%\begin{equation}
+%\overline{\alpha}=0,\ \ \ \ \ (\dfrac{x_T}{x_A})<-1, \ \ \ \ \gamma=0.8
+%\end{equation}
+%
+%For $-1\leq (\dfrac{x_T}{x_A})\leq 1$\\
+%\begin{center}
+%$\overline{\alpha}=\dfrac{1}{1.6}[-(1-\dfrac{x_T}{x_A})+0.8(1+\dfrac{x_T}{x_A})]= \dfrac{1}{1.6}[-0.2+1.8 \dfrac{x_T}{x_A}]= \dfrac{1}{8}(-1+9\dfrac{x_T}{x_A})$
+%\end{center}
+%The above $\overline{\alpha}$ is negative when $(-1+9 \dfrac{x_T}{x_A})$ is negative and hence we again set
+%
+%\begin{equation}
+%\overline{\alpha}=0, \ \ \ \ \ -1\leq(\dfrac{x_T}{x_A})<\dfrac{1}{9}, \ \ \ \ \ \ \gamma=0.8.
+%\end{equation}
+%
+%while $\overline{\alpha}$ increases linearly from 0 to 1 in $\dfrac{x_T}{x_A}\in [\dfrac{1}{9},1]$
+%
+%\begin{equation}
+%\overline{\alpha} = \dfrac{1}{8} (-1 + 9 \dfrac{x_T}{x_A}), \ \ \ \ \ \dfrac{1}{9}\leq (\dfrac{x_T}{x_A})\leq 1, \ \ \ \ \ \gamma=0.8
+%\end{equation}
+%
+%Finally, when $(\dfrac{x_T}{x_A})>1$
+%\begin{equation}
+%\overline{\alpha}= \dfrac{1}{1.6} [-(\dfrac{x_T}{x_A}-1)+ 0.8 (\dfrac{x_T}{x_A}+1)]
+%=\dfrac{1}{1.6}[1.8 - 0.2 (\dfrac{x_T}{x_A})]
+%=\dfrac{1}{8} (9-\dfrac{x_T}{x_A}).
+%\end{equation}
+%
+%This means that after peaking at 1 when $(\dfrac{x_T}{x_A})=1$, the value of $\overline{\alpha}$ starts to decrease linearly to be 0 at $(\dfrac{x_T}{x_A})=9$ and then it remains 0 (rather than becoming negative), i.e.,
+%\begin{equation}
+%\overline{\alpha}=\dfrac{1}{8}(9-\dfrac{x_T}{x_A}), \ \ \ \ \ 1<(\dfrac{x_T}{x_A})\leq 9,\ \ \ \ \ \gamma=0.8,
+%\end{equation}
+%
+%\begin{equation}
+%\overline{\alpha}=0,\ \ \ \ \ (\dfrac{x_T}{x_A})>9,\ \ \ \ \ \gamma=0.8.
+%\end{equation}
+%
+%
+%\textbf{\underline{For $\gamma=1$}}
+%
+%\begin{equation}
+%\overline{\alpha}= \dfrac{1}{2}[-\sqrt{(1-\dfrac{x_T}{x_A})^2}+ \sqrt{(1+\dfrac{x_T}{x_A})^2}\ ].
+%\end{equation}
+%
+%For $(\dfrac{x_T}{x_A})<-1$\\
+%\begin{center}
+%$\overline{\alpha}= \dfrac{1}{2}[-(1-\dfrac{x_T}{x_A})+ (-1-\dfrac{x_T}{x_A})]=-1$.
+%\end{center}
+%
+%Set
+%\begin{equation}
+%\overline{\alpha}=0,\ \ \ \ \ (\dfrac{x_T}{x_A})<-1,\ \ \ \ \ \gamma=1
+%\end{equation}
+%
+%For $-1\leq (\dfrac{x_T}{x_A})\leq 1$\\
+%\begin{center}
+%$\overline{\alpha}=\dfrac{1}{2}[-(1-\dfrac{x_T}{x_A})+ (1+\dfrac{x_T}{x_A})]$
+%\end{center}
+%\begin{equation}
+%\overline{\alpha}=(\dfrac{x_T}{x_A}),\ \ \ \ \ -1\leq(\dfrac{x_T}{x_A})\leq1,\ \ \ \ \ \gamma=1
+%\end{equation}
+%
+%For $-1\leq(\dfrac{x_T}{x_A})<0$,  $\overline{\alpha}$ is again negative and is to be set to 0
+%\begin{equation}
+%\overline{\alpha}= (\dfrac{x_T}{x_A}),\ \ \ \ \ 0\leq(\dfrac{x_T}{x_A})\leq1,\ \ \ \ \ \gamma=1
+%\end{equation}
+%
+%and hence $\overline{\alpha}$ increases linearly from 0 at $(\dfrac{x_T}{x_A})=0$ to 1 at $(\dfrac{x_T}{x_A})=1$
+%
+%For $(\dfrac{x_T}{x_A})>1$
+%
+%\begin{equation}
+%\overline{\alpha} = \dfrac{1}{2} [-(\dfrac{x_T}{x_A}-1)+ (1+\dfrac{x_T}{x_A})]=1,\ \ \ \ \ (\dfrac{x_T}{x_A})>1,\ \ \ \ \ \gamma=1  
+%\end{equation}
+%
+%Note that the situation of $(\gamma=1)$ differs significantly from that of $(\gamma=0.8)$. For $(\gamma=1)$, $\overline{\alpha}$ increases from 0 to 1 and remains so indefinitely, but for $(\gamma=0.8)$, $\overline{\alpha}$ increases from 0 to 1 and immediately decreases again to 0.\\
+%
+%
+%\underline{\textbf{For $\gamma=1.25$}}
+%\begin{equation}
+%\overline{\alpha}= \dfrac{1}{2.5}[- \sqrt{(1-\dfrac{x_T}{x_A})^2}+ 1.25 \sqrt{(1+\dfrac{x_T}{x_A})^2}]
+%\end{equation}
+%
+%For $(\dfrac{x_T}{x_A})<-1$
+%\begin{center}
+%$\overline{\alpha}=\dfrac{1}{2.5}[-(1-\dfrac{x_T}{x_A})+ 1.25 (-1-\dfrac{x_T}{x_A})]= \dfrac{1}{2.5}[-2.25-0.25\dfrac{x_T}{x_A}]=\dfrac{1}{10}(-9-\dfrac{x_T}{x_A}),$
+%\end{center}
+%
+%which results in setting 
+%\begin{equation}
+%\overline{\alpha}=0,\ \ \ \ \ -9\leq(\dfrac{x_T}{x_A})<-1,\ \ \ \ \ \gamma=1.25,
+%\end{equation}
+%
+%\begin{equation}
+%\overline{\alpha}=\dfrac{1}{10}(-9-\dfrac{x_T}{x_A}),\ \ \ \ \ (\dfrac{x_T}{x_A})<-9,\ \ \ \ \ \gamma=1.25.
+%\label{g=1.25,r<-1}
+%\end{equation}
+%
+%For $-1\leq(\dfrac{x_T}{x_A})\leq1$
+%\begin{center}
+%$\overline{\alpha}=\dfrac{1}{2.5}[-(1-\dfrac{x_T}{x_A})+1.25(1+\dfrac{x_T}{x_A})]= \dfrac{1}{2.5}[0.25+2.25(\dfrac{x_T}{x_A})]=\dfrac{1}{10}[1+9\dfrac{x_T}{x_A}]$,
+%\end{center}
+%
+%which reduces to 
+%\begin{equation}
+%\overline{\alpha}=0,\ \ \ \ \ -1\leq\dfrac{x_T}{x_A}<-\dfrac{1}{9},\ \ \ \ \ \gamma=1.25,
+%\end{equation}
+%
+%\begin{equation}
+%\overline{\alpha}=\dfrac{1}{10} (1+9 \dfrac{x_T}{x_A}),\ \ \ \ \ -\dfrac{1}{9}\leq\dfrac{x_T}{x_A}\leq1,\ \ \ \ \ \gamma=1.25.
+%\end{equation}
+%
+%While $\overline{\alpha}$ remains 0 for $(\dfrac{x_T}{x_A})\in [-9,-\dfrac{1}{9})$ it starts to increase linearly to 1 for $(\dfrac{x_T}{x_A})\in[-\dfrac{1}{9},1)$.\\
+%
+%
+%Finally, when $(\dfrac{x_T}{x_A})>1$
+%\begin{equation}
+%\overline{\alpha}=\dfrac{1}{2.5}[-(\dfrac{x_T}{x_A}-1)+ 1.25 (\dfrac{x_T}{x_A}+1)] = \dfrac{1}{2.5}[2.25+0.25 \dfrac{x_T}{x_A}]=\dfrac{1}{10}[9+\dfrac{x_T}{x_A}],
+%\label{g=1.25,r>1}
+%\end{equation}
+%which means that $\overline{\alpha}$ increases linearly. Note that equations (\ref{g=1.25,r<-1}) and (\ref{g=1.25,r>1}) predict values of $\overline{\alpha}$ exceeding 1, a phenomenon taking place in the current analysis only when $\gamma>1$, i.e., for a slow defender. 
 
-\begin{figure}[htb]
-\centering
-\includegraphics[scale = 0.6]{fig/alphaCRg_0p8.pdf}
-\caption{The critical normalized speed $\overline{\alpha}$ or $\alpha_{cr}$ as a function of $(\dfrac{x_T}{x_A})$ with $(\dfrac{y_T}{x_A})$ as a parameter when $\gamma=0.8$ (fast defender).}
-\label{alphaCRgamma=0.8}
-\end{figure}
-
-
-\begin{figure}[htb]
-\centering
-\includegraphics[scale = 0.6]{fig/alphaCRg_1.pdf}
-\caption{The critical normalized speed $\overline{\alpha}$ or $\alpha_{cr}$ as a function of $(\dfrac{x_T}{x_A})$ with $(\dfrac{y_T}{x_A})$ as a parameter when $\gamma=1$ (similar defender).}
-\label{alphaCRgamma=1}
-\end{figure}
-
-
-\begin{figure}[htb]
-\centering
-\includegraphics[scale = 0.6]{fig/alphaCRg_1p25.pdf}
-\caption{The critical normalized speed $\overline{\alpha}$ or $\alpha_{cr}$ as a function of $(\dfrac{x_T}{x_A})$ with $(\dfrac{y_T}{x_A})$ as a parameter when $\gamma=1.25$ (slow defender).}
-\label{alphaCRgamma=1.25}
-\end{figure}
-
-
-
-We pay a special attention to the special case when the Target is initially on the $x$-axis (i.e., when the Target, Attacker. and Defender are initially collinear). In this case, equation (\ref{dimensionless-alphaCR}) reduces to
-\begin{equation}
-\overline{\alpha} = \dfrac{1}{2 \gamma} [-\sqrt{(1-\dfrac{x_T}{x_A})^2}+ \gamma \sqrt{(1+\dfrac{x_T}{x_A})^2}\ ],
-\end{equation}
-care must be taken that the $\sqrt{\ }$ sign indicates the principal branch of the inverse square function. i.e., 
-\begin{equation}
-\sqrt{y^2} = \lvert y \rvert
-\end{equation}
-
-Therefore, we write
-\begin{equation}
-\sqrt{(1- \dfrac{x_T}{x_A})^2}=\begin{cases}
-1-\dfrac{x_T}{x_A},\ \ \ \ \ \dfrac{x_T}{x_A}\leq1\\
-\dfrac{x_T}{x_A}-1,\ \ \ \ \ \dfrac{x_T}{x_A}>1,
-\end{cases}
-\end{equation} 
-
-\begin{equation}
-\sqrt{(1+\dfrac{x_T}{x_A})^2}=\begin{cases}
-1+\dfrac{x_T}{x_A},\ \ \ \ \ \ \dfrac{x_T}{x_A}\geq-1\\
--1-\dfrac{x_T}{x_A},\ \ \ \ \ \dfrac{x_T}{x_A}<-1,
-\end{cases}
-\end{equation}
-
-We now consider the three specific values of $\gamma$ considered in Figs. \ref{alphaCRgamma=0.8} to \ref{alphaCRgamma=1.25} , namely $\gamma=0.8, \gamma=1,$ and $\gamma=1.25$.\\
-
-
-\underline{\textbf{For $\gamma=0.8$}}
-\begin{equation}
-\overline{\alpha}= \dfrac{1}{1.6} [- \sqrt{(1-\dfrac{x_T}{x_A})^2}+ 0.8 \sqrt{(1+\dfrac{x_T}{x_A})^2}].
-\end{equation}
-For $(\dfrac{x_T}{x_A})<-1$\\
-
-\begin{center}
-$\overline{\alpha}=\dfrac{1}{1.6}[-(1-\dfrac{x_T}{x_A})+ 0.8(-1-\dfrac{x_T}{x_A})]
-=\dfrac{1}{1.6}[-1.8+0.2\dfrac{x_T}{x_A}]=\dfrac{1}{8}(-9+\dfrac{x_T}{x_A})$
-\end{center}
-
-which is definitely negative, and hence
-\begin{equation}
-\overline{\alpha}=0,\ \ \ \ \ (\dfrac{x_T}{x_A})<-1, \ \ \ \ \gamma=0.8
-\end{equation}
-
-For $-1\leq (\dfrac{x_T}{x_A})\leq 1$\\
-\begin{center}
-$\overline{\alpha}=\dfrac{1}{1.6}[-(1-\dfrac{x_T}{x_A})+0.8(1+\dfrac{x_T}{x_A})]= \dfrac{1}{1.6}[-0.2+1.8 \dfrac{x_T}{x_A}]= \dfrac{1}{8}(-1+9\dfrac{x_T}{x_A})$
-\end{center}
-The above $\overline{\alpha}$ is negative when $(-1+9 \dfrac{x_T}{x_A})$ is negative and hence we again set
-
-\begin{equation}
-\overline{\alpha}=0, \ \ \ \ \ -1\leq(\dfrac{x_T}{x_A})<\dfrac{1}{9}, \ \ \ \ \ \ \gamma=0.8.
-\end{equation}
-
-while $\overline{\alpha}$ increases linearly from 0 to 1 in $\dfrac{x_T}{x_A}\in [\dfrac{1}{9},1]$
-
-\begin{equation}
-\overline{\alpha} = \dfrac{1}{8} (-1 + 9 \dfrac{x_T}{x_A}), \ \ \ \ \ \dfrac{1}{9}\leq (\dfrac{x_T}{x_A})\leq 1, \ \ \ \ \ \gamma=0.8
-\end{equation}
-
-Finally, when $(\dfrac{x_T}{x_A})>1$
-\begin{equation}
-\overline{\alpha}= \dfrac{1}{1.6} [-(\dfrac{x_T}{x_A}-1)+ 0.8 (\dfrac{x_T}{x_A}+1)]
-=\dfrac{1}{1.6}[1.8 - 0.2 (\dfrac{x_T}{x_A})]
-=\dfrac{1}{8} (9-\dfrac{x_T}{x_A}).
-\end{equation}
-
-This means that after peaking at 1 when $(\dfrac{x_T}{x_A})=1$, the value of $\overline{\alpha}$ starts to decrease linearly to be 0 at $(\dfrac{x_T}{x_A})=9$ and then it remains 0 (rather than becoming negative), i.e.,
-\begin{equation}
-\overline{\alpha}=\dfrac{1}{8}(9-\dfrac{x_T}{x_A}), \ \ \ \ \ 1<(\dfrac{x_T}{x_A})\leq 9,\ \ \ \ \ \gamma=0.8,
-\end{equation}
-
-\begin{equation}
-\overline{\alpha}=0,\ \ \ \ \ (\dfrac{x_T}{x_A})>9,\ \ \ \ \ \gamma=0.8.
-\end{equation}
-
-
-\textbf{\underline{For $\gamma=1$}}
-
-\begin{equation}
-\overline{\alpha}= \dfrac{1}{2}[-\sqrt{(1-\dfrac{x_T}{x_A})^2}+ \sqrt{(1+\dfrac{x_T}{x_A})^2}\ ].
-\end{equation}
-
-For $(\dfrac{x_T}{x_A})<-1$\\
-\begin{center}
-$\overline{\alpha}= \dfrac{1}{2}[-(1-\dfrac{x_T}{x_A})+ (-1-\dfrac{x_T}{x_A})]=-1$.
-\end{center}
-
-Set
-\begin{equation}
-\overline{\alpha}=0,\ \ \ \ \ (\dfrac{x_T}{x_A})<-1,\ \ \ \ \ \gamma=1
-\end{equation}
-
-For $-1\leq (\dfrac{x_T}{x_A})\leq 1$\\
-\begin{center}
-$\overline{\alpha}=\dfrac{1}{2}[-(1-\dfrac{x_T}{x_A})+ (1+\dfrac{x_T}{x_A})]$
-\end{center}
-\begin{equation}
-\overline{\alpha}=(\dfrac{x_T}{x_A}),\ \ \ \ \ -1\leq(\dfrac{x_T}{x_A})\leq1,\ \ \ \ \ \gamma=1
-\end{equation}
-
-For $-1\leq(\dfrac{x_T}{x_A})<0$,  $\overline{\alpha}$ is again negative and is to be set to 0
-\begin{equation}
-\overline{\alpha}= (\dfrac{x_T}{x_A}),\ \ \ \ \ 0\leq(\dfrac{x_T}{x_A})\leq1,\ \ \ \ \ \gamma=1
-\end{equation}
-
-and hence $\overline{\alpha}$ increases linearly from 0 at $(\dfrac{x_T}{x_A})=0$ to 1 at $(\dfrac{x_T}{x_A})=1$
-
-For $(\dfrac{x_T}{x_A})>1$
-
-\begin{equation}
-\overline{\alpha} = \dfrac{1}{2} [-(\dfrac{x_T}{x_A}-1)+ (1+\dfrac{x_T}{x_A})]=1,\ \ \ \ \ (\dfrac{x_T}{x_A})>1,\ \ \ \ \ \gamma=1  
-\end{equation}
-
-Note that the situation of $(\gamma=1)$ differs significantly from that of $(\gamma=0.8)$. For $(\gamma=1)$, $\overline{\alpha}$ increases from 0 to 1 and remains so indefinitely, but for $(\gamma=0.8)$, $\overline{\alpha}$ increases from 0 to 1 and immediately decreases again to 0.\\
-
-
-\underline{\textbf{For $\gamma=1.25$}}
-\begin{equation}
-\overline{\alpha}= \dfrac{1}{2.5}[- \sqrt{(1-\dfrac{x_T}{x_A})^2}+ 1.25 \sqrt{(1+\dfrac{x_T}{x_A})^2}]
-\end{equation}
-
-For $(\dfrac{x_T}{x_A})<-1$
-\begin{center}
-$\overline{\alpha}=\dfrac{1}{2.5}[-(1-\dfrac{x_T}{x_A})+ 1.25 (-1-\dfrac{x_T}{x_A})]= \dfrac{1}{2.5}[-2.25-0.25\dfrac{x_T}{x_A}]=\dfrac{1}{10}(-9-\dfrac{x_T}{x_A}),$
-\end{center}
-
-which results in setting 
-\begin{equation}
-\overline{\alpha}=0,\ \ \ \ \ -9\leq(\dfrac{x_T}{x_A})<-1,\ \ \ \ \ \gamma=1.25,
-\end{equation}
-
-\begin{equation}
-\overline{\alpha}=\dfrac{1}{10}(-9-\dfrac{x_T}{x_A}),\ \ \ \ \ (\dfrac{x_T}{x_A})<-9,\ \ \ \ \ \gamma=1.25.
-\label{g=1.25,r<-1}
-\end{equation}
-
-For $-1\leq(\dfrac{x_T}{x_A})\leq1$
-\begin{center}
-$\overline{\alpha}=\dfrac{1}{2.5}[-(1-\dfrac{x_T}{x_A})+1.25(1+\dfrac{x_T}{x_A})]= \dfrac{1}{2.5}[0.25+2.25(\dfrac{x_T}{x_A})]=\dfrac{1}{10}[1+9\dfrac{x_T}{x_A}]$,
-\end{center}
-
-which reduces to 
-\begin{equation}
-\overline{\alpha}=0,\ \ \ \ \ -1\leq\dfrac{x_T}{x_A}<-\dfrac{1}{9},\ \ \ \ \ \gamma=1.25,
-\end{equation}
-
-\begin{equation}
-\overline{\alpha}=\dfrac{1}{10} (1+9 \dfrac{x_T}{x_A}),\ \ \ \ \ -\dfrac{1}{9}\leq\dfrac{x_T}{x_A}\leq1,\ \ \ \ \ \gamma=1.25.
-\end{equation}
-
-While $\overline{\alpha}$ remains 0 for $(\dfrac{x_T}{x_A})\in [-9,-\dfrac{1}{9})$ it starts to increase linearly to 1 for $(\dfrac{x_T}{x_A})\in[-\dfrac{1}{9},1)$.\\
-
-
-Finally, when $(\dfrac{x_T}{x_A})>1$
-\begin{equation}
-\overline{\alpha}=\dfrac{1}{2.5}[-(\dfrac{x_T}{x_A}-1)+ 1.25 (\dfrac{x_T}{x_A}+1)] = \dfrac{1}{2.5}[2.25+0.25 \dfrac{x_T}{x_A}]=\dfrac{1}{10}[9+\dfrac{x_T}{x_A}],
-\label{g=1.25,r>1}
-\end{equation}
-which means that $\overline{\alpha}$ increases linearly. Note that equations (\ref{g=1.25,r<-1}) and (\ref{g=1.25,r>1}) predict values of $\overline{\alpha}$ exceeding 1, a phenomenon taking place in the current analysis only when $\gamma>1$, i.e., for a slow defender. 
-
-
+%======================================================
 %\begin{figure}
 %\centering
 %\begin{subfigure}[b]{0.6\textwidth}
