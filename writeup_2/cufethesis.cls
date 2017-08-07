@@ -747,7 +747,7 @@
     \setcounter{page}{1}
     
     \if@acknow
-    %\@MakeAcknowledgementsPage              %    Acknowledgements Page declaration, added by mhawwary
+    \@MakeAcknowledgementsPage              %    Acknowledgements Page declaration, added by mhawwary
     \fi
     \if@dedic
     %\@MakeDedicationPage                            %    Dedication Page declaration, added by mhawwary

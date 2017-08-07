@@ -11,9 +11,9 @@ In this section we will simulate equations in sec. \ref{PNeqations} for proporti
 
 
 \subsection{Simulation for some target maneuver cases [using MATLAB]}
-In this subsection we will use MATLAB to simulate equations in sec. \ref{PNeqations} for proportional navigation. We will solve the differential equations using second-order Runge-Kutta numerical integration technique, then we will draw the trajectories of the pursuit and evader for 4 cases for the Target maneuver error source, and we will deduce the effect of the effective navigation ratio $N'$ and the other type of the error source; Heading error. 
+In this subsection we will use MATLAB to simulate the equations in Sec. \ref{PNeqations} for proportional navigation. We will solve the initial value problem of differential equations using second-order Runge-Kutta numerical integration technique, then we will draw the trajectories of the pursuit and evasion for 4 cases for the Target maneuver error source, and we will deduce the effect of the effective navigation ratio $N'$ and the other type of the error source; Heading error. 
 \subsubsection{Zero Target maneuver}
-In this case the evader (Target - plane) does not do any effort to scape, it just moves in a straight line, as we see in Fig. \ref{trajectoryXNT0HE0N4}. So the pursuer (Attacker - Missile) does not have to bleed much energy to reach the Target.
+In this case the evader (Target - plane) does not do any effort to escape, it just moves in a straight line, as we see in Fig. \ref{trajectoryXNT0HE0N4}. So the pursuer (Attacker - Missile) does not have to bleed much energy to reach the Target.
 
 In the case of \textbf{zero Heading error} the effective navigation ratio has no effect on the simulation engagement at all. The missile's acceleration will be zero as in Fig. \ref{missile accelerationXNT0HE0N4}.
 
@@ -41,7 +41,7 @@ In the case of \textbf{zero Heading error} the effective navigation ratio has no
 \end{figure}
 
 
-In the case of \textbf{Heading error = -20} increasing the effective navigation ratio causes heading error to be removed rapidly as we see from  Fig. \ref{trajectory20N3}, Fig. \ref{trajectory20N4} and Fig. \ref{trajectory20N5}. The effective navigation ratio has an effect on the acceleration of the missile; the way that the missile will bleed energy as we see from Fig. \ref{missile acceleration20N3} , Fig. \ref{missile acceleration20N4} and Fig. \ref{missile acceleration20N5}. The total acceleration (area under the curve) is increasing inversely proportional with the effective navigation ratio $N'$ .
+In the case of \textbf{Heading error = -20} increasing the effective navigation ratio causes heading error to be removed rapidly as we see from  Fig. \ref{trajectory20N3}, Fig. \ref{trajectory20N4} and Fig. \ref{trajectory20N5}. The effective navigation ratio has an effect on the acceleration of the missile; the way that the missile will bleed energy as we see from Fig. \ref{missile acceleration20N3} , Fig. \ref{missile acceleration20N4} and Fig. \ref{missile acceleration20N5}. The total acceleration (area under the curve) is increasingly inversely proportional with the effective navigation ratio $N'$ .
 
 
 \begin{figure}[H]
@@ -93,7 +93,7 @@ In the case of \textbf{Heading error = -20} increasing the effective navigation 
 %-----------------------------------------------------------
 
 \subsubsection{Constant Target maneuver}
-In this case the target does some effort to escape from the attacker, in the form of constant acceleration (in our example target acceleration = $5G$).
+In this case the target does some effort to escape from the attacker, in the form of constant acceleration (in our example target acceleration = $5\ g$).
 We see from Fig. \ref{missile acceleration0NN3} and Fig. \ref{missile acceleration0NN5} that a higher effective navigation ratio yields less acceleration to hit maneuvering target, and causes the missile to lead the target slightly more than a lower effective navigation ratio does, as we see from Fig. \ref{trajectory0NN3} and Fig. \ref{trajectory0NN5}.
 
 
@@ -155,7 +155,7 @@ Now we will make the Target maneuver as a polynomial in the form
 f(t) = c_0 + c_1 T + c_2 T^2 + c_3 T^3 + ... + c_N T^N
 \end{equation} 
 
-where T is time , c are unknown coefficients of the polynomial and N is the polynomial degree.
+where T is time, $ c_i$'s  are unknown coefficients of the polynomial and N is the polynomial degree.
 In our simulation we choose N reasonably $3\to5$ and the coefficients are randomly generated then we solve the proportional navigation equations to get values for two important parameters, namely the miss distance and the command acceleration for the Missile. Then, we calculate the cost function depends on these two parameters, as our target is to maximize miss distance to make the target safe, and maximize command acceleration for the missile, so it bleeds energy before it catches the target. We will do this process many times till the number of runs we need. The next figures shows the trajectories of the Target and Missile for N=3,4 and corresponding missile and target accelerations for each case.
 In the first case (N=3), as we see from Fig. \ref{Target accelerationP3N3} the target have to exert $50 G$ to escape from the attacker, these amount of G'es is very high and the pilot could not withstand all this amount. Also, form Fig. \ref{missile accelerationP3} the attacker have to exert 120 G, this will not happen and the missile's energy will bleed at 100 G after 5 sec. Here the simulation did not till us a complete vision about what will happen. We have to take in consideration the amount of G's that the pilot could resist, so we will use genetic algorithm technique to generate the polynomial because it is easy to control the maximum target acceleration in this method.
 The second case (N=4), is hypothetical case because the pilot will die in less than 1 sec. If the technology improved and the scientists invent a pilot suit that could resist these huge amount of G'es, then we can take this solution in consideration.        
@@ -286,7 +286,7 @@ What about if the optimum solution for the target maneuver did not have Identica
 
 \section{Guidance Toolbox}
 
-All the previous results could be generated from a simple GUI (graphic user interface), (Fig.\ref{Guidance Toolbox}).  The inputs for this GUI is the locations and velocities for the Target (plane) and the Attacker (missile). Then the user have to choose the guidance law (this will be as a future work, till now we have only PN guidance law), which is the way that the Attacker tracking the Target.
+All the previous results could be generated from a simple GUI (graphic user interface), (Fig.\ref{Guidance Toolbox}).  The inputs for this GUI are the locations and velocities for the Target (plane) and the Attacker (missile). Then the user have to choose the guidance law (this will be as a future work, till now we have only PN guidance law), which is the way that the Attacker tracking the Target.
 
 \begin{figure}[H]
 	\centering

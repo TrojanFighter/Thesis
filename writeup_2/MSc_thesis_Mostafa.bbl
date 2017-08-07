@@ -141,20 +141,9 @@ Zarchan, P., 2011, ``Kill vehicle guidance and control sizing for boost-phase
   intercept,'' {\em Journal of Guidance, Control, and Dynamics}, vol.~34,
   no.~2, pp.~513--521.
 
-\bibitem{pearce2013tactical}
-Pearce, J.~R., 2013, ``Tactical and strategic missile guidance--sixth edition:
-  Progress in aeronautics and astronautics--vol 239 p. zarchan. american
-  institute of aeronautics and astronautics, 1801 alexander bell drive, suite
-  500, reston, va 20191-4344, usa. 2012. distributed by transatlantic
-  publishers group, 97 greenham road, london, n10 1ln (tel: 020-8815 5994;
-  e-mail: mark. chaloner@ tpgltd. co. uk). 1027pp. illustrated.{\pounds} 107.50
-  (20\% discount available to raes members on request). isbn 978-1-60086-894-8.
-  advances in missile guidance, control and estimation edited by sn
-  balakrishnan et al. crc press, taylor \& francis group, 6000 broken sound
-  parkway nw, suite 300, boca raton, fl, 33487-2742, usa. 2012. distributed by
-  taylor \& francis group, 2 park square, milton park, abingdon, ox14 4rn.
-  682pp. illustrated.{\pounds} 99. isbn 978-1-4200-8313-2.,'' {\em The
-  Aeronautical Journal}, vol.~117, no.~1187, pp.~90--92.
+\bibitem{zarchan2002tactical}
+Zarchan, P., (2012), ``Tactical and strategic missile guidance,'' {\em Progress
+  in astronautics and aeronautics}.
 
 \bibitem{chung2011search}
 Chung, T.~H., Hollinger, G.~A., and Isler, V., 2011, ``Search and
@@ -200,13 +189,14 @@ Meier, L., 1969, ``A new technique for solving pursuit-evasion differential
 \bibitem{hsueh2007differential}
 Hsueh, M.-H., Huang, C.-I., and Fu, L.-C., (2007), ``A differential game based
   guidance law for the interceptor missiles,'' in {\em Industrial Electronics
-  Society, 2007. IECON 2007. 33rd Annual Conference of the IEEE}, pp.~665--670.
+  Society, 2007. IECON 2007. 33rd Annual Conference of the IEEE}, pp.~665--670,
+  IEEE.
 
 \bibitem{yi2010improved}
 Yi, L., Yan, Y., Tian, G., and Zhanrong, J., (2010), ``An improved terminal
   guidance algorithm based on differential game theory,'' in {\em Intelligent
   System Design and Engineering Application (ISDEA), 2010 International
-  Conference on}, vol.~1, pp.~250--254.
+  Conference on}, vol.~1, pp.~250--254, IEEE.
 
 \bibitem{bressan2010noncooperative}
 Bressan, A., (2010), ``Noncooperative differential games. a tutorial,'' {\em
@@ -244,7 +234,7 @@ Garcia, E., Casbeer, D.~W., and Pachter, M., (2015), ``Escape regions of the
 \bibitem{garcia2014cooperative}
 Garcia, E., Casbeer, D.~W., Pham, K., and Pachter, M., (2014), ``Cooperative
   aircraft defense from an attacking missile,'' in {\em Decision and Control
-  (CDC), 2014 IEEE 53rd Annual Conference on}, pp.~2926--2931.
+  (CDC), 2014 IEEE 53rd Annual Conference on}, pp.~2926--2931, IEEE.
 
 \bibitem{garcia2015cooperative}
 Garcia, E., Casbeer, D.~W., Pham, K., and Pachter, M., (2015), ``Cooperative
@@ -286,12 +276,13 @@ Rusnak, I., Weiss, H., and Hexner, G., (2011), ``Guidance laws in
 \bibitem{fuch2011encouraging}
 Fuch, Z.~E. and Khargonekar, P.~P., (2011), ``Encouraging attacker retreat
   through defender cooperation,'' in {\em Decision and Control and European
-  Control Conference (CDC-ECC), 2011 50th IEEE Conference on}, pp.~235--242.
+  Control Conference (CDC-ECC), 2011 50th IEEE Conference on}, pp.~235--242,
+  IEEE.
 
 \bibitem{scott2013pursuit}
 Scott, W. and Leonard, N.~E., (2013), ``Pursuit, herding and evasion: A
   three-agent model of caribou predation,'' in {\em American Control Conference
-  (ACC), 2013}, pp.~2978--2983.
+  (ACC), 2013}, pp.~2978--2983, IEEE.
 
 \bibitem{rubinsky2013three}
 Rubinsky, S. and Gutman, S., (2013), ``Three-player pursuit and evasion
@@ -301,7 +292,7 @@ Rubinsky, S. and Gutman, S., (2013), ``Three-player pursuit and evasion
 \bibitem{oyler2014pursuit}
 Oyler, D.~W., Kabamba, P.~T., and Girard, A.~R., (2014), ``Pursuit-evasion
   games in the presence of a line segment obstacle,'' in {\em Decision and
-  Control (CDC), 2014 IEEE 53rd Annual Conference on}, pp.~1149--1154.
+  Control (CDC), 2014 IEEE 53rd Annual Conference on}, pp.~1149--1154, IEEE.
 
 \bibitem{anderson1978model}
 Anderson, G., 1978, ``A model for the bat versus moth pursuit-evasion
@@ -322,10 +313,6 @@ Cliff, D. and Miller, G.~F., (1995), ``Co-evolution of pursuit and evasion ii:
 Pekalski, A., (2004), ``A short guide to predator-prey lattice models,'' {\em
   Computing in Science and Engineering}, vol.~6, no.~1, pp.~62--66.
 
-\bibitem{zarchan2002tactical}
-Zarchan, P., (2012), ``Tactical and strategic missile guidance,'' {\em Progress
-  in astronautics and aeronautics}.
-
 \bibitem{hagedorn1976differential}
 Hagedorn, P. and Breakwell, J., 1976, ``A differential game with two pursuers
   and one evader,'' {\em Journal of Optimization Theory and Applications},
@@ -339,17 +326,17 @@ Kim, H., {\em Multiagent pursuit-evasion games: algorithms and experiments}.
 Fuchs, Z.~E., Khargonekar, P.~P., and Evers, J., (2010), ``Cooperative defense
   within a single-pursuer, two-evader pursuit evasion differential game,'' in
   {\em Decision and Control (CDC), 2010 49th IEEE Conference on},
-  pp.~3091--3097.
+  pp.~3091--3097, IEEE.
 
 \bibitem{pan2012pursuit}
 Pan, S., Huang, H., Ding, J., Zhang, W., Stipanovic, D.~M., and Tomlin, C.~J.,
   (2012), ``Pursuit, evasion and defense in the plane,'' in {\em American
-  Control Conference (ACC), 2012}, pp.~4167--4173.
+  Control Conference (ACC), 2012}, pp.~4167--4173, IEEE.
 
 \bibitem{ragesh2014analysis}
 Ragesh, R., Ratnoo, A., and Ghose, D., (2014), ``Analysis of evader
   survivability enhancement by decoy deployment,'' in {\em American Control
-  Conference (ACC), 2014}, pp.~4735--4740.
+  Conference (ACC), 2014}, pp.~4735--4740, IEEE.
 
 \bibitem{ayoub2003proving}
 Ayoub, A.~B., (2003), ``Proving the circle of apollonius theorem,'' {\em The
@@ -381,7 +368,7 @@ Aurenhammer, F., (1991), ``Voronoi diagrams—a survey of a fundamental
 \bibitem{cheung2007pursuit}
 Cheung, W. and Evans, W., (2007), ``Pursuit-evasion voronoi diagrams in
   ell\_1,'' in {\em Voronoi Diagrams in Science and Engineering, 2007. ISVD'07.
-  4th International Symposium on}, pp.~58--65.
+  4th International Symposium on}, pp.~58--65, IEEE.
 
 \bibitem{gavrilova2008generalized}
 Gavrilova, M.~L., {\em Generalized voronoi diagram: a geometry-based approach
@@ -391,16 +378,26 @@ Gavrilova, M.~L., {\em Generalized voronoi diagram: a geometry-based approach
 \bibitem{majdandzic2008computation}
 Majdandzic, I., Trefftz, C., and Wolffe, G., (2008), ``Computation of voronoi
   diagrams using a graphics processing unit,'' in {\em Electro/Information
-  Technology, 2008. EIT 2008. IEEE International Conference on}, pp.~437--441.
+  Technology, 2008. EIT 2008. IEEE International Conference on}, pp.~437--441,
+  IEEE.
 
 \bibitem{bakolas2010optimal}
 Bakolas, E. and Tsiotras, P., (2010), ``Optimal pursuit of moving targets using
   dynamic voronoi diagrams,'' in {\em Decision and Control (CDC), 2010 49th
-  IEEE Conference on}, pp.~7431--7436.
+  IEEE Conference on}, pp.~7431--7436, IEEE.
 
 \bibitem{bakolas2010zermelo}
 Bakolas, E. and Tsiotras, P., (2010), ``The zermelo--voronoi diagram: a dynamic
   partition problem,'' {\em Automatica}, vol.~46, no.~12, pp.~2059--2067.
+
+\bibitem{bakolas2011optimal}
+Bakolas, E. and Tsiotras, P., (2011), ``Optimal pursuer and moving target
+  assignment using dynamic voronoi diagrams,'' in {\em American Control
+  Conference (ACC), 2011}, pp.~5444--5449, IEEE.
+
+\bibitem{ghose2012guidance}
+Ghose, D., 2012, ``Guidance of missiles,'' {\em National Programme on
+  Technology Enhanced Learning}.
 
 \bibitem{hsu2002behind}
 Hsu, F.-H., {\em Behind Deep Blue: Building the computer that defeated the
