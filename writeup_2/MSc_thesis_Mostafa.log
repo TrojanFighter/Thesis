@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.12.23)  8 AUG 2017 11:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2017.3.26)  11 AUG 2017 00:51
 entering extended mode
 **MSc_thesis_Mostafa.tex
 (MSc_thesis_Mostafa.tex
-LaTeX2e <2015/01/01> patch level 2
-Babel <3.9m> and hyphenation patterns for 69 languages loaded.
+LaTeX2e <2014/05/01>
+Babel <3.9l> and hyphenation patterns for 68 languages loaded.
 (cufethesis.cls
 Document Class: cufethesis 2014/06/17 v1.2 A LaTeX Document Class for Typesetti
 ng Graduate Theses 
@@ -67,8 +67,6 @@ Package: algorithm2e 2013/01/06 v5.00 algorithms environments
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\algocf@hangindent=\skip43
-
 ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\xspace.sty"
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
@@ -76,41 +74,40 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 Package: relsize 2003/07/04 ver 3.1
 )
 ********************************************************
-Package `algorithm2e' Release 5.1 -- october 19 2015 --
+Package `algorithm2e' Release 5.0 -- january 06 2013 --
 - algorithm2e-announce@lirmm.fr mailing list for announcement about releases
 - algorithm2e-discussion@lirmm.fr mailing list for discussion about package
 subscribe by emailing sympa@lirmm.fr with 'subscribe <list> <firstname name>'
-- Author: Christophe Fiorio (christophe.fiorio@umontpellier.fr)
+- Author: Christophe Fiorio (cfiorio@um2.fr)
 ********************************************************
-\skiptotal=\skip44
-\skiplinenumber=\skip45
-\skiprule=\skip46
-\skiphlne=\skip47
-\skiptext=\skip48
-\skiplength=\skip49
-\algomargin=\skip50
-\skipalgocfslide=\skip51
+\skiptotal=\skip43
+\skiplinenumber=\skip44
+\skiprule=\skip45
+\skiphlne=\skip46
+\skiptext=\skip47
+\skiplength=\skip48
+\algomargin=\skip49
+\skipalgocfslide=\skip50
 \algowidth=\dimen111
 \inoutsize=\dimen112
 \inoutindent=\dimen113
 \interspacetitleruled=\dimen114
 \interspacealgoruled=\dimen115
 \interspacetitleboxruled=\dimen116
-\algocf@ruledwidth=\skip52
 \algocf@inoutbox=\box26
 \algocf@inputbox=\box27
-\AlCapSkip=\skip53
-\AlCapHSkip=\skip54
-\algoskipindent=\skip55
+\AlCapSkip=\skip51
+\AlCapHSkip=\skip52
+\algoskipindent=\skip53
 \algocf@nlbox=\box28
 \algocf@hangingbox=\box29
 \algocf@untilbox=\box30
-\algocf@skipuntil=\skip56
+\algocf@skipuntil=\skip54
 \algocf@capbox=\box31
-\algoheightruledefault=\skip57
-\algoheightrule=\skip58
-\algotitleheightruledefault=\skip59
-\algotitleheightrule=\skip60
+\algoheightruledefault=\skip55
+\algoheightrule=\skip56
+\algotitleheightruledefault=\skip57
+\algotitleheightrule=\skip58
 \c@algocfline=\count92
 \c@algocfproc=\count93
 \c@algocf=\count94
@@ -118,7 +115,7 @@ subscribe by emailing sympa@lirmm.fr with 'subscribe <list> <firstname name>'
 \algocf@algobox=\box33
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
 Package: amsmath 2013/01/14 v2.14 AMS math features
-\@mathmargin=\skip61
+\@mathmargin=\skip59
 
 For additional information on amsmath, use the `?' option.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
@@ -168,8 +165,8 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 \totwidth@=\dimen124
 \lineht@=\dimen125
 \@envbody=\toks19
-\multlinegap=\skip62
-\multlinetaggap=\skip63
+\multlinegap=\skip60
+\multlinetaggap=\skip61
 \mathdisplay@stack=\toks20
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
@@ -185,15 +182,15 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amscls\amsthm.sty"
-Package: amsthm 2015/03/04 v2.20.2
+Package: amsthm 2009/07/02 v2.20.1
 \thm@style=\toks21
 \thm@bodyfont=\toks22
 \thm@headfont=\toks23
 \thm@notefont=\toks24
 \thm@headpunct=\toks25
-\thm@preskip=\skip64
-\thm@postskip=\skip65
-\thm@headsep=\skip66
+\thm@preskip=\skip62
+\thm@postskip=\skip63
+\thm@headsep=\skip64
 \dth@everypar=\toks26
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\appendix\appendix.sty"
@@ -202,8 +199,8 @@ Package: appendix 2009/09/02 v1.2b extra appendix facilities
 \c@@ppsavesec=\count108
 \c@@ppsaveapp=\count109
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
-Package: babel 2015/08/03 3.9m The Babel package
+("C:\Program Files\MiKTeX 2.9\tex\latex\babel\babel.sty"
+Package: babel 2014/09/25 3.9l The Babel package
 
 *************************************
 * Local config file bblopts.cfg used
@@ -214,8 +211,8 @@ File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
 ("C:\Program Files\MiKTeX 2.9\tex\latex\babel-english\english.ldf"
 Language: english 2012/08/20 v3.3p English support from the babel system
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
-File: babel.def 2015/08/03 3.9m Babel common definitions
+("C:\Program Files\MiKTeX 2.9\tex\latex\babel\babel.def"
+File: babel.def 2014/09/25 3.9l Babel common definitions
 \babel@savecnt=\count110
 \U@D=\dimen126
 )
@@ -229,12 +226,12 @@ Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Bcount=\count112
 \calc@Adimen=\dimen127
 \calc@Bdimen=\dimen128
-\calc@Askip=\skip67
-\calc@Bskip=\skip68
-LaTeX Info: Redefining \setlength on input line 80.
-LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Askip=\skip65
+\calc@Bskip=\skip66
+LaTeX Info: Redefining \setlength on input line 75.
+LaTeX Info: Redefining \addtolength on input line 76.
 \calc@Ccount=\count113
-\calc@Cskip=\skip69
+\calc@Cskip=\skip67
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\epsfig.sty"
 Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
@@ -251,7 +248,7 @@ Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
 File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
-Package graphics Info: Driver file: pdftex.def on input line 94.
+Package graphics Info: Driver file: pdftex.def on input line 91.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
@@ -385,7 +382,7 @@ Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
-\Hy@SectionHShift=\skip70
+\Hy@SectionHShift=\skip68
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\hypcap.sty"
 Package: hypcap 2011/02/16 v1.11 Adjusting the anchors of captions (HO)
@@ -448,7 +445,7 @@ File: microtype-pdftex.def 2013/05/23 v2.5a Definitions specific to pdftex (RS)
 
 LaTeX Info: Redefining \lsstyle on input line 915.
 LaTeX Info: Redefining \lslig on input line 915.
-\MT@outer@space=\skip71
+\MT@outer@space=\skip69
 )
 Package microtype Info: Loading configuration file microtype.cfg.
 
@@ -456,7 +453,7 @@ Package microtype Info: Loading configuration file microtype.cfg.
 File: microtype.cfg 2013/05/23 v2.5a microtype main configuration file (RS)
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\multicol.sty"
-Package: multicol 2015/03/31 v1.8m multicolumn formatting (FMi)
+Package: multicol 2014/10/28 v1.8i multicolumn formatting (FMi)
 \c@tracingmulticols=\count129
 \mult@box=\box36
 \multicol@leftmargin=\dimen138
@@ -469,8 +466,8 @@ Package: multicol 2015/03/31 v1.8m multicolumn formatting (FMi)
 \page@free=\dimen140
 \premulticols=\dimen141
 \postmulticols=\dimen142
-\multicolsep=\skip72
-\multicolbaselineskip=\skip73
+\multicolsep=\skip70
+\multicolbaselineskip=\skip71
 \partial@page=\box37
 \last@line=\box38
 \maxbalancingoverflow=\dimen143
@@ -509,19 +506,19 @@ Package: multicol 2015/03/31 v1.8m multicolumn formatting (FMi)
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\newlfont.sty"
 Package: newlfont 1998/08/17 v2.2m Standard LaTeX package
-LaTeX Info: Redefining \em on input line 72.
+LaTeX Info: Redefining \em on input line 67.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\latexsym.sty"
 Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
 \symlasy=\mathgroup8
 LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
-(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 47.
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\nomencl\nomencl.sty"
 Package: nomencl 2005/09/22 v4.2 Nomenclature package (LN)
 \nomlabelwidth=\dimen148
 \nom@tempdim=\dimen149
-\nomitemsep=\skip74
+\nomitemsep=\skip72
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\textcase\textcase.sty"
 Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
@@ -529,46 +526,46 @@ Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\tocloft\tocloft.sty"
 Package: tocloft 2013/05/02 v2.3f parameterised ToC, etc., typesetting
 Package tocloft Info: The document has chapter divisions on input line 44.
-\cftparskip=\skip75
-\cftbeforetoctitleskip=\skip76
-\cftaftertoctitleskip=\skip77
-\cftbeforepartskip=\skip78
-\cftpartnumwidth=\skip79
-\cftpartindent=\skip80
-\cftbeforechapskip=\skip81
-\cftchapindent=\skip82
-\cftchapnumwidth=\skip83
-\cftbeforesecskip=\skip84
-\cftsecindent=\skip85
-\cftsecnumwidth=\skip86
-\cftbeforesubsecskip=\skip87
-\cftsubsecindent=\skip88
-\cftsubsecnumwidth=\skip89
-\cftbeforesubsubsecskip=\skip90
-\cftsubsubsecindent=\skip91
-\cftsubsubsecnumwidth=\skip92
-\cftbeforeparaskip=\skip93
-\cftparaindent=\skip94
-\cftparanumwidth=\skip95
-\cftbeforesubparaskip=\skip96
-\cftsubparaindent=\skip97
-\cftsubparanumwidth=\skip98
-\cftbeforeloftitleskip=\skip99
-\cftafterloftitleskip=\skip100
-\cftbeforefigskip=\skip101
-\cftfigindent=\skip102
-\cftfignumwidth=\skip103
-\cftbeforelottitleskip=\skip104
-\cftafterlottitleskip=\skip105
-\cftbeforetabskip=\skip106
-\cfttabindent=\skip107
-\cfttabnumwidth=\skip108
-\cftbeforesubfigskip=\skip109
-\cftsubfigindent=\skip110
-\cftsubfignumwidth=\skip111
-\cftbeforesubtabskip=\skip112
-\cftsubtabindent=\skip113
-\cftsubtabnumwidth=\skip114
+\cftparskip=\skip73
+\cftbeforetoctitleskip=\skip74
+\cftaftertoctitleskip=\skip75
+\cftbeforepartskip=\skip76
+\cftpartnumwidth=\skip77
+\cftpartindent=\skip78
+\cftbeforechapskip=\skip79
+\cftchapindent=\skip80
+\cftchapnumwidth=\skip81
+\cftbeforesecskip=\skip82
+\cftsecindent=\skip83
+\cftsecnumwidth=\skip84
+\cftbeforesubsecskip=\skip85
+\cftsubsecindent=\skip86
+\cftsubsecnumwidth=\skip87
+\cftbeforesubsubsecskip=\skip88
+\cftsubsubsecindent=\skip89
+\cftsubsubsecnumwidth=\skip90
+\cftbeforeparaskip=\skip91
+\cftparaindent=\skip92
+\cftparanumwidth=\skip93
+\cftbeforesubparaskip=\skip94
+\cftsubparaindent=\skip95
+\cftsubparanumwidth=\skip96
+\cftbeforeloftitleskip=\skip97
+\cftafterloftitleskip=\skip98
+\cftbeforefigskip=\skip99
+\cftfigindent=\skip100
+\cftfignumwidth=\skip101
+\cftbeforelottitleskip=\skip102
+\cftafterlottitleskip=\skip103
+\cftbeforetabskip=\skip104
+\cfttabindent=\skip105
+\cfttabnumwidth=\skip106
+\cftbeforesubfigskip=\skip107
+\cftsubfigindent=\skip108
+\cftsubfignumwidth=\skip109
+\cftbeforesubtabskip=\skip110
+\cftsubtabindent=\skip111
+\cftsubtabnumwidth=\skip112
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\txfonts\txfonts.sty"
 Package: txfonts 2008/01/22 v3.2.1
@@ -731,12 +728,12 @@ Package: wrapfig 2003/01/31  v 3.6
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\subfigure\subfigure.sty"
 Package: subfigure 2002/07/30 v2.1.4 subfigure package
-\subfigtopskip=\skip115
-\subfigcapskip=\skip116
+\subfigtopskip=\skip113
+\subfigcapskip=\skip114
 \subfigcaptopadj=\dimen152
-\subfigbottomskip=\skip117
+\subfigbottomskip=\skip115
 \subfigcapmargin=\dimen153
-\subfiglabelskip=\skip118
+\subfiglabelskip=\skip116
 \c@subfigure=\count168
 \c@lofdepth=\count169
 \c@subtable=\count170
@@ -746,13 +743,13 @@ Package: subfigure 2002/07/30 v2.1.4 subfigure package
 * Local config file subfigure.cfg used *
 ****************************************
 ("C:\Program Files\MiKTeX 2.9\tex\latex\subfigure\subfigure.cfg")
-\subfig@top=\skip119
-\subfig@bottom=\skip120
+\subfig@top=\skip117
+\subfig@bottom=\skip118
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\subfigmat\subfigmat.sty"
 Package: subfigmat 1999/02/27 v1.0 Subfigure Matrix Package
-\sfm@width=\skip121
-\sfmcolsep=\skip122
+\sfm@width=\skip119
+\sfmcolsep=\skip120
 \c@sfm@count=\count172
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\tools\varioref.sty"
@@ -785,13 +782,13 @@ Package: color 2014/10/28 v1.1a Standard LaTeX Color (DPC)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
-Package color Info: Driver file: pdftex.def on input line 142.
+Package color Info: Driver file: pdftex.def on input line 137.
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption.sty"
-Package: caption 2015/09/17 v3.3-111 Customizing captions (AR)
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption3.sty"
-Package: caption3 2015/09/20 v1.7-115 caption3 kernel (AR)
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 57.
 \captionmargin=\dimen154
 \captionmargin@=\dimen155
@@ -873,8 +870,8 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\svgnam.def"
 File: svgnam.def 2007/01/21 v2.11 Predefined colors according to SVG 1.1 (UK)
 ))
-\@chapterheadwidth=\skip125
-\nomenclaturelabelwidth=\skip126
+\@chapterheadwidth=\skip123
+\nomenclaturelabelwidth=\skip124
 \@nomenclaturefile=\write7
 
 Writing nomenclature file MSc_thesis_Mostafa.nlo
@@ -895,14 +892,14 @@ x")) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfutil-latex.def"
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfrcs.code.tex"
-Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
+Package: pgfrcs 2013/12/20 v3.0.0 (rcs-revision 1.28)
 ))
-Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
+Package: pgf 2013/12/18 v3.0.0 (rcs-revision 1.14)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\basiclayer\pgfcore.sty"
 ("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\systemlayer\pgfsys.sty"
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys.code.tex"
-Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
+Package: pgfsys 2013/11/30 v3.0.0 (rcs-revision 1.47)
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeys.code.tex"
 \pgfkeys@pathtoks=\toks52
@@ -935,7 +932,7 @@ File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 Driver file for pgf: pgfsys-pdftex.def
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys-pdftex.def"
-File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
+File: pgfsys-pdftex.def 2013/07/18  (rcs-revision 1.33)
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\systemlayer\pgfsys-common-pdf.def
 "
@@ -951,7 +948,7 @@ File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
 ex"
 File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
 )) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcore.code.tex"
-Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
+Package: pgfcore 2010/04/11 v3.0.0 (rcs-revision 1.7)
  ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex"
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathcalc.code.tex"
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmathutil.code.tex")
@@ -1009,13 +1006,13 @@ File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
 )
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorepathusage.code.
 tex"
-File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
+File: pgfcorepathusage.code.tex 2013/12/13  (rcs-revision 1.23)
 \pgf@shorten@end@additional=\dimen210
 \pgf@shorten@start@additional=\dimen211
 )
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorescopes.code.tex
 "
-File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
+File: pgfcorescopes.code.tex 2013/10/09  (rcs-revision 1.44)
 \pgfpic=\box82
 \pgf@hbox=\box83
 \pgf@layerbox@main=\box84
@@ -1023,12 +1020,12 @@ File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
 )
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoregraphicstate.co
 de.tex"
-File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
+File: pgfcoregraphicstate.code.tex 2013/09/19  (rcs-revision 1.11)
 \pgflinewidth=\dimen212
 )
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoretransformations
 .code.tex"
-File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
+File: pgfcoretransformations.code.tex 2013/10/10  (rcs-revision 1.17)
 \pgf@pt@x=\dimen213
 \pgf@pt@y=\dimen214
 \pgf@pt@temp=\dimen215
@@ -1046,7 +1043,7 @@ File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
 )
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorearrows.code.tex
 "
-File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
+File: pgfcorearrows.code.tex 2013/11/07  (rcs-revision 1.40)
 \pgfarrowsep=\dimen216
 )
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreshade.code.tex"
@@ -1059,7 +1056,7 @@ File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcoreexternal.code.t
 ex"
-File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
+File: pgfcoreexternal.code.tex 2013/07/15  (rcs-revision 1.20)
 \pgfexternal@startupbox=\box85
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\basiclayer\pgfcorelayers.code.tex
@@ -1075,27 +1072,27 @@ ex"
 File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
 )))
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduleshapes.code.tex"
-File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
+File: pgfmoduleshapes.code.tex 2013/10/31  (rcs-revision 1.34)
 \pgfnodeparttextbox=\box86
 ) ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\modules\pgfmoduleplot.code.tex"
-File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
+File: pgfmoduleplot.code.tex 2013/07/31  (rcs-revision 1.12)
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version-0-65.
 sty"
-Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
+Package: pgfcomp-version-0-65 2007/07/03 v3.0.0 (rcs-revision 1.7)
 \pgf@nodesepstart=\dimen218
 \pgf@nodesepend=\dimen219
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\compatibility\pgfcomp-version-1-18.
 sty"
-Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
+Package: pgfcomp-version-1-18 2007/07/23 v3.0.0 (rcs-revision 1.1)
 )) ("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\utilities\pgffor.sty"
 ("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\utilities\pgfkeys.sty"
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgfkeys.code.tex"))
 ("C:\Program Files\MiKTeX 2.9\tex\latex\pgf\math\pgfmath.sty"
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex"))
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\utilities\pgffor.code.tex"
-Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
+Package: pgffor 2013/12/13 v3.0.0 (rcs-revision 1.25)
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\math\pgfmath.code.tex")
 \pgffor@iter=\dimen220
@@ -1104,11 +1101,11 @@ Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
 \pgffor@toks=\toks62
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\tikz.code.tex"
-Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
+Package: tikz 2013/12/13 v3.0.0 (rcs-revision 1.142)
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryplothandlers.
 code.tex"
-File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
+File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.0 (rcs-revision 1.20)
 \pgf@plot@mark@count=\count219
 \pgfplotmarksize=\dimen222
 )
@@ -1137,34 +1134,32 @@ File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikz
 librarytopaths.code.tex"
-File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
+File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.0 (rcs-revision 1.2)
 )))
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikz
 libraryintersections.code.tex"
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryintersections
 .code.tex"
-("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\libraries\pgflibraryfpu.code.tex"
-)
 \pgf@intersect@solutions=\count228
 ))
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikz
 libraryquotes.code.tex"
-File: tikzlibraryquotes.code.tex 2014/03/21 v3.0.1a (rcs-revision 1.4)
+File: tikzlibraryquotes.code.tex 2013/08/28 v3.0.0 (rcs-revision 1.3)
 )
 ("C:\Program Files\MiKTeX 2.9\tex\generic\pgf\frontendlayer\tikz\libraries\tikz
 libraryangles.code.tex"
-File: tikzlibraryangles.code.tex 2013/08/28 v3.0.1a (rcs-revision 1.1)
+File: tikzlibraryangles.code.tex 2013/08/28 v3.0.0 (rcs-revision 1.1)
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\rotating\rotating.sty"
 Package: rotating 2009/03/28 v2.16a rotated objects in LaTeX
 \c@r@tfl@t=\count229
-\rotFPtop=\skip127
-\rotFPbot=\skip128
+\rotFPtop=\skip125
+\rotFPbot=\skip126
 \rot@float@box=\box91
 \rot@mess@toks=\toks63
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\misc\etex.sty"
-Package: etex 2015/07/08 v2.3 eTeX basic definition package (PEB,DPC)
+Package: etex 2015/03/02 v2.1 eTeX basic definition package (PEB,DPC)
 \et@xins=\count230
 ) (MSc_thesis_Mostafa.aux)
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 55.
@@ -1309,8 +1304,8 @@ Package pdftex.def Info: fig/logo/CU-Phero.jpg used on input line 55.
  [1
 Non-PDF special ignored!
 
-{C:/Users/Ahmad/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./fig/logo/
-FE-Logo.jpg> <./fig/logo/CU-Phero.jpg>]
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <./fig/logo/FE-Logo.jpg> <
+./fig/logo/CU-Phero.jpg>]
 LaTeX Font Info:    Try loading font information for U+txsya on input line 55.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\txfonts\utxsya.fd"
@@ -2222,12 +2217,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 57--59
 
  []
 
-[62] <fig/Drawing5_1.pdf, id=2452, 844.65562pt x 596.98032pt>
-File: fig/Drawing5_1.pdf Graphic file (type pdf)
+[62] <fig/hyperbola.pdf, id=2452, 376.40625pt x 376.40625pt>
+File: fig/hyperbola.pdf Graphic file (type pdf)
 
-<use fig/Drawing5_1.pdf>
-Package pdftex.def Info: fig/Drawing5_1.pdf used on input line 112.
-(pdftex.def)             Requested size: 416.58705pt x 294.43584pt.
+<use fig/hyperbola.pdf>
+Package pdftex.def Info: fig/hyperbola.pdf used on input line 112.
+(pdftex.def)             Requested size: 416.58705pt x 416.61548pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 118--119
 
@@ -2248,25 +2243,25 @@ See the caption package documentation for explanation.
 
 LaTeX Warning: Reference `2_g>1' on page 64 undefined on input line 121.
 
-[64 <./fig/Drawing5_1.pdf>]
+[64 <./fig/hyperbola.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 128--129
 
  []
 
-<fig/g_1.pdf, id=2505, 412.54124pt x 412.54124pt>
+<fig/g_1.pdf, id=2511, 412.54124pt x 412.54124pt>
 File: fig/g_1.pdf Graphic file (type pdf)
  <use fig/g_1.pdf>
 Package pdftex.def Info: fig/g_1.pdf used on input line 153.
 (pdftex.def)             Requested size: 289.4209pt x 289.42528pt.
 
-<fig/VAR_alpha_g_1.pdf, id=2506, 376.40625pt x 376.40625pt>
+<fig/VAR_alpha_g_1.pdf, id=2512, 376.40625pt x 376.40625pt>
 File: fig/VAR_alpha_g_1.pdf Graphic file (type pdf)
 
 <use fig/VAR_alpha_g_1.pdf>
 Package pdftex.def Info: fig/VAR_alpha_g_1.pdf used on input line 160.
 (pdftex.def)             Requested size: 289.4209pt x 289.44315pt.
 
-<fig/marked_circle_curve_g_0p8.pdf, id=2511, 615.80063pt x 607.51968pt>
+<fig/marked_circle_curve_g_0p8.pdf, id=2517, 615.80063pt x 607.51968pt>
 File: fig/marked_circle_curve_g_0p8.pdf Graphic file (type pdf)
 
 <use fig/marked_circle_curve_g_0p8.pdf>
@@ -2274,20 +2269,20 @@ Package pdftex.def Info: fig/marked_circle_curve_g_0p8.pdf used on input line 1
 68.
 (pdftex.def)             Requested size: 289.4209pt x 285.53429pt.
 
-<fig/VAR_alpha_g_0p8.pdf, id=2516, 376.40625pt x 376.40625pt>
+<fig/VAR_alpha_g_0p8.pdf, id=2522, 376.40625pt x 376.40625pt>
 File: fig/VAR_alpha_g_0p8.pdf Graphic file (type pdf)
 
 <use fig/VAR_alpha_g_0p8.pdf>
 Package pdftex.def Info: fig/VAR_alpha_g_0p8.pdf used on input line 176.
 (pdftex.def)             Requested size: 289.4209pt x 289.44315pt.
 
-<fig/g_1p25.pdf, id=2521, 571.38469pt x 571.38469pt>
+<fig/g_1p25.pdf, id=2527, 571.38469pt x 571.38469pt>
 File: fig/g_1p25.pdf Graphic file (type pdf)
  <use fig/g_1p25.pdf>
 Package pdftex.def Info: fig/g_1p25.pdf used on input line 184.
 (pdftex.def)             Requested size: 289.4209pt x 289.4232pt.
 
-<fig/VAR_alpha_g_1p25.pdf, id=2526, 376.40625pt x 376.40625pt>
+<fig/VAR_alpha_g_1p25.pdf, id=2532, 376.40625pt x 376.40625pt>
 File: fig/VAR_alpha_g_1p25.pdf Graphic file (type pdf)
 
 <use fig/VAR_alpha_g_1p25.pdf>
@@ -2306,7 +2301,7 @@ Missing character: There is no â in font txr!
 Missing character: There is no € in font txr!
 Missing character: There is no ™ in font txr!
 
-<fig/fig7-1.pdf, id=2633, 794.97pt x 614.295pt>
+<fig/fig7-1.pdf, id=2639, 794.97pt x 614.295pt>
 File: fig/fig7-1.pdf Graphic file (type pdf)
  <use fig/fig7-1.pdf>
 Package pdftex.def Info: fig/fig7-1.pdf used on input line 9.
@@ -2322,21 +2317,21 @@ Overfull \hbox (35.19528pt too wide) in paragraph at lines 398--398
 [] 
  []
 
-[74] <fig/fig7a_paper.pdf, id=2748, 346.29375pt x 514.92375pt>
+[74] <fig/fig7a_paper.pdf, id=2763, 346.29375pt x 514.92375pt>
 File: fig/fig7a_paper.pdf Graphic file (type pdf)
 
 <use fig/fig7a_paper.pdf>
 Package pdftex.def Info: fig/fig7a_paper.pdf used on input line 406.
 (pdftex.def)             Requested size: 173.14644pt x 257.46124pt.
 
-<fig/fig7b_paper.pdf, id=2749, 350.30875pt x 514.92375pt>
+<fig/fig7b_paper.pdf, id=2764, 350.30875pt x 514.92375pt>
 File: fig/fig7b_paper.pdf Graphic file (type pdf)
 
 <use fig/fig7b_paper.pdf>
 Package pdftex.def Info: fig/fig7b_paper.pdf used on input line 414.
 (pdftex.def)             Requested size: 175.15395pt x 257.46124pt.
 
-<fig/fig8_paper_numerical.pdf, id=2750, 624.3325pt x 514.92375pt>
+<fig/fig8_paper_numerical.pdf, id=2765, 624.3325pt x 514.92375pt>
 File: fig/fig8_paper_numerical.pdf Graphic file (type pdf)
 
 <use fig/fig8_paper_numerical.pdf>
@@ -2411,9 +2406,9 @@ algorithm2e.sty    2013/01/06 v5.00 algorithms environments
   amsopn.sty    1999/12/14 v2.01 operator names
 amsfonts.sty    2013/01/14 v3.01 Basic AMSFonts support
  amssymb.sty    2013/01/14 v3.01 AMS font symbols
-  amsthm.sty    2015/03/04 v2.20.2
+  amsthm.sty    2009/07/02 v2.20.1
 appendix.sty    2009/09/02 v1.2b extra appendix facilities
-   babel.sty    2015/08/03 3.9m The Babel package
+   babel.sty    2014/09/25 3.9l The Babel package
  bblopts.cfg    2006/07/31 v1.0 MiKTeX 'babel' configuration
  english.ldf    2012/08/20 v3.3p English support from the babel system
     calc.sty    2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
@@ -2461,7 +2456,7 @@ mathptmx.sty    2005/04/12 PSNFSS-v9.2a Times w/ Math, improved (SPQR, WaS)
 microtype.sty    2013/05/23 v2.5a Micro-typographical refinements (RS)
 microtype-pdftex.def    2013/05/23 v2.5a Definitions specific to pdftex (RS)
 microtype.cfg    2013/05/23 v2.5a microtype main configuration file (RS)
-multicol.sty    2015/03/31 v1.8m multicolumn formatting (FMi)
+multicol.sty    2014/10/28 v1.8i multicolumn formatting (FMi)
 multirow.sty    
 newlfont.sty    1998/08/17 v2.2m Standard LaTeX package
 latexsym.sty    1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
@@ -2487,8 +2482,8 @@ varioref.sty    2014/10/28 v1.5a package for extended references (FMi)
     upsy.fd    2001/06/04 font definitions for U/psy.
    color.sty    1999/02/16
    color.cfg    2007/01/18 v1.5 color configuration of teTeX/TeXLive
- caption.sty    2015/09/17 v3.3-111 Customizing captions (AR)
-caption3.sty    2015/09/20 v1.7-115 caption3 kernel (AR)
+ caption.sty    2013/05/02 v3.3-89 Customizing captions (AR)
+caption3.sty    2013/05/02 v1.6-88 caption3 kernel (AR)
  arabtex.sty    2003/08/22  3.11 ArabTeX main module
  arabaux.sty    2003/05/21  3.11 auxiliary macros for ArabTeX
     acmd.sty    2003/08/20  3.11 Arabic command processing 
@@ -2518,20 +2513,20 @@ setspace.sty    2011/12/19 v6.7a set line spacing
   xcolor.sty    2007/01/21 v2.11 LaTeX color extensions (UK)
    color.cfg    2007/01/18 v1.5 color configuration of teTeX/TeXLive
   svgnam.def    2007/01/21 v2.11 Predefined colors according to SVG 1.1 (UK)
-    tikz.sty    2015/08/07 v3.0.1a (rcs-revision 1.151)
-     pgf.sty    2015/08/07 v3.0.1a (rcs-revision 1.15)
-  pgfrcs.sty    2015/08/07 v3.0.1a (rcs-revision 1.31)
+    tikz.sty    2013/12/13 v3.0.0 (rcs-revision 1.142)
+     pgf.sty    2013/12/18 v3.0.0 (rcs-revision 1.14)
+  pgfrcs.sty    2013/12/20 v3.0.0 (rcs-revision 1.28)
 everyshi.sty    2001/05/15 v3.00 EveryShipout Package (MS)
   pgfrcs.code.tex
- pgfcore.sty    2010/04/11 v3.0.1a (rcs-revision 1.7)
-  pgfsys.sty    2014/07/09 v3.0.1a (rcs-revision 1.48)
+ pgfcore.sty    2010/04/11 v3.0.0 (rcs-revision 1.7)
+  pgfsys.sty    2013/11/30 v3.0.0 (rcs-revision 1.47)
   pgfsys.code.tex
 pgfsyssoftpath.code.tex    2013/09/09  (rcs-revision 1.9)
 pgfsysprotocol.code.tex    2006/10/16  (rcs-revision 1.4)
  pgfcore.code.tex
-pgfcomp-version-0-65.sty    2007/07/03 v3.0.1a (rcs-revision 1.7)
-pgfcomp-version-1-18.sty    2007/07/23 v3.0.1a (rcs-revision 1.1)
-  pgffor.sty    2013/12/13 v3.0.1a (rcs-revision 1.25)
+pgfcomp-version-0-65.sty    2007/07/03 v3.0.0 (rcs-revision 1.7)
+pgfcomp-version-1-18.sty    2007/07/23 v3.0.0 (rcs-revision 1.1)
+  pgffor.sty    2013/12/13 v3.0.0 (rcs-revision 1.25)
  pgfkeys.sty    
  pgfkeys.code.tex
  pgfmath.sty    
@@ -2539,7 +2534,7 @@ pgfcomp-version-1-18.sty    2007/07/23 v3.0.1a (rcs-revision 1.1)
   pgffor.code.tex
     tikz.code.tex
 rotating.sty    2009/03/28 v2.16a rotated objects in LaTeX
-    etex.sty    2015/07/08 v2.3 eTeX basic definition package (PEB,DPC)
+    etex.sty    2015/03/02 v2.1 eTeX basic definition package (PEB,DPC)
  omltxmi.fd    2000/12/15 v3.1
  omstxsy.fd    2000/12/15 v3.1
  omxtxex.fd    2000/12/15 v3.1
@@ -2629,7 +2624,7 @@ fig/drawing4_2a.pdf
 fig/drawing4_2c.pdf
 fig/drawing4_2b.pdf
 tex/voronoi.tex
-fig/Drawing5_1.pdf
+fig/hyperbola.pdf
  fig/g_1.pdf
 fig/VAR_alpha_g_1.pdf
 fig/marked_circle_curve_g_0p8.pdf
@@ -2652,33 +2647,29 @@ Package rerunfilecheck Info: File `MSc_thesis_Mostafa.out' has not changed.
 LaTeX Warning: There were undefined references.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 91.
- )
-(\end occurred inside a group at level 1)
-
-### simple group (level 1) entered at line 1061 ({)
-### bottom level 
+ ) 
 Here is how much of TeX's memory you used:
- 28091 strings out of 493673
- 480589 string characters out of 3143959
- 646686 words of memory out of 3000000
- 29852 multiletter control sequences out of 15000+200000
+ 28046 strings out of 493698
+ 473778 string characters out of 3144379
+ 639124 words of memory out of 3000000
+ 29788 multiletter control sequences out of 15000+200000
  97270 words of font info for 434 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 55i,19n,68p,2181b,22790s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C
-:/Program Files/MiKTeX 2.9/fonts/type1/public/txfonts/rtxb.pfb><C:/Program File
-s/MiKTeX 2.9/fonts/type1/public/txfonts/rtxi.pfb><C:/Program Files/MiKTeX 2.9/f
-onts/type1/public/txfonts/rtxmi.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pu
-blic/txfonts/rtxr.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/txfonts/t
-xex.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/txfonts/txsy.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/txfonts/txsya.pfb><C:/Program Files/M
-iKTeX 2.9/fonts/type1/public/txfonts/txsyc.pfb><C:/Program Files/MiKTeX 2.9/fon
-ts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/time
-s/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:
-/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on MSc_thesis_Mostafa.pdf (100 pages, 4183620 bytes).
+ 55i,19n,54p,2181b,819s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
+s/MiKTeX 2.9/fonts/type1/public/txfonts/rtxb.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/public/txfonts/rtxi.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
+lic/txfonts/rtxmi.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/txfonts/r
+txr.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/txfonts/txex.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/txfonts/txsy.pfb><C:/Program Files/Mi
+KTeX 2.9/fonts/type1/public/txfonts/txsya.pfb><C:/Program Files/MiKTeX 2.9/font
+s/type1/public/txfonts/txsyc.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/t
+imes/utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmbi8a.pfb>
+<C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files
+/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on MSc_thesis_Mostafa.pdf (100 pages, 4360466 bytes).
 PDF statistics:
- 3040 PDF objects out of 3580 (max. 8388607)
+ 3055 PDF objects out of 3580 (max. 8388607)
  506 named destinations out of 1000 (max. 500000)
  49965 words of extra memory for PDF output out of 51595 (max. 10000000)
 

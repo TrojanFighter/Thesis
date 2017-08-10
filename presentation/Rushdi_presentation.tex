@@ -1545,11 +1545,40 @@ Note that (\ref{poly2}) is the general equation for the Voronoi diagram in our c
 \end{frame}
 
 %------------------------------------------------
-%\section{OPTIMAL STRATEGIES}
-%\begin{frame}
-%\frametitle{Optimal Heading Angels}
-%The $TAD$ pursuit-evasion differential game is discussed and solved herein to obtain the optimal heading angels for the Target and the Defender team to maximize the terminal separation between the Target and Attacker, and also to obtain the optimal heading angle for the Attacker to minimize this distance. In the following sections, we discuss a variety of cases differing according to the initial position of the Target $\boldsymbol{T}=(x_T,y_T)$ relative to the $AD$-Apollonius circle, and also according to whether the Defender is fast $(\gamma<1)$, similar $(\gamma=1)$ or slow $(\gamma>1)$.
-%\end{frame}
+\section{Optimal Strategies}
+
+\subsection{} 
+%---------------------------------------------
+\begin{frame}
+\frametitle{Optimal Heading Angels}
+\begin{columns}[c]
+	\begin{column}{.35\linewidth}
+		{\footnotesize 		\begin{eqnarray}
+			V_{T1} &=& - V_T \cos(\beta) \nonumber\\
+			V_{T2} &=&  V_T \sin(\beta) \nonumber\\
+			R_{TM1} &=& R{T1} - R_{M1}\nonumber\\
+			R_{TM2} &=& R{T2} - R_{M2}\nonumber\\
+			R_{TM} &=& \sqrt{R_{TM1}^2 + R_{TM2}^2}\nonumber\\
+			\lambda &=& \tan^{-1} (\dfrac{R_{TM2}}{R_{TM1}})\nonumber\\
+			L &=& \sin^{-1}(\dfrac{V_T \sin(\beta + \lambda)}{V_M})\nonumber\\
+			V_{M1} &=& V_M \cos (\theta + HE)\nonumber\\
+			V_{M2} &=& V_M \sin (\theta + HE)\nonumber\\
+			V_{TM1} &=& V_{T1} - V_{M1}\nonumber\\
+			V_{TM2} &=& V_{T2} - V_{M12}\nonumber
+			\end{eqnarray}}
+	\end{column}
+	\begin{column}{.6\linewidth}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=1.0\textwidth]{fig/fig7-1.pdf}
+			%\caption{Scenario for the Attacker (A), Target (T), and Defender (D). The origin is arbitrary situated at the Attacker position (A).}
+			%		 In polar coordinates with respect to arbitrary coordinates $(x,y)$
+			%		, the various positions and speeds are $A=(0,-)$, $T=(R,\lambda\)$, $D=(r,\lambda+ \theta)$ }
+			%\label{7.1}
+		\end{figure}
+	\end{column}
+\end{columns}
+\end{frame}
 %------------------------------------------------
 %------------------------------------------------
 %------------------------------------------------
