@@ -127,6 +127,39 @@ The Hamiltonian is
 	\end{split}
 \end{equation*}
 
+the co-state equations
+
+\begin{equation}
+	-\frac{\partial H}{\partial R} = \dot{\lambda_R}=\frac{\lambda_\theta}{R^2} (\sin(\theta - \chi) -\alpha \sin(\phi) )
+\label{lambda R dot}
+\end{equation}
+
+
+\begin{equation}
+-\frac{\partial H}{\partial r} = \dot{\lambda_r}=\frac{\lambda_\theta}{r^2} (\sin(\chi) -\alpha \sin(\psi) )
+\label{lambda r dot}
+\end{equation}
+
+\begin{equation}
+-\frac{\partial H}{\partial \theta} = \dot{\lambda_\theta}=(1- \lambda_R) \sin(\theta - \chi) - \frac{\lambda_\theta}{R} \cos(\theta - \chi)
+\label{lambda theta dot}
+\end{equation}
+
+
+the terminal conditions 
+
+\begin{equation}
+\begin{split}
+	r(t_f)&=r_c\\
+\lambda_R(t_f)&=0\\
+\lambda_\theta(t_f)&=0\\
+\alpha^2 + 2(\alpha + \cos\theta(t_f)) \lambda_R(t_f)-1&=0
+\end{split}
+\label{terminal conditions}
+\end{equation}
+
+
+
 %============================================================================================
 \begin{figure}[ht!]
 	\centering
@@ -397,7 +430,7 @@ In passing, we note that (\ref{PD H wrt chi}) can be simplified via (\ref{cos ps
 \end{split}
 \end{equation}
 
-The expressions for the optimal heading angles (\ref{tan psi}), (\ref{tan phi}), and (\ref{tan chi}) are to be used in the numerical solution of the Two-Point Boundary Value Problem (TPBVP). That solution is found by substituting the optimal headings into the state equations (\ref{Rdot}, \ref{rdot}, \ref{theta dot}), and the co-state equations ()  with the terminal conditions (). We solve this TPBVP using the "bvp4c" which is a matlab function for solving Two-Point Boundary Value Problems. This method may not be the best way to solve optimal control problems. The results include some error and the final time isn't correct and exceed $t_f$, so the trajectories in Fig. \ref{Optimal trajectories} didn't stop at the correct time and the shape is incorrect.
+The expressions for the optimal heading angles (\ref{tan psi}), (\ref{tan phi}), and (\ref{tan chi}) are to be used in the numerical solution of the Two-Point Boundary Value Problem (TPBVP). That solution is found by substituting the optimal headings into the state equations (\ref{Rdot}, \ref{rdot}, \ref{theta dot}), and the co-state equations (\ref{lambda R dot}, \ref{lambda r dot}, \ref{lambda theta dot})  with the terminal conditions (\ref{terminal conditions}). We solve this TPBVP using the "bvp4c" which is a matlab function for solving Two-Point Boundary Value Problems. This method may not be the best way to solve optimal control problems. The results include some error and the final time isn't correct and exceed $t_f$, so the trajectories in Fig. \ref{Optimal trajectories} didn't stop at the correct time and the shape is incorrect.
 
 
 

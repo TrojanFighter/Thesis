@@ -10,4 +10,3 @@
 \beamer@subsectionintoc {5}{2}{Experimental Results}{53}{0}{5}
 \beamer@sectionintoc {6}{Target-Attacker-Defender}{59}{0}{6}
 \beamer@sectionintoc {7}{Optimal Strategies}{90}{0}{7}
-\beamer@sectionintoc {8}{Conclusions}{92}{0}{8}

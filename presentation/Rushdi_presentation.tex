@@ -974,39 +974,39 @@ Till now, if the user chooses the PN guidance law, there will be more options av
 \end{frame}
 %---------------
 \begin{frame}
-\frametitle{Unity Game}
+\frametitle{Some types of games}
 \textbf{Competitions} between humans and computers in games of increasing difficulty, including the games of Chess , Arimaa , Jeapordy! , and Go. Typically, the rivalry is between a single human champion (such as Kasparov) against a state-of-the-art computer (such as Deep Blue) limited to a specific domain (such as Chess). The sole purpose of the competition is to decide whether the human or the computer wins more games within the same match.
 \end{frame}
 %---------------------
 \begin{frame}
-\frametitle{Unity Game}
+\frametitle{Some types of games}
 The \textbf{gamification} phenomenon, which is the use of game design elements in non-game or learning contexts, a trend related to human-computer interactions in the form of serious games, pervasive games, alternate reality games, or playful design.
 \end{frame}
 %---------------------
 \begin{frame}
-\frametitle{Unity Game}
+\frametitle{Some types of games}
 The paradigm of \textbf{games with a purpose}, which aims to utilize the billions of hours spent (wasted!) by contemporary humans in playing computer games. This paradigm channels game playing into useful work by directing people playing computer games to simultaneously solve large-scale problems without consciously knowing about this and, hence, without losing the element of fun or entertainment. Many large-scale open problems can be solved using collective human brainpower in this unique way. Examples include language translation, monitoring of security cameras, improving Web search, and text summarization. With the paradigm of games with a purpose, hundreds of millions of people can collaborate on the same problem via the Internet
 \end{frame}
 %---------------------
 \begin{frame}
-\frametitle{Unity Game}
+\frametitle{Some types of games}
 \textbf{Human Computation}, which is the idea of using human processing power to perform tasks that computers cannot yet perform or solve problems still intractable for computers, usually in an enjoyable manner. Human Computation is also viewed as systems of computers and large numbers of humans that work together in order to solve problems that could not be solved by either computers or humans alone.
 \end{frame}
 %---------------------
 \begin{frame}
-\frametitle{Unity Game}
+\frametitle{Some types of games}
 \textbf{Crowdsourcing}, which is the act of taking a job traditionally performed by a designated agent (an employee) and outsourcing it to a generally large group of people in the form of an open call. Whereas human computation replaces computers with humans, crowdsourcing replaces traditional human workers with members of the human public.
 \end{frame}
 %---------------------
 
 
 \begin{frame}
-\frametitle{Unity Game}
+\frametitle{Unity Platform}
 Unity is a cross-platform game engine developed by Unity Technologies and used to develop video games for PC, consoles, mobile devices and websites. It is a free software (https://unity3d.com/),working with C\# programming language. 
 \end{frame}
 %---------------------
 \begin{frame}
-\frametitle{Unity Game}
+\frametitle{Unity Platform}
 \begin{figure}[H]
 	\centering
 	\includegraphics[scale = 0.2]{fig/unityInterface.PNG}
@@ -1016,7 +1016,7 @@ Unity is a cross-platform game engine developed by Unity Technologies and used t
 \end{frame}
 %---------------------
 \begin{frame}
-\frametitle{Unity Game}
+\frametitle{Unity Platform}
 Each game consists of two scenes:
 \begin{enumerate}
 	\item Starting scene.
@@ -1025,7 +1025,7 @@ Each game consists of two scenes:
 \end{frame}
 %---------------------
 \begin{frame}
-\frametitle{Unity Game}
+\frametitle{Unity Platform}
 In the starting scene there is data fields (position, velocity, ...). After this scene ends, all the data are destroyed, so we save the information we need in file called "player prefs".
 
 The game scene consists of some objects, each object has his own script, this script must contain 2 points:
@@ -1038,12 +1038,12 @@ The game scene consists of some objects, each object has his own script, this sc
 \subsection{Experimental Results}
 %---------------
 \begin{frame}
-\frametitle{Unity Game}
+\frametitle{Unity Game Design}
 The game consists of two objects: plane (Target) and missile (Attacker). A human player controls the increasing and decreasing of the target acceleration (XNT) by two arrows on the keyboard. The missile object is moving on according to the proportional navigation guidance law.
 \end{frame}
 %---------------------
 \begin{frame}
-\frametitle{Unity Game}
+\frametitle{Unity Game Design}
  \begin{figure}[H]
 	\centering
 	\includegraphics[scale = 0.2]{fig/unityGame.PNG}
@@ -1053,7 +1053,7 @@ The game consists of two objects: plane (Target) and missile (Attacker). A human
 \end{frame}
 %---------------------
 \begin{frame}
-\frametitle{Unity Game}
+\frametitle{Unity Game Design}
 In our game we have 3 objects:
 \begin{enumerate}
 	\item \textbf{Plane:} its script contain some commands to control the plane with two arrows in the keyboard, which increase and decrease the target acceleration by upward arrow and downward arrow respectively. 
@@ -1063,7 +1063,7 @@ In our game we have 3 objects:
 \end{frame}
 %---------------------
 \begin{frame}
-\frametitle{Unity Game}
+\frametitle{Unity Game Design}
 \textbf{Object "Data collector"}:
 \begin{itemize}
 \item Start
@@ -1115,7 +1115,7 @@ In our game we have 3 objects:
 \end{frame}
 %------------------------------------------------
 \begin{frame}
-\frametitle{Preliminary results}
+\frametitle{Results}
 Our experience with Evasion-1 demonstrates that the game is working correctly. Figures \ref{trajectory}-\ref{XNC} illustrate some of our preliminary results, obtained by the player with the best score so far. The target acceleration curve in Fig. \ref{XNT} exhibits a Barrel-Roll behavior, an aerial maneuver in which an airplane makes a complete rotation on both its longitudinal and lateral axes, causing it to follow a helical path, approximately maintaining its original direction. This maneuver helps a target to force an attacker to fly out in front, i.e., to overshoot. 
 \end{frame}
 %------------------------------------------------
@@ -1551,55 +1551,192 @@ Note that (\ref{poly2}) is the general equation for the Voronoi diagram in our c
 %---------------------------------------------
 \begin{frame}
 \frametitle{Optimal Heading Angels}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\textwidth]{fig/fig7-1.pdf}
+	\caption{Scenario for the Attacker (A), Target (T), and Defender (D). The origin is arbitrary situated at the Attacker position (A).}
+	%		 In polar coordinates with respect to arbitrary coordinates $(x,y)$
+	%		, the various positions and speeds are $A=(0,-)$, $T=(R,\lambda\)$, $D=(r,\lambda+ \theta)$ }
+	%\label{7.1}
+\end{figure}
+\end{frame}
+%------------------------------------------------
+\begin{frame}
+\frametitle{Optimal Heading Angels}
+State equations
+	\begin{equation}
+	\dot{R} = V_A (\alpha \cos \phi - \cos(\theta - \chi))
+	\label{Rdot}
+	\end{equation}
+	
+	\begin{equation}
+	\dot{r} = V_A (- \cos \chi - \gamma\cos\psi)
+	\label{rdot}
+	\end{equation}
+	
+	\begin{equation}
+	\dot{\theta} = V_A [- \dfrac{\alpha}{R} \sin \phi + \dfrac{1}{R} \sin(\theta - \chi) - \dfrac{\gamma}{r} \sin \psi + \dfrac{1}{r}\sin \chi]
+	\label{theta dot}
+	\end{equation} 
+	
+initial conditions 
+	
+	\begin{equation*}
+	\begin{split}
+	R(t_0)&=R_0,\\
+	r(t_0)&= r_0,\\
+	\theta(t_0)&=\theta_0,
+	\end{split}
+	\end{equation*}
+\end{frame}
+%------------------------------------------------
+\begin{frame}
+\frametitle{Optimal Heading Angels}
+The objective of the Target-Defender team is to maximize
+the separation between the Target and the Attacker at the
+interception time $R(t_f)$, where the terminal time $t_f$ is free,
+such that $r(t_f) = r_c$. The objective of the Attacker is to
+minimize the same distance $R(t_f)$. This can be expressed as
+
+\begin{equation*}
+max_{\phi,\psi}\ min_\chi\ J= \int_{t_0}^{t_f} \dot{R}\ dt
+\end{equation*}
+\end{frame}
+%------------------------------------------------
+\begin{frame}
+\frametitle{Optimal Heading Angels}
+The Hamiltonian is
+\begin{equation}
+\begin{split}
+H = & \cos(\theta - \chi) - \alpha \cos \phi \\
+& + [\alpha \cos \phi  - \cos (\theta - \chi)]\ \lambda_R \\
+& - [\cos\chi + \cos\psi]\ \lambda_r \\
+& + [-\frac{\alpha}{R}\sin\phi 
++\frac{1}{R}\sin(\theta - \chi )
+-\frac{1}{r} \sin \psi
++\frac{1}{r} \sin \chi]\ \lambda_\theta
+\end{split}
+\label{Hamiltonian}
+\end{equation}
+\end{frame}
+%------------------------------------------------
+\begin{frame}
+\frametitle{Optimal Heading Angels}
+the co-state equations
+
+\begin{equation}
+-\frac{\partial H}{\partial R} = \dot{\lambda_R}=\frac{\lambda_\theta}{R^2} (\sin(\theta - \chi) -\alpha \sin(\phi) )
+\label{lambda R dot}
+\end{equation}
+
+
+\begin{equation}
+-\frac{\partial H}{\partial r} = \dot{\lambda_r}=\frac{\lambda_\theta}{r^2} (\sin(\chi) -\alpha \sin(\psi) )
+\label{lambda r dot}
+\end{equation}
+
+\begin{equation}
+-\frac{\partial H}{\partial \theta} = \dot{\lambda_\theta}=(1- \lambda_R) \sin(\theta - \chi) - \frac{\lambda_\theta}{R} \cos(\theta - \chi)
+\label{lambda theta dot}
+\end{equation}
+
+
+the terminal conditions 
+
+\begin{equation}
+\begin{split}
+r(t_f)&=r_c\\
+\lambda_R(t_f)&=0\\
+\lambda_\theta(t_f)&=0\\
+\alpha^2 + 2(\alpha + \cos\theta(t_f)) \lambda_R(t_f)-1&=0
+\end{split}
+\label{terminal conditions}
+\end{equation}
+\end{frame}
+%------------------------------------------------
+\begin{frame}
+\frametitle{Optimal Heading Angels}
+optimal control headings
+\begin{equation}
+\tan \psi^* = \dfrac{\lambda_\theta / r}{\lambda_r}
+\label{tan psi}
+\end{equation}
+
+\begin{equation}
+\tan \phi^* = \dfrac{(\lambda_\theta/R)}{1- \lambda_R}
+\label{tan phi}
+\end{equation}
+
+\begin{equation}
+\tan \chi^* = \dfrac{\chi_s}{\chi_c}
+\label{tan chi}
+\end{equation} 
+
+where 
+\begin{equation*}
+\chi_s = (1-\lambda_R) \sin\theta - \frac{\lambda_\theta}{R} \cos\theta + \frac{\lambda_\theta}{r}
+\end{equation*}
+
+\begin{equation*}
+\chi_c = (1-\lambda_R) \cos \theta + \frac{\lambda_\theta}{R} \sin \theta - \lambda_r
+\end{equation*}
+\end{frame}
+%------------------------------------------------
+\begin{frame}
+\frametitle{Optimal Heading Angels}
+The expressions for the optimal heading angles (\ref{tan psi}), (\ref{tan phi}), and (\ref{tan chi}) are to be used in the numerical solution of the Two-Point Boundary Value Problem (TPBVP). That solution is found by substituting the optimal headings into the state equations (\ref{Rdot}, \ref{rdot}, \ref{theta dot}), and the co-state equations (\ref{lambda R dot}, \ref{lambda r dot}, \ref{lambda theta dot})  with the terminal conditions (\ref{terminal conditions}
+).
+\end{frame}
+%------------------------------------------------
+\begin{frame}
+\frametitle{Optimal Heading Angels}
 \begin{columns}[c]
-	\begin{column}{.35\linewidth}
-		{\footnotesize 		\begin{eqnarray}
-			V_{T1} &=& - V_T \cos(\beta) \nonumber\\
-			V_{T2} &=&  V_T \sin(\beta) \nonumber\\
-			R_{TM1} &=& R{T1} - R_{M1}\nonumber\\
-			R_{TM2} &=& R{T2} - R_{M2}\nonumber\\
-			R_{TM} &=& \sqrt{R_{TM1}^2 + R_{TM2}^2}\nonumber\\
-			\lambda &=& \tan^{-1} (\dfrac{R_{TM2}}{R_{TM1}})\nonumber\\
-			L &=& \sin^{-1}(\dfrac{V_T \sin(\beta + \lambda)}{V_M})\nonumber\\
-			V_{M1} &=& V_M \cos (\theta + HE)\nonumber\\
-			V_{M2} &=& V_M \sin (\theta + HE)\nonumber\\
-			V_{TM1} &=& V_{T1} - V_{M1}\nonumber\\
-			V_{TM2} &=& V_{T2} - V_{M12}\nonumber
-			\end{eqnarray}}
-	\end{column}
-	\begin{column}{.6\linewidth}
+	\begin{column}{.3\linewidth}
 		\begin{figure}[H]
 			\centering
-			\includegraphics[width=1.0\textwidth]{fig/fig7-1.pdf}
-			%\caption{Scenario for the Attacker (A), Target (T), and Defender (D). The origin is arbitrary situated at the Attacker position (A).}
-			%		 In polar coordinates with respect to arbitrary coordinates $(x,y)$
-			%		, the various positions and speeds are $A=(0,-)$, $T=(R,\lambda\)$, $D=(r,\lambda+ \theta)$ }
-			%\label{7.1}
+			\includegraphics[scale = 0.2]{fig/fig7a_paper.pdf}
+			\caption{States}
+			%\label{}
 		\end{figure}
 	\end{column}
+
+	\begin{column}{.3\linewidth}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[scale = 0.2]{fig/fig7b_paper.pdf}
+			\caption{Optimal heading angles}
+			%\label{}
+		\end{figure}
+		
+	\end{column}
+	
+	\begin{column}{.3\linewidth}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[scale = 0.2]{fig/fig8_paper_numerical.pdf}
+			\caption{Optimal trajectories}
+			\label{Optimal trajectories}
+		\end{figure}
+	\end{column}
+
 \end{columns}
+
 \end{frame}
 %------------------------------------------------
-%------------------------------------------------
-%------------------------------------------------
-%------------------------------------------------
-%------------------------------------------------
-%------------------------------------------------
-%------------------------------------------------
-\section{Conclusions}
-%---------------------
-\subsection{} 
-\begin{frame}
-\frametitle{Concluding Remarks and Future Work}
-In this work, we presented:
-\begin{itemize}
-	\item 
-	\item
-	\item
-	\item
-	\item
-\end{itemize}
-\end{frame}
+%\section{Conclusions}
+%%---------------------
+%\subsection{} 
+%\begin{frame}
+%\frametitle{Concluding Remarks and Future Work}
+%In this work, we presented:
+%\begin{itemize}
+%	\item 
+%	\item
+%	\item
+%	\item
+%	\item
+%\end{itemize}
+%\end{frame}
 %--------------------
 \subsection{} 
 \begin{frame}

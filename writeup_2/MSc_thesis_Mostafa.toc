@@ -1,10 +1,11 @@
 \select@language {english}
 \contentsline {chapter}{\caseupper {Acknowledgements}}{i}{section*.1}
-\contentsline {chapter}{\caseupper {Table of Contents}}{ii}{section*.2}
-\contentsline {chapter}{\caseupper {List of Tables}}{v}{section*.3}
-\contentsline {chapter}{\caseupper {List of Figures}}{vi}{section*.4}
-\contentsline {chapter}{\caseupper {Abstract}}{ix}{section*.6}
-\contentsline {part}{I\hspace {1em}INTRODUCTION AND LITERATURE REVIEW}{x}{part.1}
+\contentsline {chapter}{\caseupper {Dedication}}{ii}{section*.2}
+\contentsline {chapter}{\caseupper {Table of Contents}}{iii}{section*.3}
+\contentsline {chapter}{\caseupper {List of Tables}}{vi}{section*.4}
+\contentsline {chapter}{\caseupper {List of Figures}}{vii}{section*.5}
+\contentsline {chapter}{\caseupper {Abstract}}{x}{section*.7}
+\contentsline {part}{I\hspace {1em}INTRODUCTION AND LITERATURE REVIEW}{xi}{part.1}
 \contentsline {chapter}{CHAPTER {1}: \caseupper {Introduction and Literature Review}}{1}{chapter.1}
 \contentsline {section}{\numberline {1.1}The $ TA $ problem}{1}{section.1.1}
 \contentsline {section}{\numberline {1.2}The $ TAD $ problem}{2}{section.1.2}

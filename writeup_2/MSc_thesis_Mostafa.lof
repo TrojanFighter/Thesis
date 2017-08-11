@@ -1,82 +1,82 @@
 \select@language {english}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Taxonomy of evasion techniques\relax }}{7}{figure.caption.8}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Illustration of the perpendicularity evading maneuver technique\relax }}{8}{figure.caption.9}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Illustration of the jinking maneuver technique\relax }}{9}{figure.caption.10}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Illustration of the climbing maneuver technique\relax }}{9}{figure.caption.11}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Illustration of the continuous turning maneuver technique\relax }}{10}{figure.caption.12}
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Guidance Laws Taxonomy.\relax }}{13}{figure.caption.16}
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Two dimensional Missile-Target engagement geometry.\relax }}{15}{figure.caption.18}
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Flowchart illustrating the steps of calculations using the equations in sec. 2.3 till we plot the trajectories.\relax }}{17}{figure.caption.20}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Taxonomy of evasion techniques\relax }}{7}{figure.caption.9}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Illustration of the perpendicularity evading maneuver technique\relax }}{8}{figure.caption.10}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Illustration of the jinking maneuver technique\relax }}{9}{figure.caption.11}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Illustration of the climbing maneuver technique\relax }}{9}{figure.caption.12}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Illustration of the continuous turning maneuver technique\relax }}{10}{figure.caption.13}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Guidance Laws Taxonomy.\relax }}{13}{figure.caption.17}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Two dimensional Missile-Target engagement geometry.\relax }}{15}{figure.caption.19}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Flowchart illustrating the steps of calculations using the equations in sec. 2.3 till we plot the trajectories.\relax }}{17}{figure.caption.21}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Trajectory of the target and attacker in case of zero target maneuver with zero heading error and $N'=4$.\relax }}{18}{figure.caption.21}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Missile acceleration in case of zero target maneuver with zero heading error and $N'=4$ .\relax }}{19}{figure.caption.22}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Target acceleration in case of zero target maneuver with zero heading error and $N'=4$ .\relax }}{19}{figure.caption.23}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Trajectory of the target and attacker in case of zero target maneuver with heading error=-20 and $N'=3$.\relax }}{20}{figure.caption.24}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Missile acceleration in case of zero target maneuver with heading error=-20 and $N'=3$ .\relax }}{20}{figure.caption.25}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Trajectory of the target and attacker in case of zero target maneuver with heading error=-20 and $N'=4$.\relax }}{21}{figure.caption.26}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Missile acceleration in case of zero target maneuver with heading error=-20 and $N'=4$ .\relax }}{21}{figure.caption.27}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Trajectory of the target and attacker in case of zero target maneuver with heading error=-20 and $N'=5$.\relax }}{22}{figure.caption.28}
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Missile acceleration in case of zero target maneuver with heading error=-20 and $N'=5$ .\relax }}{22}{figure.caption.29}
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Trajectory of the target and attacker in case of constant target maneuver=5G with heading error=0 and $N'=3$.\relax }}{23}{figure.caption.30}
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Missile acceleration in case of constant target maneuver=5G with heading error=0 and $N'=3$ .\relax }}{24}{figure.caption.31}
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Target acceleration in case of zero target maneuver with zero heading error and $N'=3$ .\relax }}{24}{figure.caption.32}
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Trajectory of the target and attacker in case of constant target maneuver=5G with heading error=0 and $N'=5$.\relax }}{25}{figure.caption.33}
-\contentsline {figure}{\numberline {3.14}{\ignorespaces Missile acceleration in case of constant target maneuver=5G with heading error=0 and $N'=5$ .\relax }}{25}{figure.caption.34}
-\contentsline {figure}{\numberline {3.15}{\ignorespaces Target acceleration in case of zero target maneuver with zero heading error and $N'=5$ .\relax }}{25}{figure.caption.35}
-\contentsline {figure}{\numberline {3.16}{\ignorespaces Trajectory of the target and attacker in case of polynomial of degree N=3 target maneuver with zero heading error and $N'=3$.\relax }}{26}{figure.caption.36}
-\contentsline {figure}{\numberline {3.17}{\ignorespaces Missile acceleration in case of polynomial of degree N=3 target maneuver with zero heading error and $N'=3$.\relax }}{27}{figure.caption.37}
-\contentsline {figure}{\numberline {3.18}{\ignorespaces Target acceleration in case of polynomial of degree N=3 target maneuver with zero heading error and $N'=3$.\relax }}{27}{figure.caption.38}
-\contentsline {figure}{\numberline {3.19}{\ignorespaces Trajectory of the target and attacker in case of polynomial of degree N=4 target maneuver with zero heading error and $N'=3$.\relax }}{28}{figure.caption.39}
-\contentsline {figure}{\numberline {3.20}{\ignorespaces Missile acceleration in case of polynomial of degree N=4 target maneuver with zero heading error and $N'=3$.\relax }}{28}{figure.caption.40}
-\contentsline {figure}{\numberline {3.21}{\ignorespaces Target acceleration in case of polynomial of degree N=4 target maneuver with zero heading error and $N'=3$.\relax }}{28}{figure.caption.41}
-\contentsline {figure}{\numberline {3.22}{\ignorespaces Trapezoidal Target maneuver.\relax }}{29}{figure.caption.42}
-\contentsline {figure}{\numberline {3.23}{\ignorespaces Trajectory of the target and attacker in case of symmetric trapezoidal target maneuver with zero heading error and $N'=5$.\relax }}{30}{figure.caption.43}
-\contentsline {figure}{\numberline {3.24}{\ignorespaces Missile acceleration in case of symmetric trapezoidal target maneuver with zero heading error and $N'=5$.\relax }}{30}{figure.caption.44}
-\contentsline {figure}{\numberline {3.25}{\ignorespaces Target acceleration in case of symmetric trapezoidal N=4 target maneuver with zero heading error and $N'=5$.\relax }}{30}{figure.caption.45}
-\contentsline {figure}{\numberline {3.26}{\ignorespaces Trajectory of the target and attacker in case of trapezoidal target maneuver with zero heading error and $N'=5$.\relax }}{31}{figure.caption.46}
-\contentsline {figure}{\numberline {3.27}{\ignorespaces Missile acceleration in case of trapezoidal target maneuver with zero heading error and $N'=5$.\relax }}{31}{figure.caption.47}
-\contentsline {figure}{\numberline {3.28}{\ignorespaces Target acceleration in case of trapezoidal N=4 target maneuver with zero heading error and $N'=5$.\relax }}{32}{figure.caption.48}
-\contentsline {figure}{\numberline {3.29}{\ignorespaces Guidance Toolbox\relax }}{32}{figure.caption.49}
-\contentsline {figure}{\numberline {3.30}{\ignorespaces Guidance Toolbox options when PN selected\relax }}{33}{figure.caption.50}
-\contentsline {figure}{\numberline {3.31}{\ignorespaces The Simulink model for proportional navigation equations in sec \ref {PNeqations}\relax }}{36}{figure.caption.61}
-\contentsline {figure}{\numberline {3.32}{\ignorespaces The Simulink main block for solving proportional navigation equations in sec \ref {PNeqations}\relax }}{37}{figure.caption.62}
-\contentsline {figure}{\numberline {3.33}{\ignorespaces Genetic Algorithm Toolbox in Matlab.\relax }}{37}{figure.caption.63}
-\contentsline {figure}{\numberline {3.34}{\ignorespaces Best fitness values\relax }}{38}{figure.caption.64}
-\contentsline {figure}{\numberline {3.35}{\ignorespaces Optimized target acceleration using GA.\relax }}{38}{figure.caption.65}
-\contentsline {figure}{\numberline {3.36}{\ignorespaces Optimized trajectory using GA.\relax }}{38}{figure.caption.66}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Trajectory of the target and attacker in case of zero target maneuver with zero heading error and $N'=4$.\relax }}{18}{figure.caption.22}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Missile acceleration in case of zero target maneuver with zero heading error and $N'=4$ .\relax }}{19}{figure.caption.23}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Target acceleration in case of zero target maneuver with zero heading error and $N'=4$ .\relax }}{19}{figure.caption.24}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Trajectory of the target and attacker in case of zero target maneuver with heading error=-20 and $N'=3$.\relax }}{20}{figure.caption.25}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Missile acceleration in case of zero target maneuver with heading error=-20 and $N'=3$ .\relax }}{20}{figure.caption.26}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Trajectory of the target and attacker in case of zero target maneuver with heading error=-20 and $N'=4$.\relax }}{21}{figure.caption.27}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Missile acceleration in case of zero target maneuver with heading error=-20 and $N'=4$ .\relax }}{21}{figure.caption.28}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Trajectory of the target and attacker in case of zero target maneuver with heading error=-20 and $N'=5$.\relax }}{22}{figure.caption.29}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Missile acceleration in case of zero target maneuver with heading error=-20 and $N'=5$ .\relax }}{22}{figure.caption.30}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Trajectory of the target and attacker in case of constant target maneuver=5G with heading error=0 and $N'=3$.\relax }}{23}{figure.caption.31}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Missile acceleration in case of constant target maneuver=5G with heading error=0 and $N'=3$ .\relax }}{24}{figure.caption.32}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Target acceleration in case of zero target maneuver with zero heading error and $N'=3$ .\relax }}{24}{figure.caption.33}
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Trajectory of the target and attacker in case of constant target maneuver=5G with heading error=0 and $N'=5$.\relax }}{25}{figure.caption.34}
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Missile acceleration in case of constant target maneuver=5G with heading error=0 and $N'=5$ .\relax }}{25}{figure.caption.35}
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Target acceleration in case of zero target maneuver with zero heading error and $N'=5$ .\relax }}{25}{figure.caption.36}
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Trajectory of the target and attacker in case of polynomial of degree N=3 target maneuver with zero heading error and $N'=3$.\relax }}{26}{figure.caption.37}
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Missile acceleration in case of polynomial of degree N=3 target maneuver with zero heading error and $N'=3$.\relax }}{27}{figure.caption.38}
+\contentsline {figure}{\numberline {3.18}{\ignorespaces Target acceleration in case of polynomial of degree N=3 target maneuver with zero heading error and $N'=3$.\relax }}{27}{figure.caption.39}
+\contentsline {figure}{\numberline {3.19}{\ignorespaces Trajectory of the target and attacker in case of polynomial of degree N=4 target maneuver with zero heading error and $N'=3$.\relax }}{28}{figure.caption.40}
+\contentsline {figure}{\numberline {3.20}{\ignorespaces Missile acceleration in case of polynomial of degree N=4 target maneuver with zero heading error and $N'=3$.\relax }}{28}{figure.caption.41}
+\contentsline {figure}{\numberline {3.21}{\ignorespaces Target acceleration in case of polynomial of degree N=4 target maneuver with zero heading error and $N'=3$.\relax }}{28}{figure.caption.42}
+\contentsline {figure}{\numberline {3.22}{\ignorespaces Trapezoidal Target maneuver.\relax }}{29}{figure.caption.43}
+\contentsline {figure}{\numberline {3.23}{\ignorespaces Trajectory of the target and attacker in case of symmetric trapezoidal target maneuver with zero heading error and $N'=5$.\relax }}{30}{figure.caption.44}
+\contentsline {figure}{\numberline {3.24}{\ignorespaces Missile acceleration in case of symmetric trapezoidal target maneuver with zero heading error and $N'=5$.\relax }}{30}{figure.caption.45}
+\contentsline {figure}{\numberline {3.25}{\ignorespaces Target acceleration in case of symmetric trapezoidal N=4 target maneuver with zero heading error and $N'=5$.\relax }}{30}{figure.caption.46}
+\contentsline {figure}{\numberline {3.26}{\ignorespaces Trajectory of the target and attacker in case of trapezoidal target maneuver with zero heading error and $N'=5$.\relax }}{31}{figure.caption.47}
+\contentsline {figure}{\numberline {3.27}{\ignorespaces Missile acceleration in case of trapezoidal target maneuver with zero heading error and $N'=5$.\relax }}{31}{figure.caption.48}
+\contentsline {figure}{\numberline {3.28}{\ignorespaces Target acceleration in case of trapezoidal N=4 target maneuver with zero heading error and $N'=5$.\relax }}{32}{figure.caption.49}
+\contentsline {figure}{\numberline {3.29}{\ignorespaces Guidance Toolbox\relax }}{32}{figure.caption.50}
+\contentsline {figure}{\numberline {3.30}{\ignorespaces Guidance Toolbox options when PN selected\relax }}{33}{figure.caption.51}
+\contentsline {figure}{\numberline {3.31}{\ignorespaces The Simulink model for proportional navigation equations in sec \ref {PNeqations}\relax }}{36}{figure.caption.62}
+\contentsline {figure}{\numberline {3.32}{\ignorespaces The Simulink main block for solving proportional navigation equations in sec \ref {PNeqations}\relax }}{37}{figure.caption.63}
+\contentsline {figure}{\numberline {3.33}{\ignorespaces Genetic Algorithm Toolbox in Matlab.\relax }}{37}{figure.caption.64}
+\contentsline {figure}{\numberline {3.34}{\ignorespaces Best fitness values\relax }}{38}{figure.caption.65}
+\contentsline {figure}{\numberline {3.35}{\ignorespaces Optimized target acceleration using GA.\relax }}{38}{figure.caption.66}
+\contentsline {figure}{\numberline {3.36}{\ignorespaces Optimized trajectory using GA.\relax }}{38}{figure.caption.67}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Unity game engine interface \relax }}{42}{figure.caption.67}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Unity game for simulating Target-Attacker engagement\relax }}{43}{figure.caption.68}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Target-Attacker 2D trajectory. The target and missile speeds are 3000 m/s,1000 m/s respectively.\relax }}{44}{figure.caption.69}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Optimized target acceleration versus time.\relax }}{45}{figure.caption.70}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Missile acceleration versus time.\relax }}{45}{figure.caption.71}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Unity game engine interface \relax }}{42}{figure.caption.68}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Unity game for simulating Target-Attacker engagement\relax }}{43}{figure.caption.69}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Target-Attacker 2D trajectory. The target and missile speeds are 3000 m/s,1000 m/s respectively.\relax }}{44}{figure.caption.70}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Optimized target acceleration versus time.\relax }}{45}{figure.caption.71}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Missile acceleration versus time.\relax }}{45}{figure.caption.72}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces The reachability region $R_r$ (one including $\boldsymbol {D}$ whose points are reached by the Defender before the Attacker) is shown shaded.\relax }}{49}{figure.caption.75}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$\gamma <1$.}}}{49}{figure.caption.75}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$\gamma =1$.}}}{49}{figure.caption.75}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$\gamma >1$.}}}{49}{figure.caption.75}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Apollonius circle for a moving point $P$ such that $\genfrac {}{}{}0{AP}{PB}=k>1$. Here $m\angle API = m\angle BPI$ and $m\angle A'PE = m\angle BPE$.\relax }}{51}{figure.caption.76}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Apollonius circle for a moving point $P$ such that $\genfrac {}{}{}0{AP}{PB}=k<1$. Here $m\angle API = m\angle BPI$ and $m\angle APE = m\angle B'PE$.\relax }}{52}{figure.caption.77}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces For $k=1$, the Apollonius circle in figures \ref {1} or \ref {2} degenerates into the perpendicular bisector of the straight segment $\overline {AB}$. The point $E$ disappears in this figure as it goes to $\infty $ \relax }}{53}{figure.caption.78}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces The reachability region $R_r$ (one including $\boldsymbol {D}$ whose points are reached by the Defender before the Attacker) is shown shaded.\relax }}{49}{figure.caption.76}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$\gamma <1$.}}}{49}{figure.caption.76}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$\gamma =1$.}}}{49}{figure.caption.76}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$\gamma >1$.}}}{49}{figure.caption.76}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Apollonius circle for a moving point $P$ such that $\genfrac {}{}{}0{AP}{PB}=k>1$. Here $m\angle API = m\angle BPI$ and $m\angle A'PE = m\angle BPE$.\relax }}{51}{figure.caption.77}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Apollonius circle for a moving point $P$ such that $\genfrac {}{}{}0{AP}{PB}=k<1$. Here $m\angle API = m\angle BPI$ and $m\angle APE = m\angle B'PE$.\relax }}{52}{figure.caption.78}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces For $k=1$, the Apollonius circle in figures \ref {1} or \ref {2} degenerates into the perpendicular bisector of the straight segment $\overline {AB}$. The point $E$ disappears in this figure as it goes to $\infty $ \relax }}{53}{figure.caption.79}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces The critical speed ratio $\overline {\alpha }$ is obtained when the $TA$ Apollonius circle is tangent to the boundary of the shaded region $R_r$ which is the region reachable by the Defender befor the Attacker.\relax }}{60}{figure.caption.79}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$\gamma <1$}}}{60}{figure.caption.79}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$\gamma =1$}}}{60}{figure.caption.79}
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$\gamma >1$}}}{60}{figure.caption.79}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces The critical speed ratio $\overline {\alpha }$ is obtained when the $TA$ Apollonius circle is tangent to the boundary of the shaded region $R_r$ which is the region reachable by the Defender befor the Attacker.\relax }}{60}{figure.caption.80}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {$\gamma <1$}}}{60}{figure.caption.80}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {$\gamma =1$}}}{60}{figure.caption.80}
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {$\gamma >1$}}}{60}{figure.caption.80}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Graph and features of the hyperbola $\genfrac {}{}{}0{x_T^2}{\alpha ^2 x_A^2} - \genfrac {}{}{}0{y_T^2}{(1-\alpha ^2)x_A^2}=1$ \relax }}{64}{figure.caption.80}
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Generated computer output for the Voronoi diagram bordering the safe region for $x_A=4,\ \alpha =0.25,\ \gamma =1$ (the safe region is the shaded area)\relax }}{66}{figure.caption.81}
-\contentsline {figure}{\numberline {7.3}{\ignorespaces Various accepted branches of the voronoi diagram for $\gamma =1$ and $\alpha $ as a parameter ranging from 0 to 1. These curves are computer generated from (\ref {poly2}) and (\ref {hyperbola})\relax }}{66}{figure.caption.82}
-\contentsline {figure}{\numberline {7.4}{\ignorespaces generated computer output for the Voronoi diagram bordering the safe region for $x_A=4,\ \alpha =0.25,\ \gamma =0.8$ (the safe region is the unshaded area) the quartic in (\ref {poly1}) or (\ref {poly2}) produces two closed curves: one outside the $AD$-Apollonius circle (rejected) and the other inside the circle (accepted as the Voronoi diagram)\relax }}{67}{figure.caption.83}
-\contentsline {figure}{\numberline {7.5}{\ignorespaces Various accepted branches of the voronoi diagram for $\gamma =0.8$ and $\alpha $ as a parameter ranging from 0 to 1. These curves are computer generated from (\ref {poly2}) and (\ref {hyperbola})\relax }}{67}{figure.caption.84}
-\contentsline {figure}{\numberline {7.6}{\ignorespaces generated computer output for the Voronoi diagram bordering the safe region for $x_A=4,\ \alpha =0.25,\ \gamma =1.25$ (the safe region is the shaded area) the quartic in (\ref {poly1}) or (\ref {poly2}) produces two closed curves: one inside the $AD$-Apollonius circle (rejected) and the other outside the circle (accepted as the Voronoi diagram)\relax }}{68}{figure.caption.85}
-\contentsline {figure}{\numberline {7.7}{\ignorespaces Various accepted branches of the voronoi diagram for $\gamma =1.25$ and $\alpha $ as a parameter ranging from 0 to 1. These curves are computer generated from (\ref {poly2}) and (\ref {hyperbola})\relax }}{68}{figure.caption.86}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Graph and features of the hyperbola $\genfrac {}{}{}0{x_T^2}{\alpha ^2 x_A^2} - \genfrac {}{}{}0{y_T^2}{(1-\alpha ^2)x_A^2}=1$ \relax }}{64}{figure.caption.81}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Generated computer output for the Voronoi diagram bordering the safe region for $x_A=4,\ \alpha =0.25,\ \gamma =1$ (the safe region is the shaded area)\relax }}{66}{figure.caption.82}
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Various accepted branches of the voronoi diagram for $\gamma =1$ and $\alpha $ as a parameter ranging from 0 to 1. These curves are computer generated from (\ref {poly2}) and (\ref {hyperbola})\relax }}{66}{figure.caption.83}
+\contentsline {figure}{\numberline {7.4}{\ignorespaces generated computer output for the Voronoi diagram bordering the safe region for $x_A=4,\ \alpha =0.25,\ \gamma =0.8$ (the safe region is the unshaded area) the quartic in (\ref {poly1}) or (\ref {poly2}) produces two closed curves: one outside the $AD$-Apollonius circle (rejected) and the other inside the circle (accepted as the Voronoi diagram)\relax }}{67}{figure.caption.84}
+\contentsline {figure}{\numberline {7.5}{\ignorespaces Various accepted branches of the voronoi diagram for $\gamma =0.8$ and $\alpha $ as a parameter ranging from 0 to 1. These curves are computer generated from (\ref {poly2}) and (\ref {hyperbola})\relax }}{67}{figure.caption.85}
+\contentsline {figure}{\numberline {7.6}{\ignorespaces generated computer output for the Voronoi diagram bordering the safe region for $x_A=4,\ \alpha =0.25,\ \gamma =1.25$ (the safe region is the shaded area) the quartic in (\ref {poly1}) or (\ref {poly2}) produces two closed curves: one inside the $AD$-Apollonius circle (rejected) and the other outside the circle (accepted as the Voronoi diagram)\relax }}{68}{figure.caption.86}
+\contentsline {figure}{\numberline {7.7}{\ignorespaces Various accepted branches of the voronoi diagram for $\gamma =1.25$ and $\alpha $ as a parameter ranging from 0 to 1. These curves are computer generated from (\ref {poly2}) and (\ref {hyperbola})\relax }}{68}{figure.caption.87}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {8.1}{\ignorespaces Scenario for the Attacker (A), Target (T), and Defender (D). The origin is arbitrary situated at the Attacker position (A).\relax }}{69}{figure.caption.87}
-\contentsline {figure}{\numberline {8.2}{\ignorespaces Right-angled triangles that define the optimal headings $\psi ^*$, $\phi ^*$ and $\chi ^*$ for the Defender, Target, and Attacker, respectively\relax }}{72}{figure.caption.88}
-\contentsline {figure}{\numberline {8.3}{\ignorespaces States\relax }}{75}{figure.caption.89}
-\contentsline {figure}{\numberline {8.4}{\ignorespaces Optimal heading angles\relax }}{75}{figure.caption.90}
-\contentsline {figure}{\numberline {8.5}{\ignorespaces Optimal trajectories\relax }}{76}{figure.caption.91}
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Scenario for the Attacker (A), Target (T), and Defender (D). The origin is arbitrary situated at the Attacker position (A).\relax }}{69}{figure.caption.88}
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Right-angled triangles that define the optimal headings $\psi ^*$, $\phi ^*$ and $\chi ^*$ for the Defender, Target, and Attacker, respectively\relax }}{72}{figure.caption.89}
+\contentsline {figure}{\numberline {8.3}{\ignorespaces States\relax }}{75}{figure.caption.90}
+\contentsline {figure}{\numberline {8.4}{\ignorespaces Optimal heading angles\relax }}{76}{figure.caption.91}
+\contentsline {figure}{\numberline {8.5}{\ignorespaces Optimal trajectories\relax }}{76}{figure.caption.92}
 \addvspace {10\p@ }

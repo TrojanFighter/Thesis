@@ -532,7 +532,7 @@
 %-----------------------------------------------------------------------------------
 \newcommand{\@MakeDedicationPage}
 {
-    \phantomsection
+    \clearpage\phantomsection
     \Preamble{Dedication}
 }
 
@@ -750,7 +750,7 @@
     \@MakeAcknowledgementsPage              %    Acknowledgements Page declaration, added by mhawwary
     \fi
     \if@dedic
-    %\@MakeDedicationPage                            %    Dedication Page declaration, added by mhawwary
+    \@MakeDedicationPage                            %    Dedication Page declaration, added by mhawwary
     \fi
     
     \phantomsection
