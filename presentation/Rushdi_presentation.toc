@@ -7,6 +7,6 @@
 \beamer@sectionintoc {4}{GA}{37}{0}{4}
 \beamer@sectionintoc {5}{Unity Game}{42}{0}{5}
 \beamer@subsectionintoc {5}{1}{Game Design}{43}{0}{5}
-\beamer@subsectionintoc {5}{2}{Experimental Results}{53}{0}{5}
-\beamer@sectionintoc {6}{Target-Attacker-Defender}{59}{0}{6}
+\beamer@subsectionintoc {5}{2}{Experimental Results}{52}{0}{5}
+\beamer@sectionintoc {6}{Target-Attacker-Defender}{58}{0}{6}
 \beamer@sectionintoc {7}{Optimal Strategies}{90}{0}{7}

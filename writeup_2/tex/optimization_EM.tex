@@ -13,9 +13,9 @@ In this section we will simulate equations in sec. \ref{PNeqations} for proporti
 \subsection{Simulation for some target maneuver cases [using MATLAB]}
 In this subsection we will use MATLAB to simulate the equations in Sec. \ref{PNeqations} for proportional navigation. We will solve the initial value problem of differential equations using second-order Runge-Kutta numerical integration technique, then we will draw the trajectories of the pursuit and evasion for 4 cases for the Target maneuver error source, and we will deduce the effect of the effective navigation ratio $N'$ and the other type of the error source; Heading error. 
 \subsubsection{Zero Target maneuver}
-In this case the evader (Target - plane) does not do any effort to escape, it just moves in a straight line, as we see in Fig. \ref{trajectoryXNT0HE0N4}. So the pursuer (Attacker - Missile) does not have to bleed much energy to reach the Target.
+In this case the evader (Target - plane) does not do any effort to escape, it just moves in a straight line, as shown in Fig. \ref{trajectoryXNT0HE0N4}. So the pursuer (Attacker - Missile) does not have to bleed much energy to reach the Target.
 
-In the case of \textbf{zero Heading error} the effective navigation ratio has no effect on the simulation engagement at all. The missile's acceleration will be zero as in Fig. \ref{missile accelerationXNT0HE0N4}.
+In the case of \textbf{zero Heading error} the effective navigation ratio has no effect on the simulation engagement at all. The missile's acceleration will be zero as shown in Fig. \ref{missile accelerationXNT0HE0N4}.
 
 \begin{figure}[H]
 	\centering
@@ -94,7 +94,7 @@ In the case of \textbf{Heading error = -20} increasing the effective navigation 
 
 \subsubsection{Constant Target maneuver}
 In this case the target does some effort to escape from the attacker, in the form of constant acceleration (in our example target acceleration = $5\ g$).
-We see from Fig. \ref{missile acceleration0NN3} and Fig. \ref{missile acceleration0NN5} that a higher effective navigation ratio yields less acceleration to hit maneuvering target, and causes the missile to lead the target slightly more than a lower effective navigation ratio does, as we see from Fig. \ref{trajectory0NN3} and Fig. \ref{trajectory0NN5}.
+As shown from Fig. \ref{missile acceleration0NN3} and Fig. \ref{missile acceleration0NN5} that a higher effective navigation ratio yields less acceleration to hit maneuvering target, and causes the missile to lead the target slightly more than a lower effective navigation ratio does, as shown in Fig. \ref{trajectory0NN3} and Fig. \ref{trajectory0NN5}.
 
 
 
@@ -108,14 +108,14 @@ We see from Fig. \ref{missile acceleration0NN3} and Fig. \ref{missile accelerati
 
 \begin{figure}[htb]
 	\centering
-	\includegraphics[scale = 0.65]{fig/MissileAccelerationXNT5HE0N3.pdf}
+	\includegraphics[scale = 0.60]{fig/MissileAccelerationXNT5HE0N3.pdf}
 	\caption{Missile acceleration in case of constant target maneuver=5G with heading error=0 and $N'=3$ .}
 	\label{missile acceleration0NN3}
 \end{figure}
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[scale = 0.65]{fig/TargetAccelerationXNT5HE0N3.pdf}
+	\includegraphics[scale = 0.60]{fig/TargetAccelerationXNT5HE0N3.pdf}
 	\caption{Target acceleration in case of zero target maneuver with zero heading error and $N'=3$ .}
 	\label{Target accelerationXNT5HE0N3}
 \end{figure}
@@ -156,12 +156,13 @@ f(t) = c_0 + c_1 T + c_2 T^2 + c_3 T^3 + ... + c_N T^N
 \end{equation} 
 
 where T is time, $ c_i$'s  are unknown coefficients of the polynomial and N is the polynomial degree.
-In our simulation we choose N reasonably $3\to5$ and the coefficients are randomly generated then we solve the proportional navigation equations to get values for two important parameters, namely the miss distance and the command acceleration for the Missile. Then, we calculate the cost function depends on these two parameters, as our target is to maximize miss distance to make the target safe, and maximize command acceleration for the missile, so it bleeds energy before it catches the target. We will do this process many times till the number of runs we need. The next figures shows the trajectories of the Target and Missile for N=3,4 and corresponding missile and target accelerations for each case.
-In the first case (N=3), as we see from Fig. \ref{Target accelerationP3N3} the target have to exert $50 G$ to escape from the attacker, these amount of G'es is very high and the pilot could not withstand all this amount. Also, form Fig. \ref{missile accelerationP3} the attacker have to exert 120 G, this will not happen and the missile's energy will bleed at 100 G after 5 sec. Here the simulation did not till us a complete vision about what will happen. We have to take in consideration the amount of G's that the pilot could resist, so we will use genetic algorithm technique to generate the polynomial because it is easy to control the maximum target acceleration in this method.
-The second case (N=4), is hypothetical case because the pilot will die in less than 1 sec. If the technology improved and the scientists invent a pilot suit that could resist these huge amount of G'es, then we can take this solution in consideration.        
+In our simulation we choose N reasonably $3\to5$ and the coefficients are randomly generated then we solve the proportional navigation equations to get values for two important parameters, namely the miss distance and the command acceleration for the Missile. Then, we calculate the cost function depends on these two parameters, as our target is to maximize miss distance to make the target safe, and maximize command acceleration for the missile, so it bleeds energy before it catches the target. Doing this process many times till the number of runs we need. The next figures shows the trajectories of the Target and Missile for N=3,4 and corresponding missile and target accelerations for each case.
+In the first case (N=3), as shown from Fig. \ref{Target accelerationP3N3} the target have to exert $50 g$ to escape from the attacker, these amount of G'es is very high and the pilot could not withstand all this amount. Also, form Fig. \ref{missile accelerationP3} the attacker have to exert 120 g, this will not happen and the missile's energy will bleed at 100 g after 5 sec. Here the simulation did not till us a complete vision about what will happen. We have to take in consideration the amount of g's that the pilot could resist, so we will use genetic algorithm technique to generate the polynomial because it is easy to control the maximum target acceleration in this method.
+The second case (N=4), is hypothetical case because the pilot will die in less than 1 sec. If the technology improved and the scientists invent a pilot suit that could resist these huge amount of g'es, then we can take this solution in consideration.        
 
 \begin{figure}[H]
 	\centering
+
 	\includegraphics[scale = 0.55]{fig/trajectoryP3N3.pdf}
 	\caption{Trajectory of the target and attacker in case of polynomial of degree N=3 target maneuver with zero heading error and $N'=3$.}
 	\label{trajectoryP3}
@@ -226,13 +227,13 @@ We have two cases: \textbf{First case:} the maneuver is \textit{symmetric} so we
 	\item when $t_1$ is equal to zero (there is no ascend ramp)  so $t_2$ is at the middle of the maneuver; this leads to \textit{square} target maneuver.
 	\item when $t_1$ equals $t_2$ at the quarter of the maneuver; this leads to \textit{tooth} target maneuver.  
 \end{itemize}
-Varying $t_1$ and $t_2$, starting from the square case till the tooth case, until we find the optimum solution based on or cost function which depends on the values of the miss distance and Missile acceleration. 
+Varying $t_1$ and $t_2$, starting from the square case till the tooth case, until we find the optimum solution based on the cost function which depends on the values of the miss distance and missile acceleration. 
 
 %------------
 \begin{figure}[htb]
 	\centering
 	\includegraphics[scale = 0.35]{fig/trajectoryTrapSymm.pdf}
-	\caption{Trajectory of the target and attacker in case of symmetric trapezoidal target maneuver with zero heading error and $N'=5$.}
+	\caption{Trajectory of the target and attacker for the case of symmetric trapezoidal target maneuver with zero heading error and $N'=5$.}
 	\label{trajectory trapSymm}
 \end{figure}
 
@@ -240,14 +241,14 @@ Varying $t_1$ and $t_2$, starting from the square case till the tooth case, unti
 \begin{figure}[htb]
 	\centering
 	\includegraphics[scale = 0.35]{fig/MissileAccelerationTrapSymm.pdf}
-	\caption{Missile acceleration in case of symmetric trapezoidal target maneuver with zero heading error and $N'=5$.}
+	\caption{Missile acceleration  for the case of symmetric trapezoidal target maneuver with zero heading error and $N'=5$.}
 	\label{missile acceleration trapSymm}
 \end{figure}
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[scale = 0.35]{fig/TargetAccelerationTrapSym.pdf}
-	\caption{Target acceleration in case of symmetric trapezoidal N=4 target maneuver with zero heading error and $N'=5$.}
+	\caption{Target acceleration for the case of symmetric trapezoidal N=4 target maneuver with zero heading error and $N'=5$.}
 	\label{Target acceleration trapSymm}
 \end{figure}
 
@@ -262,7 +263,7 @@ What about if the optimum solution for the target maneuver did not have Identica
 \begin{figure}[htb]
 	\centering
 	\includegraphics[scale = 0.35]{fig/trajectoryTrap.pdf}
-	\caption{Trajectory of the target and attacker in case of trapezoidal target maneuver with zero heading error and $N'=5$.}
+	\caption{Trajectory of the target and attacker for the case of trapezoidal target maneuver with zero heading error and $N'=5$.}
 	\label{trajectory trap}
 \end{figure}
 
@@ -270,21 +271,21 @@ What about if the optimum solution for the target maneuver did not have Identica
 \begin{figure}[htb]
 	\centering
 	\includegraphics[scale = 0.35]{fig/MissileAccelerationTrap.pdf}
-	\caption{Missile acceleration in case of trapezoidal target maneuver with zero heading error and $N'=5$.}
+	\caption{Missile acceleration for the case of trapezoidal target maneuver with zero heading error and $N'=5$.}
 	\label{missile acceleration trap}
 \end{figure}
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[scale = 0.35]{fig/TargetAccelerationTrap.pdf}
-	\caption{Target acceleration in case of trapezoidal N=4 target maneuver with zero heading error and $N'=5$.}
+	\caption{Target acceleration for the case of trapezoidal N=4 target maneuver with zero heading error and $N'=5$.}
 	\label{Target acceleration trap}
 \end{figure}
 
 %----------
 %=================================================================================
 
-\section{Guidance Toolbox}
+\section{Guidance GUI}
 
 All the previous results could be generated from a simple GUI (graphic user interface), (Fig.\ref{Guidance Toolbox}).  The inputs for this GUI are the locations and velocities for the Target (plane) and the Attacker (missile). Then the user have to choose the guidance law (this will be as a future work, till now we have only PN guidance law), which is the way that the Attacker tracking the Target.
 
@@ -319,7 +320,25 @@ and the result will be optimized escape maneuver.
 \section{Genetic Algorithm Solution [using simulink]}
 
 
-In this subsection we will use the power of blocks in Simulink to solve the differential equations in section \ref{PNeqations} in an easy way (Fig. \ref{PN eq}). We will make these equations as a main block (Fig. \ref{PN main block}) and as we change the inputs, we get the same results. The advantage of using simulink is to use the main block with an alternative optimization technique (like genetic algorithms) and we will simulate two cases, polynomial and trapezoidal. Now let us have a brief introduction to the genetic algorithm technique.
+In this subsection we will use the power of blocks in Simulink to solve the differential equations in section \ref{PNeqations} in an easy way (Fig. \ref{PN eq}). Making these equations as a main block (Fig. \ref{PN main block}) and as we change the inputs, we get the same results. The advantage of using simulink is to use the main block with an alternative optimization technique (like genetic algorithms) and we will simulate two cases, polynomial and trapezoidal. Now let us have a brief introduction to the genetic algorithm technique.
+
+
+\begin{landscape}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[scale = 0.70]{fig/PNeq.PNG}
+		\caption{The Simulink model for proportional navigation equations in sec \ref{PNeqations}}
+		\label{PN eq}
+	\end{figure}
+\end{landscape}
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale = 0.75]{fig/PNmainBlock.PNG}
+	\caption{The Simulink main block for solving proportional navigation equations in sec \ref{PNeqations}}
+	\label{PN main block}
+\end{figure}
 
 \subsection{Introduction to Genetic Algorithm technique}
 Genetic algorithm is a \textit{stochastic population-based} search method. Genetic Algorithms (GAs) are   search algorithms based on the mechanics of the natural selection process (biological evolution).  The most basic concept is that the strong tend to adapt and survive while the weak tend to die out. That is, optimization is based on evolution, and the "Survival of the fittest" concept.
@@ -390,39 +409,24 @@ As opposed to parent selection which is stochastic, survivor selection is often 
 
 
 
-\begin{landscape}
-	\begin{figure}[H]
-		\centering
-		\includegraphics[scale = 0.70]{fig/PNeq.PNG}
-		\caption{The Simulink model for proportional navigation equations in sec \ref{PNeqations}}
-		\label{PN eq}
-	\end{figure}
-\end{landscape}
 
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[scale = 0.75]{fig/PNmainBlock.PNG}
-	\caption{The Simulink main block for solving proportional navigation equations in sec \ref{PNeqations}}
-	\label{PN main block}
-\end{figure}
 
 
 %We will use the main block we have created with the genetic algorithm toolbox in MATLAB in the same manner we have done, let the target maneuver ba a polynomial with unknown coefficients, then it is required to find the values of these coefficients using genetic algorithm to maximize miss distance and missile acceleration.
 %=======================================================
 
 \subsection{Results}
-We will use the main block we have created with the genetic algorithm toolbox in MATLAB in the same manner we have done, let the target maneuver unknown, then it is required to find it using genetic algorithm to maximize miss distance and missile acceleration. We have two cases of the target maneuver:
+Using the main block we have created with the genetic algorithm toolbox in MATLAB in the same manner we have done, let the target maneuver unknown, then it is required to find it using genetic algorithm to maximize miss distance and missile acceleration. We have two cases of the target maneuver:
 
 \subsubsection{Polynomial Target Maneuver}
-let the target maneuver ba a polynomial with unknown coefficients, then it is required to find the values of these coefficients using genetic algorithm toolbox in Matlab (Fig. \ref{GA toolbox poly}) to maximize miss distance and missile acceleration. The result for the best fitness values are in Fig.\ref{GA poly F}. The optimized target acceleration and trajectory simulation are in figures \ref{GA poly XNT} and \ref{GA poly trajectory}. 
+let the target maneuver ba a polynomial with unknown coefficients, then it is required to find the values of these coefficients using genetic algorithm toolbox in Matlab to maximize miss distance and missile acceleration. The result for the best fitness values are in Fig.\ref{GA poly F}. The optimized target acceleration and trajectory simulation are in figures \ref{GA poly XNT} and \ref{GA poly trajectory}. 
 
-\begin{figure}[H]
-	\centering
-	\includegraphics[scale = 0.4]{fig/GApoly.PNG}
-	\caption{Genetic Algorithm Toolbox in Matlab.}
-	\label{GA toolbox poly}
-\end{figure}
+%\begin{figure}[H]
+%	\centering
+%	\includegraphics[scale = 0.4]{fig/GApoly.PNG}
+%	\caption{Genetic Algorithm Toolbox in Matlab.}
+%	\label{GA toolbox poly}
+%\end{figure}
 
 \begin{figure}[H]
 	\centering
@@ -447,4 +451,4 @@ let the target maneuver ba a polynomial with unknown coefficients, then it is re
 \end{figure}
 
 % ===================================================
-
+\afterpage{\blankpage}

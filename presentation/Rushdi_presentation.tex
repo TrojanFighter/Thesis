@@ -73,7 +73,7 @@ Aerospace Engineering, Cairo University \\ % Your institution for the title page
 We address the problem of a target \textbf{aircraft} that tries to evade an \textbf{attacker} missile and avoid being hit by it.\bigskip
 
 \centering\includegraphics[height=0.25\textheight]{fig/m}  \quad
-\centering\includegraphics[height=0.45\textheight]{fig/t} 
+\centering\includegraphics[height=0.45\textheight]{fig/t.jpg} 
 
 \end{frame}
 %------------------------------------------------
@@ -259,7 +259,7 @@ This thesis deals with the following problems:
 \begin{itemize}
 	\item The missile is on the ground at (0,0). The plane is in the air at (10000,40000).
 	\item The missile is faster than the aircraft, but cannot turn tighter than the aircraft, so it takes a longer path.
-	\item The control mechanism of the Missile is much simpler and is of less capability than that of the aircraft. In order to pull as tight turn as the aircraft, it must exercise an acceleration that is far beyond its capability.
+%	\item The control mechanism of the Missile is much simpler and is of less capability than that of the aircraft. In order to pull as tight turn as the aircraft, it must exercise an acceleration that is far beyond its capability.
 	\item Missile always attempts to trace the target. Thus if the target changes heading, it will necessary for the Missile to change heading similarly, but this is too difficult for him to achieve.
 	\item  The main problem with evading missiles is their speed, which makes timing somewhat difficult.
 \end{itemize}
@@ -1015,17 +1015,24 @@ Unity is a cross-platform game engine developed by Unity Technologies and used t
 \end{figure}
 \end{frame}
 %---------------------
+%\begin{frame}
+%\frametitle{Unity Platform}
+%Each game consists of two scenes:
+%\begin{enumerate}
+%	\item Starting scene.
+%	\item Game scene, which updated each frame per second.
+%\end{enumerate}
+%\end{frame}
+%---------------------
 \begin{frame}
 \frametitle{Unity Platform}
+
 Each game consists of two scenes:
 \begin{enumerate}
 	\item Starting scene.
 	\item Game scene, which updated each frame per second.
 \end{enumerate}
-\end{frame}
-%---------------------
-\begin{frame}
-\frametitle{Unity Platform}
+
 In the starting scene there is data fields (position, velocity, ...). After this scene ends, all the data are destroyed, so we save the information we need in file called "player prefs".
 
 The game scene consists of some objects, each object has his own script, this script must contain 2 points:
@@ -1269,7 +1276,7 @@ It is clear from \eqref{eqn:center} and \eqref{eqn:radius} that $\lim_{k\to1}\lv
 %------------------------------------------------
 \begin{frame} 
 \frametitle{The $AD$ Apollonius circle}
-For the $AD$ Apollonius circle, the two fixed points are the initial positions of the Attacker $\boldsymbol{A}=(x_{A},0)$ and the initial position of the defender $\boldsymbol{D}=(-x_{A},0)$. The fixed ratio of the circle $k$ is replaced by the following dimensionless ratio: 
+For the $AD$ Apollonius circle, the two fixed points are the initial positions of the Attacker $\boldsymbol{A}=(x_{A},0)$ and the initial position of the defender $\boldsymbol{D}=(-x_{A},0)$.  $k$ is replaced by: 
 \begin{equation}
 \gamma = \dfrac{V_{A}}{V_{D}}.
 \end{equation}
@@ -1286,7 +1293,7 @@ r_{1} &=& \dfrac{2\gamma}{\lvert1-\gamma^{2}\rvert}x_{A}.
 %------------------------------------------------
 \begin{frame}
 \frametitle{The $TA$ Apollonius circle}
-For the $TA$ Apollonius circle, the two fixed points are the initial position of the Target $\boldsymbol{T}=(x_{T},y_{T})$ and the initial position of the Attacker  $\boldsymbol{A}=(x_{A},0)$.
+here, the two fixed points are the initial positions of the Target and Attacker $\boldsymbol{T}=(x_{T},y_{T})$ and $\boldsymbol{A}=(x_{A},0)$.
 Again, $k$ is replaced by:
 \begin{equation}
 \alpha= \dfrac{V_{T}}{V_{A}}.
@@ -1328,6 +1335,42 @@ r_{2} =\dfrac{\alpha}{1-\alpha^{2}}(TA)
 Target survival is guaranteed if there is an overlapping of the region reachable by the Target before the Attacker (the interior of the $TA$ Apollonius circle) and the region $R_r$ reachable by the Defender before the Attacker, since within this overlapping, the Defender can perform its intended role of intercepting the Attacker before the Attacker captures the Target. Target survival is critical when the aforementioned overlapping diminishes into a single point at which the aforementioned two regions barely touch, or are tangent to one another.\\
 
  An implicit assumption throughout the forthcoming analysis is that $\boldsymbol{T}=(x_T , y_T)$ is outside $R_r$. 
+\end{frame}
+%------------------------------------------------
+\begin{frame}
+\frametitle{Target survival and Critical Speed Ratio}
+
+\begin{columns}[c]
+	\begin{column}{.3\linewidth}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[scale = 0.12]{fig/drawing4_1a.pdf}
+			\caption{$\gamma<1$}
+			%\label{}
+		\end{figure}
+	\end{column}
+	
+	\begin{column}{.3\linewidth}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[scale = 0.12]{fig/drawing4_1b.pdf}
+			\caption{$\gamma=1$}
+			%\label{}
+		\end{figure}
+		
+	\end{column}
+	
+	\begin{column}{.3\linewidth}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[scale = 0.12]{fig/drawing4_1c.pdf}
+			\caption{$\gamma>1$}
+			%\label{Optimal trajectories}
+		\end{figure}
+	\end{column}
+	
+\end{columns}
+
 \end{frame}
 
 %------------------------------------------------
@@ -1726,17 +1769,17 @@ The expressions for the optimal heading angles (\ref{tan psi}), (\ref{tan phi}),
 %\section{Conclusions}
 %%---------------------
 %\subsection{} 
-%\begin{frame}
-%\frametitle{Concluding Remarks and Future Work}
-%In this work, we presented:
-%\begin{itemize}
-%	\item 
-%	\item
-%	\item
-%	\item
-%	\item
-%\end{itemize}
-%\end{frame}
+\begin{frame}
+\frametitle{Concluding Remarks}
+In this work, we presented:
+\begin{itemize}
+	\item We establish a Graphic User Interface (GUI) Guidance toolbox containing our guidance law and several types of maneuvers. This toolbox is an open-source program for the development and addition
+	of other guidance laws and maneuvers.
+	\item We construct a mathematically-correct game of target-attacker and let many people play it taking the target side. We find the best escape maneuver by collecting and analyzing data of the human escape maneuver. Also it is open source for development.
+	\item We offer a unified analytic treatment of the TAD problem via the construction of two Apollonius circles, considering all possibilities of the ratio between the speeds of the attacker and defender (the case of slow defender is novel). 
+	\item We define the escape region for the 3 cases.
+\end{itemize}
+\end{frame}
 %--------------------
 \subsection{} 
 \begin{frame}

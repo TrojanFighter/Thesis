@@ -2,7 +2,7 @@
 % ===================================================
 \section{Problem Statement}
 % ===================================================
-In this Part, we consider a two-agent pursuit-evasion problem that involves  a Target (aircraft) in opposition to an Attacker (missile). The Target tries to evade the Attacker and avoid being captured by him. We will try to find a simple technique for target evasion, so we should have a look at evasion techniques.
+In this chapter, we consider a two-agent pursuit-evasion problem that involves  a Target (aircraft) in opposition to an Attacker (missile). The Target tries to evade the Attacker and avoid being captured by him. We will try to find a simple technique for target evasion, so we should have a look at evasion techniques.
 %The missile is on the ground, its position is (0,0). The plane is flaying is the air, its position is (10000,40000).
 
 \section{Evasion techniques}
@@ -149,7 +149,7 @@ from the Missile to the Target $Vc= -\dot{R_{TM}}=-\frac{d}{dt} R_{TM} $.
 
 %\label{GL}
 
-In this section, we will investigate some types of guidance laws, then we will choose one type to use it. We will be in the side of the Attacker, trying to hit the target. Figure \ref{GL taxonomy} illustrates a classification (or taxonomy) of guidance laws \cite{ghose2012guidance}. The taxonomy (or an outgrowth thereof) is potentially a great aid in the further development of our Guidance Toolbox.
+In this section, we will investigate some types of guidance laws, then we will choose one type to use it. We will be in the side of the Attacker, trying to hit the target. Figure \ref{GL taxonomy} illustrates a classification (or taxonomy) of guidance laws \cite{ghose2012guidance}. The taxonomy (or an outgrowth thereof) is potentially a great aid in the further development of our Guidance GUI.
 
 \begin{landscape}
 \begin{figure}[H]
@@ -176,7 +176,7 @@ n_c= N' V_c \dot{\lambda}
 \label{PNeq}
 \end{equation}
 
-where $n_c$ is the acceleration command (for the missile) in $(m/s^2)$, $N'$ is the the effective navigation ratio, a unit-less designer-chosen gain (usually in the range of $3 \to 5$), $V_c$ is the missile-target closing velocity in $(m/s)$ and $\dot{\lambda} = \frac{d\lambda}{dt}$ is the rate of the line-of-sight angle and is in $(rad/s)$. Note that (\ref{PNeq}) is dimensionally homogeneous, since $n_c$ has the dimension
+where $n_c$ is the acceleration command (for the missile) in $(m/s^2)$, $N'$ is the the effective navigation ratio, a unit-less designer-chosen gain (usually in the range of $3 \to 5$), $V_c$ is the missile-target closing velocity in $(m/s)$ and $\dot{\lambda} = \frac{d\lambda}{dt}$ is the rate of the line-of-sight angle and is in $(rad/s)$. Note that equation (\ref{PNeq}) is dimensionally homogeneous, since $n_c$ has the dimension
 \begin{equation}
 \begin{split}
 [n_c] &= [N'] [V_c] [\dot{\lambda}]\\
@@ -216,13 +216,15 @@ V_{T2} =  V_T \sin(\beta)
 
 \textbf{Relative missile-target separation}
 \begin{equation}
-R_{TM1} = R{T1} - R_{M1}
+R_{TM1} = R_{T1} - R_{M1}
+\label{RTM1}
 \end{equation}
 \begin{equation}
-R_{TM2} = R{T2} - R_{M2}
+R_{TM2} = R_{T2} - R_{M2}
+\label{RTM2}
 \end{equation}
 
-from the previous 2 equations we get
+from the previous 2 equations (\ref{RTM1}) and (\ref{RTM2}) we get
 \begin{equation}
 R_{TM} = \sqrt{R_{TM1}^2 + R_{TM2}^2}
 \label{RTM}
@@ -281,7 +283,7 @@ so we get
 V_c = - \dot{R_{TM}} = - \dfrac{R_{TM1} V_{TM1}+R_{TM2} V_{TM2}}{R_{TM}}
 \end{equation}
 
-\textbf{line of sight rate} we have to differentiate eq(\ref{lambda}) using the rule $\tan^{-1}x = \frac{dx}{1+x^2}$ 
+\textbf{line of sight rate} we have to differentiate eq(\ref{lambda}) using the rule $d(\tan^{-1}x) = \frac{dx}{1+x^2}$ 
 
 \begin{equation}
 \begin{split}

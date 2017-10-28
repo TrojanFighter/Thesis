@@ -250,6 +250,7 @@
     \def\@SMonth{#1}
     \def\@SYear{#2}
      %\def\@SYear{#1}
+     \afterpage{\blankpage}
 }
 \newcommand{\AwardingDate}[3]{\def\@AwardingDate{#1/#2/#3}}
 \def\@AwardingDate{}
@@ -403,6 +404,7 @@
     \normalsize
     \end{center}
     \newpage
+    \afterpage{\blankpage}
 }
 
 %------------------------------------------------------------------------------------
@@ -525,6 +527,7 @@
 {
     \clearpage\phantomsection
     \Preamble{Acknowledgements}
+    \afterpage{\blankpage}
 }
 
 %------------------------------------------------------------------------------------
@@ -534,6 +537,7 @@
 {
     \clearpage\phantomsection
     \Preamble{Dedication}
+    
 }
 
 %------------------------------------------------------------------------------------
@@ -543,6 +547,7 @@
 {
   \clearpage\phantomsection
    \Preamble{Abstract}
+   \afterpage{\blankpage}
 }
 
 %------------------------------------------------------------------------------------

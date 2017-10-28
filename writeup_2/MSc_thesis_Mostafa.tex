@@ -9,6 +9,14 @@
 \usetikzlibrary{quotes,angles}
 \usepackage{rotating}
 \usepackage{etex}
+\usepackage{afterpage}
+\usepackage{cite}
+
+\newcommand\blankpage{%
+	\null
+	\thispagestyle{empty}%
+	\addtocounter{page}{-1}%
+	\newpage}
 %\usepackage{caption,subcaption}
 
 % Personal Information
@@ -18,13 +26,13 @@
 \Nationality{Egyptian}
 \EMail{morushdi@gmail.com}
 \Phone{0111-4000-606}
-\Address{Postal Address}
+\Address{Al-Maryottiah, Al-Haram.}
 \Photo{fig/logo/mostafa2.jpg}   % students Photo
 
 % Program of Study Information
 
 \RegistrationDate{1}{10}{2013}
-\AwardingDate{14}{8}{2017}
+\AwardingDate{25}{9}{2017}
 
 % Thesis Information
 
@@ -32,9 +40,9 @@
 
 \CoSupervisor{Prof. Gamal El-Bayoumi}{Professor}{\department}{\faculty, Cairo University}
 
-\ExternalExaminer{Prof. First S. Name}
-\InternalExaminer{Prof. Second S. Name}
-\MemberExaminer{Prof. Third E. Name}
+\ExternalExaminer{Prof. Gamal  A. El-Sheikh}
+\InternalExaminer{Prof. Mohammed S. Bayoumi}
+\MemberExaminer{Prof. Gamal El-Bayoumi}
 
 \ThesisTitle{Analysis and Simulation of the Target-Attacker and the Target-Attacker-Defender Problems}
 
@@ -55,21 +63,21 @@
 \begin{document}
 
 % If you want to remove the acknowledgements or the dedication pages, you just add "noacknow" or "nodedic" to the document class options at the first line of this file: \documentclass[noacknow,nodedic,......,....,etc options]{style}
-\part{INTRODUCTION AND LITERATURE REVIEW}
+%\part{INTRODUCTION AND LITERATURE REVIEW}
 \Chapter{Introduction and Literature Review}{tex/intro} 
 %\Chapter{Literature Review}{tex/LR}
-\part{The 2-D TARGET-ATTACKER PROBLEM}
+%\part{The 2-D TARGET-ATTACKER PROBLEM}
 \Chapter{Introduction for TA problem}{tex/intro_TA} 
 %\Chapter{Guidance Laws}{tex/GL} 
 \Chapter{Optimization for escaping maneuver}{tex/optimization_EM} 
 \Chapter{A new game-based methodology for discovering optimal escape maneuver}{tex/game} 
-\part{The TARGET-ATTACKER-DEFENDER PROBLEM}
+%\part{The TARGET-ATTACKER-DEFENDER PROBLEM}
 \Chapter{TARGET-ATTACKER-DEFENDER PROBLEM}{tex/ATD_problem} 
 \Chapter{CRITICAL SPEED RATIO}{tex/speed_ratio} 
 \Chapter{ESCAPE REGION AND VORONOI DIAGRAM}{tex/voronoi} 
 %\Chapter{OPTIMAL STRATEGIES}{tex/strategies} 
 \Chapter{OPTIMAL HEADING ANGLE SIMULATION}{tex/simulation} 
-\part{CONCLUSION AND FUTURE WORK}
+%\part{CONCLUSION AND FUTURE WORK}
 \Chapter{CONCLUSION AND FUTURE WORK}{tex/conclusions} 
 
 %------------------- modified by mhawwary ----------------------

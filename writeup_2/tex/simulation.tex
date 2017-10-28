@@ -1,8 +1,10 @@
 \label{simulation}
 
-In this chapter, we address the active target defense differential game where an Attacker missile pursues a Target aircraft. A Defender missile is fired by the Target’s wingman in order to intercept the Attacker before it reaches the aircraft. Thus, a team is formed by the Target and the Defender which
-cooperate to maximize the distance between the Target aircraft and the point where the Attacker missile is intercepted by the Defender missile, while the Attacker tries to minimize said distance. The results shown here extend previous work. We consider here the case where the Defender is faster than
-the Attacker. The solution to this differential game provides optimal heading angles for the Target and the Defender team to maximize the terminal separation between Target and Attacker and it also provides the optimal heading angle for the Attacker to minimize the said distance.
+In this chapter, we want to find an optimal strategies for the plan movement to stay in the safe region we have found in the previous chapter.  We will drive an optimal heading angles formulations using differential games and optimal control theory.
+
+%we address the active target defense differential game where an Attacker missile pursues a Target aircraft. A Defender missile is fired by the Target’s wingman in order to intercept the Attacker before it reaches the aircraft. Thus, a team is formed by the Target and the Defender which
+%cooperate to maximize the distance between the Target aircraft and the point where the Attacker missile is intercepted by the Defender missile, while the Attacker tries to minimize said distance. The results shown here extend previous work. We consider here the case where the Defender is faster than
+%the Attacker. The solution to this differential game provides optimal heading angles for the Target and the Defender team to maximize the terminal separation between Target and Attacker and it also provides the optimal heading angle for the Attacker to minimize the said distance.
 
 \begin{figure}[H]
 	\centering
@@ -94,11 +96,11 @@ The system dynamics are given by (\ref{Rdot}), (\ref{rdot}), and (\ref{theta dot
 	\end{split}
 \end{equation*}
 
-The objective of the Target-Defender team is to maximize
-the separation between the Target and the Attacker at the
+The aim of the Target and Defender cooperation is to maximize
+the miss distance at the
 interception time $R(t_f)$, where the terminal time $t_f$ is free,
-such that $r(t_f) = r_c$. The objective of the Attacker is to
-minimize the same distance $R(t_f)$. This can be expressed as
+such that $r(t_f) = r_c$. The aim of the Attacker is to
+minimize it $R(t_f)$. We express this as
 
 \begin{equation*}
 max_{\phi,\psi}\ min_\chi\ J= \int_{t_0}^{t_f} \dot{R}\ dt
